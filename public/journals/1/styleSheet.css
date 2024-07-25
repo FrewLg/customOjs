@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@500&display=swap');
+
+
+html {
+  /*font-size: 62.5%;    */
+}
+
+@media (max-width: 1400px) {
+  html {
+  font-size: 72.5%;
+}
+}
+
+@media (max-width: 768px) {
+  html {
+  font-size: 70%;
+}
+
+.navbar-nav .open .dropdown-menu > li >a {
+  line-height: 10px;
+}
+
+.navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header {
+  padding: 2px 15px 2px 15px;
+
+}
+}
+
+@media (max-width: 450px) {
+  html {
+  font-size: 74%;
+}
+}
+
+
+body{
+  font-family: "Montserrat",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+h1{
+  font-family: "Libre Baskerville",serif;
+  color:#093079;
+  /*font-size: 2.5em;                */
+  font-size: 4rem;
+  line-height: 1.2em;
+  margin: 20px 10px 30px 0px;
+  font-weight: 700;
+}
+
+h2{
+  font-family: "Libre Baskerville",serif;
+  color:#06266b;
+  margin: 10px 10px 10px 0px;
+  font-weight: 500;
+  font-size: 2em;
+  line-height: 1.3em;
+}
+
+h3{
+  color:#F29900;
+  margin: 10px 10px 10px 0px;
+  font-weight: 700;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+h4{
+  font-family: "Montserrat",Helvetica,Arial,sans-serif;
+  color: #000;
+
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+
+
+h5{
+  font-family: "Libre Baskerville",serif;
+  color:#06266b;
+  margin: 10px 10px 10px 0px;
+  font-weight: 700;
+  font-size: 1.0em;
+  line-height: 1.0em;
+}
+
+h6{
+  color: #000;
+  margin: 10px;
+  font-weight: normal;
+}
+
+a:link {
+  color: #294b66;
+  text-decoration: none;
+}
+
+a:visited {
+  /* color: #13cac1; */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F28212;
+  text-decoration: none;
+}
+
+a:active {
+  color: #F28212;
+  text-decoration: none;
+}
+
+a.journalMenu:link{
+  text-decoration: none;
+  color: #3B9E61;
+}
+
+a.journalMenu:visited{
+  text-decoration: none;
+  color: #3B9E61;
+}
+
+a.journalMenu:hover{
+  text-decoration: none;
+  color: #F28212;
+}
+
+a.journalMenu:active{
+  text-decoration: none;
+  color: #F28212;
+}
+
+.journalDescription{
+
+}
+
+
+
+
+
+.ajolTable {
+
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.ajolTable td, #ajolTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.ajolTable tr:nth-child(even){background-color: #E5E7E6;}
+
+.ajolTable tr:hover {background-color: #A9BBB2;}
+
+.ajolTable th {
+  font-family: "Libre Baskerville",serif;
+  padding: 12px;
+
+  text-align: left;
+  background-color: #379F62;
+  color: white;
+}
+
+/*ISSUE START*/
+.title{
+  font-family: "Montserrat",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.media {
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+.lead {
+  margin-bottom: 0;
+}
+/*ISSUE END*/
+
+/*ARTICLE START*/
+h4.media-heading{
+  font-size: 1.5rem;
+}
+
+.article-sidebar{
+  /*  border-bottom-left-radius: 15px;*/
+
+}
+
+a.btn:link{
+  color:#fff;
+  text-decoration: none;
+  padding: 12px;
+  width:180px;
+}
+a.btn:visited{
+  color:#fff;
+}
+a.btn:hover{
+  color:#fff;
+}
+a.btn:active{
+  color:#fff;
+}
+/*ARTICLE END*/
+
+.navbar{
+  background-color: #fff;
+  border-color: #fff;
+  margin-bottom: 8px;
+}
+
+.navbar a:link {
+  text-decoration: none;
+}
+
+.navbar a:visited {
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+}
+
+.navbar a:active {
+  text-decoration: none;
+}
+
+.navbar-nav {
+  float: left;
+  margin: 0;
+}
+
+.navbar-brand{
+  padding:10px;
+  height:100%;
+  width:100%;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.site-names{
+  vertical-align:middle;
+}
+
+.navbar-nav > li > .dropdown-menu {
+  margin-top: 21px;
+}
+
+.dropdown-menu {
+  margin-top:30px;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 0 0 rgba(0,0,0,0.175);
+  box-shadow: 0 0 0 rgba(0,0,0,0.175);
+  /*  padding-bottom:-20px;*/
+  min-width: 180px;
+  padding-bottom: 0px;
+}
+
+ul.dropdown-menu a:hover{
+  color: #fff;
+  background-color: red;
+}
+
+.dropdown-menu > li {
+  border-bottom: 1px solid #ccc;
+  margin: 5px 10px 0 10px;
+
+}
+
+.dropdown-menu > li a {
+  color: #2E7A57;
+  padding: 5px 20px 8px 0px;
+}
+
+.alphabet{
+  /*margin-left:40px;*/
+}
+
+.alphabit{
+  font-family: Montserrat,Helvetica,Arial,sans-serif;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight:700;
+}
+
+.imgOpenAccess{
+  margin:5px;
+  height:40px;
+}
+
+@media (max-width: 768px) {
+  .dropdown-menu > li {
+  border-bottom: 0px solid #ccc;
+}
+
+.imgOpenAccess{
+  margin-top:10px;
+  height:20px;
+}
+
+.alphabet{
+  margin-left:0px;
+}
+
+.alphabit{
+  padding-left: 6px;
+}
+
+.navbar-nav > li > a {
+  line-height: 15px;
+}
+
+}
+
+.navbar-default .navbar-nav > .open > a,
+
+.navbar-default .navbar-nav>.open>a:focus {
+
+  background-color: #ffffff;
+}
+
+.statscounter{
+  height:222px;
+  border-left:1px solid #fff;
+}
+
+.statscounter-top{
+  padding-top:40px;
+  height: 110px;
+  vertical-align:baseline;
+  text-align:center;
+}
+
+.statscounter-bottom{
+  padding-top:2px;
+  height:110px;
+  text-align:center;
+}
+
+.statscounter-counter{
+  font-family: "Libre Baskerville",serif;
+  color:#E84F12;
+  font-size: 2em;
+  font-weight:bold;
+}
+
+.statscounter-title{
+  color:#2E7A57;
+  font-size:15px;
+  font-weight:bold;
+
+
+}
+/*
+.navbar-default .navbar-nav > li{
+border-bottom: 10px solid #ccccc;
+}
+*/
+
+.navbar-default .navbar-nav > li > a:link{
+  color: #2E7A57;
+}
+
+.navbar-default .navbar-nav > li > a:visited{
+  color: #2E7A57;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: #ffffff;
+  color: #F28212;
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://demo33.ajol.info/public/site/ajol33/hover.png");*/
+}
+
+.nav > li > a{
+  padding: 1px 15px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  /*  line-height: 15px;*/
+}
+
+ul.nav a:hover {
+  background-color: #ffffff;
+  color: #F28212 !important;
+
+}
+
+ul.nav > li > a:hover {
+
+  background-color: #ffffff;
+  color: #F28212 !important;
+}
+
+.navbar, .header_view {
+  min-height: 0px;
+}
+
+.siteNav a{
+  color:#2E7A57;
+}
+
+.page-header {
+  color:#fff;
+  padding: 0px 10px 0px 20px;
+  margin: 10px 0 50px;
+  border-bottom: 0px solid #fff;
+}
+
+.authors{
+
+}
+
+.download{
+  padding:20px;
+  text-align:center; 
+}
+
+.carousel-caption {
+  font-family: "Libre Baskerville",serif;
+  font-size: 1.8rem  !important;
+  color: #fff;
+  z-index: 10;
+  position: absolute;
+  right: 15%;
+  bottom: disabled;
+  top: 0px;
+  left: 35%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.carousel-indicators {
+  bottom: 0.5rem;
+}
+
+.carousel-indicators li {
+  background-color: #ccc;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+#site-menu-hamburger{
+  background-color:#47BF61;
+}
+
+.navbar-default .navbar-toggle, .header_view .navbar-toggle {
+  border-color: #2E7A57;
+}
+
+.navbar-default .navbar-toggle .icon-bar, .header_view .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid \9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.ajolBreadcrumbs{
+  font-family: "Montserrat",Helvetica,Arial,sans-serif;
+  margin-top:0px;
+  padding-left:0px;
+  font-size:18px;
+  color:#3B9E61;
+}
+
+.social {
+  margin: 0px;
+  font-size: 14px;
+  line-height: 1.42857143;
+
+  border:1px solid #CECECD;
+  background-color:#ffffff;
+  font-weight:bold;
+  vertical-align:bottom;
+}
+
+@media only screen and (min-width: 768px) {
+  .pageFooter{
+  padding-left:60px;
+  padding-right:60px;
+}
+
+}
+
+.navbar-form {
+  border-top: 0px solid transparent;
+}
+
+div#___gcse_0 {
+  /*display: inline-block;      */
+  width: 330px;
+  height: 50px;
+  float:left;
+  margin-right:40px;
+}
+
+div#___gcse_1 {
+  /*display: inline-block;      */
+  width: 300px;
+  height: 50px;
+  float:right;
+}
+
+.gsc-input-box {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+#navigationUser{
+  float:right;
+  padding-top:10px;
+  font-size:1.5rem;
+}
+
+.form-control{
+  border-radius: 25px;
+  width:200px;
+}
+
+label {
+  font-family: "Montserrat",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  margin-left: 20px;
+
+}
+
+.btn-default{
+  font-family: "Montserrat",Helvetica,Arial,sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  height: 42px;
+  width: 100px;
+  background-color: #e0e0e0;
+  color:#fff;
+  border-radius: 50px;
+  border:0px solid transparent;
+  text-transform: uppercase;
+}
+
+.btn-primary{
+  font-family: "Montserrat",Helvetica,Arial,sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  height: 42px;
+  width: 100px;
+  background-color: #E84F12;
+  color:#fff;
+  border-radius: 50px;
+  border:0px solid transparent;
+  text-transform: uppercase;
+}
+
+.btn-primary:hover{
+  background-color: #3B9E61;
+
+}
+
+
+
+.btn-green{ 
+  font-family: "Montserrat",Helvetica,Arial,sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  height: 42px;
+  width: 100px;
+  background-color: #3B9E61;
+  color:#fff;
+  border-radius: 50px;
+  border:0px solid transparent;
+  text-transform: uppercase;
+}
+
+
+
+
+.btn-green:hover{
+  background-color: #47BF61;
+  color:#fff;
+}
+
+.btn-green.a:link{
+  background-color: #3B9E61;
+  color:#fff;
+}
+
+.btn-circle {
+  width: 34px;
+  height: 34px;
+  padding: 4px 4px;
+  border-radius: 25px;
+  font-size: 16px;
+  text-align: center;
+
+}
+
+
+
+
+.ajol-footer{
+  font-family: "Montserrat",Helvetica,Arial,sans-serif;
+  font-size: 1.4rem;
+  line-height: 2em;
+  padding:30px;
+}
+
+.ajol-footer a {
+  color:#000;
+  text-decoration: none;
+}
+
+.pageFooter{
+  font-size: 0.8em;
+  background-color: #2E7A57;
+  color: #ffffff;
+  padding: 2em;
+  margin-top: 2em;
+}
+
+
+.footer[role="contentinfo"] {
+  font-size: 0.8em;
+  background-color: #2E7A57;
+  color: #ffffff;
+  padding: 2em;
+  margin-top: 4em;
+}
+
+ul.supporters{
+  margin:10px 10px 0 0;
+}
+ul.supporters li{
+  margin: 20px 0 0 0;
+}
+
+
+

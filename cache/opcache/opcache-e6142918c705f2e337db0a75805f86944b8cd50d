@@ -1,0 +1,9 @@
+<?php $exp = 1753426160; $val = array (
+  'application' => 'classic',
+  'class' => 'ClassicThemePlugin',
+  'type' => 'plugins.themes',
+  'release' => '1.1.2.1',
+  'date' => '2023-08-09',
+  'lazy-load' => 1,
+  'sitewide' => 0,
+);

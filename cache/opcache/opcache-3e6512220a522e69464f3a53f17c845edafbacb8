@@ -1,0 +1,12 @@
+<?php $exp = 1753433484; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.doiInSummary.displayName' => 'DOI in summary',
+      'plugins.generic.doiInSummary.description' => 'Shows the DOI of the articles in the summary of issues and in the home page.',
+    ),
+  ),
+);

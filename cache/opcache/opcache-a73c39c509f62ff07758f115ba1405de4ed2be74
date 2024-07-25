@@ -1,0 +1,36 @@
+<?php $exp = 1753433254; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.reviewerCredits.displayName' => 'ReviewerCredits Plugin',
+      'plugins.generic.reviewerCredits.description' => '<![CDATA[Plugin to enable the integration with ReviewerCredits.]]>',
+      'plugins.generic.reviewerCredits.manager.reviewerCreditsSettings' => 'ReviewerCredits Settings',
+      'plugins.generic.reviewerCredits.manager.settings.description' => 'Connect your journal to ReviewerCredits entering the journal\'s credentials. This will automatically transfer new peer review information.',
+      'plugins.generic.reviewerCredits.manager.settings.reviewerCreditsJournalLogin' => 'Journal username',
+      'plugins.generic.reviewerCredits.manager.settings.reviewerCreditsJournalPassword' => 'Journal user password',
+      'plugins.generic.reviewerCredits.manager.settings.success' => 'Journal username and password correctly entered',
+      'plugins.generic.reviewerCredits.manager.settings.rcLoginRequired' => 'The Journal user login is required',
+      'plugins.generic.reviewerCredits.manager.settings.rcPasswordRequired' => 'The Journal user password is required',
+      'plugins.generic.reviewerCredits.manager.settings.invalid' => 'Invalid username or password. Check your account on www.reviewercredits.com.',
+      'plugins.generic.reviewerCredits.manager.settings.invalidPath' => 'ReviewerCredits plugin is NOT correctly installed. The file directory should be /plugins/generic/reviewerCredits/',
+      'plugins.generic.reviewerCredits.notification.success' => 'Your peer review record has been successfully transmitted to ReviewerCredits, where it has been confirmed.',
+      'plugins.generic.reviewerCredits.notification.noUser' => 'Your review record could not be transferred to ReviewerCredits because there is no valid account with the email "{$crMessage} ". You can still claim your review, by registering to ReviewerCredits and uploading your review using the manuscript ID and the journal editor\'s email.',
+      'plugins.generic.reviewerCredits.notification.placeholder' => 'Your peer review has been transferred to ReviewerCredits.com. Create a free account to get it certified and earn credits.',
+      'plugins.generic.reviewerCredits.notification.failed' => 'The ReviewerCredits plugin has failed to send the Peer Review data to the ReviewerCredits website due to communication error',
+      'plugins.generic.reviewerCredits.notification.failedAuth' => 'The ReviewerCredits plugin has failed to send the Peer Review data to the ReviewerCredits website due to wrong Journal credentials',
+      'plugins.generic.reviewerCredits.form.label' => 'Register this Peer Review on ReviewerCredits.com',
+      'plugins.generic.reviewerCredits.form.label.description' => 'Peer Review data will be transferred to your {$linkOpen}ReviewerCredits{$linkClose} account. Click here to {$linkSignUpOpen}sign up{$linkSignUpClose} before submitting your peer review.',
+      'plugins.generic.reviewerCredits.form.consent' => 'I agree to transfer my review data (email, surname and name, institution, ORCID, manuscript ID and date of completion) to ReviewerCredits.',
+      'plugins.generic.reviewerCredits.manager.settings.reviewerCreditsJournalF3' => 'Enable synchronization of fields for Reviewer Contribution Index calculation: <br/> Review acceptance date, recommendation, comment length, editorial decision.',
+      'plugins.generic.reviewerCredits.report.displayName' => 'ReviewerCredits.com Peer Review Report',
+      'plugins.generic.reviewerCredits.report.description' => 'This plugin implements a peer review report for importing ReviewerCredits.com.',
+      'plugins.generic.reviewerCredits.form.consentF3' => 'Transfer additional data (acceptance date, recommendation, length of report) for Reviewer Contribution Index calculation {$linkF3Index}(What is this?){$linkClose}',
+      'plugins.generic.reviewerCredits.editorialDecisionReport.displayName' => 'ReviewerCredits.com Editorial Decision Report',
+      'plugins.generic.reviewerCredits.editorialDecisionReport.description' => 'This plugin implements an editorial decision report for importing to ReviewerCredits.com.',
+      'plugins.generic.reviewerCredits.manager.settings.reviewerCreditsEditorData' => 'Transfer Editor data (editor name, email, orcid, country) with editorial decision report.',
+    ),
+  ),
+);

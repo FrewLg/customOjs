@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-05-20T06:56:40-07:00\n"
+"PO-Revision-Date: 2021-05-25T06:56:40-07:00\n"
+"Language: \n"
+
+msgid "plugins.generic.reviewerCredits.displayName"
+msgstr "ReviewerCredits Plugin"
+
+msgid "plugins.generic.reviewerCredits.description"
+msgstr "<![CDATA[Plugin to enable the integration with ReviewerCredits.]]>"
+
+msgid "plugins.generic.reviewerCredits.manager.reviewerCreditsSettings"
+msgstr "ReviewerCredits Settings"
+
+msgid "plugins.generic.reviewerCredits.manager.settings.description"
+msgstr "Connect your journal to ReviewerCredits entering the journal's credentials. This will automatically transfer new peer review information."
+
+msgid "plugins.generic.reviewerCredits.manager.settings.reviewerCreditsJournalLogin"
+msgstr "Journal username"
+
+msgid "plugins.generic.reviewerCredits.manager.settings.reviewerCreditsJournalPassword"
+msgstr "Journal user password"
+
+msgid "plugins.generic.reviewerCredits.manager.settings.success"
+msgstr "Journal username and password correctly entered"
+
+msgid "plugins.generic.reviewerCredits.manager.settings.rcLoginRequired"
+msgstr "The Journal user login is required"
+
+msgid "plugins.generic.reviewerCredits.manager.settings.rcPasswordRequired"
+msgstr "The Journal user password is required"
+
+msgid "plugins.generic.reviewerCredits.manager.settings.invalid"
+msgstr "Invalid username or password. Check your account on www.reviewercredits.com."
+
+msgid "plugins.generic.reviewerCredits.manager.settings.invalidPath"
+msgstr "ReviewerCredits plugin is NOT correctly installed. The file directory should be /plugins/generic/reviewerCredits/"
+
+msgid "plugins.generic.reviewerCredits.notification.success"
+msgstr "Your peer review record has been successfully transmitted to ReviewerCredits, where it has been confirmed."
+
+msgid "plugins.generic.reviewerCredits.notification.noUser"
+msgstr "Your review record could not be transferred to ReviewerCredits because there is no valid account with the email "{$crMessage} ". You can still claim your review, by registering to ReviewerCredits and uploading your review using the manuscript ID and the journal editor's email.'
+
+msgid "plugins.generic.reviewerCredits.notification.placeholder"
+msgstr "Your peer review has been transferred to ReviewerCredits.com. Create a free account to get it certified and earn credits."
+
+msgid "plugins.generic.reviewerCredits.notification.failed"
+msgstr "The ReviewerCredits plugin has failed to send the Peer Review data to the ReviewerCredits website due to communication error"
+
+msgid "plugins.generic.reviewerCredits.notification.failedAuth"
+msgstr "The ReviewerCredits plugin has failed to send the Peer Review data to the ReviewerCredits website due to wrong Journal credentials"
+
+msgid "plugins.generic.reviewerCredits.form.label"
+msgstr "Register this Peer Review on ReviewerCredits.com"
+
+msgid "plugins.generic.reviewerCredits.form.label.description"
+msgstr "Peer Review data will be transferred to your {$linkOpen}ReviewerCredits{$linkClose} account. Click here to {$linkSignUpOpen}sign up{$linkSignUpClose} before submitting your peer review."
+
+msgid "plugins.generic.reviewerCredits.form.consent"
+msgstr "I agree to transfer my review data (email, surname and name, institution, ORCID, manuscript ID and date of completion) to ReviewerCredits."
+
+msgid "plugins.generic.reviewerCredits.manager.settings.reviewerCreditsJournalF3"
+msgstr "Enable synchronization of fields for Reviewer Contribution Index calculation: <br/> Review acceptance date, recommendation, comment length, editorial decision."
+
+msgid "plugins.generic.reviewerCredits.report.displayName"
+msgstr "ReviewerCredits.com Peer Review Report"
+
+msgid "plugins.generic.reviewerCredits.report.description"
+msgstr "This plugin implements a peer review report for importing ReviewerCredits.com."
+
+msgid "plugins.generic.reviewerCredits.form.consentF3"
+msgstr "Transfer additional data (acceptance date, recommendation, length of report) for Reviewer Contribution Index calculation {$linkF3Index}(What is this?){$linkClose}"
+
+msgid "plugins.generic.reviewerCredits.editorialDecisionReport.displayName"
+msgstr "ReviewerCredits.com Editorial Decision Report"
+
+msgid "plugins.generic.reviewerCredits.editorialDecisionReport.description"
+msgstr "This plugin implements an editorial decision report for importing to ReviewerCredits.com."
+
+msgid "plugins.generic.reviewerCredits.manager.settings.reviewerCreditsEditorData"
+msgstr "Transfer Editor data (editor name, email, orcid, country) with editorial decision report."

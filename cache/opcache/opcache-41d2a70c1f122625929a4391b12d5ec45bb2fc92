@@ -1,0 +1,9 @@
+<?php $exp = 1753433254; $val = array (
+  'application' => 'reviewerCredits',
+  'class' => 'ReviewerCreditsPlugin',
+  'type' => 'plugins.generic',
+  'release' => '2.1.3.11',
+  'date' => '2024-07-05',
+  'lazy-load' => 1,
+  'sitewide' => 0,
+);

@@ -1,0 +1,9 @@
+<?php $exp = 1753424198; $val = array (
+  'application' => 'jatsTemplate',
+  'class' => 'JatsTemplatePlugin',
+  'type' => 'plugins.generic',
+  'release' => '1.0.7.2',
+  'date' => '2023-05-30',
+  'lazy-load' => 1,
+  'sitewide' => 0,
+);
