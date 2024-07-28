@@ -68,7 +68,7 @@ h3{
 
 h4{
   font-family: "Montserrat",Helvetica,Arial,sans-serif;
-  color: #000;
+  color: #070e35;
 
   font-size: 1.1em;
   font-weight: bold;
@@ -86,7 +86,7 @@ h5{
 }
 
 h6{
-  color: #000;
+  color: #070e35;
   margin: 10px;
   font-weight: normal;
 }
@@ -631,7 +631,7 @@ label {
 }
 
 .ajol-footer a {
-  color:#000;
+  color:#070e35;
   text-decoration: none;
 }
 

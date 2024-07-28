@@ -7,7 +7,7 @@ namespace Money;
  *
  * @author Mathias Verraes
  *
- * @see http://en.wikipedia.org/wiki/Currency_pair
+ * @see https://en.wikipedia.org/wiki/Currency_pair
  */
 final class CurrencyPair implements \JsonSerializable
 {
@@ -58,7 +58,7 @@ final class CurrencyPair implements \JsonSerializable
     public static function createFromIso($iso)
     {
         $currency = '([A-Z]{2,3})';
-        $ratio = "([0-9]*\.?[0-9]+)"; // @see http://www.regular-expressions.info/floatingpoint.html
+        $ratio = "([0-9]*\.?[0-9]+)"; // @see https://www.regular-expressions.info/floatingpoint.html
         $pattern = '#'.$currency.'/'.$currency.' '.$ratio.'#';
 
         $matches = [];

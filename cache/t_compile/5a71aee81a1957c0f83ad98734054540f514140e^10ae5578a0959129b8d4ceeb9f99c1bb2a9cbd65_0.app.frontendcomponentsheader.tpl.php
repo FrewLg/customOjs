@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-07-25 09:23:32
+/* Smarty version 4.3.1, created on 2024-07-27 11:23:14
   from 'app:frontendcomponentsheader.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_66a2199453da78_08887501',
+  'unifunc' => 'content_66a4d8a25e2843_23063506',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '10ae5578a0959129b8d4ceeb9f99c1bb2a9cbd65' => 
     array (
       0 => 'app:frontendcomponentsheader.tpl',
-      1 => 1721890160,
+      1 => 1721929738,
       2 => 'app',
     ),
   ),
@@ -22,9 +22,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:frontend/components/languageSwitcher.tpl' => 1,
   ),
 ),false)) {
-function content_66a2199453da78_08887501 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66a4d8a25e2843_23063506 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/home/cornerstone/Desktop/projects/Upwork/ojs-3.4.0-6/lib/pkp/lib/vendor/smarty/smarty/libs/plugins/modifier.replace.php','function'=>'smarty_modifier_replace',),));
 ?>
+
+<!-- <div class="d" style="background-color: red; border: solid 4px grey;"></div> -->
 
 <?php $_smarty_tpl->_assignInScope('showingLogo', true);
 if (!$_smarty_tpl->tpl_vars['displayPageHeaderLogo']->value) {
@@ -87,11 +89,10 @@ $_smarty_tpl->_subTemplateRender("app:frontend/components/headerHead.tpl", $_sma
 			<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['load_menu'][0], array( array('name'=>"primary",'id'=>"navigationPrimary",'ulClass'=>"pkp_navigation_primary"),$_smarty_tpl ) );?>
 
 		<?php $_smarty_tpl->smarty->ext->_capture->close($_smarty_tpl);?>
-
 				<?php if (!empty(trim($_smarty_tpl->tpl_vars['primaryMenu']->value)) || $_smarty_tpl->tpl_vars['currentContext']->value) {?>
 			<div class="lower-header">
 				<ul id="nav-small" class="nav nav-tabs">
-					<li class="nav-item">
+					<li class="nav-item" style="background-color:#0077b6;">
 						<a id="show-modal" class="nav-link">
 							<ion-icon name="menu"></ion-icon>
 							<span class="ion-icon-text"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['translate'][0], array( array('key'=>"plugins.themes.classic.menu"),$_smarty_tpl ) );?>
@@ -110,7 +111,10 @@ $_smarty_tpl->_subTemplateRender("app:frontend/components/headerHead.tpl", $_sma
 				</div>
 			</div>
 		<?php }?>
+		
 	</div>
+<div class="d" style="background-color: red; border: solid 3px #0077b6;"></div>
+
 </header>
 <?php }
 }

@@ -39,7 +39,7 @@ namespace Omnipay\PayPal\Message;
  *
  * @link https://developer.paypal.com/docs/api/#vault
  * @link https://developer.paypal.com/docs/api/#delete-a-stored-credit-card
- * @link http://bit.ly/1wUQ33R
+ * @link https://bit.ly/1wUQ33R
  * @see RestCreateCardRequest
  */
 class RestDeleteCardRequest extends AbstractRestRequest

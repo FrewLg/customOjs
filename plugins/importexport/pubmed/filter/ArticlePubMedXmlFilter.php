@@ -55,7 +55,7 @@ class ArticlePubMedXmlFilter extends PersistableFilter
     {
         // Create the XML document
         $implementation = new \DOMImplementation();
-        $dtd = $implementation->createDocumentType('ArticleSet', '-//NLM//DTD PubMed 2.0//EN', 'http://www.ncbi.nlm.nih.gov/entrez/query/static/PubMed.dtd');
+        $dtd = $implementation->createDocumentType('ArticleSet', '-//NLM//DTD PubMed 2.0//EN', 'https://www.ncbi.nlm.nih.gov/entrez/query/static/PubMed.dtd');
         $doc = $implementation->createDocument('', '', $dtd);
         $doc->preserveWhiteSpace = false;
         $doc->formatOutput = true;
@@ -216,7 +216,7 @@ class ArticlePubMedXmlFilter extends PersistableFilter
             $authorElement->appendChild($doc->createElement('LastName'))->appendChild($doc->createTextNode(ucfirst($author->getLocalizedFamilyName())));
         }
         $authorElement->appendChild($doc->createElement('Affiliation'))->appendChild($doc->createTextNode($author->getLocalizedAffiliation()));
-        // We're storing the ORCID with a URL (http://orcid.org/{$ID}), but the XML expects just the ID
+        // We're storing the ORCID with a URL (https://orcid.org/{$ID}), but the XML expects just the ID
         $orcidId = explode('/', trim($author->getData('orcid') ?? '', '/'));
         $orcidId = array_pop($orcidId);
         if ($orcidId) {

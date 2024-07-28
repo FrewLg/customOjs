@@ -19,7 +19,7 @@
 
 		/**
 		 * Get the last, check number.
-		 * Algorithm (s. http://www.persistent-identifier.de/?link=316):
+		 * Algorithm (s. https://www.persistent-identifier.de/?link=316):
 		 *  every URN character is replaced with a number
 		 *  according to the conversion table,
 		 *  every number is multiplied by

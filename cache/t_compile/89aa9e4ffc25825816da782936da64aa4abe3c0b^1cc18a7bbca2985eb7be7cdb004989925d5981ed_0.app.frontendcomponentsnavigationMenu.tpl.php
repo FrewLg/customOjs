@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-07-25 09:04:42
+/* Smarty version 4.3.1, created on 2024-07-26 08:39:09
   from 'app:frontendcomponentsnavigationMenu.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_66a2152a2f1aa1_51052358',
+  'unifunc' => 'content_66a360ad87f0f8_19682952',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1cc18a7bbca2985eb7be7cdb004989925d5981ed' => 
     array (
       0 => 'app:frontendcomponentsnavigationMenu.tpl',
-      1 => 1721890160,
+      1 => 1721929805,
       2 => 'app',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66a2152a2f1aa1_51052358 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66a360ad87f0f8_19682952 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/home/cornerstone/Desktop/projects/Upwork/ojs-3.4.0-6/lib/pkp/lib/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
 ?>
 

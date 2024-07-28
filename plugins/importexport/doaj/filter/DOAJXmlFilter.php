@@ -225,7 +225,7 @@ class DOAJXmlFilter extends \PKP\plugins\importexport\native\filter\NativeExport
         /** @var DOAJExportDeployment */
         $deployment = $this->getDeployment();
         $rootNode = $doc->createElement($deployment->getRootElementName());
-        $rootNode->setAttributeNS('http://www.w3.org/2000/xmlns/', 'xmlns:xsi', 'http://www.w3.org/2001/XMLSchema-instance');
+        $rootNode->setAttributeNS('https://www.w3.org/2000/xmlns/', 'xmlns:xsi', 'https://www.w3.org/2001/XMLSchema-instance');
         $rootNode->setAttribute('xsi:noNamespaceSchemaLocation', $deployment->getXmlSchemaLocation());
         return $rootNode;
     }

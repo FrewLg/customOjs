@@ -7,10 +7,10 @@
   *
   * Sample users XML import.
   -->
-<PKPUsers xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://pkp.sfu.ca pkp-users.xsd">
-	<user_groups xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		xsi:schemaLocation="http://pkp.sfu.ca pkp-users.xsd">
+<PKPUsers xmlns="https://pkp.sfu.ca" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://pkp.sfu.ca pkp-users.xsd">
+	<user_groups xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="https://pkp.sfu.ca pkp-users.xsd">
 		<user_group>
 			<role_id>16</role_id>
 			<context_id>1</context_id>
@@ -216,7 +216,7 @@
 			<familyname locale="en">Smith</familyname>
 			<country>CA</country>
 			<email>john@admin-site.com</email>
-			<url>http://www.admin-site.com</url>
+			<url>https://www.admin-site.com</url>
 			<username>admin</username>
 			<password is_disabled="false" must_change="false"
 				encryption="sha1">

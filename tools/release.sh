@@ -60,7 +60,7 @@ LASTPATCHSUFFIX="${MAJOR}.${MINOR}.${REVISION}"
 sed -i	-e "s/<tag>.*<\/tag>/<tag>${THISTAG}<\/tag>/" \
 	-e "s/<release>.*<\/release>/<release>${MAJOR}.${MINOR}.${REVISION}.${THISBUILD}<\/release>/" \
 	-e "s/<date>.*<\/date>/<date>${BUILDDATE}<\/date>/" \
-	-e "s/<package>.*<\/package>/<package>http:\/\/pkp.sfu.ca\/${APPLICATION}\/download\/${APPLICATION}-${MAJOR}.${MINOR}.${REVISION}-${THISBUILD}.tar.gz<\/package>/" \
+	-e "s/<package>.*<\/package>/<package>https:\/\/pkp.sfu.ca\/${APPLICATION}\/download\/${APPLICATION}-${MAJOR}.${MINOR}.${REVISION}-${THISBUILD}.tar.gz<\/package>/" \
 	-e "s/\(<patch .*_to_\).*\(\.patch\.gz.*\)/\1${MAJOR}.${MINOR}.${REVISION}-${THISBUILD}.patch.gz/" \
 	dbscripts/xml/version.xml
 git add dbscripts/xml/version.xml

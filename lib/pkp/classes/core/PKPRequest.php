@@ -167,7 +167,7 @@ class PKPRequest
         // This processing is deferred to the redirected (target) URI
         $url = 'http://' . $this->getServerHost() . $_SERVER['REQUEST_URI'];
         $queryString = $_SERVER['QUERY_STRING'];
-        if (!empty($queryString)) {
+        if (!empty($queryString)) { 
             $url .= "?{$queryString}";
         }
         $this->redirectUrl($url);

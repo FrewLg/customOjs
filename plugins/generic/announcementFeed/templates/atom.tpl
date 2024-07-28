@@ -9,7 +9,7 @@
  *
  *}
 <?xml version="1.0" encoding="{$defaultCharset|escape}"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 	{* required elements *}
 	<id>{$selfUrl|escape}</id>
 	<title>{$journal->getLocalizedName()|escape:"html"|strip}: {translate key="announcement.announcements"}</title>

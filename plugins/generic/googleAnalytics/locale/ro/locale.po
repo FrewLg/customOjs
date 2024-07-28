@@ -15,7 +15,7 @@ msgid "plugins.generic.googleAnalytics.displayName"
 msgstr "Modul pentru Google Analytics"
 
 msgid "plugins.generic.googleAnalytics.description"
-msgstr "Integrează OJS cu Google Analytics, siteul Google pentru aplicaţia pentru analizarea traficului pe site. Acesta necesită existenţa deja a unui cont la Google Analytics. Vezi şi <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">siteul Google Analytics</a> pentru mai multe informaţii."
+msgstr "Integrează OJS cu Google Analytics, siteul Google pentru aplicaţia pentru analizarea traficului pe site. Acesta necesită existenţa deja a unui cont la Google Analytics. Vezi şi <a href=\"https://www.google.com/analytics/\" title=\"Google Analytics site\">siteul Google Analytics</a> pentru mai multe informaţii."
 
 msgid "plugins.generic.googleAnalytics.manager.settings"
 msgstr "Setări"
@@ -24,7 +24,7 @@ msgid "plugins.generic.googleAnalytics.manager.googleAnalyticsSettings"
 msgstr "Setări Google Analytics"
 
 msgid "plugins.generic.googleAnalytics.manager.settings.description"
-msgstr "<p>Având acest modul activat, se poate utiliza Google Analytics pentru a colecta şi analiza modul de utilizare şi traficul pe site pentru această revistă. Trebuie spus că acest modul necesită existenţa deja a unui cont la Google Analytics. Vezi şi <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">siteul Google Analytics</a> pentru mai multe informaţii.</p><p>trebuie notat faptul că Google Analytics are nevoie de aproape 24 de ore până când datele statistice sunt colectate şi raportate. În timpul acestei perioade, funcţia 'Verifică starea' e posibil să nu raporteze corect dacă a detectat codul de urmărire necesar pentru revistă.</p>"
+msgstr "<p>Având acest modul activat, se poate utiliza Google Analytics pentru a colecta şi analiza modul de utilizare şi traficul pe site pentru această revistă. Trebuie spus că acest modul necesită existenţa deja a unui cont la Google Analytics. Vezi şi <a href=\"https://www.google.com/analytics/\" title=\"Google Analytics site\">siteul Google Analytics</a> pentru mai multe informaţii.</p><p>trebuie notat faptul că Google Analytics are nevoie de aproape 24 de ore până când datele statistice sunt colectate şi raportate. În timpul acestei perioade, funcţia 'Verifică starea' e posibil să nu raporteze corect dacă a detectat codul de urmărire necesar pentru revistă.</p>"
 
 msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
 msgstr "Numărul contului"

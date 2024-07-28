@@ -30,7 +30,7 @@ use Omnipay\PayPal\PayPalItemBag;
  * @link https://developer.paypal.com/docs/classic/express-checkout/gs_expresscheckout/
  * @link https://developer.paypal.com/docs/classic/products/ppp-payflow-edition/
  * @link https://devtools-paypal.com/integrationwizard/
- * @link http://paypal.github.io/sdk/
+ * @link https://paypal.github.io/sdk/
  */
 abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
 {

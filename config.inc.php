@@ -302,13 +302,24 @@ allowed_title_html = "b,i,u,sup,sub"
 
 ; Default method to send emails
 ; Available options: sendmail, smtp, log, phpmailer
-default = sendmail
+#default = sendmail
+default = smtp
 
 ; Path to the sendmail, -bs argument is for using SMTP protocol
-sendmail_path = "/usr/sbin/sendmail -bs"
+#sendmail_path = "/usr/sbin/sendmail -bs"
 
 ; Use SMTP for sending mail instead of mail()
 ; smtp = On
+
+smtp = On
+smtp_server = mail.ephi.gov.et
+smtp_port = 587
+smtp_auth = tls
+smtp_username = sero@ephi.gov.et
+smtp_password = seron3wp4ssw0r6
+
+#smtp://sero@ephi.gov.et:seron3wp4ssw0r6@mail.ephi.gov.et:587?encryption=tls&auth_mode=oauth
+
 
 ; SMTP server settings
 ; smtp_server = mail.example.com

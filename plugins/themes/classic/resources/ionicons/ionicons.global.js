@@ -1,4 +1,4 @@
-/*! Built with http://stenciljs.com */
+/*! Built with https://stenciljs.com */
 (function(namespace,resourcesUrl){"use strict";
 
 })("ionicons");

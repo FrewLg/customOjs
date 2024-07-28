@@ -14,18 +14,18 @@
 
 ## Intro
 
-HTTP client standard built on [PSR-7](http://www.php-fig.org/psr/psr-7/) HTTP
+HTTP client standard built on [PSR-7](https://www.php-fig.org/psr/psr-7/) HTTP
 messages. The HttpAsyncClient defines an asynchronous HTTP client for PHP.
 
 This package also provides a synchronous HttpClient interface with the same
-method signature as the [PSR-18](http://www.php-fig.org/psr/psr-18/) client.
+method signature as the [PSR-18](https://www.php-fig.org/psr/psr-18/) client.
 For synchronous requests, we recommend using PSR-18 directly.
 
 
 ## History
 
 HTTPlug is the official successor of the [ivory http adapter](https://github.com/egeloen/ivory-http-adapter).
-HTTPlug is a predecessor of [PSR-18](http://www.php-fig.org/psr/psr-18/)
+HTTPlug is a predecessor of [PSR-18](https://www.php-fig.org/psr/psr-18/)
 
 
 ## Install
@@ -39,7 +39,7 @@ $ composer require php-http/httplug
 
 ## Documentation
 
-Please see the [official documentation](http://docs.php-http.org).
+Please see the [official documentation](https://docs.php-http.org).
 
 
 ## Testing

@@ -15,4 +15,4 @@ msgid "plugins.generic.pdfJsViewer.name"
 msgstr "PDF.JS 查看器插件"
 
 msgid "plugins.generic.pdfJsViewer.description"
-msgstr "该款插件使用 <a href=\"http://mozilla.github.io/pdf.js\">pdf.js PDF 查看器</a> 在文章和期次样稿上插入PDFs。"
+msgstr "该款插件使用 <a href=\"https://mozilla.github.io/pdf.js\">pdf.js PDF 查看器</a> 在文章和期次样稿上插入PDFs。"

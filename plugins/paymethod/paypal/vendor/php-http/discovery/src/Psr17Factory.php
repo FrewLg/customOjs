@@ -222,7 +222,7 @@ class Psr17Factory implements RequestFactoryInterface, ResponseFactoryInterface,
 
         $hasPort = false;
         if (isset($server['HTTP_HOST'])) {
-            $parts = parse_url('http://'.$server['HTTP_HOST']);
+            $parts = parse_url('https://'.$server['HTTP_HOST']);
 
             $uri = $uri->withHost($parts['host'] ?? 'localhost');
 

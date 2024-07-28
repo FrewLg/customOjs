@@ -10,7 +10,7 @@
   * Schema describing crossref test XML export elements
   -->
 
-<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://pkp.sfu.ca" xmlns:pkp="http://pkp.sfu.ca" elementFormDefault="qualified">
+<schema xmlns="https://www.w3.org/2001/XMLSchema" targetNamespace="https://pkp.sfu.ca" xmlns:pkp="https://pkp.sfu.ca" elementFormDefault="qualified">
 
 	<!-- Bring in the common PKP import/export content -->
 	<include schemaLocation="../../../lib/pkp/xml/importexport.xsd" />

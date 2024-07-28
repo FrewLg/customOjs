@@ -1,7 +1,7 @@
 <?php
 /**
- * @link    http://github.com/myclabs/php-enum
- * @license http://www.opensource.org/licenses/mit-license.php MIT (see the LICENSE file)
+ * @link    https://github.com/myclabs/php-enum
+ * @license https://www.opensource.org/licenses/mit-license.php MIT (see the LICENSE file)
  */
 
 namespace MyCLabs\Enum;
@@ -307,7 +307,7 @@ abstract class Enum implements \JsonSerializable, \Stringable
      * natively.
      *
      * @return mixed
-     * @link http://php.net/manual/en/jsonserializable.jsonserialize.php
+     * @link https://php.net/manual/en/jsonserializable.jsonserialize.php
      * @psalm-pure
      */
     #[\ReturnTypeWillChange]

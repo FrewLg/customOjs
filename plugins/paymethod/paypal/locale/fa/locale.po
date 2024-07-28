@@ -18,7 +18,7 @@ msgid "plugins.paymethod.paypal.description"
 msgstr ""
 "بکمک PayPal کاربران صرف نظر از اینکه عضو PayPal باشند یا نباشند قادر میسازد "
 "تا تمام انواع کارت های اعتباری ماژور را برای پرداخت بکار برند. مدیر مجله "
-"باید که یک  <a href=\"http://www.paypal.com\" target=\"_new\">حساب تجارتی "
+"باید که یک  <a href=\"https://www.paypal.com\" target=\"_new\">حساب تجارتی "
 "PayPal</a>   راه‌اندازی کند."
 
 msgid "plugins.paymethod.paypal"

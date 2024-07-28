@@ -68,7 +68,7 @@
 			<div class="row d-flex align-items-center">
 				<div class="col-md-12 col-sm-12 col-lg-12 text-center  my-8">
 					<div class="p-8 m-2">Copyright ©2024 
-						<strong> <a href="http://scholarsin.com/index.php/">ScholarsIn</a>,</strong>
+						<strong> <a href="https://scholarsin.com/index.php/">ScholarsIn</a>,</strong>
 						All rights reserved.
 					</div>
 				</div>
