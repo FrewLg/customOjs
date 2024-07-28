@@ -296,7 +296,7 @@ class XSLTransformer
             // substantially (20-100x), often up to 60s.  This can be solved by use of local catalogs, ie.
             // putenv("XML_CATALOG_FILES=/path/to/catalog.ent");
             //
-            // see:  http://www.whump.com/moreLikeThis/link/03815
+            // see:  https://www.whump.com/moreLikeThis/link/03815
             $xmlDOM->recover = true;
             $xmlDOM->substituteEntities = true;
             $xmlDOM->resolveExternals = true;

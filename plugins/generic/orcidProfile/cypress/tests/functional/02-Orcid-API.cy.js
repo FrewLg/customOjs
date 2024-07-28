@@ -8,7 +8,7 @@
 
 describe("Authorization Redirect: " + Cypress.env('orcid_url'), function () {
 
-	var redirectUrl = "https://localhost/ojs/index.php/publicknowledge/orcidapi/orcidAuthorize?targetOp=profile";
+	var redirectUrl = "http://localhost/ojs/index.php/publicknowledge/orcidapi/orcidAuthorize?targetOp=profile";
 	var orcidUrl = Cypress.env('orcid_url') + "/signin?oauth&client_id=" + Cypress.env('orcid_clientId')
 		+ "&response_type=code&scope=/activities/update&redirect_uri=" + redirectUrl;
 

@@ -2,7 +2,7 @@
 /*
  * citeproc-php
  *
- * @link        https://github.com/seboettg/citeproc-php for the source repository
+ * @link        http://github.com/seboettg/citeproc-php for the source repository
  * @copyright   Copyright (c) 2016 Sebastian Böttger.
  * @license     https://opensource.org/licenses/MIT
  */
@@ -25,7 +25,7 @@ use stdClass;
  * redefined or supplemented with cs:locale elements, which should be placed in the style sheet directly after the
  * cs:info element.
  *
- * TODO: implement Locale Fallback (https://docs.citationstyles.org/en/stable/specification.html#locale-fallback)
+ * TODO: implement Locale Fallback (http://docs.citationstyles.org/en/stable/specification.html#locale-fallback)
  *
  * @package Seboettg\CiteProc\Locale
  * @author Sebastian Böttger <seboettg@gmail.com>
@@ -70,7 +70,7 @@ class Locale
      */
     public function addXml(SimpleXMLElement $xml)
     {
-        $lang = (string) $xml->attributes('https://www.w3.org/XML/1998/namespace')->{'lang'};
+        $lang = (string) $xml->attributes('http://www.w3.org/XML/1998/namespace')->{'lang'};
         if (empty($lang) || $this->getLanguage() === $lang || explode('-', $this->getLanguage())[0] === $lang) {
             $this->parseXml($xml);
         }

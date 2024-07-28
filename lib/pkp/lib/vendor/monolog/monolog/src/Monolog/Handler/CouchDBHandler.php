@@ -51,7 +51,7 @@ class CouchDBHandler extends AbstractProcessingHandler
             $basicAuth = sprintf('%s:%s@', $this->options['username'], $this->options['password']);
         }
 
-        $url = 'http://'.$basicAuth.$this->options['host'].':'.$this->options['port'].'/'.$this->options['dbname'];
+        $url = 'https://'.$basicAuth.$this->options['host'].':'.$this->options['port'].'/'.$this->options['dbname'];
         $context = stream_context_create([
             'http' => [
                 'method'        => 'POST',

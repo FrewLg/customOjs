@@ -9,7 +9,7 @@
  *
  * Set tabs to 4 for best viewing.
  *
- * Latest version is available at http://adodb.org/
+ * Latest version is available at https://adodb.org/
  *
  * Oracle 8.0.5 driver
 */
@@ -34,7 +34,7 @@ class ADODB_oci805 extends ADODB_oci8 {
 		/*
 			The following is only available from 8.1.5 because order by in inline views not
 			available before then...
-			http://www.jlcomp.demon.co.uk/faq/top_sql.html
+			https://www.jlcomp.demon.co.uk/faq/top_sql.html
 		if ($nrows > 0) {
 			if ($offset > 0) $nrows += $offset;
 			$sql = "select * from ($sql) where rownum <= $nrows";

@@ -7,7 +7,7 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
  */
 
 namespace phpseclib3\Crypt\EC\Curves;
@@ -47,7 +47,7 @@ class Ed25519 extends TwistedEdwards
             new BigInteger('6666666666666666666666666666666666666666666666666666666666666658', 16)
         );
         $this->setOrder(new BigInteger('1000000000000000000000000000000014DEF9DEA2F79CD65812631A5CF5D3ED', 16));
-        // algorithm 14.47 from http://cacr.uwaterloo.ca/hac/about/chap14.pdf#page=16
+        // algorithm 14.47 from https://cacr.uwaterloo.ca/hac/about/chap14.pdf#page=16
         /*
         $this->setReduction(function($x) {
             $parts = $x->bitwise_split(255);

@@ -7,7 +7,7 @@ The Resolver gateway plugin resolves individual articles in the OJS
 installation using the supplied bibliographic information. It can be addressed
 at the following URL pattern:
 
-https://localhost/ojs/index.php/myJournal/gateway/plugin/ResolverPlugin/...
+http://localhost/ojs/index.php/myJournal/gateway/plugin/ResolverPlugin/...
 
 ...where, of course, localhost is the local server name, ojs is the path
 to the OJS 2.x installation, and myJournal is the path to a particular
@@ -21,8 +21,8 @@ Manager's "System Plugins" page, find the Resolver Gateway Plugin under the
 The resolver accepts parameters after the given URL pattern in the following
 formats:
 
-https://.../vnp/[volume]/[number]/[page]
-https://.../ynp/[year]/[number]/[page]
+http://.../vnp/[volume]/[number]/[page]
+http://.../ynp/[year]/[number]/[page]
 
 ...where [volume], [number], [year], and [page] are integers identifying the
 issue and page number of the desired content. (Future releases will introduce

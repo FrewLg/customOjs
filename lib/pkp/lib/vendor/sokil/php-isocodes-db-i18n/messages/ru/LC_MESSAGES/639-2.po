@@ -6,11 +6,11 @@
 # .
 # Notes:
 # GOST 7.75-97
-# http://www.bibliography.ru/method/gosts/7-75/7_75.htm
-# http://etheo.h10.ru/iran01.htm
-# http://etheo.h10.ru/omot01.htm
-# http://www.rba.ru/rusmarc/2_red/supa/supa21.htm
-# http://www.rba.ru/rusmarc/2_red/supa/supa22.htm
+# https://www.bibliography.ru/method/gosts/7-75/7_75.htm
+# https://etheo.h10.ru/iran01.htm
+# https://etheo.h10.ru/omot01.htm
+# https://www.rba.ru/rusmarc/2_red/supa/supa21.htm
+# https://www.rba.ru/rusmarc/2_red/supa/supa22.htm
 # .
 # Copyright ©
 # Nikolai Prokoschenko <nikolai@prokoschenko.de>, 2004.

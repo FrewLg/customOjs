@@ -43,7 +43,7 @@
 					{/foreach}
 				</div>
 			{/if}
-			<p><a href="https://www.doaj.org/application/new" target="_blank">{translate key="plugins.importexport.doaj.export.contact"}</a></p>
+			<p><a href="http://www.doaj.org/application/new" target="_blank">{translate key="plugins.importexport.doaj.export.contact"}</a></p>
 			{capture assign=doajSettingsGridUrl}{url router=\PKP\core\PKPApplication::ROUTE_COMPONENT component="grid.settings.plugins.settingsPluginGridHandler" op="manage" plugin="DOAJExportPlugin" category="importexport" verb="index" escape=false}{/capture}
 			{load_url_in_div id="doajSettingsGridContainer" url=$doajSettingsGridUrl}
 		</div>

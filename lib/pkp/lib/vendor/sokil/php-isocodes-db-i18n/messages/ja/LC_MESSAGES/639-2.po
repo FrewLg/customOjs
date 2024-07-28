@@ -1708,9 +1708,9 @@ msgid "Manchu"
 msgstr "満州語"
 
 # CLDR訳
-# http://www.wdic.org/w/WDIC/ISO%20639
+# https://www.wdic.org/w/WDIC/ISO%20639
 # に「マニプル語」
-# http://www.koredeindia.com/special08.htm
+# https://www.koredeindia.com/special08.htm
 # に「Manipuri(Meitei）	マニプリー語	マニプル人」
 #. Name for mni
 msgid "Manipuri"
@@ -1916,7 +1916,7 @@ msgstr "スカンジナビア語, 古期"
 msgid "Norwegian"
 msgstr "ノルウェー語"
 
-# http://www.wdic.org/w/WDIC/ISO%20639
+# https://www.wdic.org/w/WDIC/ISO%20639
 #. Name for nqo
 msgid "N'Ko"
 msgstr "ンコ語"
@@ -2441,7 +2441,7 @@ msgid "Sardinian"
 msgstr "サルデーニャ語"
 
 # CLDR訳
-# http://www.wdic.org/w/WDIC/ISO%20639
+# https://www.wdic.org/w/WDIC/ISO%20639
 #. Name for srn
 msgid "Sranan Tongo"
 msgstr "スリナム語"

@@ -7,7 +7,7 @@ namespace GuzzleHttp\UriTemplate;
 /**
  * Expands URI templates. Userland implementation of PECL uri_template.
  *
- * @link http://tools.ietf.org/html/rfc6570
+ * @link https://tools.ietf.org/html/rfc6570
  */
 final class UriTemplate
 {

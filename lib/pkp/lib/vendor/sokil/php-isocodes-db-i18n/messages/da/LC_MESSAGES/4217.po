@@ -4,8 +4,8 @@
 # This file is distributed under the same license as the iso-codes package.
 # .
 # Notes:
-# wikihenvisning http://da.wikipedia.org/wiki/ISO_4217
-# http://sproget.dk/raad-og-regler/ordlister/andre-ordlister/lande-og-nationaliteter/lande-og-nationaliteter.html
+# wikihenvisning https://da.wikipedia.org/wiki/ISO_4217
+# https://sproget.dk/raad-og-regler/ordlister/andre-ordlister/lande-og-nationaliteter/lande-og-nationaliteter.html
 # .
 # Copyright ©
 # Claus Hindsgaul <claus_h@image.dk>, 2004.
@@ -37,7 +37,7 @@ msgid "Afghani"
 msgstr "Afghani"
 
 # Valutakurser.dk kalder dem for "lek" men på udenrigsministeriets hjemmeside
-# (http://www.um.dk/da/menu/Udenrigspolitik/Landefakta/LandefaktaEuropa/LandefaktaAlbanien) # hedder de "leke"
+# (https://www.um.dk/da/menu/Udenrigspolitik/Landefakta/LandefaktaEuropa/LandefaktaAlbanien) # hedder de "leke"
 # Albanske lek
 #. Name for ALL
 msgid "Lek"
@@ -53,7 +53,7 @@ msgstr "Hollandsk-antilsk gylden"
 
 # Ifølge valutakurser.dk hedder de "ny kwanza (AON)"
 # Men på udenrigsministeriets hjemmeside kalder de dem bare kwanza
-# http://www.um.dk/da/menu/Udenrigspolitik/Landefakta/LandefaktaAfrika/Angola
+# https://www.um.dk/da/menu/Udenrigspolitik/Landefakta/LandefaktaAfrika/Angola
 # Angolansk kwanza
 #. Name for AOA
 msgid "Kwanza"
@@ -89,7 +89,7 @@ msgstr "Barbados-dollar"
 
 # Ifølge valutakurser.dk hedder de bare "tak (BDT)"
 # Men ifølge udenrigsministeriet hedder de "taka" som du har skrevet.
-# http://www.um.dk/da/menu/Udenrigspolitik/Landefakta/LandefaktaAsien/Bangladesh.htm
+# https://www.um.dk/da/menu/Udenrigspolitik/Landefakta/LandefaktaAsien/Bangladesh.htm
 # Bangladeshi Taka (BDT)
 #. Name for BDT
 msgid "Taka"
@@ -141,7 +141,7 @@ msgstr "Ngultrum"
 msgid "Pula"
 msgstr "Pula"
 
-# Ifølge Udenrigsministeriet(http://www.um.dk/da/menu/Udenrigspolitik/Landefakta
+# Ifølge Udenrigsministeriet(https://www.um.dk/da/menu/Udenrigspolitik/Landefakta
 # /LandefaktaEuropa/LandefaktaBelarus) hedder de "belarussiske rubel (BRB)
 #. Name for BYN
 msgid "Belarusian Ruble"

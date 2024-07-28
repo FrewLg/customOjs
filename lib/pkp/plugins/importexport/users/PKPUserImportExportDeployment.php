@@ -78,6 +78,6 @@ class PKPUserImportExportDeployment extends PKPImportExportDeployment
      */
     public function getNamespace()
     {
-        return 'http://pkp.sfu.ca';
+        return 'https://pkp.sfu.ca';
     }
 }

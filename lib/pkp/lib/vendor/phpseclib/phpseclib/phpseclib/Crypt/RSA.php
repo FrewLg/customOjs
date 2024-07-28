@@ -47,8 +47,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2009 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib3\Crypt;
@@ -76,7 +76,7 @@ abstract class RSA extends AsymmetricKey
     const ALGORITHM = 'RSA';
 
     /**
-     * Use {@link http://en.wikipedia.org/wiki/Optimal_Asymmetric_Encryption_Padding Optimal Asymmetric Encryption Padding}
+     * Use {@link https://en.wikipedia.org/wiki/Optimal_Asymmetric_Encryption_Padding Optimal Asymmetric Encryption Padding}
      * (OAEP) for encryption / decryption.
      *
      * Uses sha256 by default
@@ -216,7 +216,7 @@ abstract class RSA extends AsymmetricKey
      * Default public exponent
      *
      * @var int
-     * @link http://en.wikipedia.org/wiki/65537_%28number%29
+     * @link https://en.wikipedia.org/wiki/65537_%28number%29
      */
     private static $defaultExponent = 65537;
 
@@ -238,7 +238,7 @@ abstract class RSA extends AsymmetricKey
     /**
      * Smallest Prime
      *
-     * Per <http://cseweb.ucsd.edu/~hovav/dist/survey.pdf#page=5>, this number ought not result in primes smaller
+     * Per <https://cseweb.ucsd.edu/~hovav/dist/survey.pdf#page=5>, this number ought not result in primes smaller
      * than 256 bits. As a consequence if the key you're trying to create is 1024 bits and you've set smallestPrime
      * to 384 bits then you're going to get a 384 bit prime and a 640 bit prime (384 + 1024 % 384). At least if
      * engine is set to self::ENGINE_INTERNAL. If Engine is set to self::ENGINE_OPENSSL then smallest Prime is
@@ -377,7 +377,7 @@ abstract class RSA extends AsymmetricKey
                 $temp = $primes[$i]->subtract(self::$one);
 
                 // textbook RSA implementations use Euler's totient function instead of the least common multiple.
-                // see http://en.wikipedia.org/wiki/Euler%27s_totient_function
+                // see https://en.wikipedia.org/wiki/Euler%27s_totient_function
                 $lcm['top'] = $lcm['top']->multiply($temp);
                 $lcm['bottom'] = $lcm['bottom'] === false ? $temp : $lcm['bottom']->gcd($temp);
             }
@@ -396,7 +396,7 @@ abstract class RSA extends AsymmetricKey
             $exponents[$i] = $e->modInverse($temp);
         }
 
-        // from <http://tools.ietf.org/html/rfc3447#appendix-A.1.2>:
+        // from <https://tools.ietf.org/html/rfc3447#appendix-A.1.2>:
         // RSAPrivateKey ::= SEQUENCE {
         //     version           Version,
         //     modulus           INTEGER,  -- n
@@ -507,7 +507,7 @@ abstract class RSA extends AsymmetricKey
     /**
      * Integer-to-Octet-String primitive
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-4.1 RFC3447#section-4.1}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-4.1 RFC3447#section-4.1}.
      *
      * @param bool|\phpseclib3\Math\BigInteger $x
      * @param int $xLen
@@ -528,7 +528,7 @@ abstract class RSA extends AsymmetricKey
     /**
      * Octet-String-to-Integer primitive
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-4.2 RFC3447#section-4.2}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-4.2 RFC3447#section-4.2}.
      *
      * @param string $x
      * @return \phpseclib3\Math\BigInteger
@@ -541,7 +541,7 @@ abstract class RSA extends AsymmetricKey
     /**
      * EMSA-PKCS1-V1_5-ENCODE
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-9.2 RFC3447#section-9.2}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-9.2 RFC3447#section-9.2}.
      *
      * @param string $m
      * @param int $emLen
@@ -552,7 +552,7 @@ abstract class RSA extends AsymmetricKey
     {
         $h = $this->hash->hash($m);
 
-        // see http://tools.ietf.org/html/rfc3447#page-43
+        // see https://tools.ietf.org/html/rfc3447#page-43
         switch ($this->hash->getHash()) {
             case 'md2':
                 $t = "\x30\x20\x30\x0c\x06\x08\x2a\x86\x48\x86\xf7\x0d\x02\x02\x05\x00\x04\x10";
@@ -614,7 +614,7 @@ abstract class RSA extends AsymmetricKey
     {
         $h = $this->hash->hash($m);
 
-        // see http://tools.ietf.org/html/rfc3447#page-43
+        // see https://tools.ietf.org/html/rfc3447#page-43
         switch ($this->hash->getHash()) {
             case 'sha1':
                 $t = "\x30\x1f\x30\x07\x06\x05\x2b\x0e\x03\x02\x1a\x04\x14";
@@ -658,7 +658,7 @@ abstract class RSA extends AsymmetricKey
     /**
      * MGF1
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#appendix-B.2.1 RFC3447#appendix-B.2.1}.
+     * See {@link https://tools.ietf.org/html/rfc3447#appendix-B.2.1 RFC3447#appendix-B.2.1}.
      *
      * @param string $mgfSeed
      * @param int $maskLen
@@ -774,7 +774,7 @@ abstract class RSA extends AsymmetricKey
      *
      * Used by RSA::PADDING_PSS
      *
-     * To quote from {@link http://tools.ietf.org/html/rfc3447#page-38 RFC3447#page-38}:
+     * To quote from {@link https://tools.ietf.org/html/rfc3447#page-38 RFC3447#page-38}:
      *
      *    Typical salt lengths in octets are hLen (the length of the output
      *    of the hash function Hash) and 0.
@@ -802,7 +802,7 @@ abstract class RSA extends AsymmetricKey
      *
      * Used by RSA::PADDING_OAEP
      *
-     * To quote from {@link http://tools.ietf.org/html/rfc3447#page-17 RFC3447#page-17}:
+     * To quote from {@link https://tools.ietf.org/html/rfc3447#page-17 RFC3447#page-17}:
      *
      *    Both the encryption and the decryption operations of RSAES-OAEP take
      *    the value of a label L as input.  In this version of PKCS #1, L is

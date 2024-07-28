@@ -57,9 +57,12 @@
 				<hr class="w-100 clearfix d-md-none" />
 				<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
 					<h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-					<p>Addis Ababa, Ethiopia</p>
-					<p><a href="mailto:ScholarsIn@ScholarsIn.com">editorials@ScholarsIn.com</a></p>
-					<p><a href="tel://+251911349211">+2511127653333</a></p>
+				 
+					<p>Malaysia Office: Mercu Summer, Jalan Cendana, Kuala Lumpur</p>
+					<p>London office: 124 City Road, London, England, EC1V 2NX</p>
+					
+						<p><a href="mailto:saleem@scholarsin.com">saleem@scholarsin.com</a></p>
+				<!--	<p><a href="tel://+251911349211">+2511127653333</a></p> -->
 				</div>
 			</div>
 		</section>
@@ -67,7 +70,9 @@
 		<section class="p-2 pt-2 mt-2">
 			<div class="row d-flex align-items-center">
 				<div class="col-md-12 col-sm-12 col-lg-12 text-center  my-8">
-					<div class="p-8 m-2">Copyright ©2024 
+					<div class="p-8 m-2">Copyright © <script>
+												document.write(new Date().getFullYear())
+											</script>
 						<strong> <a href="https://scholarsin.com/index.php/">ScholarsIn</a>,</strong>
 						All rights reserved.
 					</div>

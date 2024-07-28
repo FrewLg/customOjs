@@ -5,9 +5,9 @@ namespace Arrayy\Mapper;
 /**
  * @category Netresearch
  *
- * @license  OSL-3.0 http://opensource.org/licenses/osl-3.0
+ * @license  OSL-3.0 https://opensource.org/licenses/osl-3.0
  *
- * @see     http://cweiske.de/
+ * @see     https://cweiske.de/
  *
  * INFO: this json-mapper is mostly a copy of https://github.com/cweiske/jsonmapper/
  *

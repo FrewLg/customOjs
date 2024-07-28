@@ -133,7 +133,7 @@ abstract class PKPStatisticsHelper
     * Hash (SHA256) the given IP using the given SALT.
     *
     * NB: This implementation was taken from OA-S directly. See
-    * http://sourceforge.net/p/openaccessstati/code-0/3/tree/trunk/logfile-parser/lib/logutils.php
+    * https://sourceforge.net/p/openaccessstati/code-0/3/tree/trunk/logfile-parser/lib/logutils.php
     * We just do not implement the PHP4 part as OJS dropped PHP4 support.
     *
     */

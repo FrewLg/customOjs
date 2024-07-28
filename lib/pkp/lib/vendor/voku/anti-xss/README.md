@@ -2,7 +2,7 @@
 [![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
 
 [![Build Status](https://github.com/voku/anti-xss/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/voku/anti-xss/actions)
-[![codecov.io](http://codecov.io/github/voku/anti-xss/coverage.svg?branch=master)](http://codecov.io/github/voku/anti-xss?branch=master)
+[![codecov.io](https://codecov.io/github/voku/anti-xss/coverage.svg?branch=master)](https://codecov.io/github/voku/anti-xss?branch=master)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8e3c9da417124971b8d8e0c1046c24c7)](https://www.codacy.com/app/voku/anti-xss)
 [![Latest Stable Version](https://poser.pugx.org/voku/anti-xss/v/stable)](https://packagist.org/packages/voku/anti-xss) 
 [![Total Downloads](https://poser.pugx.org/voku/anti-xss/downloads)](https://packagist.org/packages/voku/anti-xss)
@@ -15,17 +15,17 @@
 "Cross-site scripting (XSS) is a type of computer security vulnerability typically found in Web applications. XSS enables 
 attackers to inject client-side script into Web pages viewed by other users. A cross-site scripting vulnerability may be 
 used by attackers to bypass access controls such as the same origin policy. Cross-site scripting carried out on websites 
-accounted for roughly 84% of all security vulnerabilities documented by Symantec as of 2007." - http://en.wikipedia.org/wiki/Cross-site_scripting
+accounted for roughly 84% of all security vulnerabilities documented by Symantec as of 2007." - https://en.wikipedia.org/wiki/Cross-site_scripting
 
 ### DEMO:
-[http://anti-xss-demo.suckup.de/](http://anti-xss-demo.suckup.de/)
+[https://anti-xss-demo.suckup.de/](https://anti-xss-demo.suckup.de/)
 
 ### NOTES:
-1) Use [filter_input()](http://php.net/manual/de/function.filter-input.php) - don't use GLOBAL-Array (e.g. $_SESSION, $_GET, $_POST, $_SERVER) directly
+1) Use [filter_input()](https://php.net/manual/de/function.filter-input.php) - don't use GLOBAL-Array (e.g. $_SESSION, $_GET, $_POST, $_SERVER) directly
 
-2) Use [html-sanitizer](https://github.com/tgalopin/html-sanitizer) or [HTML Purifier](http://htmlpurifier.org/) if you need a more configurable solution
+2) Use [html-sanitizer](https://github.com/tgalopin/html-sanitizer) or [HTML Purifier](https://htmlpurifier.org/) if you need a more configurable solution
 
-3) Add "Content Security Policy's" -> [Introduction to Content Security Policy](http://www.html5rocks.com/en/tutorials/security/content-security-policy/)
+3) Add "Content Security Policy's" -> [Introduction to Content Security Policy](https://www.html5rocks.com/en/tutorials/security/content-security-policy/)
 
 4) DO NOT WRITE YOUR OWN REGEX TO PARSE HTML!
 
@@ -107,7 +107,7 @@ $harmless_string = $antiXss->xss_clean($harm_string);
 Example 6: (check if an string contains a XSS attack)
 
 ```php
-$harm_string = "\x3cscript src=http://www.example.com/malicious-code.js\x3e\x3c/script\x3e";
+$harm_string = "\x3cscript src=https://www.example.com/malicious-code.js\x3e\x3c/script\x3e";
 $harmless_string = $antiXss->xss_clean($harm_string);
 
 // 

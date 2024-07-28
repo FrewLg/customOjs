@@ -147,7 +147,7 @@ abstract class PKPPubIdPlugin extends LazyLoadPlugin
 
     /**
      * Public identifier type, see
-     * http://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html
+     * https://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html
      *
      * @return string
      */

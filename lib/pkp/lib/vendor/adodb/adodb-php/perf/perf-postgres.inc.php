@@ -9,7 +9,7 @@
   the BSD license will take precedence. See License.txt.
   Set tabs to 4 for best viewing.
 
-  Latest version is available at http://adodb.org/
+  Latest version is available at https://adodb.org/
 
   Library for basic performance monitoring and tuning
 
@@ -57,7 +57,7 @@ class perf_postgres extends adodb_perf{
 	'Data Cache',
 		'data cache buffers' => array('DATAC',
 			"select setting from pg_settings where name='shared_buffers'",
-			'Number of cache buffers. <a href=http://www.varlena.com/GeneralBits/Tidbits/perf.html#basic>Tuning</a>'),
+			'Number of cache buffers. <a href=https://www.varlena.com/GeneralBits/Tidbits/perf.html#basic>Tuning</a>'),
 		'cache blocksize' => array('DATAC',
 			'select 8192',
 			'(estimate)' ),
@@ -85,7 +85,7 @@ class perf_postgres extends adodb_perf{
 			'WAL buffers'),
 		'random page cost' => array('COST',
 			"select setting from pg_settings where name='random_page_cost'",
-			'Cost of doing a seek (default=4). See <a href=http://www.varlena.com/GeneralBits/Tidbits/perf.html#less>random_page_cost</a>'),
+			'Cost of doing a seek (default=4). See <a href=https://www.varlena.com/GeneralBits/Tidbits/perf.html#less>random_page_cost</a>'),
 		false
 	);
 

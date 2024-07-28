@@ -7,8 +7,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://pear.php.net/package/Math_BigInteger
  */
 
 namespace phpseclib3\Math\BigInteger\Engines;
@@ -136,7 +136,7 @@ abstract class Engine implements \JsonSerializable
         }
 
         // '0' counts as empty() but when the base is 256 '0' is equal to ord('0') or 48
-        // '0' is the only value like this per http://php.net/empty
+        // '0' is the only value like this per https://php.net/empty
         if (empty($x) && (abs($base) != 256 || $x !== '0')) {
             return;
         }
@@ -300,7 +300,7 @@ abstract class Engine implements \JsonSerializable
      *
      * Say you have (30 mod 17 * x mod 17) mod 17 == 1.  x can be found using modular inverses.
      *
-     * {@internal See {@link http://www.cacr.math.uwaterloo.ca/hac/about/chap14.pdf#page=21 HAC 14.64} for more information.}
+     * {@internal See {@link https://www.cacr.math.uwaterloo.ca/hac/about/chap14.pdf#page=21 HAC 14.64} for more information.}
      *
      * @param Engine $n
      * @return static|false
@@ -650,8 +650,8 @@ abstract class Engine implements \JsonSerializable
     /**
      * Sliding Window k-ary Modular Exponentiation
      *
-     * Based on {@link http://www.cacr.math.uwaterloo.ca/hac/about/chap14.pdf#page=27 HAC 14.85} /
-     * {@link http://math.libtomcrypt.com/files/tommath.pdf#page=210 MPM 7.7}.  In a departure from those algorithims,
+     * Based on {@link https://www.cacr.math.uwaterloo.ca/hac/about/chap14.pdf#page=27 HAC 14.85} /
+     * {@link https://math.libtomcrypt.com/files/tommath.pdf#page=210 MPM 7.7}.  In a departure from those algorithims,
      * however, this function performs a modular reduction after every multiplication and squaring operation.
      * As such, this function has the same preconditions that the reductions being used do.
      *
@@ -833,7 +833,7 @@ abstract class Engine implements \JsonSerializable
 
             phpseclib works around this using the technique described here:
 
-            http://crypto.stackexchange.com/questions/5708/creating-a-small-number-from-a-cryptographically-secure-random-string
+            https://crypto.stackexchange.com/questions/5708/creating-a-small-number-from-a-cryptographically-secure-random-string
         */
         $random_max = new static(chr(1) . str_repeat("\0", $size), 256);
         $random = new static(Random::string($size), 256);
@@ -933,8 +933,8 @@ abstract class Engine implements \JsonSerializable
     /**
      * Tests Primality
      *
-     * Uses the {@link http://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test Miller-Rabin primality test}.
-     * See {@link http://www.cacr.math.uwaterloo.ca/hac/about/chap4.pdf#page=8 HAC 4.24} for more info.
+     * Uses the {@link https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test Miller-Rabin primality test}.
+     * See {@link https://www.cacr.math.uwaterloo.ca/hac/about/chap4.pdf#page=8 HAC 4.24} for more info.
      *
      * @param int $t
      * @return bool
@@ -1017,7 +1017,7 @@ abstract class Engine implements \JsonSerializable
      *
      * Returns the nth root of a positive biginteger, where n defaults to 2
      *
-     * {@internal This function is based off of {@link http://mathforum.org/library/drmath/view/52605.html this page} and {@link http://stackoverflow.com/questions/11242920/calculating-nth-root-with-bcmath-in-php this stackoverflow question}.}
+     * {@internal This function is based off of {@link https://mathforum.org/library/drmath/view/52605.html this page} and {@link https://stackoverflow.com/questions/11242920/calculating-nth-root-with-bcmath-in-php this stackoverflow question}.}
      *
      * @param int $n
      * @return Engine

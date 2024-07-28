@@ -1170,7 +1170,7 @@ class Stringy implements \ArrayAccess, \Countable, \IteratorAggregate, \JsonSeri
      * prepended.
      *
      * EXAMPLE: <code>
-     * s('foobar')->ensureLeft('http://'); // 'http://foobar'
+     * s('foobar')->ensureLeft('https://'); // 'https://foobar'
      * </code>
      *
      * @param string $substring <p>The substring to add if not present.</p>

@@ -54,7 +54,7 @@
 		{* Mobile version *}
 		<div {literal}x-data="{ open: false }"{/literal}>
 			<button class="flex h-8 items-center justify-center rounded-lg shadow-md shadow-black/5 ring-1 ring-black/5 dark:bg-slate-700 dark:ring-inset dark:ring-white/5 px-3 text-sm dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300 md:hidden" {literal}x-on:click="open = true"{/literal}>
-				<svg xmlns="https://www.w3.org/2000/svg"
+				<svg xmlns="http://www.w3.org/2000/svg"
 					class="h-4 w-4 text-slate-400"
 					viewBox="0 0 24 24"
 					fill="none"

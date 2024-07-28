@@ -13,7 +13,7 @@ msgstr ""
 
 msgid "plugins.reports.counter.description"
 msgstr ""
-"The COUNTER plugin allows recording and <a href=\"https://www.projectcounter."
+"The COUNTER plugin allows recording and <a href=\"http://www.projectcounter."
 "org/about.html\" target=\"_new\">COUNTER</a> reporting on site activity."
 
 msgid "plugins.reports.counter"

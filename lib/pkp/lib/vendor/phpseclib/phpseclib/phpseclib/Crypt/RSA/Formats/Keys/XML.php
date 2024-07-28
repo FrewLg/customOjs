@@ -5,17 +5,17 @@
  *
  * More info:
  *
- * http://www.w3.org/TR/xmldsig-core/#sec-RSAKeyValue
- * http://www.w3.org/TR/xkms2/#XKMS_2_0_Paragraph_269
- * http://en.wikipedia.org/wiki/XML_Signature
- * http://en.wikipedia.org/wiki/XKMS
+ * https://www.w3.org/TR/xmldsig-core/#sec-RSAKeyValue
+ * https://www.w3.org/TR/xkms2/#XKMS_2_0_Paragraph_269
+ * https://en.wikipedia.org/wiki/XML_Signature
+ * https://en.wikipedia.org/wiki/XKMS
  *
  * PHP version 5
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib3\Crypt\RSA\Formats\Keys;

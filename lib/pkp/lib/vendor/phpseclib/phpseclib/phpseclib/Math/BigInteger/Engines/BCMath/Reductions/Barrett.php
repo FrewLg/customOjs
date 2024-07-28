@@ -7,8 +7,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://pear.php.net/package/Math_BigInteger
  */
 
 namespace phpseclib3\Math\BigInteger\Engines\BCMath\Reductions;
@@ -38,17 +38,17 @@ abstract class Barrett extends Base
     /**
      * Barrett Modular Reduction
      *
-     * See {@link http://www.cacr.math.uwaterloo.ca/hac/about/chap14.pdf#page=14 HAC 14.3.3} /
-     * {@link http://math.libtomcrypt.com/files/tommath.pdf#page=165 MPM 6.2.5} for more information.  Modified slightly,
+     * See {@link https://www.cacr.math.uwaterloo.ca/hac/about/chap14.pdf#page=14 HAC 14.3.3} /
+     * {@link https://math.libtomcrypt.com/files/tommath.pdf#page=165 MPM 6.2.5} for more information.  Modified slightly,
      * so as not to require negative numbers (initially, this script didn't support negative numbers).
      *
      * Employs "folding", as described at
-     * {@link http://www.cosic.esat.kuleuven.be/publications/thesis-149.pdf#page=66 thesis-149.pdf#page=66}.  To quote from
+     * {@link https://www.cosic.esat.kuleuven.be/publications/thesis-149.pdf#page=66 thesis-149.pdf#page=66}.  To quote from
      * it, "the idea [behind folding] is to find a value x' such that x (mod m) = x' (mod m), with x' being smaller than x."
      *
      * Unfortunately, the "Barrett Reduction with Folding" algorithm described in thesis-149.pdf is not, as written, all that
      * usable on account of (1) its not using reasonable radix points as discussed in
-     * {@link http://math.libtomcrypt.com/files/tommath.pdf#page=162 MPM 6.2.2} and (2) the fact that, even with reasonable
+     * {@link https://math.libtomcrypt.com/files/tommath.pdf#page=162 MPM 6.2.2} and (2) the fact that, even with reasonable
      * radix points, it only works when there are an even number of digits in the denominator.  The reason for (2) is that
      * (x >> 1) + (x >> 1) != x / 2 + x / 2.  If x is even, they're the same, but if x is odd, they're not.  See the in-line
      * comments for details.

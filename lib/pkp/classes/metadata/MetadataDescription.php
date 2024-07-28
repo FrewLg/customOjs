@@ -35,9 +35,9 @@
  *
  *  We distinguish two main use cases for meta-data: discovery and delivery
  *  of described resources. We have chosen the element-citation tag from the
- *  NLM standard <http://dtd.nlm.nih.gov/publishing/tag-library/3.0/n-8xa0.html>
+ *  NLM standard <https://dtd.nlm.nih.gov/publishing/tag-library/3.0/n-8xa0.html>
  *  as our primary representation of delivery meta-data and dcterms
- *  <http://dublincore.org/documents/dcmi-terms/> as our primary
+ *  <https://dublincore.org/documents/dcmi-terms/> as our primary
  *  representation of discovery meta-data.
  *
  *  Our specific use of meta-data has important implications and determines

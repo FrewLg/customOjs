@@ -397,7 +397,7 @@ SQL
      *
      * {@inheritDoc}
      *
-     * @link http://ezcomponents.org/docs/api/trunk/DatabaseSchema/ezcDbSchemaPgsqlReader.html
+     * @link https://ezcomponents.org/docs/api/trunk/DatabaseSchema/ezcDbSchemaPgsqlReader.html
      */
     public function getListTableIndexesSQL($table, $database = null)
     {
@@ -875,7 +875,7 @@ SQL
         }
 
         /**
-         * Better safe than sorry: http://php.net/in_array#106319
+         * Better safe than sorry: https://php.net/in_array#106319
          */
         if (in_array(strtolower(trim($value)), $this->booleanLiterals['false'], true)) {
             return $callback(false);

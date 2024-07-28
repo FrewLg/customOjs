@@ -2,7 +2,7 @@
 /*
  * citeproc-php
  *
- * @link        https://github.com/seboettg/citeproc-php for the source repository
+ * @link        http://github.com/seboettg/citeproc-php for the source repository
  * @copyright   Copyright (c) 2016 Sebastian Böttger.
  * @license     https://opensource.org/licenses/MIT
  */
@@ -120,7 +120,7 @@ class Variables
         'title', //primary title of the item
         'title-short', //short/abbreviated form of “title” (also accessible through the “short” form of the
                                 //“title” variable)
-        'URL', //Uniform Resource Locator (e.g. “https://aem.asm.org/cgi/content/full/74/9/2766”)
+        'URL', //Uniform Resource Locator (e.g. “http://aem.asm.org/cgi/content/full/74/9/2766”)
         'version', //version of the item (e.g. “2.0.9” for a software program)
         'year-suffix', //disambiguating year suffix in author-date styles (e.g. “a” in “Doe, 1999a”)
 

@@ -26911,9 +26911,9 @@ msgid "Mono (Democratic Republic of Congo)"
 msgstr ""
 
 # CLDR訳
-# http://www.wdic.org/w/WDIC/ISO%20639
+# https://www.wdic.org/w/WDIC/ISO%20639
 # に「マニプル語」
-# http://www.koredeindia.com/special08.htm
+# https://www.koredeindia.com/special08.htm
 # に「Manipuri(Meitei）	マニプリー語	マニプル人」
 #. Name for mni
 msgid "Manipuri"
@@ -32786,9 +32786,9 @@ msgid "Utarmbung"
 msgstr "アンブンドゥ語"
 
 # CLDR訳
-# http://www.wdic.org/w/WDIC/ISO%20639
+# https://www.wdic.org/w/WDIC/ISO%20639
 # に「マニプル語」
-# http://www.koredeindia.com/special08.htm
+# https://www.koredeindia.com/special08.htm
 # に「Manipuri(Meitei）	マニプリー語	マニプル人」
 #. Name for omp
 #, fuzzy
@@ -36627,9 +36627,9 @@ msgid "Marka"
 msgstr "マルワリ語"
 
 # CLDR訳
-# http://www.wdic.org/w/WDIC/ISO%20639
+# https://www.wdic.org/w/WDIC/ISO%20639
 # に「マニプル語」
-# http://www.koredeindia.com/special08.htm
+# https://www.koredeindia.com/special08.htm
 # に「Manipuri(Meitei）	マニプリー語	マニプル人」
 #. Name for rkt
 #, fuzzy

@@ -28,7 +28,7 @@
 		{capture assign="dateUpdated"}{$dateUpdated|strtotime}{/capture}
 		<pubDate>{$smarty.const.DATE_RSS|date:$dateUpdated}</pubDate>
 		<generator>OJS {$ojsVersion|escape}</generator>
-		<docs>https://blogs.law.harvard.edu/tech/rss</docs>
+		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
 		<ttl>60</ttl>
 
 		{foreach from=$announcements item=announcement}

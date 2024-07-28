@@ -5,7 +5,7 @@
 ## Supporting phpseclib
 
 - [Become a backer or sponsor on Patreon](https://www.patreon.com/phpseclib)
-- [One-time donation via PayPal or crypto-currencies](http://sourceforge.net/donate/index.php?group_id=198487)
+- [One-time donation via PayPal or crypto-currencies](https://sourceforge.net/donate/index.php?group_id=198487)
 - [Subscribe to Tidelift](https://tidelift.com/subscription/pkg/packagist-phpseclib-phpseclib?utm_source=packagist-phpseclib-phpseclib&utm_medium=referral&utm_campaign=readme)
 
 ## Introduction
@@ -51,8 +51,8 @@ SSH-2, SFTP, X.509, an arbitrary-precision integer arithmetic library, Ed25519 /
 * PHP4 compatible
 * Composer compatible (PSR-0 autoloading)
 * Install using Composer: `composer require phpseclib/phpseclib:~1.0`
-* Install using PEAR: See [phpseclib PEAR Channel Documentation](http://phpseclib.sourceforge.net/pear.htm)
-* [Download 1.0.20 as ZIP](http://sourceforge.net/projects/phpseclib/files/phpseclib1.0.20.zip/download)
+* Install using PEAR: See [phpseclib PEAR Channel Documentation](https://phpseclib.sourceforge.net/pear.htm)
+* [Download 1.0.20 as ZIP](https://sourceforge.net/projects/phpseclib/files/phpseclib1.0.20.zip/download)
 
 ## Security contact information
 
@@ -62,9 +62,9 @@ To report a security vulnerability, please use the [Tidelift security contact](h
 
 Need Support?
 
-* [Checkout Questions and Answers on Stack Overflow](http://stackoverflow.com/questions/tagged/phpseclib)
+* [Checkout Questions and Answers on Stack Overflow](https://stackoverflow.com/questions/tagged/phpseclib)
 * [Create a Support Ticket on GitHub](https://github.com/phpseclib/phpseclib/issues/new)
-* [Browse the Support Forum](http://www.frostjedi.com/phpbb/viewforum.php?f=46) (no longer in use)
+* [Browse the Support Forum](https://www.frostjedi.com/phpbb/viewforum.php?f=46) (no longer in use)
 
 ## Special Thanks
 

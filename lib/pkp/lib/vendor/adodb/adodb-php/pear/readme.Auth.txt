@@ -17,4 +17,4 @@ $a = new Auth("ADOdb", $dsn, "loginFunction");
 
 John Lim adds:
 
-See http://pear.php.net/manual/en/package.authentication.php
+See https://pear.php.net/manual/en/package.authentication.php

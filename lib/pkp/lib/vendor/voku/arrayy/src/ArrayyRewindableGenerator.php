@@ -63,7 +63,7 @@ class ArrayyRewindableGenerator extends \ArrayIterator
      *
      * @return mixed
      *
-     * @see  http://php.net/manual/en/iterator.current.php
+     * @see  https://php.net/manual/en/iterator.current.php
      * @see  Iterator::current
      *
      * @phpstan-return X
@@ -79,7 +79,7 @@ class ArrayyRewindableGenerator extends \ArrayIterator
      *
      * @return mixed scalar on success, or null on failure
      *
-     * @see  http://php.net/manual/en/iterator.key.php
+     * @see  https://php.net/manual/en/iterator.key.php
      * @see  Iterator::key
      *
      * @phpstan-return XKey
@@ -95,7 +95,7 @@ class ArrayyRewindableGenerator extends \ArrayIterator
      *
      * @return void
      *
-     * @see  http://php.net/manual/en/iterator.next.php
+     * @see  https://php.net/manual/en/iterator.next.php
      * @see  Iterator::next
      */
     #[\ReturnTypeWillChange]
@@ -109,7 +109,7 @@ class ArrayyRewindableGenerator extends \ArrayIterator
      *
      * @return void
      *
-     * @see  http://php.net/manual/en/iterator.rewind.php
+     * @see  https://php.net/manual/en/iterator.rewind.php
      * @see  Iterator::rewind
      */
     #[\ReturnTypeWillChange]
@@ -127,7 +127,7 @@ class ArrayyRewindableGenerator extends \ArrayIterator
      *
      * @return bool
      *
-     * @see  http://php.net/manual/en/iterator.valid.php
+     * @see  https://php.net/manual/en/iterator.valid.php
      * @see  Iterator::rewind
      */
     public function valid(): bool

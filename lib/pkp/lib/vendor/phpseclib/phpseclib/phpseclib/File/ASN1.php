@@ -15,8 +15,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2012 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib3\File;
@@ -34,14 +34,14 @@ use phpseclib3\Math\BigInteger;
 abstract class ASN1
 {
     // Tag Classes
-    // http://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#page=12
+    // https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#page=12
     const CLASS_UNIVERSAL        = 0;
     const CLASS_APPLICATION      = 1;
     const CLASS_CONTEXT_SPECIFIC = 2;
     const CLASS_PRIVATE          = 3;
 
     // Tag Classes
-    // http://www.obj-sys.com/asn1tutorial/node124.html
+    // https://www.obj-sys.com/asn1tutorial/node124.html
     const TYPE_BOOLEAN           = 1;
     const TYPE_INTEGER           = 2;
     const TYPE_BIT_STRING        = 3;
@@ -59,7 +59,7 @@ abstract class ASN1
     const TYPE_SET               = 17; // SET OF
 
     // More Tag Classes
-    // http://www.obj-sys.com/asn1tutorial/node10.html
+    // https://www.obj-sys.com/asn1tutorial/node10.html
     const TYPE_NUMERIC_STRING   = 18;
     const TYPE_PRINTABLE_STRING = 19;
     const TYPE_TELETEX_STRING   = 20; // T61String
@@ -83,7 +83,7 @@ abstract class ASN1
      * ASN.1 object identifiers
      *
      * @var array
-     * @link http://en.wikipedia.org/wiki/Object_identifier
+     * @link https://en.wikipedia.org/wiki/Object_identifier
      */
     private static $oids = [];
 
@@ -98,7 +98,7 @@ abstract class ASN1
      * Default date format
      *
      * @var string
-     * @link http://php.net/class.datetime
+     * @link https://php.net/class.datetime
      */
     private static $format = 'D, d M Y H:i:s O';
 
@@ -297,7 +297,7 @@ abstract class ASN1
            alternatives of a CHOICE, or universally tagged set members. Only the class number appears in braces for this
            data type; the term CONTEXT-SPECIFIC does not appear.
 
-             -- http://www.obj-sys.com/asn1tutorial/node12.html */
+             -- https://www.obj-sys.com/asn1tutorial/node12.html */
         $class = ($type >> 6) & 3;
         switch ($class) {
             case self::CLASS_APPLICATION:
@@ -469,7 +469,7 @@ abstract class ASN1
                 // hyphen, full stop, solidus, colon, equal sign, question mark
             case self::TYPE_TELETEX_STRING:
                 // The Teletex character set in CCITT's T61, space, and delete
-                // see http://en.wikipedia.org/wiki/Teletex#Character_sets
+                // see https://en.wikipedia.org/wiki/Teletex#Character_sets
             case self::TYPE_VIDEOTEX_STRING:
                 // The Videotex character set in CCITT's T.100 and T.101, space, and delete
             case self::TYPE_VISIBLE_STRING:
@@ -807,7 +807,7 @@ abstract class ASN1
      * DER-decode the length
      *
      * DER supports lengths up to (2**8)**127, however, we'll only support lengths up to (2**8)**4.  See
-     * {@link http://itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#p=13 X.690 paragraph 8.1.3} for more information.
+     * {@link https://itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#p=13 X.690 paragraph 8.1.3} for more information.
      *
      * @param string $string
      * @return int
@@ -892,7 +892,7 @@ abstract class ASN1
                         as octet strings with the shorter components being padded at their trailing end with 0-octets.
                         NOTE - The padding octets are for comparison purposes only and do not appear in the encodings."
 
-                       -- sec 11.6 of http://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf  */
+                       -- sec 11.6 of https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf  */
                     if ($mapping['type'] == self::TYPE_SET) {
                         sort($value);
                     }
@@ -1050,7 +1050,7 @@ abstract class ASN1
                 /* The initial octet shall encode, as an unsigned binary integer with bit 1 as the least significant bit,
                    the number of unused bits in the final subsequent octet. The number shall be in the range zero to seven.
 
-                   -- http://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#page=16 */
+                   -- https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#page=16 */
                 $value = $source;
                 break;
             case self::TYPE_OBJECT_IDENTIFIER:
@@ -1252,12 +1252,12 @@ abstract class ASN1
     private static function decodeTime($content, $tag)
     {
         /* UTCTime:
-           http://tools.ietf.org/html/rfc5280#section-4.1.2.5.1
-           http://www.obj-sys.com/asn1tutorial/node15.html
+           https://tools.ietf.org/html/rfc5280#section-4.1.2.5.1
+           https://www.obj-sys.com/asn1tutorial/node15.html
 
            GeneralizedTime:
-           http://tools.ietf.org/html/rfc5280#section-4.1.2.5.2
-           http://www.obj-sys.com/asn1tutorial/node14.html */
+           https://tools.ietf.org/html/rfc5280#section-4.1.2.5.2
+           https://www.obj-sys.com/asn1tutorial/node14.html */
 
         $format = 'YmdHis';
 
@@ -1283,7 +1283,7 @@ abstract class ASN1
         }
 
         // error supression isn't necessary as of PHP 7.0:
-        // http://php.net/manual/en/migration70.other-changes.php
+        // https://php.net/manual/en/migration70.other-changes.php
         return @\DateTime::createFromFormat($format, $content);
     }
 
@@ -1469,7 +1469,7 @@ abstract class ASN1
      * DER-encode the length
      *
      * DER supports lengths up to (2**8)**127, however, we'll only support lengths up to (2**8)**4.  See
-     * {@link http://itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#p=13 X.690 paragraph 8.1.3} for more information.
+     * {@link https://itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#p=13 X.690 paragraph 8.1.3} for more information.
      *
      * @param int $length
      * @return string

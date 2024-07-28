@@ -400,7 +400,7 @@ class CitationStyleLanguagePlugin extends GenericPlugin
      *
      * @see CSL-json schema https://github.com/citation-style-language/schema#csl-json-schema
      * @see Zotero's mappings https://aurimasv.github.io/z2csl/typeMap.xml#map-journalArticle
-     * @see Mendeley's mappings https://support.mendeley.com/customer/portal/articles/364144-csl-type-mapping
+     * @see Mendeley's mappings http://support.mendeley.com/customer/portal/articles/364144-csl-type-mapping
      *
      * @param string $citationStyle Name of the citation style to use.
      * @param Issue $issue Optional. Will fetch from db if not passed.

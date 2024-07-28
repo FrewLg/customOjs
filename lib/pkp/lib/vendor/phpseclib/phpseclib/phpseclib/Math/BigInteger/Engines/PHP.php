@@ -7,8 +7,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://pear.php.net/package/Math_BigInteger
  */
 
 namespace phpseclib3\Math\BigInteger\Engines;
@@ -424,8 +424,8 @@ abstract class PHP extends Engine
     /**
      * Performs Karatsuba multiplication on two BigIntegers
      *
-     * See {@link http://en.wikipedia.org/wiki/Karatsuba_algorithm Karatsuba algorithm} and
-     * {@link http://math.libtomcrypt.com/files/tommath.pdf#page=120 MPM 5.2.3}.
+     * See {@link https://en.wikipedia.org/wiki/Karatsuba_algorithm Karatsuba algorithm} and
+     * {@link https://math.libtomcrypt.com/files/tommath.pdf#page=120 MPM 5.2.3}.
      *
      * @param array $x_value
      * @param array $y_value
@@ -524,7 +524,7 @@ abstract class PHP extends Engine
      *
      * @return array{static, static}
      * @internal This function is based off of
-     *     {@link http://www.cacr.math.uwaterloo.ca/hac/about/chap14.pdf#page=9 HAC 14.20}.
+     *     {@link https://www.cacr.math.uwaterloo.ca/hac/about/chap14.pdf#page=9 HAC 14.20}.
      */
     protected function divideHelper(PHP $y)
     {
@@ -1001,8 +1001,8 @@ abstract class PHP extends Engine
      * Performs traditional squaring on two BigIntegers
      *
      * Squaring can be done faster than multiplying a number by itself can be.  See
-     * {@link http://www.cacr.math.uwaterloo.ca/hac/about/chap14.pdf#page=7 HAC 14.2.4} /
-     * {@link http://math.libtomcrypt.com/files/tommath.pdf#page=141 MPM 5.3} for more information.
+     * {@link https://www.cacr.math.uwaterloo.ca/hac/about/chap14.pdf#page=7 HAC 14.2.4} /
+     * {@link https://math.libtomcrypt.com/files/tommath.pdf#page=141 MPM 5.3} for more information.
      *
      * @param array $value
      * @return array
@@ -1039,8 +1039,8 @@ abstract class PHP extends Engine
     /**
      * Performs Karatsuba "squaring" on two BigIntegers
      *
-     * See {@link http://en.wikipedia.org/wiki/Karatsuba_algorithm Karatsuba algorithm} and
-     * {@link http://math.libtomcrypt.com/files/tommath.pdf#page=151 MPM 5.3.4}.
+     * See {@link https://en.wikipedia.org/wiki/Karatsuba_algorithm Karatsuba algorithm} and
+     * {@link https://math.libtomcrypt.com/files/tommath.pdf#page=151 MPM 5.3.4}.
      *
      * @param array $value
      * @return array

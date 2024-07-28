@@ -48,7 +48,7 @@ final class UTF8
     /**
      * Numeric code point => UTF-8 Character
      *
-     * url: http://www.w3schools.com/charsets/ref_utf_punctuation.asp
+     * url: https://www.w3schools.com/charsets/ref_utf_punctuation.asp
      *
      * @var array<int, string>
      */
@@ -527,7 +527,7 @@ final class UTF8
         if (!isset(self::$SUPPORT['already_checked_via_portable_utf8'])) {
             self::$SUPPORT['already_checked_via_portable_utf8'] = true;
 
-            // http://php.net/manual/en/book.mbstring.php
+            // https://php.net/manual/en/book.mbstring.php
             self::$SUPPORT['mbstring'] = self::mbstring_loaded();
 
             self::$SUPPORT['mbstring_func_overload'] = self::mbstring_overloaded();
@@ -537,25 +537,25 @@ final class UTF8
                 self::$SUPPORT['mbstring_internal_encoding'] = 'UTF-8';
             }
 
-            // http://php.net/manual/en/book.iconv.php
+            // https://php.net/manual/en/book.iconv.php
             self::$SUPPORT['iconv'] = self::iconv_loaded();
 
-            // http://php.net/manual/en/book.intl.php
+            // https://php.net/manual/en/book.intl.php
             self::$SUPPORT['intl'] = self::intl_loaded();
 
-            // http://php.net/manual/en/class.intlchar.php
+            // https://php.net/manual/en/class.intlchar.php
             self::$SUPPORT['intlChar'] = self::intlChar_loaded();
 
-            // http://php.net/manual/en/book.ctype.php
+            // https://php.net/manual/en/book.ctype.php
             self::$SUPPORT['ctype'] = self::ctype_loaded();
 
-            // http://php.net/manual/en/class.finfo.php
+            // https://php.net/manual/en/class.finfo.php
             self::$SUPPORT['finfo'] = self::finfo_loaded();
 
-            // http://php.net/manual/en/book.json.php
+            // https://php.net/manual/en/book.json.php
             self::$SUPPORT['json'] = self::json_loaded();
 
-            // http://php.net/manual/en/book.pcre.php
+            // https://php.net/manual/en/book.pcre.php
             self::$SUPPORT['pcre_utf8'] = self::pcre_utf8_support();
 
             self::$SUPPORT['symfony_polyfill_used'] = self::symfony_polyfill_used();
@@ -904,7 +904,7 @@ final class UTF8
         bool $remove_invisible_characters = true,
         bool $remove_invisible_characters_url_encoded = false
     ): string {
-        // http://stackoverflow.com/questions/1401317/remove-non-utf8-characters-from-string
+        // https://stackoverflow.com/questions/1401317/remove-non-utf8-characters-from-string
         // caused connection reset problem on larger strings
 
         $regex = '/
@@ -1803,7 +1803,7 @@ final class UTF8
      *
      * WARNING: Do not use UTF-8 Option ($convert_to_utf8) for binary files (e.g.: images) !!!
      *
-     * @see http://php.net/manual/en/function.file-get-contents.php
+     * @see https://php.net/manual/en/function.file-get-contents.php
      *
      * @param string        $filename         <p>
      *                                        Name of the file to read.
@@ -2017,7 +2017,7 @@ final class UTF8
      * UTF8::filter_input(INPUT_GET, 'foo', FILTER_UNSAFE_RAW)); // 'bar'
      * </code>
      *
-     * @see http://php.net/manual/en/function.filter-input.php
+     * @see https://php.net/manual/en/function.filter-input.php
      *
      * @param int            $type          <p>
      *                                      One of <b>INPUT_GET</b>, <b>INPUT_POST</b>,
@@ -2073,7 +2073,7 @@ final class UTF8
      * UTF8::filter_input_array(INPUT_GET, array('foo' => 'FILTER_UNSAFE_RAW')); // array('bar')
      * </code>
      *
-     * @see http://php.net/manual/en/function.filter-input-array.php
+     * @see https://php.net/manual/en/function.filter-input-array.php
      *
      * @param int                       $type       <p>
      *                                              One of <b>INPUT_GET</b>, <b>INPUT_POST</b>,
@@ -2133,7 +2133,7 @@ final class UTF8
      *
      * EXAMPLE: <code>UTF8::filter_var('-ABC-中文空白-', FILTER_VALIDATE_URL); // false</code>
      *
-     * @see http://php.net/manual/en/function.filter-var.php
+     * @see https://php.net/manual/en/function.filter-var.php
      *
      * @param float|int|string|null $variable <p>
      *                                        Value to filter.
@@ -2227,7 +2227,7 @@ final class UTF8
      * UTF8::filter_var_array($data, $filters, true); // ['name' => 'Κόσμε', 'age' => 18, 'email' => 'foo@bar.de']
      * </code>
      *
-     * @see http://php.net/manual/en/function.filter-var-array.php
+     * @see https://php.net/manual/en/function.filter-var-array.php
      *
      * @param array<string, mixed>          $data       <p>
      *                                                  An array with string keys containing the data to filter.
@@ -2356,7 +2356,7 @@ final class UTF8
      *
      * If you received an UTF-8 string that was converted from Windows-1252 as it was ISO-8859-1
      * (ignoring Windows-1252 chars from 80 to 9F) use this function to fix it.
-     * See: http://en.wikipedia.org/wiki/Windows-1252
+     * See: https://en.wikipedia.org/wiki/Windows-1252
      *
      * @param string $str <p>The input string</p>
      *
@@ -2903,7 +2903,7 @@ final class UTF8
             $encoding = self::normalize_encoding($encoding, 'UTF-8');
         }
 
-        // INFO: http://stackoverflow.com/questions/35854535/better-explanation-of-convmap-in-mb-encode-numericentity
+        // INFO: https://stackoverflow.com/questions/35854535/better-explanation-of-convmap-in-mb-encode-numericentity
         if (self::$SUPPORT['mbstring'] === true) {
             if ($keep_ascii_chars) {
                 $start_code = 0x80;
@@ -2963,7 +2963,7 @@ final class UTF8
      *
      * EXAMPLE: <code>UTF8::html_entity_decode('&#20013;&#25991;&#31354;&#30333;'); // '中文空白'</code>
      *
-     * @see http://php.net/manual/en/function.html-entity-decode.php
+     * @see https://php.net/manual/en/function.html-entity-decode.php
      *
      * @param string   $str      <p>
      *                           The input string.
@@ -3130,7 +3130,7 @@ final class UTF8
      *
      * EXAMPLE: <code>UTF8::htmlentities('<白-öäü>'); // '&lt;&#30333;-&ouml;&auml;&uuml;&gt;'</code>
      *
-     * @see http://php.net/manual/en/function.htmlentities.php
+     * @see https://php.net/manual/en/function.htmlentities.php
      *
      * @param string $str           <p>
      *                              The input string.
@@ -3271,7 +3271,7 @@ final class UTF8
      *
      * EXAMPLE: <code>UTF8::htmlspecialchars('<白-öäü>'); // '&lt;白-öäü&gt;'</code>
      *
-     * @see http://php.net/manual/en/function.htmlspecialchars.php
+     * @see https://php.net/manual/en/function.htmlspecialchars.php
      *
      * @param string $str           <p>
      *                              The string being converted.
@@ -3796,7 +3796,7 @@ final class UTF8
         }
 
         // WARNING: keep this as hack protection
-        if (!self::str_istarts_with_any($url, ['http://', 'https://'])) {
+        if (!self::str_istarts_with_any($url, ['https://', 'https://'])) {
             return false;
         }
 
@@ -3805,11 +3805,11 @@ final class UTF8
             if (self::str_istarts_with_any(
                 $url,
                 [
-                    'http://localhost',
                     'https://localhost',
-                    'http://127.0.0.1',
+                    'https://localhost',
                     'https://127.0.0.1',
-                    'http://::1',
+                    'https://127.0.0.1',
+                    'https://::1',
                     'https://::1',
                 ]
             )) {
@@ -3822,7 +3822,7 @@ final class UTF8
             }
         }
 
-        // INFO: this is needed for e.g. "http://müller.de/" (internationalized domain names) and non ASCII-parameters
+        // INFO: this is needed for e.g. "https://müller.de/" (internationalized domain names) and non ASCII-parameters
         $regex = '/^(?:http(?:s)?:\\/\\/)(?:[\p{L}0-9][\p{L}0-9_-]*(?:\\.[\p{L}0-9][\p{L}0-9_-]*))(?:\\d+)?(?:\\/\\.*)?/iu';
         if (\preg_match($regex, $url)) {
             return true;
@@ -4156,7 +4156,7 @@ final class UTF8
      *
      * EXAMPLE: <code>UTF8::json_decode('[1,"\u00a5","\u00e4"]'); // array(1, '¥', 'ä')</code>
      *
-     * @see http://php.net/manual/en/function.json-decode.php
+     * @see https://php.net/manual/en/function.json-decode.php
      *
      * @param string $json    <p>
      *                        The <i>json</i> string being decoded.
@@ -4214,7 +4214,7 @@ final class UTF8
      *
      * EXAMPLE: <code>UTF8::json_encode(array(1, '¥', 'ä')); // '[1,"\u00a5","\u00e4"]'</code>
      *
-     * @see http://php.net/manual/en/function.json-encode.php
+     * @see https://php.net/manual/en/function.json-encode.php
      *
      * @param mixed $value   <p>
      *                       The <i>value</i> being encoded. Can be any type except
@@ -4888,7 +4888,7 @@ final class UTF8
      * echo $array['Iñtërnâtiônéàlizætiøn']; // '測試'
      * </code>
      *
-     * @see http://php.net/manual/en/function.parse-str.php
+     * @see https://php.net/manual/en/function.parse-str.php
      *
      * @param string               $str        <p>The input string.</p>
      * @param array<string, mixed> $result     <p>The result will be returned into this reference parameter.</p>
@@ -6435,7 +6435,7 @@ final class UTF8
      * UTF8::str_ireplace('lIzÆ', 'lise', 'Iñtërnâtiônàlizætiøn'); // 'Iñtërnâtiônàlisetiøn'
      * </code>
      *
-     * @see http://php.net/manual/en/function.str-ireplace.php
+     * @see https://php.net/manual/en/function.str-ireplace.php
      *
      * @param string|string[] $search      <p>
      *                                     Every replacement with search array is
@@ -7135,7 +7135,7 @@ final class UTF8
         }
 
         // Uses dynamic programming to solve
-        // http://en.wikipedia.org/wiki/Longest_common_substring_problem
+        // https://en.wikipedia.org/wiki/Longest_common_substring_problem
 
         if ($encoding === 'UTF-8') {
             $str_length = (int) \mb_strlen($str1);
@@ -7640,7 +7640,7 @@ final class UTF8
      *
      * Replace all occurrences of the search string with the replacement string
      *
-     * @see http://php.net/manual/en/function.str-replace.php
+     * @see https://php.net/manual/en/function.str-replace.php
      *
      * @param string|string[] $search  <p>
      *                                 The value being searched for, otherwise known as the needle.
@@ -9629,7 +9629,7 @@ final class UTF8
      *
      * EXAMPLE: <code>UTF8::strip_tags("<span>κόσμε\xa0\xa1</span>"); // 'κόσμε'</code>
      *
-     * @see http://php.net/manual/en/function.strip-tags.php
+     * @see https://php.net/manual/en/function.strip-tags.php
      *
      * @param string      $str            <p>
      *                                    The input string.
@@ -9698,7 +9698,7 @@ final class UTF8
      *
      * EXAMPLE: <code>UTF8::stripos('aσσb', 'ΣΣ'); // 1</code> (σσ == ΣΣ)
      *
-     * @see http://php.net/manual/en/function.mb-stripos.php
+     * @see https://php.net/manual/en/function.mb-stripos.php
      *
      * @param string $haystack   <p>The string from which to get the position of the first occurrence of needle.</p>
      * @param string $needle     <p>The string to find in haystack.</p>
@@ -9896,7 +9896,7 @@ final class UTF8
      *
      * EXAMPLE: <code>UTF8::strlen("Iñtërnâtiôn\xE9àlizætiøn")); // 20</code>
      *
-     * @see http://php.net/manual/en/function.mb-strlen.php
+     * @see https://php.net/manual/en/function.mb-strlen.php
      *
      * @param string $str        <p>The string being checked for length.</p>
      * @param string $encoding   [optional] <p>Set the charset for e.g. "mb_" function</p>
@@ -10093,7 +10093,7 @@ final class UTF8
      * UTF8::strcmp('10Hello world 中文空白!', '2Hello WORLD 中文空白!'); // -1
      * </code>
      *
-     * @see http://php.net/manual/en/function.strnatcmp.php
+     * @see https://php.net/manual/en/function.strnatcmp.php
      *
      * @param string $str1 <p>The first string.</p>
      * @param string $str2 <p>The second string.</p>
@@ -10124,7 +10124,7 @@ final class UTF8
      * UTF8::strcasecmp("iñtërnâtiôn\nàlizætiøn321", "iñtërnâtiôn\nàlizætiøn123", 5); // 0
      * </code>
      *
-     * @see http://php.net/manual/en/function.strncasecmp.php
+     * @see https://php.net/manual/en/function.strncasecmp.php
      *
      * @param string $str1     <p>The first string.</p>
      * @param string $str2     <p>The second string.</p>
@@ -10158,7 +10158,7 @@ final class UTF8
      * UTF8::strncmp("Iñtërnâtiôn\nàlizætiøn321", "Iñtërnâtiôn\nàlizætiøn123", 5); // 0
      * </code>
      *
-     * @see http://php.net/manual/en/function.strncmp.php
+     * @see https://php.net/manual/en/function.strncmp.php
      *
      * @param string $str1     <p>The first string.</p>
      * @param string $str2     <p>The second string.</p>
@@ -10198,7 +10198,7 @@ final class UTF8
      *
      * EXAMPLE: <code>UTF8::strpbrk('-中文空白-', '白'); // '白-'</code>
      *
-     * @see http://php.net/manual/en/function.strpbrk.php
+     * @see https://php.net/manual/en/function.strpbrk.php
      *
      * @param string $haystack  <p>The string where char_list is looked for.</p>
      * @param string $char_list <p>This parameter is case-sensitive.</p>
@@ -10228,7 +10228,7 @@ final class UTF8
      *
      * EXAMPLE: <code>UTF8::strpos('ABC-ÖÄÜ-中文空白-中文空白', '中'); // 8</code>
      *
-     * @see http://php.net/manual/en/function.mb-strpos.php
+     * @see https://php.net/manual/en/function.mb-strpos.php
      *
      * @param string     $haystack   <p>The string from which to get the position of the first occurrence of needle.</p>
      * @param int|string $needle     <p>The string to find in haystack.<br>Or a code point as int.</p>
@@ -10472,7 +10472,7 @@ final class UTF8
      *
      * EXAMPLE: <code>UTF8::strrchr('κόσμεκόσμε-äöü', 'κόσμε'); // 'κόσμε-äöü'</code>
      *
-     * @see http://php.net/manual/en/function.mb-strrchr.php
+     * @see https://php.net/manual/en/function.mb-strrchr.php
      *
      * @param string $haystack      <p>The string from which to get the last occurrence of needle.</p>
      * @param string $needle        <p>The string to find in haystack</p>
@@ -10661,7 +10661,7 @@ final class UTF8
      *
      * EXAMPLE: <code>UTF8::strrichr('Aκόσμεκόσμε-äöü', 'aκόσμε'); // 'Aκόσμεκόσμε-äöü'</code>
      *
-     * @see http://php.net/manual/en/function.mb-strrichr.php
+     * @see https://php.net/manual/en/function.mb-strrichr.php
      *
      * @param string $haystack      <p>The string from which to get the last occurrence of needle.</p>
      * @param string $needle        <p>The string to find in haystack.</p>
@@ -10909,7 +10909,7 @@ final class UTF8
      *
      * EXAMPLE: <code>UTF8::strrpos('ABC-ÖÄÜ-中文空白-中文空白', '中'); // 13</code>
      *
-     * @see http://php.net/manual/en/function.mb-strrpos.php
+     * @see https://php.net/manual/en/function.mb-strrpos.php
      *
      * @param string     $haystack   <p>The string being checked, for the last occurrence of needle</p>
      * @param int|string $needle     <p>The string to find in haystack.<br>Or a code point as int.</p>
@@ -11328,7 +11328,7 @@ final class UTF8
      *
      * EXAMPLE: <code>UTF8::strtocasefold('ǰ◌̱'); // 'ǰ◌̱'</code>
      *
-     * @see http://unicode.org/reports/tr21/tr21-5.html
+     * @see https://unicode.org/reports/tr21/tr21-5.html
      *
      * @param string      $str        <p>The input string.</p>
      * @param bool        $full       [optional] <p>
@@ -11385,7 +11385,7 @@ final class UTF8
      *
      * EXAMPLE: <code>UTF8::strtolower('DÉJÀ Σσς Iıİi'); // 'déjà σσς iıii'</code>
      *
-     * @see http://php.net/manual/en/function.mb-strtolower.php
+     * @see https://php.net/manual/en/function.mb-strtolower.php
      *
      * @param string      $str                           <p>The string being lowercased.</p>
      * @param string      $encoding                      [optional] <p>Set the charset for e.g. "mb_" function</p>
@@ -11465,7 +11465,7 @@ final class UTF8
      *
      * EXAMPLE: <code>UTF8::strtoupper('Déjà Σσς Iıİi'); // 'DÉJÀ ΣΣΣ IIİI'</code>
      *
-     * @see http://php.net/manual/en/function.mb-strtoupper.php
+     * @see https://php.net/manual/en/function.mb-strtoupper.php
      *
      * @param string      $str                           <p>The string being uppercased.</p>
      * @param string      $encoding                      [optional] <p>Set the charset.</p>
@@ -11552,7 +11552,7 @@ final class UTF8
      * UTF8::strtr('Hello 中文空白', $array); // '○●◎ earth'
      * </code>
      *
-     * @see http://php.net/manual/en/function.strtr.php
+     * @see https://php.net/manual/en/function.strtr.php
      *
      * @param string          $str  <p>The string being translated.</p>
      * @param string|string[] $from <p>The string replacing from.</p>
@@ -11680,7 +11680,7 @@ final class UTF8
      *
      * EXAMPLE: <code>UTF8::substr('中文空白', 1, 2); // '文空'</code>
      *
-     * @see http://php.net/manual/en/function.mb-substr.php
+     * @see https://php.net/manual/en/function.mb-substr.php
      *
      * @param string   $str        <p>The string being checked.</p>
      * @param int      $offset     <p>The first position used in str.</p>
@@ -11905,7 +11905,7 @@ final class UTF8
      *
      * EXAMPLE: <code>UTF8::substr_count('中文空白', '文空', 1, 2); // 1</code>
      *
-     * @see http://php.net/manual/en/function.substr-count.php
+     * @see https://php.net/manual/en/function.substr-count.php
      *
      * @param string   $haystack   <p>The string to search in.</p>
      * @param string   $needle     <p>The substring to search for.</p>
@@ -12639,7 +12639,7 @@ final class UTF8
             return false;
         }
 
-        // Info: http://php.net/manual/en/filter.filters.validate.php
+        // Info: https://php.net/manual/en/filter.filters.validate.php
         $map = [
             'true'  => true,
             '1'     => true,
@@ -12866,7 +12866,7 @@ final class UTF8
                 if (isset($matches[3])) {
                     $cp = (int) \hexdec($matches[3]);
                 } else {
-                    // http://unicode.org/faq/utf_bom.html#utf16-4
+                    // https://unicode.org/faq/utf_bom.html#utf16-4
                     $cp = ((int) \hexdec($matches[1]) << 10)
                           + (int) \hexdec($matches[2])
                           + 0x10000
@@ -13323,7 +13323,7 @@ final class UTF8
     /**
      * Returns an array with all utf8 whitespace characters.
      *
-     * @see http://www.bogofilter.org/pipermail/bogofilter/2003-March/001889.html
+     * @see https://www.bogofilter.org/pipermail/bogofilter/2003-March/001889.html
      *
      * @psalm-pure
      *
@@ -13381,7 +13381,7 @@ final class UTF8
      *
      * EXAMPLE: <code>UTF8::wordwrap('Iñtërnâtiônàlizætiøn', 2, '<br>', true)); // 'Iñ<br>të<br>rn<br>ât<br>iô<br>nà<br>li<br>zæ<br>ti<br>øn'</code>
      *
-     * @see http://php.net/manual/en/function.wordwrap.php
+     * @see https://php.net/manual/en/function.wordwrap.php
      *
      * @param string      $str   <p>The input string.</p>
      * @param int<1, max> $width [optional] <p>The column width.</p>
@@ -13545,7 +13545,7 @@ final class UTF8
      * UTF8::is_utf8_string("Iñtërnâtiônàlizætiøn\xA0\xA1"); // false
      * </code>
      *
-     * @see          http://hsivonen.iki.fi/php-utf8/
+     * @see          https://hsivonen.iki.fi/php-utf8/
      *
      * @param string $str    <p>The string to be checked.</p>
      * @param bool   $strict <p>Check also if the string is not UTF-16 or UTF-32.</p>

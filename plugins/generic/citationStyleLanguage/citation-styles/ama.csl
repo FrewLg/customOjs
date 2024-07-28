@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="https://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" page-range-format="expanded" initialize-with-hyphen="false" default-locale="en-US">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" page-range-format="expanded" initialize-with-hyphen="false" default-locale="en-US">
   <info>
     <title>American Medical Association 11th edition</title>
     <title-short>AMA (11th ed.)</title-short>
-    <id>https://www.zotero.org/styles/american-medical-association</id>
-    <link href="https://www.zotero.org/styles/american-medical-association" rel="self"/>
-    <link href="https://www.zotero.org/styles/american-medical-association-10th-edition" rel="template"/>
+    <id>http://www.zotero.org/styles/american-medical-association</id>
+    <link href="http://www.zotero.org/styles/american-medical-association" rel="self"/>
+    <link href="http://www.zotero.org/styles/american-medical-association-10th-edition" rel="template"/>
     <link href="https://westlibrary.txwes.edu/sites/default/files/pdf/AMACitationStyle.pdf" rel="documentation"/>
     <link href="https://www.amamanualofstyle.com/fileasset/AMAMOS/aaaAMWA%20presentation%20Nov%202019%20FULL.pdf" rel="documentation"/>
     <author>
@@ -14,7 +14,7 @@
     </author>
     <contributor>
       <name>Christian Pietsch</name>
-      <uri>https://purl.org/net/pietsch</uri>
+      <uri>http://purl.org/net/pietsch</uri>
     </contributor>
     <contributor>
       <name>Daniel W Chan</name>
@@ -28,7 +28,7 @@
     <category field="medicine"/>
     <summary>The American Medical Association style as used in JAMA. Version 11 as per November-2019.</summary>
     <updated>2021-10-28T13:38:04+00:00</updated>
-    <rights license="https://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
     <terms>

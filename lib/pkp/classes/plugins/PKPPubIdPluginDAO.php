@@ -24,7 +24,7 @@ interface PKPPubIdPluginDAO
      *
      * @param string $pubIdType One of the NLM pub-id-type values or
      * 'other::something' if not part of the official NLM list
-     * (see <http://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
+     * (see <https://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
      * @param string $pubId
      * @param int $excludePubObjectId ID of the pub object to be excluded from the search.
      * @param int $contextId
@@ -39,7 +39,7 @@ interface PKPPubIdPluginDAO
      * @param int $pubObjectId ID of the pub object
      * @param string $pubIdType One of the NLM pub-id-type values or
      * 'other::something' if not part of the official NLM list
-     * (see <http://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
+     * (see <https://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
      * @param string $pubId
      */
     public function changePubId($pubObjectId, $pubIdType, $pubId);
@@ -50,7 +50,7 @@ interface PKPPubIdPluginDAO
      * @param int $pubObjectId ID of the pub object
      * @param string $pubIdType One of the NLM pub-id-type values or
      * 'other::something' if not part of the official NLM list
-     * (see <http://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
+     * (see <https://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
      */
     public function deletePubId($pubObjectId, $pubIdType);
 
@@ -60,7 +60,7 @@ interface PKPPubIdPluginDAO
      * @param int $contextId
      * @param string $pubIdType One of the NLM pub-id-type values or
      * 'other::something' if not part of the official NLM list
-     * (see <http://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
+     * (see <https://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
      */
     public function deleteAllPubIds($contextId, $pubIdType);
 }

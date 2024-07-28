@@ -23,11 +23,11 @@ namespace COUNTER {
      * COUNTER Reports classes, release 4.1
      * Represents the COUNTER XSD schema in class form
      *
-     * @link https://www.niso.org/schemas/sushi
+     * @link http://www.niso.org/schemas/sushi
      *
      * @author Clinton Graham, University of Pittsburgh Library System, University of Pittsburgh <ctgraham@pitt.edu> +1-412-383-1057
      * @copyright 2015 University of Pittsburgh
-     * @license https://www.gnu.org/licenses/gpl-2.0.html GPL 2.0 or later
+     * @license http://www.gnu.org/licenses/gpl-2.0.html GPL 2.0 or later
      *
      * @package COUNTER
      *
@@ -35,7 +35,7 @@ namespace COUNTER {
      *
      * @section DESCRIPTION
      *
-     * This is a set of classes to represent the Project COUNTER schema ( https://www.projectcounter.org/ )
+     * This is a set of classes to represent the Project COUNTER schema ( http://www.projectcounter.org/ )
      * It is basically an encapsulation of DOMDocument, with type checking.
      * Construct any object, then cast it as a string to retrieve the XML, or call asDOMDocument() to retrieve the DOM.
      * $report = new COUNTER\Report(
@@ -76,7 +76,7 @@ namespace COUNTER {
      */
     class ReportBuilder
     {
-        public const COUNTER_NAMESPACE = 'https://www.niso.org/schemas/counter';
+        public const COUNTER_NAMESPACE = 'http://www.niso.org/schemas/counter';
 
         /**
          * Validate that $object is a $className instance.  If valid, return the object, otherwise, throw an exception
@@ -467,8 +467,8 @@ namespace COUNTER {
         {
             $doc = new \DOMDocument();
             $root = $doc->appendChild($doc->createElementNS(self::COUNTER_NAMESPACE, 'Reports'));
-            $xmlns = $doc->createAttributeNS('https://www.w3.org/2001/XMLSchema-instance', 'xsi:schemaLocation');
-            $xmlns->value = self::COUNTER_NAMESPACE . ' https://www.niso.org/schemas/sushi/counter4_1.xsd';
+            $xmlns = $doc->createAttributeNS('http://www.w3.org/2001/XMLSchema-instance', 'xsi:schemaLocation');
+            $xmlns->value = self::COUNTER_NAMESPACE . ' http://www.niso.org/schemas/sushi/counter4_1.xsd';
             $root->appendChild($xmlns);
             foreach ($this->report as $rep) {
                 $root->appendChild($doc->importNode($rep->asDOMDocument()->documentElement, true));

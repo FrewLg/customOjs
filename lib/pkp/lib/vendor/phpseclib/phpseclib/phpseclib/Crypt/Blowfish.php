@@ -9,7 +9,7 @@
  *
  * Useful resources are as follows:
  *
- *  - {@link http://en.wikipedia.org/wiki/Blowfish_(cipher) Wikipedia description of Blowfish}
+ *  - {@link https://en.wikipedia.org/wiki/Blowfish_(cipher) Wikipedia description of Blowfish}
  *
  * # An overview of bcrypt vs Blowfish
  *
@@ -110,8 +110,8 @@
  * @author    Jim Wigginton <terrafrost@php.net>
  * @author    Hans-Juergen Petrich <petrich@tronic-media.com>
  * @copyright 2007 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib3\Crypt;

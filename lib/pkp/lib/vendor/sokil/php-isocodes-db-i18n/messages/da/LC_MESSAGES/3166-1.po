@@ -6,7 +6,7 @@
 # .
 # Notes:
 # This European Union Resource page was very helpful:
-# http://eur-op.eu.int/code/da/da-5000500.htm
+# https://eur-op.eu.int/code/da/da-5000500.htm
 # .
 # Copyright ©
 # Alastair McKinstry <mckinstry@debian.org>, 2001.
@@ -228,7 +228,7 @@ msgstr "Belize"
 msgid "Bermuda"
 msgstr "Bermuda"
 
-# http://www.bolivianconstitution.com/
+# https://www.bolivianconstitution.com/
 #. Name for BOL
 msgid "Bolivia, Plurinational State of"
 msgstr "Bolivia, Den Plurinationale Stat"
@@ -1243,7 +1243,7 @@ msgstr "Republikken Palau"
 msgid "Papua New Guinea"
 msgstr "Papua Ny Guinea"
 
-# http://publications.europa.eu/code/da/da-5000500.htm
+# https://publications.europa.eu/code/da/da-5000500.htm
 #. Official name for PNG
 msgid "Independent State of Papua New Guinea"
 msgstr "Den Uafhængige Stat Papua Ny Guinea"

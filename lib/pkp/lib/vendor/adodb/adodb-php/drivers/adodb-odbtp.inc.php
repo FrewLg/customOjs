@@ -7,7 +7,7 @@
   Whenever there is any discrepancy between the two licenses,
   the BSD license will take precedence. See License.txt.
   Set tabs to 4 for best viewing.
-  Latest version is available at http://adodb.org/
+  Latest version is available at https://adodb.org/
 */
 // Code contributed by "stefan bogdan" <sbogdan#rsb.ro>
 
@@ -506,7 +506,7 @@ class ADODB_odbtp extends ADOConnection{
 		@param [$maxLen] Holds an maximum length of the variable.
 		@param [$type] The data type of $var. Legal values depend on driver.
 
-		See odbtp_attach_param documentation at http://odbtp.sourceforge.net.
+		See odbtp_attach_param documentation at https://odbtp.sourceforge.net.
 	*/
 	function Parameter(&$stmt, &$var, $name, $isOutput=false, $maxLen=0, $type=0)
 	{

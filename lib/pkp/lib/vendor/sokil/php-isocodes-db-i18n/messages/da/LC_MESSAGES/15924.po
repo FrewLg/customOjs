@@ -44,7 +44,7 @@ msgstr ""
 msgid "Adlam"
 msgstr "adlam"
 
-# http://en.wikipedia.org/wiki/Afaka_script
+# https://en.wikipedia.org/wiki/Afaka_script
 #. Name for Afak
 msgid "Afaka"
 msgstr "afaka"
@@ -179,7 +179,7 @@ msgstr "devanagari (nagari)"
 msgid "Deseret (Mormon)"
 msgstr "deseret (mormon)"
 
-# http://en.wikipedia.org/wiki/Shorthand
+# https://en.wikipedia.org/wiki/Shorthand
 # "Shorthand" /er/ vel stenografi, så der er ikke behov for to strenge
 # adskilt af komma her. Det lader til at der henvises til dén udgave der
 # defineredes af Emile Duployé [wikipedia "shorthand"]
@@ -289,7 +289,7 @@ msgstr "hebraisk"
 msgid "Hiragana"
 msgstr "hiragana"
 
-# http://www.denstoredanske.dk/Samfund,_jura_og_politik/Sprog/Egyptisk_sprog/hieroglyffer?highlight=luvisk
+# https://www.denstoredanske.dk/Samfund,_jura_og_politik/Sprog/Egyptisk_sprog/hieroglyffer?highlight=luvisk
 #. Name for Hluw
 msgid "Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)"
 msgstr "anatolske hieroglyffer (luviske hieroglyffer, hittitiske hieroglyffer)"
@@ -298,7 +298,7 @@ msgstr "anatolske hieroglyffer (luviske hieroglyffer, hittitiske hieroglyffer)"
 msgid "Pahawh Hmong"
 msgstr "pahawh hmong"
 
-# http://en.wikipedia.org/wiki/Syllabary
+# https://en.wikipedia.org/wiki/Syllabary
 #. Name for Hrkt
 msgid "Japanese syllabaries (alias for Hiragana + Katakana)"
 msgstr "japansk stavelsesskrift (alias for hiragana + katakana)"
@@ -331,7 +331,7 @@ msgstr "javanesisk"
 msgid "Japanese (alias for Han + Hiragana + Katakana)"
 msgstr "japansk (alias for han + hiragana + katakana)"
 
-# http://en.wikipedia.org/wiki/Jurchen_script
+# https://en.wikipedia.org/wiki/Jurchen_script
 #. Name for Jurc
 msgid "Jurchen"
 msgstr "jurchen"
@@ -352,7 +352,7 @@ msgstr "kharoshti"
 msgid "Khmer"
 msgstr "khmerisk"
 
-# http://en.wikipedia.org/wiki/Khojki
+# https://en.wikipedia.org/wiki/Khojki
 #. Name for Khoj
 msgid "Khojki"
 msgstr "khojki"
@@ -444,7 +444,7 @@ msgstr "lykisk"
 msgid "Lydian"
 msgstr "lydisk"
 
-# http://en.wikipedia.org/wiki/Mahajani
+# https://en.wikipedia.org/wiki/Mahajani
 #. Name for Mahj
 msgid "Mahajani"
 msgstr "mahajani"
@@ -516,7 +516,7 @@ msgstr "myanmarsk (burmesisk)"
 msgid "Old North Arabian (Ancient North Arabian)"
 msgstr "gammelt nordarabisk (historisk nordarabisk)"
 
-# http://no.wikipedia.org/wiki/Nabateere
+# https://no.wikipedia.org/wiki/Nabateere
 #. Name for Nbat
 msgid "Nabataean"
 msgstr "nabateisk"
@@ -533,7 +533,7 @@ msgstr "nakhi geba ('na-'khi ²ggŏ-¹baw, naxi geba)"
 msgid "N’Ko"
 msgstr "n'ko"
 
-# http://en.wikipedia.org/wiki/N%C3%BCshu_script
+# https://en.wikipedia.org/wiki/N%C3%BCshu_script
 # lidt blandet om de andre sprog fjerner markering over ü
 #. Name for Nshu
 msgid "Nüshu"
@@ -564,7 +564,7 @@ msgstr "osage"
 msgid "Osmanya"
 msgstr "osmannisk"
 
-# http://www.denstoredanske.dk/Samfund,_jura_og_politik/Diverse_historie/Klassisk_ark%C3%A6ologi,_stednavne/Palmyra
+# https://www.denstoredanske.dk/Samfund,_jura_og_politik/Diverse_historie/Klassisk_ark%C3%A6ologi,_stednavne/Palmyra
 #. Name for Palm
 msgid "Palmyrene"
 msgstr "palmyrensk"
@@ -653,7 +653,7 @@ msgstr "tegnskrift"
 msgid "Shavian (Shaw)"
 msgstr "shavisk (shaw)"
 
-# http://en.wikipedia.org/wiki/Sharada_script
+# https://en.wikipedia.org/wiki/Sharada_script
 #. Name for Shrd
 msgid "Sharada, Śāradā"
 msgstr "sharada, sāradā"
@@ -754,7 +754,7 @@ msgstr "thailandsk"
 msgid "Tibetan"
 msgstr "tibetanske"
 
-# http://en.wikipedia.org/wiki/Tirhuta
+# https://en.wikipedia.org/wiki/Tirhuta
 #. Name for Tirh
 msgid "Tirhuta"
 msgstr "tirhuta"

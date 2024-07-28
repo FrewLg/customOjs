@@ -4,7 +4,7 @@
 [![Software License][ico-license]](LICENSE)
 [![Total Downloads][ico-downloads]][link-downloads]
 
-Created by Oscar Otero <http://oscarotero.com> <oom@oscarotero.com> (MIT License)
+Created by Oscar Otero <https://oscarotero.com> <oom@oscarotero.com> (MIT License)
 
 Translator functions to use with [gettext/gettext](https://github.com/php-gettext/Gettext). Useful if you don't have the native gettext extension for php or want to avoid problems with it.
 

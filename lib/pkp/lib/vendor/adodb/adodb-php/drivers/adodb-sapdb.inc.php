@@ -8,7 +8,7 @@
   the BSD license will take precedence.
 Set tabs to 4 for best viewing.
 
-  Latest version is available at http://adodb.org/
+  Latest version is available at https://adodb.org/
 
   SAPDB data driver. Requires ODBC.
 
@@ -166,7 +166,7 @@ class ADODB_SAPDB extends ADODB_odbc {
 	  	This means that we have to use the adoconnection base class SelectLimit when
 	  	there is an "order by".
 
-		See http://listserv.sap.com/pipermail/sapdb.general/2002-January/010405.html
+		See https://listserv.sap.com/pipermail/sapdb.general/2002-January/010405.html
 	 */
 
 };

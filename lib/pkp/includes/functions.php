@@ -78,7 +78,7 @@ function fatalError($reason)
         array_shift($trace);
 
         // Back-trace pretty-printer adapted from the following URL:
-        // http://ca3.php.net/manual/en/function.debug-backtrace.php
+        // https://ca3.php.net/manual/en/function.debug-backtrace.php
         // Thanks to diz at ysagoon dot com
 
         // FIXME: Is there any way to localize this when the localization

@@ -1,4 +1,4 @@
-[![PHP](https://img.shields.io/badge/PHP-%3E=7.1-green.svg?style=flat)](https://docs.php.net/manual/en/migration71.new-features.php)
+[![PHP](https://img.shields.io/badge/PHP-%3E=7.1-green.svg?style=flat)](http://docs.php.net/manual/en/migration71.new-features.php)
 [![Total Downloads](https://poser.pugx.org/seboettg/collection/downloads)](https://packagist.org/packages/seboettg/collection/stats) 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/seboettg/Collection/blob/master/LICENSE)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/seboettg/Collection/badges/quality-score.png?b=version-2.0)](https://scrutinizer-ci.com/g/seboettg/Collection/?branch=master)
@@ -33,7 +33,7 @@ Take also a look to the UML [class diagram](#class-diagram).
 # Installing Collection ##
 
 The recommended way to install Collection is through
-[Composer](https://getcomposer.org).
+[Composer](http://getcomposer.org).
 
 ```bash
 # Install Composer

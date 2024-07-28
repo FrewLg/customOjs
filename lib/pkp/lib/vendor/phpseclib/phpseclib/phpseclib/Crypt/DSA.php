@@ -23,8 +23,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib3\Crypt;
@@ -149,7 +149,7 @@ abstract class DSA extends AsymmetricKey
         $p_1 = $p->subtract(self::$one);
         list($e) = $p_1->divide($q);
 
-        // quoting http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf#page=50 ,
+        // quoting https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf#page=50 ,
         // "h could be obtained from a random number generator or from a counter that
         //  changes after each use". PuTTY (sshdssg.c) starts h off at 1 and increments
         // it on each loop. wikipedia says "commonly h = 2 is used" so we'll just do that

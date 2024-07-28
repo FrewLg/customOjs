@@ -64,7 +64,7 @@ class OAIUtils
      */
     public static function UTCtoTimestamp($date, $requiredGranularity = null)
     {
-        // FIXME Has limited range (see http://php.net/strtotime)
+        // FIXME Has limited range (see https://php.net/strtotime)
         if (preg_match("/^\d\d\d\d\-\d\d\-\d\d$/", $date)) {
             // Match date
             $time = strtotime("{$date} UTC");
@@ -166,7 +166,7 @@ class OAIUtils
      *  - dropping any remaining invalid characters
      *
      * [1] https://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm#Set
-     * [2] http://www.ietf.org/rfc/rfc2396.txt
+     * [2] https://www.ietf.org/rfc/rfc2396.txt
      *
      */
     public static function toValidSetSpec(string $string): string

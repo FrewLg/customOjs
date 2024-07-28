@@ -66,7 +66,7 @@ namespace Omnipay\PayPal\Message;
  *
  * @link https://developer.paypal.com/docs/api/#vault
  * @link https://developer.paypal.com/docs/api/#store-a-credit-card
- * @link https://bit.ly/1wUQ33R
+ * @link http://bit.ly/1wUQ33R
  */
 class RestCreateCardRequest extends AbstractRestRequest
 {

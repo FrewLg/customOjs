@@ -2,13 +2,13 @@
 /*
  * Set tabs to 4 for best viewing.
  *
- * Latest version is available at http://adodb.org/
+ * Latest version is available at https://adodb.org/
  *
  * This is the main include file for ADOdb.
  * Database specific drivers are stored in the adodb/drivers/adodb-*.inc.php
  *
  * The ADOdb files are formatted so that doxygen can be used to generate documentation.
- * Doxygen is a documentation generation tool and can be downloaded from http://doxygen.org/
+ * Doxygen is a documentation generation tool and can be downloaded from https://doxygen.org/
  */
 
 /**
@@ -215,9 +215,9 @@ if (!defined('_ADODB_LAYER')) {
 		if (!isset($ADODB_CACHE_DIR)) {
 			$ADODB_CACHE_DIR = '/tmp'; //(isset($_ENV['TMP'])) ? $_ENV['TMP'] : '/tmp';
 		} else {
-			// do not accept url based paths, eg. http:/ or ftp:/
+			// do not accept url based paths, eg. https:/ or ftp:/
 			if (strpos($ADODB_CACHE_DIR,'://') !== false) {
-				die("Illegal path http:// or ftp://");
+				die("Illegal path https:// or ftp://");
 			}
 		}
 
@@ -2430,10 +2430,10 @@ if (!defined('_ADODB_LAYER')) {
 		$this->_transmode  = $transaction_mode;
 	}
 /*
-http://msdn2.microsoft.com/en-US/ms173763.aspx
-http://dev.mysql.com/doc/refman/5.0/en/innodb-transaction-isolation.html
-http://www.postgresql.org/docs/8.1/interactive/sql-set-transaction.html
-http://www.stanford.edu/dept/itss/docs/oracle/10g/server.101/b10759/statements_10005.htm
+https://msdn2.microsoft.com/en-US/ms173763.aspx
+https://dev.mysql.com/doc/refman/5.0/en/innodb-transaction-isolation.html
+https://www.postgresql.org/docs/8.1/interactive/sql-set-transaction.html
+https://www.stanford.edu/dept/itss/docs/oracle/10g/server.101/b10759/statements_10005.htm
 */
 	function MetaTransaction($mode,$db) {
 		$mode = strtoupper($mode);

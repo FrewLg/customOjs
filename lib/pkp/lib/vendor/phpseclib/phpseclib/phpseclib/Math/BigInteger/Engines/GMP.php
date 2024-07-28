@@ -7,8 +7,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://pear.php.net/package/Math_BigInteger
  */
 
 namespace phpseclib3\Math\BigInteger\Engines;
@@ -289,7 +289,7 @@ class GMP extends Engine
      * Say you have 693 and 609.  The GCD is 21.  Bezout's identity states that there exist integers x and y such that
      * 693*x + 609*y == 21.  In point of fact, there are actually an infinite number of x and y combinations and which
      * combination is returned is dependent upon which mode is in use.  See
-     * {@link http://en.wikipedia.org/wiki/B%C3%A9zout%27s_identity Bezout's identity - Wikipedia} for more information.
+     * {@link https://en.wikipedia.org/wiki/B%C3%A9zout%27s_identity Bezout's identity - Wikipedia} for more information.
      *
      * @param GMP $n
      * @return GMP[]

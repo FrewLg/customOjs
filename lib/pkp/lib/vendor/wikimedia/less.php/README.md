@@ -70,7 +70,7 @@ Less.php can be used with [Drupal's less module](https://drupal.org/project/less
 
 * [wp_enqueue_less](https://github.com/Ed-ITSolutions/wp_enqueue_less) is a Composer package for use in WordPress themes and plugins. It provides a `wp_enqueue_less()` function to automatically manage caching and compilation on-demand, and loads the compressed CSS on the page.
 * [JBST framework](https://github.com/bassjobsen/jamedo-bootstrap-start-theme) bundles a copy of Less.php.
-* The [lessphp plugin](https://wordpress.org/plugins/lessphp/) bundles a copy of Less.php for use in other plugins or themes. This dependency can also be combined with the [TGM Library](http://tgmpluginactivation.com/).
+* The [lessphp plugin](https://wordpress.org/plugins/lessphp/) bundles a copy of Less.php for use in other plugins or themes. This dependency can also be combined with the [TGM Library](https://tgmpluginactivation.com/).
 
 ## Credits
 

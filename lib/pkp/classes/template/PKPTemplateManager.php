@@ -17,7 +17,7 @@
  * @ingroup template
  *
  * @brief Class for accessing the underlying template engine.
- * Currently integrated with Smarty (from http://smarty.php.net/).
+ * Currently integrated with Smarty (from https://smarty.php.net/).
  */
 
 namespace PKP\template;
@@ -944,7 +944,7 @@ class PKPTemplateManager extends Smarty
         $this->registerJSLibraryData();
         $this->registerJSLibrary();
 
-        // FontAwesome - http://fontawesome.io/
+        // FontAwesome - https://fontawesome.io/
         $this->addStyleSheet(
             'fontAwesome',
             $request->getBaseUrl() . '/lib/pkp/styles/fontawesome/fontawesome.css',
@@ -1643,7 +1643,7 @@ class PKPTemplateManager extends Smarty
 
     /**
      * Smarty usage: {html_options_translate ...}
-     * For parameter usage, see http://smarty.php.net/manual/en/language.function.html.options.php
+     * For parameter usage, see https://smarty.php.net/manual/en/language.function.html.options.php
      *
      * Identical to Smarty's "html_options" function except option values are translated from i18n keys.
      *
@@ -2062,7 +2062,7 @@ class PKPTemplateManager extends Smarty
     }
 
     /**
-     * Smarty usage: {load_url_in_el el="htmlElement" id="someHtmlId" url="http://the.url.to.be.loaded.into.the.grid"}
+     * Smarty usage: {load_url_in_el el="htmlElement" id="someHtmlId" url="https://the.url.to.be.loaded.into.the.grid"}
      *
      * Custom Smarty function for loading a URL via AJAX into any HTML element
      *
@@ -2106,7 +2106,7 @@ class PKPTemplateManager extends Smarty
     }
 
     /**
-     * Smarty usage: {load_url_in_div id="someHtmlId" url="http://the.url.to.be.loaded.into.the.grid"}
+     * Smarty usage: {load_url_in_div id="someHtmlId" url="https://the.url.to.be.loaded.into.the.grid"}
      *
      * Custom Smarty function for loading a URL via AJAX into a DIV. Convenience
      * wrapper for smartyLoadUrlInEl.

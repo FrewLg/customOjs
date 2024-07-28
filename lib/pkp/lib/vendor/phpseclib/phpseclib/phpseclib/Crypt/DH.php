@@ -18,8 +18,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib3\Crypt;
@@ -102,15 +102,15 @@ abstract class DH extends AsymmetricKey
             throw new \InvalidArgumentException('Valid parameters are either: two BigInteger\'s (prime and base), a single integer (the length of the prime; base is assumed to be 2) or a string');
         }
         switch ($args[0]) {
-            // see http://tools.ietf.org/html/rfc2409#section-6.2 and
-            // http://tools.ietf.org/html/rfc2412, appendex E
+            // see https://tools.ietf.org/html/rfc2409#section-6.2 and
+            // https://tools.ietf.org/html/rfc2412, appendex E
             case 'diffie-hellman-group1-sha1':
                 $prime = 'FFFFFFFFFFFFFFFFC90FDAA22168C234C4C6628B80DC1CD129024E088A67CC74' .
                          '020BBEA63B139B22514A08798E3404DDEF9519B3CD3A431B302B0A6DF25F1437' .
                          '4FE1356D6D51C245E485B576625E7EC6F44C42E9A637ED6B0BFF5CB6F406B7ED' .
                          'EE386BFB5A899FA5AE9F24117C4B1FE649286651ECE65381FFFFFFFFFFFFFFFF';
                 break;
-            // see http://tools.ietf.org/html/rfc3526#section-3
+            // see https://tools.ietf.org/html/rfc3526#section-3
             case 'diffie-hellman-group14-sha1': // 2048-bit MODP Group
             case 'diffie-hellman-group14-sha256':
                 $prime = 'FFFFFFFFFFFFFFFFC90FDAA22168C234C4C6628B80DC1CD129024E088A67CC74' .
@@ -231,7 +231,7 @@ abstract class DH extends AsymmetricKey
     /**
      * Create public / private key pair.
      *
-     * The rationale for the second parameter is described in http://tools.ietf.org/html/rfc4419#section-6.2 :
+     * The rationale for the second parameter is described in https://tools.ietf.org/html/rfc4419#section-6.2 :
      *
      * "To increase the speed of the key exchange, both client and server may
      *  reduce the size of their private exponents.  It should be at least

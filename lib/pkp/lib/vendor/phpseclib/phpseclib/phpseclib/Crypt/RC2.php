@@ -9,7 +9,7 @@
  *
  * Useful resources are as follows:
  *
- *  - {@link http://tools.ietf.org/html/rfc2268}
+ *  - {@link https://tools.ietf.org/html/rfc2268}
  *
  * Here's a short example of how to use this library:
  * <code>
@@ -27,8 +27,8 @@
  * </code>
  *
  * @author   Patrick Monnerat <pm@datasphere.ch>
- * @license  http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link     http://phpseclib.sourceforge.net
+ * @license  https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link     https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib3\Crypt;

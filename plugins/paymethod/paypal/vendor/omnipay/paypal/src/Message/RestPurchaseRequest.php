@@ -122,8 +122,8 @@ namespace Omnipay\PayPal\Message;
  *           'amount'        => '10.00',
  *           'currency'      => 'AUD',
  *           'description'   => 'This is a test purchase transaction.',
- *           'returnUrl'     => 'https://mysite.com/paypal/return/?txn_id=' . $txn_id,
- *           'cancelUrl'     => 'https://mysite.com/paypal/return/?txn_id=' . $txn_id,
+ *           'returnUrl'     => 'http://mysite.com/paypal/return/?txn_id=' . $txn_id,
+ *           'cancelUrl'     => 'http://mysite.com/paypal/return/?txn_id=' . $txn_id,
  *       ));
  *       $response = $transaction->send();
  *       $data = $response->getData();

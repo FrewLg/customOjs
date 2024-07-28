@@ -5,7 +5,7 @@
 # This file is distributed under the same license as the iso-codes package.
 # .
 # Notes:
-# Sources: Freie Enzyklopädie Wikipedia (http://de.wikipedia.org/wiki/ISO_3166-2)
+# Sources: Freie Enzyklopädie Wikipedia (https://de.wikipedia.org/wiki/ISO_3166-2)
 # Copyright ©
 # Hendrik Knackstedt <hendrik.knackstedt@t-online.de>, 2012.
 # Mario Blättermann <mario.blaettermann@gmail.com>, 2014.

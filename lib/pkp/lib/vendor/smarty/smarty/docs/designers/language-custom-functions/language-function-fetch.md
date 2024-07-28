@@ -9,7 +9,7 @@ ftp and display the contents.
 | file      | Yes      | The file, http or ftp site to fetch                  |
 | assign    | No       | The template variable the output will be assigned to |
 
--   If the file name begins with `http://`, the website page will be
+-   If the file name begins with `https://`, the website page will be
     fetched and displayed.
 
     > **Note**
@@ -41,7 +41,7 @@ ftp and display the contents.
 {fetch file='/export/httpd/www.example.com/docs/navbar.js'}
 
 {* embed some weather text in your template from another web site *}
-{fetch file='http://www.myweather.com/68502/'}
+{fetch file='https://www.myweather.com/68502/'}
 
 {* fetch a news headline file via ftp *}
 {fetch file='ftp://user:password@ftp.example.com/path/to/currentheadlines.txt'}
@@ -49,7 +49,7 @@ ftp and display the contents.
 {fetch file="ftp://`$user`:`$password`@`$server`/`$path`"}
 
 {* assign the fetched contents to a template variable *}
-{fetch file='http://www.myweather.com/68502/' assign='weather'}
+{fetch file='https://www.myweather.com/68502/' assign='weather'}
 {if $weather ne ''}
   <div id="weather">{$weather}</div>
 {/if}

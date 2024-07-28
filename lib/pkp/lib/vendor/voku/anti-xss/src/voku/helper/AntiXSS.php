@@ -31,10 +31,10 @@ use const HTML_ENTITIES;
  * - [4] https://www.youtube.com/watch?v=8K-bkqKKf2A "Sumy under attack"
  * - [5] https://cloudfront-us-east-2.images.arcpublishing.com/reuters/K4MTMLEHTRKGFK3GSKAT4GR3NE.jpg "Irpin under attack"
  *
- * @copyright   Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
- * @copyright   Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
+ * @copyright   Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
+ * @copyright   Copyright (c) 2014 - 2015, British Columbia Institute of Technology (https://bcit.ca/)
  * @copyright   Copyright (c) 2015 - 2020, Lars Moelleken (https://moelleken.org/)
- * @license     http://opensource.org/licenses/MIT	MIT License
+ * @license     https://opensource.org/licenses/MIT	MIT License
  */
 final class AntiXSS
 {
@@ -891,8 +891,8 @@ final class AntiXSS
             if ($HTML_ENTITIES_CACHE === null) {
 
                 // links:
-                // - http://dev.w3.org/html5/html-author/charref
-                // - http://www.w3schools.com/charsets/ref_html_entities_n.asp
+                // - https://dev.w3.org/html5/html-author/charref
+                // - https://www.w3schools.com/charsets/ref_html_entities_n.asp
                 $entitiesSecurity = [
                     '&#x00000;'          => '',
                     '&#0;'               => '',
@@ -1124,7 +1124,7 @@ final class AntiXSS
                 if (
                     \strpos($matchInner[0], 'script') === false
                     &&
-                    \strpos(\str_replace(['http://', 'https://'], '', $matchInner[0]), ':') === false
+                    \strpos(\str_replace(['https://', 'https://'], '', $matchInner[0]), ':') === false
                     &&
                     (
                         \filter_var($matchInner['link'], \FILTER_VALIDATE_URL) !== false
@@ -2234,9 +2234,9 @@ final class AntiXSS
      *   runtime processing.
      * </p>
      *
-     * @see http://channel.bitflux.ch/wiki/XSS_Prevention
+     * @see https://channel.bitflux.ch/wiki/XSS_Prevention
      *    Based in part on some code and ideas from Bitflux.
-     * @see http://ha.ckers.org/xss.html
+     * @see https://ha.ckers.org/xss.html
      *    To help develop this script I used this great list of
      *    vulnerabilities along with a few other hacks I've
      *    harvested from examining vulnerabilities in other programs.

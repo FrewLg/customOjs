@@ -1,7 +1,7 @@
 Base32 Crockford Encoder and Decoder
 ====================================
 
-A [Base32 Crockford](http://www.crockford.com/wrmg/base32.html) implementation
+A [Base32 Crockford](https://www.crockford.com/wrmg/base32.html) implementation
 for PHP.
 
 
@@ -22,7 +22,7 @@ allow for passing in the following:
     $decodedValue = Crockford::decode('F-VCk'); // treated as: FVCK
     $decodedValue = Crockford::decode('hEl1O'); // treated as: HE110
 
-See [the spec](http://www.crockford.com/wrmg/base32.html) for the
+See [the spec](https://www.crockford.com/wrmg/base32.html) for the
 translation rules.
 
 Decoding can be made strict by passing an optional second argument

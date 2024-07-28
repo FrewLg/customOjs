@@ -7,8 +7,8 @@
  *
  * Encode and decode X.509 certificates.
  *
- * The extensions are from {@link http://tools.ietf.org/html/rfc5280 RFC5280} and
- * {@link http://web.archive.org/web/19961027104704/http://www3.netscape.com/eng/security/cert-exts.html Netscape Certificate Extensions}.
+ * The extensions are from {@link https://tools.ietf.org/html/rfc5280 RFC5280} and
+ * {@link https://web.archive.org/web/19961027104704/https://www3.netscape.com/eng/security/cert-exts.html Netscape Certificate Extensions}.
  *
  * Note that loading an X.509 certificate and resaving it may invalidate the signature.  The reason being that the signature is based on a
  * portion of the certificate that contains optional parameters with default values.  ie. if the parameter isn't there the default value is
@@ -18,8 +18,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2012 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib3\File;
@@ -207,8 +207,8 @@ class X509
     /**
      * Key Identifier
      *
-     * See {@link http://tools.ietf.org/html/rfc5280#section-4.2.1.1 RFC5280#section-4.2.1.1} and
-     * {@link http://tools.ietf.org/html/rfc5280#section-4.2.1.2 RFC5280#section-4.2.1.2}.
+     * See {@link https://tools.ietf.org/html/rfc5280#section-4.2.1.1 RFC5280#section-4.2.1.1} and
+     * {@link https://tools.ietf.org/html/rfc5280#section-4.2.1.2 RFC5280#section-4.2.1.2}.
      *
      * @var string
      */
@@ -277,7 +277,7 @@ class X509
     public function __construct()
     {
         // Explicitly Tagged Module, 1988 Syntax
-        // http://tools.ietf.org/html/rfc5280#appendix-A.1
+        // https://tools.ietf.org/html/rfc5280#appendix-A.1
 
         if (!self::$oidsLoaded) {
             // OIDs from RFC5280 and those RFCs mentioned in RFC5280#section-4.1.1.2
@@ -408,7 +408,7 @@ class X509
                 'entrustVersInfo' => '1.2.840.113533.7.65.0',
                 'verisignPrivate' => '2.16.840.1.113733.1.6.9',
                 // for Certificate Signing Requests
-                // see http://tools.ietf.org/html/rfc2985
+                // see https://tools.ietf.org/html/rfc2985
                 'pkcs-9-at-unstructuredName' => '1.2.840.113549.1.9.2', // PKCS #9 unstructured name
                 'pkcs-9-at-challengePassword' => '1.2.840.113549.1.9.7', // Challenge password for certificate revocations
                 'pkcs-9-at-extensionRequest' => '1.2.840.113549.1.9.14' // Certificate extension request
@@ -904,13 +904,13 @@ class X509
                 return Maps\UserNotice::MAP;
 
             // the following OIDs are unsupported but we don't want them to give notices when calling saveX509().
-            case 'id-pe-logotype': // http://www.ietf.org/rfc/rfc3709.txt
+            case 'id-pe-logotype': // https://www.ietf.org/rfc/rfc3709.txt
             case 'entrustVersInfo':
-            // http://support.microsoft.com/kb/287547
+            // https://support.microsoft.com/kb/287547
             case '1.3.6.1.4.1.311.20.2': // szOID_ENROLL_CERTTYPE_EXTENSION
             case '1.3.6.1.4.1.311.21.1': // szOID_CERTSRV_CA_VERSION
             // "SET Secure Electronic Transaction Specification"
-            // http://www.maithean.com/docs/set_bk3.pdf
+            // https://www.maithean.com/docs/set_bk3.pdf
             case '2.23.42.7.0': // id-set-hashedRootKey
             // "Certificate Transparency"
             // https://tools.ietf.org/html/rfc6962
@@ -1235,7 +1235,7 @@ class X509
      * By default returns false for self-signed certs. Call validateSignature(false) to make this support
      * self-signed.
      *
-     * The behavior of this function is inspired by {@link http://php.net/openssl-verify openssl_verify}.
+     * The behavior of this function is inspired by {@link https://php.net/openssl-verify openssl_verify}.
      *
      * @param bool $caonly optional
      * @return mixed
@@ -1266,7 +1266,7 @@ class X509
 
         /* TODO:
            "emailAddress attribute values are not case-sensitive (e.g., "subscriber@example.com" is the same as "SUBSCRIBER@EXAMPLE.COM")."
-            -- http://tools.ietf.org/html/rfc5280#section-4.1.2.6
+            -- https://tools.ietf.org/html/rfc5280#section-4.1.2.6
 
            implement pathLenConstraint in the id-ce-basicConstraints extension */
 
@@ -2179,7 +2179,7 @@ class X509
             return $csr;
         }
 
-        // see http://tools.ietf.org/html/rfc2986
+        // see https://tools.ietf.org/html/rfc2986
 
         if ($mode != self::FORMAT_DER) {
             $newcsr = ASN1::extractBER($csr);
@@ -2293,7 +2293,7 @@ class X509
             return $spkac;
         }
 
-        // see http://www.w3.org/html/wg/drafts/html/master/forms.html#signedpublickeyandchallenge
+        // see https://www.w3.org/html/wg/drafts/html/master/forms.html#signedpublickeyandchallenge
 
         // OpenSSL produces SPKAC's that are preceded by the string SPKAC=
         $temp = preg_replace('#(?:SPKAC=)|[ \r\n\\\]#', '', $spkac);
@@ -3038,7 +3038,7 @@ class X509
           the notAfter SHOULD be assigned the GeneralizedTime value of
           99991231235959Z.
 
-          -- http://tools.ietf.org/html/rfc5280#section-4.1.2.5
+          -- https://tools.ietf.org/html/rfc5280#section-4.1.2.5
         */
         if (is_string($date) && strtolower($date) === 'lifetime') {
             $temp = '99991231235959Z';

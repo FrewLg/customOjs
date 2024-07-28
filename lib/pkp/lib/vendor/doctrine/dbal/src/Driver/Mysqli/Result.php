@@ -60,7 +60,7 @@ final class Result implements ResultInterface
 
         // Store result of every execution which has it. Otherwise it will be impossible
         // to execute a new statement in case if the previous one has non-fetched rows
-        // @link http://dev.mysql.com/doc/refman/5.7/en/commands-out-of-sync.html
+        // @link https://dev.mysql.com/doc/refman/5.7/en/commands-out-of-sync.html
         $this->statement->store_result();
 
         // Bind row values _after_ storing the result. Otherwise, if mysqli is compiled with libmysql,

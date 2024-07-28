@@ -9,7 +9,7 @@
  *
  *}
 <?xml version="1.0" encoding="{$defaultCharset|escape}"?>
-<feed xmlns="https://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom">
 	{* required elements *}
 	<id>{url page="issue" op="feed"}</id>
 	<title>{$journal->getLocalizedName()|escape:"html"|strip}</title>
@@ -43,7 +43,7 @@
 	{* <category/> *}
 	{* <contributor/> *}
 
-	<generator uri="https://pkp.sfu.ca/ojs/" version="{$ojsVersion|escape}">Open Journal Systems</generator>
+	<generator uri="http://pkp.sfu.ca/ojs/" version="{$ojsVersion|escape}">Open Journal Systems</generator>
 	{if $journal->getLocalizedDescription()}
 		{assign var="description" value=$journal->getLocalizedDescription()}
 	{elseif $journal->getLocalizedData('searchDescription')}

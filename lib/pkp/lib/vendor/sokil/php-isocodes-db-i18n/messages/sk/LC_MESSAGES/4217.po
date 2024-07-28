@@ -7,7 +7,7 @@
 # Source:
 # Číselník krajín, peňažných mien a fondov (FC)
 # valid since: 01.07.2007
-# URL: http://www.nbs.sk/BANKY/AP0001/ISO.XLS
+# URL: https://www.nbs.sk/BANKY/AP0001/ISO.XLS
 # their source as given: ISO 3166-1: 1997 (E/F), 5th edition, ISO 4217: 2001
 # .
 # Copyright ©

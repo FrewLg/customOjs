@@ -521,7 +521,7 @@ class URNPubIdPlugin extends PubIdPlugin
     //
     /**
      * Get the last, check number.
-     * Algorithm (s. https://www.persistent-identifier.de/?link=316):
+     * Algorithm (s. http://www.persistent-identifier.de/?link=316):
      *  every URN character is replaced with a number according to the conversion table,
      *  every number is multiplied by it's position/index (beginning with 1),
      *  the numbers' sum is calculated,

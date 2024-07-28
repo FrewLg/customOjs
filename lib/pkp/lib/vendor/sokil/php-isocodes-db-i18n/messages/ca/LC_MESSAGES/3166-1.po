@@ -5,7 +5,7 @@
 # This file is distributed under the same license as the iso-codes package.
 # .
 # Notes:
-# He usat la nomenclatura de http://www.traduim.com/
+# He usat la nomenclatura de https://www.traduim.com/
 # .
 # Copyright ©
 # Alastair McKinstry <mckinstry@debian.org>, 2001.

@@ -125,7 +125,7 @@ class CldrData
             if (isset($territoryId)) {
                 $normalizedId .= '_' . $territoryId;
             }
-            // Structure precedence: see Likely Subtags - http://www.unicode.org/reports/tr35/tr35-31/tr35.html#Likely_Subtags
+            // Structure precedence: see Likely Subtags - https://www.unicode.org/reports/tr35/tr35-31/tr35.html#Likely_Subtags
             $variants = array();
             $variantsWithScript = array();
             $variantsWithTerritory = array();

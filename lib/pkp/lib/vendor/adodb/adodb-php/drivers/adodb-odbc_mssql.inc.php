@@ -8,10 +8,10 @@
   the BSD license will take precedence.
 Set tabs to 4 for best viewing.
 
-  Latest version is available at http://adodb.org/
+  Latest version is available at https://adodb.org/
 
   MSSQL support via ODBC. Requires ODBC. Works on Windows and Unix.
-  For Unix configuration, see http://phpbuilder.com/columns/alberto20000919.php3
+  For Unix configuration, see https://phpbuilder.com/columns/alberto20000919.php3
 */
 
 // security - hide paths
@@ -170,7 +170,7 @@ order by constraint_name, referenced_table_name, keyno";
 			$fld->type = $rs->fields[1];
 
 			$fld->not_null = (!$rs->fields[3]);
-			$fld->auto_increment = ($rs->fields[4] == 128);		// sys.syscolumns status field. 0x80 = 128 ref: http://msdn.microsoft.com/en-us/library/ms186816.aspx
+			$fld->auto_increment = ($rs->fields[4] == 128);		// sys.syscolumns status field. 0x80 = 128 ref: https://msdn.microsoft.com/en-us/library/ms186816.aspx
 
 
 			if (isset($rs->fields[5]) && $rs->fields[5]) {

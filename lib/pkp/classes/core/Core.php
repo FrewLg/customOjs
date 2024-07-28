@@ -296,8 +296,8 @@ class Core
             // Arrange them in length order, so we make sure
             // we get the correct one, in case there's an overlaping
             // of contexts, eg.:
-            // base_url[context1] = http://somesite.com/
-            // base_url[context2] = http://somesite.com/context2
+            // base_url[context1] = https://somesite.com/
+            // base_url[context2] = https://somesite.com/context2
             $sortedBaseUrls = array_combine($contextBaseUrls, array_map('strlen', $contextBaseUrls));
             arsort($sortedBaseUrls);
 

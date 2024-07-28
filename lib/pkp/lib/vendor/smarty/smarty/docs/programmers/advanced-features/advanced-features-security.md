@@ -29,23 +29,23 @@ instance of the Smarty\_Security class. These are the possible settings:
     The expression `'#https?://.*smarty.net$#i'` would allow accessing
     the following URIs:
 
-    -   `http://smarty.net/foo`
+    -   `https://smarty.net/foo`
 
-    -   `http://smarty.net/foo`
+    -   `https://smarty.net/foo`
 
-    -   `http://www.smarty.net/foo`
+    -   `https://www.smarty.net/foo`
 
-    -   `http://smarty.net/foo`
+    -   `https://smarty.net/foo`
 
     -   `https://foo.bar.www.smarty.net/foo/bla?blubb=1`
 
     but deny access to these URIs:
 
-    -   `http://smarty.com/foo` (not matching top-level domain \"com\")
+    -   `https://smarty.com/foo` (not matching top-level domain \"com\")
 
     -   `ftp://www.smarty.net/foo` (not matching protocol \"ftp\")
 
-    -   `http://www.smarty.net.otherdomain.com/foo` (not matching end of
+    -   `https://www.smarty.net.otherdomain.com/foo` (not matching end of
         domain \"smarty.net\")
 
 -   `$static_classes` is an array of classes that are considered

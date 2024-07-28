@@ -11,8 +11,8 @@
  *     F(x,y) := (x*Z^2, y*Z^3)
  *
  * The advantage of A = -3 is that some of the point doubling and point addition can be
- * slightly optimized. See http://hyperelliptic.org/EFD/g1p/auto-shortw-projective-3.html
- * vs http://hyperelliptic.org/EFD/g1p/auto-shortw-projective.html for example.
+ * slightly optimized. See https://hyperelliptic.org/EFD/g1p/auto-shortw-projective-3.html
+ * vs https://hyperelliptic.org/EFD/g1p/auto-shortw-projective.html for example.
  *
  * phpseclib does not currently take advantage of this optimization opportunity
  *
@@ -20,8 +20,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://pear.php.net/package/Math_BigInteger
  */
 
 namespace phpseclib3\Crypt\EC\Curves;

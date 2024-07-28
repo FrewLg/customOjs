@@ -9,7 +9,7 @@
 # the following logic
 # .
 # 1) Take the Swedish terms from
-# 	 http://www.kb.se/katalogisering/Formathandboken/Sprakkoder/Sprakkoder/
+# 	 https://www.kb.se/katalogisering/Formathandboken/Sprakkoder/Sprakkoder/
 # .
 # 2) If not in 1) search for the English term on Wikipedia, see if there's a
 # 	Swedish post, if so, use that

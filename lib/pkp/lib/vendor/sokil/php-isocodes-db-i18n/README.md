@@ -10,7 +10,7 @@ This repository contains database with localized values of ISO country (ISO 3166
 To get this database only without localized values, see [sokil/php-isocodes-only](https://github.com/sokil/php-isocodes-only).
 
 [![Latest Stable Version](https://poser.pugx.org/sokil/php-isocodes-db-i18n/v/stable.png)](https://packagist.org/packages/sokil/php-isocodes-db-i18n)
-[![Total Downloads](http://img.shields.io/packagist/dt/sokil/php-isocodes-db-i18n.svg?1)](https://packagist.org/packages/sokil/php-isocodes-db-i18n)
+[![Total Downloads](https://img.shields.io/packagist/dt/sokil/php-isocodes-db-i18n.svg?1)](https://packagist.org/packages/sokil/php-isocodes-db-i18n)
 [![Daily Downloads](https://poser.pugx.org/sokil/php-isocodes-db-i18n/d/daily)](https://packagist.org/packages/sokil/php-isocodes-db-i18n/stats)
 
 :1234: Database version: v4.13.0 from 2023-03-02 04:01

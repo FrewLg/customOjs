@@ -256,7 +256,7 @@ Do not use 1.5.1.
 
 ### Changed
 
-- [Puli](https://puli.io) made optional
+- [Puli](http://puli.io) made optional
 - Improved exceptions
 - **[BC] `NotFoundException` moved to `Http\Discovery\Exception\NotFoundException`**
 
@@ -317,7 +317,7 @@ Do not use 1.5.1.
 
 ### Changed
 
-- Use [Puli](https://puli.io) for discovery
+- Use [Puli](http://puli.io) for discovery
 - Improved exception messages
 
 

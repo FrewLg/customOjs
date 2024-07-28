@@ -39,7 +39,7 @@ class OraclePlatform extends AbstractPlatform
      *
      * @deprecated
      *
-     * @link http://docs.oracle.com/cd/B19306_01/server.102/b14200/sql_elements008.htm
+     * @link https://docs.oracle.com/cd/B19306_01/server.102/b14200/sql_elements008.htm
      *
      * @param string $identifier
      *
@@ -473,7 +473,7 @@ class OraclePlatform extends AbstractPlatform
      *
      * {@inheritDoc}
      *
-     * @link http://ezcomponents.org/docs/api/trunk/DatabaseSchema/ezcDbSchemaOracleReader.html
+     * @link https://ezcomponents.org/docs/api/trunk/DatabaseSchema/ezcDbSchemaOracleReader.html
      */
     public function getListTableIndexesSQL($table, $database = null)
     {

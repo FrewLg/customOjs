@@ -15,10 +15,10 @@ msgid "plugins.generic.googleAnalytics.displayName"
 msgstr "Google Analytics Plugin"
 
 msgid "plugins.generic.googleAnalytics.description"
-msgstr "Integreer OJS met Google Analytics, Het website-gebruik analyse programma van Google. Vereist dat u al een Google Analytics account hebt. Zie <a href=\"https://www.google.com/analytics/\" title=\"Google Analytics site\">Google Analytics site</a> voor meer informatie."
+msgstr "Integreer OJS met Google Analytics, Het website-gebruik analyse programma van Google. Vereist dat u al een Google Analytics account hebt. Zie <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">Google Analytics site</a> voor meer informatie."
 
 msgid "plugins.generic.googleAnalytics.manager.settings.description"
-msgstr "<p>Door deze plugin in te schakelen kan Google Analytics gebruikt worden voor het verzamelen en analyseren van het gebruik van de website van dit tijdschrift. Deze plugin vereist dat u al een Google Analytics account hebt ingericht. Zie <a href=\"https://www.google.com/analytics/\" title=\"Google Analytics site\">Google Analytics site</a> voor meer informatie.</p>"
+msgstr "<p>Door deze plugin in te schakelen kan Google Analytics gebruikt worden voor het verzamelen en analyseren van het gebruik van de website van dit tijdschrift. Deze plugin vereist dat u al een Google Analytics account hebt ingericht. Zie <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">Google Analytics site</a> voor meer informatie.</p>"
 
 msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
 msgstr "Accountnummer"

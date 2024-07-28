@@ -12,14 +12,14 @@
   08 Nov 2000 jlim - Minor corrections, removing mysql stuff
   09 Nov 2000 jlim - added insertid support suggested by "Christopher Kings-Lynne" <chriskl@familyhealth.com.au>
 			  jlim - changed concat operator to || and data types to MetaType to match documented pgsql types
-					 see http://www.postgresql.org/devel-corner/docs/postgres/datatype.htm
+					 see https://www.postgresql.org/devel-corner/docs/postgres/datatype.htm
   22 Nov 2000 jlim - added changes to FetchField() and MetaTables() contributed by "raser" <raser@mail.zen.com.tw>
   27 Nov 2000 jlim - added changes to _connect/_pconnect from ideas by "Lennie" <leen@wirehub.nl>
   15 Dec 2000 jlim - added changes suggested by Additional code changes by "Eric G. Werk" egw@netguide.dk.
   31 Jan 2002 jlim - finally installed postgresql. testing
   01 Mar 2001 jlim - Freek Dijkstra changes, also support for text type
 
-  See http://www.varlena.com/varlena/GeneralBits/47.php
+  See https://www.varlena.com/varlena/GeneralBits/47.php
 
 	-- What indexes are on my table?
 	select * from pg_indexes where tablename = 'tablename';
@@ -108,7 +108,7 @@ class ADODB_postgres64 extends ADOConnection{
 	var $metaDefaultsSQL = "SELECT d.adnum as num, d.adsrc as def from pg_attrdef d, pg_class c where d.adrelid=c.oid and c.relname='%s' order by d.adnum";
 	var $random = 'random()';		/// random function
 	var $autoRollback = true; // apparently pgsql does not autorollback properly before php 4.3.4
-							// http://bugs.php.net/bug.php?id=25404
+							// https://bugs.php.net/bug.php?id=25404
 
 	var $uniqueIisR = true;
 	var $_bindInputArray = false; // requires postgresql 7.3+ and ability to modify database
@@ -421,7 +421,7 @@ assert($row[0] != 0);
 	*
 	* contributed by Mattia Rossi mattia@technologist.com
 	*
-	* see http://www.postgresql.org/idocs/index.php?largeobjects.html
+	* see https://www.postgresql.org/idocs/index.php?largeobjects.html
 	*
 	* Since adodb 4.54, this returns the blob, instead of sending it to stdout. Also
 	* added maxsize parameter, which defaults to $db->maxblobsize if not defined.
@@ -444,7 +444,7 @@ assert($row[0] != 0);
 	}
 
 	/*
-		See http://www.postgresql.org/idocs/index.php?datatype-binary.html
+		See https://www.postgresql.org/idocs/index.php?datatype-binary.html
 
 		NOTE: SQL string literals (input strings) must be preceded with two backslashes
 		due to the fact that they must pass through two parsers in the PostgreSQL
@@ -505,7 +505,7 @@ assert($row[0] != 0);
 
 	// for schema support, pass in the $table param "$schema.$tabname".
 	// converts field names to lowercase, $upper is ignored
-	// see http://phplens.com/lens/lensforum/msgs.php?id=14018 for more info
+	// see https://phplens.com/lens/lensforum/msgs.php?id=14018 for more info
 	function MetaColumns($table,$normalize=true)
 	{
 		global $ADODB_FETCH_MODE;

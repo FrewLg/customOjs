@@ -28,7 +28,7 @@ use Psr\Http\Message\UriInterface;
  * For server-side requests, the scheme will typically be discoverable in the
  * server parameters.
  *
- * @link http://tools.ietf.org/html/rfc3986 (the URI specification)
+ * @link https://tools.ietf.org/html/rfc3986 (the URI specification)
  */
 class Uri implements UriInterface
 {
@@ -199,7 +199,7 @@ class Uri implements UriInterface
 
         // parse_url() requires a full URL. As we don't extract the domain name or scheme,
         // we use a stand-in.
-        $requestUri = (string) parse_url('http://example.com' . $env->get('REQUEST_URI'), PHP_URL_PATH);
+        $requestUri = (string) parse_url('https://example.com' . $env->get('REQUEST_URI'), PHP_URL_PATH);
 
         $basePath = '';
         $virtualPath = $requestUri;
@@ -216,7 +216,7 @@ class Uri implements UriInterface
         // Query string
         $queryString = $env->get('QUERY_STRING', '');
         if ($queryString === '') {
-            $queryString = parse_url('http://example.com' . $env->get('REQUEST_URI'), PHP_URL_QUERY);
+            $queryString = parse_url('https://example.com' . $env->get('REQUEST_URI'), PHP_URL_QUERY);
         }
 
         // Fragment
@@ -408,7 +408,7 @@ class Uri implements UriInterface
      * The value returned MUST be normalized to lowercase, per RFC 3986
      * Section 3.2.2.
      *
-     * @see http://tools.ietf.org/html/rfc3986#section-3.2.2
+     * @see https://tools.ietf.org/html/rfc3986#section-3.2.2
      *
      * @return string The URI host.
      */
@@ -636,7 +636,7 @@ class Uri implements UriInterface
      *
      * @return string
      *
-     * @link   http://www.faqs.org/rfcs/rfc3986.html
+     * @link   https://www.faqs.org/rfcs/rfc3986.html
      */
     protected function filterPath($path)
     {
@@ -791,7 +791,7 @@ class Uri implements UriInterface
      * - If a query is present, it MUST be prefixed by "?".
      * - If a fragment is present, it MUST be prefixed by "#".
      *
-     * @see http://tools.ietf.org/html/rfc3986#section-4.1
+     * @see https://tools.ietf.org/html/rfc3986#section-4.1
      *
      * @return string
      */

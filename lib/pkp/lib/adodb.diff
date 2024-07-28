@@ -378,7 +378,7 @@ index 8a969b99..5936fcd0 100644
  					ADOConnection::outp("Please disable magic_quotes_runtime - it corrupts cache files :(");
  				}
  				if ($this->debug !== -1) {
-@@ -2956,7 +2956,7 @@ http://www.stanford.edu/dept/itss/docs/oracle/10g/server.101/b10759/statements_1
+@@ -2956,7 +2956,7 @@ https://www.stanford.edu/dept/itss/docs/oracle/10g/server.101/b10759/statements_1
  		// undo magic quotes for "
  		$s = str_replace('\\"','"',$s);
  
@@ -387,7 +387,7 @@ index 8a969b99..5936fcd0 100644
  			// ' already quoted, no need to change anything
  			return $s;
  		} else {
-@@ -2990,7 +2990,7 @@ http://www.stanford.edu/dept/itss/docs/oracle/10g/server.101/b10759/statements_1
+@@ -2990,7 +2990,7 @@ https://www.stanford.edu/dept/itss/docs/oracle/10g/server.101/b10759/statements_1
  		// undo magic quotes for "
  		$s = str_replace('\\"','"',$s);
  
@@ -640,7 +640,7 @@ index b555fd55..de28d90e 100644
 -	}
 -
  	/**
--	 * Warning from http://www.php.net/manual/function.pg-getlastoid.php:
+-	 * Warning from https://www.php.net/manual/function.pg-getlastoid.php:
 -	 * Using a OID as a unique identifier is not generally wise.
 -	 * Unless you are very careful, you might end up with a tuple having
 -	 * a different OID if a database must be reloaded.
@@ -1741,7 +1741,7 @@ index 0144519c..00000000
 - * set tabs to 8
 - */
 -
-- // documentation on usage is at http://adodb.org/dokuwiki/doku.php?id=v5:proxy:proxy_index
+- // documentation on usage is at https://adodb.org/dokuwiki/doku.php?id=v5:proxy:proxy_index
 -
 - echo PHP_VERSION,'<br>';
 - var_dump(parse_url('odbc_mssql://userserver/'));
@@ -1765,7 +1765,7 @@ index 0144519c..00000000
 - }
 -
 -
--$serverURL = 'http://localhost/php/phplens/adodb/server.php';
+-$serverURL = 'https://localhost/php/phplens/adodb/server.php';
 -$testhttp = false;
 -
 -$sql1 = "insertz into products (productname) values ('testprod 1')";
@@ -1838,7 +1838,7 @@ index 0144519c..00000000
 -/* EXPECTED RESULTS FOR HTTP TEST:
 -
 -Test Insert
--http://localhost/php/adodb/server.php?sql=insert+into+products+%28productname%29+values+%28%27testprod%27%29
+-https://localhost/php/adodb/server.php?sql=insert+into+products+%28productname%29+values+%28%27testprod%27%29
 -
 -adorecordset Object
 -(
@@ -1867,7 +1867,7 @@ index 0144519c..00000000
 ---------------------------------------------------------------------------------
 -
 -Test Insert2
--http://localhost/php/adodb/server.php?sql=insert+into+products+%28productname%29+values+%28%27testprod%27%29
+-https://localhost/php/adodb/server.php?sql=insert+into+products+%28productname%29+values+%28%27testprod%27%29
 -
 -adorecordset Object
 -(
@@ -1896,7 +1896,7 @@ index 0144519c..00000000
 ---------------------------------------------------------------------------------
 -
 -Test Delete
--http://localhost/php/adodb/server.php?sql=delete+from+products+where+productid%3E80
+-https://localhost/php/adodb/server.php?sql=delete+from+products+where+productid%3E80
 -
 -adorecordset Object
 -(
@@ -3367,7 +3367,7 @@ index 82178864..00000000
 -  the BSD license will take precedence.
 -  Set tabs to 4 for best viewing.
 -
--  Latest version is available at http://adodb.org/
+-  Latest version is available at https://adodb.org/
 -*/
 -
 -
@@ -5115,7 +5115,7 @@ index 82178864..00000000
 -
 -This script tests the following databases: Interbase, Oracle, Visual FoxPro, Microsoft Access (ODBC and ADO), MySQL, MSSQL (ODBC, native, ADO).
 -There is also support for Sybase, PostgreSQL.</p>
--For the latest version of ADODB, visit <a href=http://adodb.org//>adodb.org</a>.</p>
+-For the latest version of ADODB, visit <a href=https://adodb.org//>adodb.org</a>.</p>
 -
 -Test <a href=test4.php>GetInsertSQL/GetUpdateSQL</a> &nbsp;
 -	<a href=testsessions.php>Sessions</a> &nbsp;
@@ -5237,7 +5237,7 @@ index d7c76e2c..00000000
 - *
 - * Set tabs to 4 for best viewing.
 - *
-- * Latest version is available at http://adodb.org/
+- * Latest version is available at https://adodb.org/
 - *
 - * Test GetUpdateSQL and GetInsertSQL.
 - */
@@ -5385,7 +5385,7 @@ index e0597690..00000000
 -  the BSD license will take precedence.
 -  Set tabs to 4 for best viewing.
 -
--  Latest version is available at http://adodb.org/
+-  Latest version is available at https://adodb.org/
 -*/
 -
 -
@@ -5493,7 +5493,7 @@ index af3a7465..00000000
 -  the BSD license will take precedence.
 -  Set tabs to 4 for best viewing.
 -
--  Latest version is available at http://adodb.org/
+-  Latest version is available at https://adodb.org/
 -*/
 -
 -$ADODB_CACHE_DIR = dirname(tempnam('/tmp',''));
@@ -5842,7 +5842,7 @@ index 03e69466..00000000
 -	print "<h1>Connecting $db->databaseType...</h1>";
 -	if ($_SERVER['HTTP_HOST'] == 'localhost') $server = 'localhost';
 -
--	if ($db->PConnect('http://localhost/php/phplens/adodb/server.php'))
+-	if ($db->PConnect('https://localhost/php/phplens/adodb/server.php'))
 -		testdb($db,
 -		"create table ADOXYZ (id int, firstname char(24), lastname char(24), created date) type=innodb");
 -	else print "ERROR: MySQL test requires a MySQL server on localhost, userid='admin', password='', database='test'".'<BR>'.$db->ErrorMsg();
@@ -6054,7 +6054,7 @@ index 292dc382..00000000
 - *
 - * Set tabs to 4 for best viewing.
 - *
-- * Latest version is available at http://adodb.org/
+- * Latest version is available at https://adodb.org/
 - *
 - * Test GetUpdateSQL and GetInsertSQL.
 - */
@@ -6137,7 +6137,7 @@ index aa66ad94..00000000
 -  the BSD license will take precedence.
 -  Set tabs to 4 for best viewing.
 -
--  Latest version is available at http://adodb.org/
+-  Latest version is available at https://adodb.org/
 -*/
 -error_reporting(E_ALL | E_STRICT);
 -include("../adodb.inc.php");
@@ -6225,7 +6225,7 @@ index 078ea7a6..00000000
 -  the BSD license will take precedence.
 -  Set tabs to 4 for best viewing.
 -
--  Latest version is available at http://adodb.org/
+-  Latest version is available at https://adodb.org/
 -*/
 -
 -/*
@@ -6341,7 +6341,7 @@ index 5b4a5290..00000000
 -  the BSD license will take precedence.
 -  Set tabs to 4 for best viewing.
 -
--  Latest version is available at http://adodb.org/
+-  Latest version is available at https://adodb.org/
 -*/
 -
 -error_reporting(E_ALL);
@@ -6434,7 +6434,7 @@ index 0c6d58f4..00000000
 -  the BSD license will take precedence.
 -  Set tabs to 4 for best viewing.
 -
--  Latest version is available at http://adodb.org/
+-  Latest version is available at https://adodb.org/
 -*/
 -
 -error_reporting(E_ALL);
@@ -6476,7 +6476,7 @@ index 34836060..00000000
 -  the BSD license will take precedence.
 -  Set tabs to 4 for best viewing.
 -
--  Latest version is available at http://adodb.org/
+-  Latest version is available at https://adodb.org/
 -*/
 -
 -function NotifyExpire($ref,$key)

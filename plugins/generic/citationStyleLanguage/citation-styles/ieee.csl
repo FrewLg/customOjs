@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="https://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only">
   <info>
     <title>IEEE</title>
-    <id>https://www.zotero.org/styles/ieee</id>
-    <link href="https://www.zotero.org/styles/ieee" rel="self"/>
+    <id>http://www.zotero.org/styles/ieee</id>
+    <link href="http://www.zotero.org/styles/ieee" rel="self"/>
     <!-- <link href="https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf" rel="documentation"/> - 2018 guidelines -->
-    <link href="https://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/7/IEEE_Reference_Guide.pdf" rel="documentation"/>
+    <link href="http://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/7/IEEE_Reference_Guide.pdf" rel="documentation"/>
     <link href="https://journals.ieeeauthorcenter.ieee.org/your-role-in-article-production/ieee-editorial-style-manual/" rel="documentation"/>
     <author>
       <name>Michael Berkowitz</name>
@@ -17,11 +17,11 @@
     </contributor>
     <contributor>
       <name>Rintze Zelle</name>
-      <uri>https://twitter.com/rintzezelle</uri>
+      <uri>http://twitter.com/rintzezelle</uri>
     </contributor>
     <contributor>
       <name>Stephen Frank</name>
-      <uri>https://www.zotero.org/sfrank</uri>
+      <uri>http://www.zotero.org/sfrank</uri>
     </contributor>
     <contributor>
       <name>Sebastian Karcher</name>
@@ -29,7 +29,7 @@
     <contributor>
       <name>Giuseppe Silano</name>
       <email>g.silano89@gmail.com</email>
-      <uri>https://giuseppesilano.net</uri>
+      <uri>http://giuseppesilano.net</uri>
     </contributor>
     <contributor>
       <name>Patrick O'Brien</name>
@@ -46,7 +46,7 @@
     <category field="generic-base"/>
     <summary>IEEE style as per the 2021 guidelines, V 01.29.2021.</summary>
     <updated>2022-02-05T21:19:36-05:00</updated>
-    <rights license="https://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
     <date form="text">

@@ -8,13 +8,13 @@
   the BSD license will take precedence.
 Set tabs to 4 for best viewing.
 
-  Latest version is available at http://adodb.org/
+  Latest version is available at https://adodb.org/
 
   Microsoft SQL Server ADO data driver. Requires ADO and MSSQL client.
   Works only on MS Windows.
 
   Warning: Some versions of PHP (esp PHP4) leak memory when ADO/COM is used.
-  Please check http://bugs.php.net/ for more info.
+  Please check https://bugs.php.net/ for more info.
 */
 
 // security - hide paths

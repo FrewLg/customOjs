@@ -30,7 +30,7 @@ class MySQL57Keywords extends MySQLKeywords
     /**
      * {@inheritdoc}
      *
-     * @link http://dev.mysql.com/doc/mysqld-version-reference/en/mysqld-version-reference-reservedwords-5-7.html
+     * @link https://dev.mysql.com/doc/mysqld-version-reference/en/mysqld-version-reference-reservedwords-5-7.html
      */
     protected function getKeywords()
     {

@@ -84,7 +84,7 @@ class LoginHandler extends Handler
         // For force_login_ssl with base_url[...]: make sure SSL used for login form
         $loginUrl = $request->url(null, 'login', 'signIn');
         if (Config::getVar('security', 'force_login_ssl')) {
-            $loginUrl = PKPString::regexp_replace('/^http:/', 'https:', $loginUrl);
+            $loginUrl = PKPString::regexp_replace('/^https:/', 'https:', $loginUrl);
         }
         $templateMgr->assign('loginUrl', $loginUrl);
 

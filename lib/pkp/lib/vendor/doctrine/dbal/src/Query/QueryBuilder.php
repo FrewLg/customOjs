@@ -1482,7 +1482,7 @@ class QueryBuilder
      * $stmt = $q->executeQuery(); // executed with 'id = 2'
      * </code>
      *
-     * @link http://www.zetacomponents.org
+     * @link https://www.zetacomponents.org
      *
      * @param mixed                $value
      * @param int|string|Type|null $type

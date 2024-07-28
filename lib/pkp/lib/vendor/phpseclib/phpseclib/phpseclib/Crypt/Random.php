@@ -16,8 +16,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2007 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib3\Crypt;
@@ -131,7 +131,7 @@ abstract class Random
             // if the hash doesn't produce enough a key or an IV that's long enough concat successive hashes of the
             // original hash and the current hash. we'll be emulating that. for more info see the following URL:
             //
-            // http://tools.ietf.org/html/rfc4253#section-7.2
+            // https://tools.ietf.org/html/rfc4253#section-7.2
             //
             // see the is_string($crypto) part for an example of how to expand the keys
             $key = sha1($seed . 'A', true);
@@ -139,7 +139,7 @@ abstract class Random
 
             // ciphers are used as per the nist.gov link below. also, see this link:
             //
-            // http://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator#Designs_based_on_cryptographic_primitives
+            // https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator#Designs_based_on_cryptographic_primitives
             switch (true) {
                 case class_exists('\phpseclib3\Crypt\AES'):
                     $crypto = new AES('ctr');
@@ -172,11 +172,11 @@ abstract class Random
 
         // the following is based off of ANSI X9.31:
         //
-        // http://csrc.nist.gov/groups/STM/cavp/documents/rng/931rngext.pdf
+        // https://csrc.nist.gov/groups/STM/cavp/documents/rng/931rngext.pdf
         //
         // OpenSSL uses that same standard for it's random numbers:
         //
-        // http://www.opensource.apple.com/source/OpenSSL/OpenSSL-38/openssl/fips-1.0/rand/fips_rand.c
+        // https://www.opensource.apple.com/source/OpenSSL/OpenSSL-38/openssl/fips-1.0/rand/fips_rand.c
         // (do a search for "ANS X9.31 A.2.4")
         $result = '';
         while (strlen($result) < $length) {

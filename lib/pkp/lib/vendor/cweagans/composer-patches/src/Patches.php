@@ -511,7 +511,7 @@ class Patches implements PluginInterface, EventSubscriberInterface {
    * @return array
    *   The merged array.
    *
-   * @see http://php.net/manual/en/function.array-merge-recursive.php#92195
+   * @see https://php.net/manual/en/function.array-merge-recursive.php#92195
    */
   protected function arrayMergeRecursiveDistinct(array $array1, array $array2) {
     $merged = $array1;

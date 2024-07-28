@@ -10,7 +10,7 @@ The [request variables](https://www.php.net/reserved.variables) such as
 be accessed as demonstrated in the examples below:
 
 ```smarty
-{* display value of page from URL ($_GET) http://www.example.com/index.php?page=foo *}
+{* display value of page from URL ($_GET) https://www.example.com/index.php?page=foo *}
 {$smarty.get.page}
 
 {* display the variable "page" from a form ($_POST['page']) *}

@@ -275,7 +275,7 @@ class DataciteXmlFilter extends \PKP\plugins\importexport\native\filter\NativeEx
         /** @var DataciteExportDeployment */
         $deployment = $this->getDeployment();
         $rootNode = $doc->createElementNS($deployment->getNamespace(), $deployment->getRootElementName());
-        $rootNode->setAttributeNS('https://www.w3.org/2000/xmlns/', 'xmlns:xsi', $deployment->getXmlSchemaInstance());
+        $rootNode->setAttributeNS('http://www.w3.org/2000/xmlns/', 'xmlns:xsi', $deployment->getXmlSchemaInstance());
         $rootNode->setAttribute('xsi:schemaLocation', $deployment->getNamespace() . ' ' . $deployment->getSchemaFilename());
         return $rootNode;
     }
@@ -346,7 +346,7 @@ class DataciteXmlFilter extends \PKP\plugins\importexport\native\filter\NativeEx
             if ($creator['orcid']) {
                 $node = $doc->createElementNS($deployment->getNamespace(), 'nameIdentifier');
                 $node->appendChild($doc->createTextNode($creator['orcid']));
-                $node->setAttribute('schemeURI', 'https://orcid.org/');
+                $node->setAttribute('schemeURI', 'http://orcid.org/');
                 $node->setAttribute('nameIdentifierScheme', 'ORCID');
                 $creatorNode->appendChild($node);
             }

@@ -35,11 +35,11 @@ class PKPOAIMetadataFormat_DC extends \PKP\oai\OAIMetadataFormat
         $dcDescription = $dataObject->extractMetadata(new \APP\plugins\metadata\dc11\schema\Dc11Schema());
 
         $response = "<oai_dc:dc\n" .
-            "\txmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\"\n" .
-            "\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n" .
-            "\txmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n" .
-            "\txsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/\n" .
-            "\thttp://www.openarchives.org/OAI/2.0/oai_dc.xsd\">\n";
+            "\txmlns:oai_dc=\"https://www.openarchives.org/OAI/2.0/oai_dc/\"\n" .
+            "\txmlns:dc=\"https://purl.org/dc/elements/1.1/\"\n" .
+            "\txmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\"\n" .
+            "\txsi:schemaLocation=\"https://www.openarchives.org/OAI/2.0/oai_dc/\n" .
+            "\thttps://www.openarchives.org/OAI/2.0/oai_dc.xsd\">\n";
 
         foreach ($dcDescription->getProperties() as $propertyName => $property) { /** @var MetadataProperty $property */
             if ($dcDescription->hasStatement($propertyName)) {

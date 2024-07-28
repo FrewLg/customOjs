@@ -6,7 +6,7 @@ msgstr ""
 "POT-Creation-Date: 2020-01-30T17:56:46+00:00\n"
 "PO-Revision-Date: 2023-10-25 12:06+0000\n"
 "Last-Translator: Dorota Siwecka <dorota.k.siwecka@gmail.com>\n"
-"Language-Team: Polish <https://translate.pkp.sfu.ca/projects/plugins/crossref/"
+"Language-Team: Polish <http://translate.pkp.sfu.ca/projects/plugins/crossref/"
 "pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -69,7 +69,7 @@ msgstr "OJS deponuje DOI automatycznie do Crossref w momencie publikacji artyku�
 
 #,fuzzy
 msgid "plugins.importexport.crossref.registrationIntro"
-msgstr "Wtyczka może zostać skonfigurowana do automatycznego rejestrowania DOI z Crossref. W tym celu będziesz potrzebował nazwę użytkownika oraz hasło (możesz je uzyskać od <a href=\"https://www.crossref.org\" target=\"_blank\">Crossref</a>. Jeżeli nie posiadasz nazwy użytkownika oraz hasła, możesz eksportować pozycje do formatu Crossref XML, ale nie będziesz mógł rejestrować DOI z Crossref za pomocą OJS."
+msgstr "Wtyczka może zostać skonfigurowana do automatycznego rejestrowania DOI z Crossref. W tym celu będziesz potrzebował nazwę użytkownika oraz hasło (możesz je uzyskać od <a href=\"http://www.crossref.org\" target=\"_blank\">Crossref</a>. Jeżeli nie posiadasz nazwy użytkownika oraz hasła, możesz eksportować pozycje do formatu Crossref XML, ale nie będziesz mógł rejestrować DOI z Crossref za pomocą OJS."
 
 msgid "plugins.importexport.crossref.cliUsage"
 msgstr ""

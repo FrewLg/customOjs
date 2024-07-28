@@ -9,7 +9,7 @@
 [![Continuous integration](https://github.com/sokil/php-isocodes/workflows/Continuous%20integration/badge.svg?branch=4.0)](https://github.com/sokil/php-isocodes/actions?query=workflow%3A%22Continuous+integration%22)
 [![Latest Stable Version](https://poser.pugx.org/sokil/php-isocodes/v/stable.png?1)](https://packagist.org/packages/sokil/php-isocodes)
 [![Coverage Status](https://coveralls.io/repos/sokil/php-isocodes/badge.png)](https://coveralls.io/r/sokil/php-isocodes)
-[![Total Downloads](http://img.shields.io/packagist/dt/sokil/php-isocodes.svg?1)](https://packagist.org/packages/sokil/php-isocodes)
+[![Total Downloads](https://img.shields.io/packagist/dt/sokil/php-isocodes.svg?1)](https://packagist.org/packages/sokil/php-isocodes)
 [![Daily Downloads](https://poser.pugx.org/sokil/php-isocodes/d/daily)](https://packagist.org/packages/sokil/php-isocodes/stats)
 
 :star: This library used to get localized names of countries, currencies, languages and scripts.
@@ -71,7 +71,7 @@ You may use this library in different modes:
 To install [library with database and i18n](https://github.com/sokil/php-isocodes-db-i18n):
 
 [![Latest Stable Version](https://poser.pugx.org/sokil/php-isocodes-db-i18n/v/stable.png)](https://packagist.org/packages/sokil/php-isocodes-db-i18n)
-[![Total Downloads](http://img.shields.io/packagist/dt/sokil/php-isocodes-db-i18n.svg?1)](https://packagist.org/packages/sokil/php-isocodes-db-i18n)
+[![Total Downloads](https://img.shields.io/packagist/dt/sokil/php-isocodes-db-i18n.svg?1)](https://packagist.org/packages/sokil/php-isocodes-db-i18n)
 [![Daily Downloads](https://poser.pugx.org/sokil/php-isocodes-db-i18n/d/daily)](https://packagist.org/packages/sokil/php-isocodes-db-i18n/stats)
 
 ```
@@ -81,7 +81,7 @@ composer require sokil/php-isocodes-db-i18n
 You may also install [library with only database](https://github.com/sokil/php-isocodes-db-only) (no i18n will be available):
 
 [![Latest Stable Version](https://poser.pugx.org/sokil/php-isocodes-db-only/v/stable.png)](https://packagist.org/packages/sokil/php-isocodes-db-only)
-[![Total Downloads](http://img.shields.io/packagist/dt/sokil/php-isocodes-db-only.svg?1)](https://packagist.org/packages/sokil/php-isocodes-db-only)
+[![Total Downloads](https://img.shields.io/packagist/dt/sokil/php-isocodes-db-only.svg?1)](https://packagist.org/packages/sokil/php-isocodes-db-only)
 [![Daily Downloads](https://poser.pugx.org/sokil/php-isocodes-db-only/d/daily)](https://packagist.org/packages/sokil/php-isocodes-db-only/stats)
 
 ```
@@ -438,5 +438,5 @@ For example for PHP 7.1 run following command:
 ## See also
 
 * [State Classifier of objects of administrative and territorial structure of Ukraine](https://github.com/sokil/koatuu) - generates database of detailed list of cities and settlements of Ukraine
-* [A Symfony's PHP replacement layer for the C intl extension that also provides access to the localization data of the ICU library](http://symfony.com/doc/current/components/intl.html)
-* [FamFacFam icon pack with flags](http://www.famfamfam.com/lab/icons/flags/)
+* [A Symfony's PHP replacement layer for the C intl extension that also provides access to the localization data of the ICU library](https://symfony.com/doc/current/components/intl.html)
+* [FamFacFam icon pack with flags](https://www.famfamfam.com/lab/icons/flags/)

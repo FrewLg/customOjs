@@ -16,7 +16,7 @@ $ADODB_INCLUDED_CSV = 1;
   the BSD license will take precedence. See License.txt.
   Set tabs to 4 for best viewing.
 
-  Latest version is available at http://adodb.org/
+  Latest version is available at https://adodb.org/
 
   Library for CSV serialization. This is used by the csv/proxy driver and is the
   CacheExecute() serialization format.
@@ -264,7 +264,7 @@ $ADODB_INCLUDED_CSV = 1;
 	*/
 	function adodb_write_file($filename, $contents,$debug=false)
 	{
-	# http://www.php.net/bugs.php?id=9203 Bug that flock fails on Windows
+	# https://www.php.net/bugs.php?id=9203 Bug that flock fails on Windows
 	# So to simulate locking, we assume that rename is an atomic operation.
 	# First we delete $filename, then we create a $tempfile write to it and
 	# rename to the desired $filename. If the rename works, then we successfully

@@ -84,7 +84,7 @@
   {
     "pattern": "Arachni",
     "last_changed": "2018-12-13",
-    "description": "http://www.arachni-scanner.com/"
+    "description": "https://www.arachni-scanner.com/"
   },
   {
     "pattern": "Arachmo",
@@ -180,7 +180,7 @@
     "pattern": "BUbiNG",
     "last_changed": "2018-02-07",
     "description": "BUbiNG bot scrapes the internet for contacts and news articles that would be of interest to their students and university.",
-    "url": "http://law.di.unimi.it/BUbiNG.html"
+    "url": "https://law.di.unimi.it/BUbiNG.html"
   },
   {
     "pattern": "bwh3_user_agent",
@@ -788,7 +788,7 @@
     "pattern": "^okhttp$",
     "last_changed": "2018-02-15",
     "description": "okhttp is a Java HTTP client library.",
-    "url": "http://square.github.io/okhttp/"
+    "url": "https://square.github.io/okhttp/"
   },
   {
     "pattern": "onetszukaj",

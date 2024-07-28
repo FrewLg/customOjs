@@ -9,7 +9,7 @@
   Whenever there is any discrepancy between the two licenses,
   the BSD license will take precedence.
 
-  Latest version is available at http://adodb.org/
+  Latest version is available at https://adodb.org/
 
   Code contributed by George Fourlanos <fou@infomap.gr>
 
@@ -947,7 +947,7 @@ END;
 			$element0 = reset($inputarr);
 			$array2d =  $this->bulkBind && is_array($element0) && !is_object(reset($element0));
 
-			# see http://phplens.com/lens/lensforum/msgs.php?id=18786
+			# see https://phplens.com/lens/lensforum/msgs.php?id=18786
 			if ($array2d || !$this->_bindInputArray) {
 
 				# is_object check because oci8 descriptors can be passed in
@@ -1201,7 +1201,7 @@ END;
 	 * @param [$maxLen] Holds an maximum length of the variable.
 	 * @param [$type] The data type of $var. Legal values depend on driver.
 	 *
-	 * @link http://php.net/oci_bind_by_name
+	 * @link https://php.net/oci_bind_by_name
 	*/
 	function Parameter(&$stmt,&$var,$name,$isOutput=false,$maxLen=4000,$type=false)
 	{
@@ -1444,7 +1444,7 @@ SELECT /*+ RULE */ distinct b.column_name
 	 * @param	bool	$upper	[optional][discarded]
 	 * @return	mixed[]			Array of foreign key information
 	 *
-	 * @link http://gis.mit.edu/classes/11.521/sqlnotes/referential_integrity.html
+	 * @link https://gis.mit.edu/classes/11.521/sqlnotes/referential_integrity.html
 	 */
 	function MetaForeignKeys($table, $owner=false, $upper=false)
 	{
@@ -1591,7 +1591,7 @@ class ADORecordset_oci8 extends ADORecordSet {
 
 			/*
 			// based on idea by Gaetano Giunta to detect unusual oracle errors
-			// see http://phplens.com/lens/lensforum/msgs.php?id=6771
+			// see https://phplens.com/lens/lensforum/msgs.php?id=6771
 			$err = oci_error($this->_queryID);
 			if ($err && $this->connection->debug) {
 				ADOConnection::outp($err);

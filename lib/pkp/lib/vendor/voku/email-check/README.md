@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/voku/email-check.svg)](https://travis-ci.org/voku/email-check)
-[![codecov.io](http://codecov.io/github/voku/email-check/coverage.svg?branch=master)](http://codecov.io/github/voku/email-check?branch=master)
+[![codecov.io](https://codecov.io/github/voku/email-check/coverage.svg?branch=master)](https://codecov.io/github/voku/email-check?branch=master)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/512a3dc264b745b18baa1b238470b1d0)](https://www.codacy.com/app/voku/email-check)
 [![Latest Stable Version](https://poser.pugx.org/voku/email-check/v/stable)](https://packagist.org/packages/voku/email-check) 
 [![Total Downloads](https://poser.pugx.org/voku/email-check/downloads)](https://packagist.org/packages/voku/email-check) 

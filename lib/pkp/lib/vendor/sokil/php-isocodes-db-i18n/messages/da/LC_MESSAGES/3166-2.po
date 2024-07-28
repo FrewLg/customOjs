@@ -920,7 +920,7 @@ msgstr "Federacija Bosne i Hercegovine"
 msgid "Brčko distrikt"
 msgstr "Brčko distrikt"
 
-# http://en.wikipedia.org/wiki/Republika_Srpska
+# https://en.wikipedia.org/wiki/Republika_Srpska
 #. Name for BA-SRP
 msgid "Republika Srpska"
 msgstr "Republika Srpska"
@@ -6419,8 +6419,8 @@ msgstr "Harrow"
 msgid "Haringey"
 msgstr "Haringey"
 
-# http://da.wikipedia.org/wiki/Isle_of_Wight
-# http://www.denstoredanske.dk/Rejser,_geografi_og_historie/
+# https://da.wikipedia.org/wiki/Isle_of_Wight
+# https://www.denstoredanske.dk/Rejser,_geografi_og_historie/
 # Storbritannien_og_Irland/Egne_i_England/Isle_of_Wight?highlight=wight
 #. Name for GB-IOS
 #, fuzzy
@@ -6428,8 +6428,8 @@ msgstr "Haringey"
 msgid "Isles of Scilly"
 msgstr "Isle of Wight"
 
-# http://da.wikipedia.org/wiki/Isle_of_Wight
-# http://www.denstoredanske.dk/Rejser,_geografi_og_historie/
+# https://da.wikipedia.org/wiki/Isle_of_Wight
+# https://www.denstoredanske.dk/Rejser,_geografi_og_historie/
 # Storbritannien_og_Irland/Egne_i_England/Isle_of_Wight?highlight=wight
 #. Name for GB-IOW
 msgid "Isle of Wight"
@@ -6873,7 +6873,7 @@ msgstr "Tower Hamlets"
 
 # "Dalen Glamorgan"
 # svensk bruger uoversat
-# http://sv.wikipedia.org/wiki/Vale_of_Glamorgan
+# https://sv.wikipedia.org/wiki/Vale_of_Glamorgan
 #. Name for GB-VGL
 #, fuzzy
 #| msgid "Vale of Glamorgan, The;Bro Morgannwg"
@@ -21072,7 +21072,7 @@ msgstr "Navoiy"
 msgid "Qashqadaryo"
 msgstr "Qashqadaryo"
 
-# http://en.wikipedia.org/wiki/Qoraqalpog%E2%80%98iston_Respublikasi
+# https://en.wikipedia.org/wiki/Qoraqalpog%E2%80%98iston_Respublikasi
 #. Name for UZ-QR
 #, fuzzy
 #| msgid "Qoraqalpog'iston Respublikasi"
@@ -21660,7 +21660,7 @@ msgstr ""
 msgid "Eastern Cape"
 msgstr "Østkapprovinsen"
 
-# http://da.wikipedia.org/wiki/Fristatprovinsen
+# https://da.wikipedia.org/wiki/Fristatprovinsen
 #. Name for ZA-FS
 msgid "Free State"
 msgstr "Fristatprovinsen"
@@ -21712,7 +21712,7 @@ msgstr "Lusaka"
 msgid "Muchinga"
 msgstr "Machinga"
 
-# http://en.wikipedia.org/wiki/ISO_3166-2:ZW
+# https://en.wikipedia.org/wiki/ISO_3166-2:ZW
 # ISO 3166-2:ZW is the entry for Zimbabwe in ISO 3166-2,
 #. Name for ZW-BU
 msgid "Bulawayo"

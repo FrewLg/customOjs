@@ -1147,7 +1147,7 @@ Ensures that the string begins with $substring. If it doesn't, it's
 prepended.
 
 EXAMPLE: <code>
-s('foobar')->ensureLeft('http://'); // 'http://foobar'
+s('foobar')->ensureLeft('https://'); // 'https://foobar'
 </code>
 
 **Parameters:**

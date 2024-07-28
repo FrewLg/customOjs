@@ -3,7 +3,7 @@
     "description": "Guzzle 7 HTTP Adapter",
     "license": "MIT",
     "keywords": ["guzzle", "http"],
-    "homepage": "https://httplug.io",
+    "homepage": "http://httplug.io",
     "authors": [
         {
             "name": "Tobias Nyholm",

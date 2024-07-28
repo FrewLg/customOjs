@@ -240,7 +240,7 @@ class AcronPlugin extends GenericPlugin
         set_time_limit(0);
 
         // Fix the current working directory. See
-        // https://www.php.net/manual/en/function.register-shutdown-function.php#92657
+        // http://www.php.net/manual/en/function.register-shutdown-function.php#92657
         chdir($workingDir);
 
         /** @var ScheduledTaskDAO */

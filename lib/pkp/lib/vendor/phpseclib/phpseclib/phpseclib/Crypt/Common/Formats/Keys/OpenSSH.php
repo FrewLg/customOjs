@@ -9,8 +9,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib3\Crypt\Common\Formats\Keys;
@@ -189,7 +189,7 @@ abstract class OpenSSH
         $usesEncryption = !empty($password) && is_string($password);
 
         /*
-           from http://tools.ietf.org/html/rfc4253#section-6 :
+           from https://tools.ietf.org/html/rfc4253#section-6 :
 
            Note that the length of the concatenation of 'packet_length',
            'padding_length', 'payload', and 'random padding' MUST be a multiple

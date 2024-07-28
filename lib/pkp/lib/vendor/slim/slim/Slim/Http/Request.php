@@ -514,7 +514,7 @@ class Request extends Message implements ServerRequestInterface
      * immutability of the message, and MUST return an instance that has the
      * changed request target.
      *
-     * @link http://tools.ietf.org/html/rfc7230#section-2.7
+     * @link https://tools.ietf.org/html/rfc7230#section-2.7
      * (for the various request-target forms allowed in request messages)
      *
      * @param string $requestTarget
@@ -541,7 +541,7 @@ class Request extends Message implements ServerRequestInterface
      *
      * This method MUST return a UriInterface instance.
      *
-     * @link http://tools.ietf.org/html/rfc3986#section-4.3
+     * @link https://tools.ietf.org/html/rfc3986#section-4.3
      *
      * @return UriInterface
      */
@@ -575,7 +575,7 @@ class Request extends Message implements ServerRequestInterface
      * immutability of the message, and MUST return an instance that has the
      * new UriInterface instance.
      *
-     * @link http://tools.ietf.org/html/rfc3986#section-4.3
+     * @link https://tools.ietf.org/html/rfc3986#section-4.3
      *
      * @param UriInterface $uri          New request URI to use.
      * @param bool         $preserveHost Preserve the original state of the Host header.

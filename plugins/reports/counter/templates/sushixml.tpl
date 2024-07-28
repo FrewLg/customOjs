@@ -8,19 +8,19 @@
  * SUSHI response XML
  *}
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="https://schemas.xmlsoap.org/soap/encoding/"
-  xmlns:xsi="https://www.w3.org/1999/XMLSchema-instance"
-  xmlns:SOAP-ENC="https://schemas.xmlsoap.org/soap/encoding/"
-  xmlns:SOAP-ENV="https://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:xsd="https://www.w3.org/1999/XMLSchema">
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
+  xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:xsd="http://www.w3.org/1999/XMLSchema">
   <SOAP-ENV:Body>
   <ReportResponse
     ID="ID0"
-    xsi:schemaLocation="https://www.niso.org/schemas/sushi/counter https://www.niso.org/schemas/sushi/counter_sushi3_0.xsd"
+    xsi:schemaLocation="http://www.niso.org/schemas/sushi/counter http://www.niso.org/schemas/sushi/counter_sushi3_0.xsd"
     Created="{$smarty.now|date_format:"%Y-%m-%dT%H:%M:%SZ"}"
-    xmlns="https://www.niso.org/schemas/sushi/counter"
-    xmlns:s="https://www.niso.org/schemas/sushi"
-    xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance">
+    xmlns="http://www.niso.org/schemas/sushi/counter"
+    xmlns:s="http://www.niso.org/schemas/sushi"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <s:Requestor>
       <s:ID>{$requestorID|escape:"html"}</s:ID>
       <s:Name>{$requestorName|escape:"html"}</s:Name>

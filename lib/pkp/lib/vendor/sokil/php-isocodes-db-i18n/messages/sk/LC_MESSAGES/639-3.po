@@ -11603,9 +11603,9 @@ msgstr ""
 msgid "Guaraní, Eastern Bolivian"
 msgstr ""
 
-# http://209.85.129.104/search?q=cache:VS8RqjDUI34J:https://www.kis3g.sk/kodovniky/Kody_jazykovM04def.doc+afar%C4%8Dina&hl=sk&ct=clnk&cd=1&gl=sk&client=firefox-a
-# http://www.ethnologue.com/14/iso639/codes.asp
-# http://209.85.129.104/search?q=cache:mUD7_zD5SeoJ:www.snk.sk/nbuu/kodovniky/kodyjazykov.html+%22horn%C3%A1+altaj%C4%8Dina%22&hl=sk&ct=clnk&cd=1&gl=sk&client=firefox-a
+# https://209.85.129.104/search?q=cache:VS8RqjDUI34J:https://www.kis3g.sk/kodovniky/Kody_jazykovM04def.doc+afar%C4%8Dina&hl=sk&ct=clnk&cd=1&gl=sk&client=firefox-a
+# https://www.ethnologue.com/14/iso639/codes.asp
+# https://209.85.129.104/search?q=cache:mUD7_zD5SeoJ:www.snk.sk/nbuu/kodovniky/kodyjazykov.html+%22horn%C3%A1+altaj%C4%8Dina%22&hl=sk&ct=clnk&cd=1&gl=sk&client=firefox-a
 #. Name for guj
 msgid "Gujarati"
 msgstr "gudžarátčina"

@@ -11,8 +11,8 @@ Powerful ***D***ata***B***ase ***A***bstraction ***L***ayer with many features f
 
 ## More resources:
 
-* [Website](http://www.doctrine-project.org/projects/dbal.html)
-* [Documentation](http://docs.doctrine-project.org/projects/doctrine-dbal/en/latest/)
+* [Website](https://www.doctrine-project.org/projects/dbal.html)
+* [Documentation](https://docs.doctrine-project.org/projects/doctrine-dbal/en/latest/)
 * [Issue Tracker](https://github.com/doctrine/dbal/issues)
 
   [Coverage image]: https://codecov.io/gh/doctrine/dbal/branch/4.0.x/graph/badge.svg

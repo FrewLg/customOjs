@@ -31,13 +31,13 @@ assert($part2->equals(Money::EUR(333)));
 assert($part3->equals(Money::EUR(333)));
 ```
 
-The documentation is available at https://moneyphp.org
+The documentation is available at http://moneyphp.org
 
 
 ## Requirements
 
 PHP 5.6+. Other than that, this library has no external requirements. MoneyPHP will not provide any support to
-PHP versions that are [not supported by the language itself](https://php.net/supported-versions.php). There might be
+PHP versions that are [not supported by the language itself](http://php.net/supported-versions.php). There might be
 additional dependencies for specific feature, e.g. the Swap exchange implementation, check the documentation for more information.
 
 
@@ -56,17 +56,17 @@ $ composer require moneyphp/money
 - Big integer support utilizing different, transparent calculation logic upon availability (bcmath, gmp, plain php)
 - Money formatting (including intl formatter)
 - Currency repositories (ISO currencies included)
-- Money exchange (including [Swap](https://swap.voutzinos.org) implementation)
+- Money exchange (including [Swap](http://swap.voutzinos.org) implementation)
 
 
 ## Documentation
 
-Please see the [official documentation](https://moneyphp.org).
+Please see the [official documentation](http://moneyphp.org).
 
 
 ## Testing
 
-We try to follow BDD and TDD, as such we use both [phpspec](https://www.phpspec.net) and [phpunit](https://phpunit.de) to test this library.
+We try to follow BDD and TDD, as such we use both [phpspec](http://www.phpspec.net) and [phpunit](https://phpunit.de) to test this library.
 
 ```bash
 $ composer test
@@ -109,6 +109,6 @@ The MIT License (MIT). Please see [License File](LICENSE) for more information.
 
 ## Acknowledgements
 
-This library is heavily inspired by [Martin Fowler's Money pattern](https://martinfowler.com/eaaCatalog/money.html).
+This library is heavily inspired by [Martin Fowler's Money pattern](http://martinfowler.com/eaaCatalog/money.html).
 A special remark goes to [Mathias Verraes](https://github.com/mathiasverraes), without his contributions,
-in code and via his [blog](https://verraes.net/#blog), this library would not be where it stands now.
+in code and via his [blog](http://verraes.net/#blog), this library would not be where it stands now.

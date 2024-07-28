@@ -8,7 +8,7 @@
   the BSD license will take precedence.
   Set tabs to 4 for best viewing.
 
-  Latest version is available at http://adodb.org/
+  Latest version is available at https://adodb.org/
 
   Sybase driver contributed by Toni (toni.tunkkari@finebyte.com)
 
@@ -29,7 +29,7 @@ class ADODB_sybase extends ADOConnection {
 	var $hasInsertID = true;
 	var $hasAffectedRows = true;
   	var $metaTablesSQL="select name from sysobjects where type='U' or type='V'";
-	// see http://sybooks.sybase.com/onlinebooks/group-aw/awg0800e/dbrfen8/@ebt-link;pt=5981;uf=0?target=0;window=new;showtoc=true;book=dbrfen8
+	// see https://sybooks.sybase.com/onlinebooks/group-aw/awg0800e/dbrfen8/@ebt-link;pt=5981;uf=0?target=0;window=new;showtoc=true;book=dbrfen8
 	var $metaColumnsSQL = "SELECT c.column_name, c.column_type, c.width FROM syscolumn c, systable t WHERE t.table_name='%s' AND c.table_id=t.table_id AND t.table_type='BASE'";
 	/*
 	"select c.name,t.name,c.length from
@@ -89,7 +89,7 @@ class ADODB_sybase extends ADOConnection {
 		return true;
 	}
 
-	// http://www.isug.com/Sybase_FAQ/ASE/section6.1.html#6.1.4
+	// https://www.isug.com/Sybase_FAQ/ASE/section6.1.html#6.1.4
 	function RowLock($tables,$where,$col='top 1 null as ignore')
 	{
 		if (!$this->_hastrans) $this->BeginTrans();
@@ -177,7 +177,7 @@ class ADODB_sybase extends ADOConnection {
 			return sybase_query($sql,$this->_connectionID);
 	}
 
-	// See http://www.isug.com/Sybase_FAQ/ASE/section6.2.html#6.2.12
+	// See https://www.isug.com/Sybase_FAQ/ASE/section6.2.html#6.2.12
 	function SelectLimit($sql,$nrows=-1,$offset=-1,$inputarr=false,$secs2cache=0)
 	{
 		if ($secs2cache > 0) {// we do not cache rowcount, so we have to load entire recordset
@@ -217,7 +217,7 @@ class ADODB_sybase extends ADOConnection {
 
 
 	# Added 2003-10-05 by Chris Phillipson
-	# Used ASA SQL Reference Manual -- http://sybooks.sybase.com/onlinebooks/group-aw/awg0800e/dbrfen8/@ebt-link;pt=16756?target=%25N%15_12018_START_RESTART_N%25
+	# Used ASA SQL Reference Manual -- https://sybooks.sybase.com/onlinebooks/group-aw/awg0800e/dbrfen8/@ebt-link;pt=16756?target=%25N%15_12018_START_RESTART_N%25
 	# to convert similar Microsoft SQL*Server (mssql) API into Sybase compatible version
 	// Format date column in sql string given an input format that understands Y M D
 	function SQLDate($fmt, $col=false)
@@ -280,7 +280,7 @@ class ADODB_sybase extends ADOConnection {
 	}
 
 	# Added 2003-10-07 by Chris Phillipson
-	# Used ASA SQL Reference Manual -- http://sybooks.sybase.com/onlinebooks/group-aw/awg0800e/dbrfen8/@ebt-link;pt=5981;uf=0?target=0;window=new;showtoc=true;book=dbrfen8
+	# Used ASA SQL Reference Manual -- https://sybooks.sybase.com/onlinebooks/group-aw/awg0800e/dbrfen8/@ebt-link;pt=5981;uf=0?target=0;window=new;showtoc=true;book=dbrfen8
 	# to convert similar Microsoft SQL*Server (mssql) API into Sybase compatible version
 	function MetaPrimaryKeys($table, $owner = false)
 	{

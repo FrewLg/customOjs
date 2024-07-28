@@ -243,7 +243,7 @@ class ServeCommand extends Command
                     return;
                 }
 
-                $this->components->info("Server running on [http://{$this->host()}:{$this->port()}].");
+                $this->components->info("Server running on [https://{$this->host()}:{$this->port()}].");
                 $this->comment('  <fg=yellow;options=bold>Press Ctrl+C to stop the server</>');
 
                 $this->newLine();

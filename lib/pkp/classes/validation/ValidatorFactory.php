@@ -83,7 +83,7 @@ class ValidatorFactory
             if ($regexValidator->fails()) {
                 return false;
             }
-            // ISSN check digit: http://www.loc.gov/issn/basics/basics-checkdigit.html
+            // ISSN check digit: https://www.loc.gov/issn/basics/basics-checkdigit.html
             $numbers = str_replace('-', '', $value);
             $check = 0;
             for ($i = 0; $i < 7; $i++) {
@@ -113,7 +113,7 @@ class ValidatorFactory
             if ($orcidRegexValidator->fails()) {
                 return false;
             }
-            // ISNI check digit: http://www.isni.org/content/faq#FAQ16
+            // ISNI check digit: https://www.isni.org/content/faq#FAQ16
             $digits = preg_replace('/[^0-9X]/', '', $value);
 
             $total = 0;

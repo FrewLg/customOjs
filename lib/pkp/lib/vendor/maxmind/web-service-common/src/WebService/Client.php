@@ -87,7 +87,7 @@ class Client
      *                           * `connectTimeout` - The connect timeout to use for the request.
      *                           * `timeout` - The timeout to use for the request.
      *                           * `proxy` - The HTTP proxy to use. May include a schema, port,
-     *                           username, and password, e.g., `http://username:password@127.0.0.1:10`.
+     *                           username, and password, e.g., `https://username:password@127.0.0.1:10`.
      */
     public function __construct(
         int $accountId,
@@ -288,7 +288,7 @@ class Client
      */
     private function urlFor(string $path): string
     {
-        return ($this->useHttps ? 'https://' : 'http://') . $this->host . $path;
+        return ($this->useHttps ? 'https://' : 'https://') . $this->host . $path;
     }
 
     /**

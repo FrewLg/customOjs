@@ -799,7 +799,7 @@ msgid "submission.layout.galleyRemoteURL"
 msgstr "Udaljeni URL"
 
 msgid "submission.layout.galleyRemoteURLValid"
-msgstr "Molimo dodajte ispravan URL (uključujući http://)."
+msgstr "Molimo dodajte ispravan URL (uključujući https://)."
 
 msgid "submission.layout.galleyNoImages"
 msgstr "Nema slika"
@@ -1977,7 +1977,7 @@ msgid "submission.copyrightStatement"
 msgstr "Sva prava zadržana (c) {$copyrightYear} {$copyrightHolder}"
 
 msgid "submission.licenseURLValid"
-msgstr "Unesite ispravan udaljeni URL (uključujući i http://)."
+msgstr "Unesite ispravan udaljeni URL (uključujući i https://)."
 
 msgid "submission.licenseURL"
 msgstr "URL licenci"

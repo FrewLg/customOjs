@@ -122,7 +122,7 @@ abstract class ImportExportPlugin extends Plugin
     /**
      * Generate a URL into the plugin.
      *
-     * @see calling conventions at http://www.smarty.net/docsv2/en/api.register.function.tpl
+     * @see calling conventions at https://www.smarty.net/docsv2/en/api.register.function.tpl
      *
      * @param array $params
      * @param \Smarty $smarty
@@ -163,7 +163,7 @@ abstract class ImportExportPlugin extends Plugin
     public function isAllowedMethod($url)
     {
         $allowedPrefixes = [
-            'http://',
+            'https://',
             'ftp://',
             'https://',
             'ftps://'

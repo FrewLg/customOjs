@@ -9,9 +9,9 @@
  *
  * Useful resources are as follows:
  *
- *  - {@link http://en.wikipedia.org/wiki/DES_supplementary_material Wikipedia: DES supplementary material}
- *  - {@link http://www.itl.nist.gov/fipspubs/fip46-2.htm FIPS 46-2 - (DES), Data Encryption Standard}
- *  - {@link http://www.cs.eku.edu/faculty/styer/460/Encrypt/JS-DES.html JavaScript DES Example}
+ *  - {@link https://en.wikipedia.org/wiki/DES_supplementary_material Wikipedia: DES supplementary material}
+ *  - {@link https://www.itl.nist.gov/fipspubs/fip46-2.htm FIPS 46-2 - (DES), Data Encryption Standard}
+ *  - {@link https://www.cs.eku.edu/faculty/styer/460/Encrypt/JS-DES.html JavaScript DES Example}
  *
  * Here's a short example of how to use this library:
  * <code>
@@ -34,8 +34,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2007 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib3\Crypt;
@@ -660,7 +660,7 @@ class DES extends BlockCipher
      * Encrypts or decrypts a 64-bit block
      *
      * $mode should be either self::ENCRYPT or self::DECRYPT.  See
-     * {@link http://en.wikipedia.org/wiki/Image:Feistel.png Feistel.png} to get a general
+     * {@link https://en.wikipedia.org/wiki/Image:Feistel.png Feistel.png} to get a general
      * idea of what this function does.
      *
      * @see self::encryptBlock()
@@ -711,7 +711,7 @@ class DES extends BlockCipher
             // Perform the 16 steps.
             for ($i = 0; $i < 16; $i++) {
                 // start of "the Feistel (F) function" - see the following URL:
-                // http://en.wikipedia.org/wiki/Image:Data_Encryption_Standard_InfoBox_Diagram.png
+                // https://en.wikipedia.org/wiki/Image:Data_Encryption_Standard_InfoBox_Diagram.png
                 // Merge key schedule.
                 $b1 = (($r >>  3) & 0x1FFFFFFF) ^ ($r << 29) ^ $keys[++$ki];
                 $b2 = (($r >> 31) & 0x00000001) ^ ($r <<  1) ^ $keys[++$ki];
@@ -1346,7 +1346,7 @@ class DES extends BlockCipher
                 // Perform the 16 steps.
                 for ($i = 0; $i < 16; ++$i) {
                     // start of "the Feistel (F) function" - see the following URL:
-                    // http://en.wikipedia.org/wiki/Image:Data_Encryption_Standard_InfoBox_Diagram.png
+                    // https://en.wikipedia.org/wiki/Image:Data_Encryption_Standard_InfoBox_Diagram.png
                     // Merge key schedule.
                     $crypt_block[$c] .= '
                         $b1 = ((' . $r . ' >>  3) & 0x1FFFFFFF)  ^ (' . $r . ' << 29) ^ ' . $k[$c][++$ki] . ';

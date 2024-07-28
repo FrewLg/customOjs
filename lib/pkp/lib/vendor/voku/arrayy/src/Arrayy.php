@@ -436,7 +436,7 @@ class Arrayy extends \ArrayObject implements \IteratorAggregate, \ArrayAccess, \
      * implemented and used in PHP.
      * </p>
      *
-     * @see http://php.net/manual/en/function.count.php
+     * @see https://php.net/manual/en/function.count.php
      *
      * @param int $mode [optional] If the optional mode parameter is set to
      *                  COUNT_RECURSIVE (or 1), count
@@ -1704,7 +1704,7 @@ class Arrayy extends \ArrayObject implements \IteratorAggregate, \ArrayAccess, \
     /**
      * Counts all the values of an array
      *
-     * @see          http://php.net/manual/en/function.array-count-values.php
+     * @see          https://php.net/manual/en/function.array-count-values.php
      *
      * @return static
      *                <p>
@@ -2048,7 +2048,7 @@ class Arrayy extends \ArrayObject implements \IteratorAggregate, \ArrayAccess, \
      * $resultArrayy = $arrayy->customSortKeys($callable); // Arrayy['one' => 1, 'three' => 3, 'two' => 2]
      * </code>
      *
-     * @see          http://php.net/manual/en/function.uksort.php
+     * @see          https://php.net/manual/en/function.uksort.php
      *
      * @param callable $callable
      *
@@ -2072,7 +2072,7 @@ class Arrayy extends \ArrayObject implements \IteratorAggregate, \ArrayAccess, \
     /**
      * Custom sort by index via "uksort".
      *
-     * @see          http://php.net/manual/en/function.uksort.php
+     * @see          https://php.net/manual/en/function.uksort.php
      *
      * @param callable $callable
      *
@@ -2113,7 +2113,7 @@ class Arrayy extends \ArrayObject implements \IteratorAggregate, \ArrayAccess, \
      * $resultArrayy = $arrayy->customSortValues($callable); // Arrayy[1, 2, 3]
      * </code>
      *
-     * @see          http://php.net/manual/en/function.usort.php
+     * @see          https://php.net/manual/en/function.usort.php
      *
      * @param callable $callable
      *
@@ -2135,7 +2135,7 @@ class Arrayy extends \ArrayObject implements \IteratorAggregate, \ArrayAccess, \
     /**
      * Custom sort by value via "usort".
      *
-     * @see          http://php.net/manual/en/function.usort.php
+     * @see          https://php.net/manual/en/function.usort.php
      *
      * @param callable $callable
      *
@@ -6540,8 +6540,8 @@ class Arrayy extends \ArrayObject implements \IteratorAggregate, \ArrayAccess, \
      * a([1 => 2, 0 => 1])->sortKeys(\SORT_ASC); // Arrayy[0 => 1, 1 => 2]
      * </code>
      *
-     * @see http://php.net/manual/en/function.ksort.php
-     * @see http://php.net/manual/en/function.krsort.php
+     * @see https://php.net/manual/en/function.ksort.php
+     * @see https://php.net/manual/en/function.krsort.php
      *
      * @param int|string $direction <p>use <strong>SORT_ASC</strong> (default) or <strong>SORT_DESC</strong></p>
      * @param int        $strategy  <p>use e.g.: <strong>SORT_REGULAR</strong> (default) or
@@ -6566,8 +6566,8 @@ class Arrayy extends \ArrayObject implements \IteratorAggregate, \ArrayAccess, \
     /**
      * Sort the current array by key.
      *
-     * @see          http://php.net/manual/en/function.ksort.php
-     * @see          http://php.net/manual/en/function.krsort.php
+     * @see          https://php.net/manual/en/function.ksort.php
+     * @see          https://php.net/manual/en/function.krsort.php
      *
      * @param int|string $direction <p>use <strong>SORT_ASC</strong> (default) or <strong>SORT_DESC</strong></p>
      * @param int        $strategy  <p>use e.g.: <strong>SORT_REGULAR</strong> (default) or

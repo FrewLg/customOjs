@@ -1000,7 +1000,7 @@ class Less_Functions {
 		}
 
 		$returner = '<?xml version="1.0" ?>' .
-			'<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="0 0 1 1" preserveAspectRatio="none">' .
+			'<svg xmlns="https://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="0 0 1 1" preserveAspectRatio="none">' .
 			'<' . $gradientType . 'Gradient id="gradient" gradientUnits="userSpaceOnUse" ' . $gradientDirectionSvg . '>';
 
 		for ( $i = 0; $i < count( $stops ); $i++ ) {

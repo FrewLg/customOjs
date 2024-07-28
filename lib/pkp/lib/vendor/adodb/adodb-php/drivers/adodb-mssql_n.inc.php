@@ -8,7 +8,7 @@
 //                                                                       //
 // ADOdb  - Database Abstraction Library for PHP                         //
 //                                                                       //
-// Latest version is available at http://adodb.org                       //
+// Latest version is available at https://adodb.org                       //
 //                                                                       //
 // Copyright (c) 2000-2014 John Lim (jlim\@natsoft.com.my)               //
 //          All rights reserved.                                         //
@@ -17,10 +17,10 @@
 //          the BSD license will take precedence                         //
 //                                                                       //
 // Moodle - Modular Object-Oriented Dynamic Learning Environment         //
-//          http://moodle.com                                            //
+//          https://moodle.com                                            //
 //                                                                       //
-// Copyright (C) 2001-3001 Martin Dougiamas        http://dougiamas.com  //
-//           (C) 2001-3001 Eloy Lafuente (stronk7) http://contiento.com  //
+// Copyright (C) 2001-3001 Martin Dougiamas        https://dougiamas.com  //
+//           (C) 2001-3001 Eloy Lafuente (stronk7) https://contiento.com  //
 //                                                                       //
 // This program is free software; you can redistribute it and/or modify  //
 // it under the terms of the GNU General Public License as published by  //
@@ -32,7 +32,7 @@
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         //
 // GNU General Public License for more details:                          //
 //                                                                       //
-//          http://www.gnu.org/copyleft/gpl.html                         //
+//          https://www.gnu.org/copyleft/gpl.html                         //
 //                                                                       //
 ///////////////////////////////////////////////////////////////////////////
 

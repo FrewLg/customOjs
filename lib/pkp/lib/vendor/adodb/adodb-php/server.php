@@ -9,7 +9,7 @@
   the BSD license will take precedence.
  */
 
-/* Documentation on usage is at http://adodb.org/dokuwiki/doku.php?id=v5:proxy:proxy_index
+/* Documentation on usage is at https://adodb.org/dokuwiki/doku.php?id=v5:proxy:proxy_index
  *
  * Legal query string parameters:
  *
@@ -20,7 +20,7 @@
  *
  * example:
  *
- * http://localhost/php/server.php?select+*+from+table&nrows=10&offset=2
+ * https://localhost/php/server.php?select+*+from+table&nrows=10&offset=2
  */
 
 

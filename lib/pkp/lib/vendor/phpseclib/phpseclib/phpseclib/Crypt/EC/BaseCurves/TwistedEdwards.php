@@ -3,7 +3,7 @@
 /**
  * Curves over a*x^2 + y^2 = 1 + d*x^2*y^2
  *
- * http://www.secg.org/SEC2-Ver-1.0.pdf provides for curves with custom parameters.
+ * https://www.secg.org/SEC2-Ver-1.0.pdf provides for curves with custom parameters.
  * ie. the coefficients can be arbitrary set through specially formatted keys, etc.
  * As such, Prime.php is built very generically and it's not able to take full
  * advantage of curves with 0 coefficients to produce simplified point doubling,
@@ -20,8 +20,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://pear.php.net/package/Math_BigInteger
  */
 
 namespace phpseclib3\Crypt\EC\BaseCurves;

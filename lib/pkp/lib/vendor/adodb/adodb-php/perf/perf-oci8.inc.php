@@ -8,7 +8,7 @@
   the BSD license will take precedence. See License.txt.
   Set tabs to 4 for best viewing.
 
-  Latest version is available at http://adodb.org/
+  Latest version is available at https://adodb.org/
 
   Library for basic performance monitoring and tuning
 
@@ -163,7 +163,7 @@ AND    b.name = 'sorts (memory)'",
 	'Parameters',
 		'cursor sharing' => array('CURSOR',
 			"select value from v\$parameter where name = 'cursor_sharing'",
-			'Cursor reuse strategy. Recommended is FORCE (8i+) or SIMILAR (9i+). See <a href=http://www.praetoriate.com/oracle_tips_cursor_sharing.htm>cursor_sharing</a>.'),
+			'Cursor reuse strategy. Recommended is FORCE (8i+) or SIMILAR (9i+). See <a href=https://www.praetoriate.com/oracle_tips_cursor_sharing.htm>cursor_sharing</a>.'),
 		/*
 		'cursor reuse' => array('CURSOR',
 			"select count(*) from (select sql_text_wo_constants, count(*)
@@ -323,7 +323,7 @@ order by 3 desc) where rownum <=10");
 		if ($val == 100 && $this->version['version'] < 10) $s = '<font color=red><b>Too High</b>. </font>';
 		else $s = '';
 
-		return $s.'Recommended is 20-50 for TP, and 50 for data warehouses. Default is 100. See <a href=http://www.dba-oracle.com/oracle_tips_cost_adj.htm>optimizer_index_cost_adj</a>. ';
+		return $s.'Recommended is 20-50 for TP, and 50 for data warehouses. Default is 100. See <a href=https://www.dba-oracle.com/oracle_tips_cost_adj.htm>optimizer_index_cost_adj</a>. ';
 	}
 
 	function WarnIndexCost($val)
@@ -333,7 +333,7 @@ order by 3 desc) where rownum <=10");
 
 		return $s.'Percentage of indexed data blocks expected in the cache.
 			Recommended is 20 (fast disk array) to 30 (slower hard disks). Default is 0.
-			 See <a href=http://www.dba-oracle.com/oracle_tips_cbo_part1.htm>optimizer_index_caching</a>.';
+			 See <a href=https://www.dba-oracle.com/oracle_tips_cbo_part1.htm>optimizer_index_caching</a>.';
 		}
 
 	function PGA()
@@ -527,7 +527,7 @@ select  a.name Buffer_Pool, b.size_for_estimate as cache_mb_estimate,
 	}
 
 	// code thanks to Ixora.
-	// http://www.ixora.com.au/scripts/query_opt.htm
+	// https://www.ixora.com.au/scripts/query_opt.htm
 	// requires oracle 8.1.7 or later
 	function SuspiciousSQL($numsql=10)
 	{
@@ -601,7 +601,7 @@ order by
 	}
 
 	// code thanks to Ixora.
-	// http://www.ixora.com.au/scripts/query_opt.htm
+	// https://www.ixora.com.au/scripts/query_opt.htm
 	// requires oracle 8.1.7 or later
 	function ExpensiveSQL($numsql = 10)
 	{

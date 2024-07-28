@@ -81,7 +81,7 @@ class Client implements ProviderInterface
      *                           * `connectTimeout` - Initial connection timeout in seconds.
      *                           * `proxy` - The HTTP proxy to use. May include a schema, port,
      *                           username, and password, e.g.,
-     *                           `http://username:password@127.0.0.1:10`.
+     *                           `https://username:password@127.0.0.1:10`.
      */
     public function __construct(
         int $accountId,

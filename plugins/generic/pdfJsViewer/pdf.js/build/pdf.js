@@ -8,7 +8,7 @@
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *     https://www.apache.org/licenses/LICENSE-2.0
+ *     http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -389,7 +389,7 @@ var _util = __w_pdfjs_require__(2);
 
 const DEFAULT_LINK_REL = "noopener noreferrer nofollow";
 exports.DEFAULT_LINK_REL = DEFAULT_LINK_REL;
-const SVG_NS = "https://www.w3.org/2000/svg";
+const SVG_NS = "http://www.w3.org/2000/svg";
 
 class BaseCanvasFactory {
   constructor() {
@@ -11051,8 +11051,8 @@ exports.SVGGraphics = SVGGraphics;
     fontWeight: "normal",
     fillColor: "#000000"
   };
-  const XML_NS = "https://www.w3.org/XML/1998/namespace";
-  const XLINK_NS = "https://www.w3.org/1999/xlink";
+  const XML_NS = "http://www.w3.org/XML/1998/namespace";
+  const XLINK_NS = "http://www.w3.org/1999/xlink";
   const LINE_CAP_STYLES = ["butt", "round", "square"];
   const LINE_JOIN_STYLES = ["miter", "round", "bevel"];
 

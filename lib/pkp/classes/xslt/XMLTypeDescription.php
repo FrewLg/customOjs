@@ -14,10 +14,10 @@
  * @brief Class that describes an XML input/output type.
  *
  *  Type descriptors follow the syntax:
- *   xml::validation-schema(http://url.to.the/file.{xsd|dtd|rng})
+ *   xml::validation-schema(https://url.to.the/file.{xsd|dtd|rng})
  *
  *  Example:
- *   xml::schema(http://www.crossref.org/schema/queryResultSchema/crossref_query_output2.0.xsd)
+ *   xml::schema(https://www.crossref.org/schema/queryResultSchema/crossref_query_output2.0.xsd)
  *
  *  XML input/output can be either represented as a string or as a DOMDocument object.
  */

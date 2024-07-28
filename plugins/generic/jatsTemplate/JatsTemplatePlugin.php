@@ -98,9 +98,9 @@ class JatsTemplatePlugin extends GenericPlugin {
 		if ($datePublished) $datePublished = strtotime($datePublished);
 
 		$response = "<article
-			xmlns:xlink=\"https://www.w3.org/1999/xlink\"
-			xmlns:mml=\"https://www.w3.org/1998/Math/MathML\"
-			xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\"
+			xmlns:xlink=\"http://www.w3.org/1999/xlink\"
+			xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"
+			xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
 			" . (($s = $section->getLocalizedIdentifyType())!=''?"\tarticle-type=\"" . htmlspecialchars($s) . "\"":'') . "
 			xml:lang=\"" . substr($articleLocale, 0, 2) . "\">
 			<front>

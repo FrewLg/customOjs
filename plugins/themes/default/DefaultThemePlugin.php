@@ -170,7 +170,7 @@ class DefaultThemePlugin extends \PKP\plugins\ThemePlugin
 
         $request = Application::get()->getRequest();
 
-        // Load icon font FontAwesome - https://fontawesome.io/
+        // Load icon font FontAwesome - http://fontawesome.io/
         $this->addStyle(
             'fontAwesome',
             $request->getBaseUrl() . '/lib/pkp/styles/fontawesome/fontawesome.css',

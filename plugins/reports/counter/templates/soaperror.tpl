@@ -8,11 +8,11 @@
  * SOAP error response
  *}
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="https://schemas.xmlsoap.org/soap/encoding/"
-  xmlns:xsi="https://www.w3.org/1999/XMLSchema-instance"
-  xmlns:SOAP-ENC="https://schemas.xmlsoap.org/soap/encoding/"
-  xmlns:SOAP-ENV="https://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:xsd="https://www.w3.org/1999/XMLSchema">
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
+  xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:xsd="http://www.w3.org/1999/XMLSchema">
   <SOAP-ENV:Body>
     <SOAP-ENV:Fault>
       <Faultcode>{$Faultcode}</Faultcode>

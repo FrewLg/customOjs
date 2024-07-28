@@ -288,7 +288,7 @@ msgstr "New issue published email notifications"
 msgid "user.profile.form.urlInvalid"
 msgstr ""
 "The specified URL is not valid. Please double-check the URL and try again. "
-"(Hint: Try adding http:// to the beginning of the URL.)"
+"(Hint: Try adding https:// to the beginning of the URL.)"
 
 msgid "user.profile.form.usergroupRequired"
 msgstr "A user group is required."

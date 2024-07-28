@@ -52,7 +52,7 @@ class RepresentationNativeXmlFilter extends NativeExportFilter
         $deployment = $this->getDeployment();
         $rootNode = $this->createRepresentationNode($doc, $representation);
         $doc->appendChild($rootNode);
-        $rootNode->setAttributeNS('http://www.w3.org/2000/xmlns/', 'xmlns:xsi', 'http://www.w3.org/2001/XMLSchema-instance');
+        $rootNode->setAttributeNS('https://www.w3.org/2000/xmlns/', 'xmlns:xsi', 'https://www.w3.org/2001/XMLSchema-instance');
         $rootNode->setAttribute('xsi:schemaLocation', $deployment->getNamespace() . ' ' . $deployment->getSchemaFilename());
 
         return $doc;

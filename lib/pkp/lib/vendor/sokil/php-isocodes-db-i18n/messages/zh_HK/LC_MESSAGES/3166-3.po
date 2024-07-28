@@ -7,9 +7,9 @@
 # Notes:
 # Source of information:
 # 中國駐外使館
-# http://www.immd.gov.hk/chtml/embassy.htm
+# https://www.immd.gov.hk/chtml/embassy.htm
 # 立法會參考資料摘要《商標條例》
-# http://www.hkbu.edu.hk/~copyrigh/document/LegCo_Brief_full%20(Chin).pdf
+# https://www.hkbu.edu.hk/~copyrigh/document/LegCo_Brief_full%20(Chin).pdf
 # .
 # Copyright ©
 # AceLan <acelan@kde.linux.org.tw>, 2001.

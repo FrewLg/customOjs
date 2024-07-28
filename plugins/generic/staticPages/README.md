@@ -29,7 +29,7 @@ New pages can be added/edited/deleted through the Plugin Management interface.
 
 The PATH chosen for each page determines where the page is later accessed. To
 direct users to static content created with this plugin, place links to
-https://www.../index.php/pages/view/%PATH%, where %PATH% is a value you choose.
+http://www.../index.php/pages/view/%PATH%, where %PATH% is a value you choose.
 
 ## Contact/Support
 

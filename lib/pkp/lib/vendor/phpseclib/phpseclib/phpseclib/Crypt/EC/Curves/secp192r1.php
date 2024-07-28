@@ -9,8 +9,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://pear.php.net/package/Math_BigInteger
  */
 
 namespace phpseclib3\Crypt\EC\Curves;
@@ -25,7 +25,7 @@ class secp192r1 extends Prime
         $modulo = new BigInteger('FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFFFFFFFFFFFF', 16);
         $this->setModulo($modulo);
 
-        // algorithm 2.27 from http://diamond.boisestate.edu/~liljanab/MATH308/GuideToECC.pdf#page=66
+        // algorithm 2.27 from https://diamond.boisestate.edu/~liljanab/MATH308/GuideToECC.pdf#page=66
         /* in theory this should be faster than regular modular reductions save for one small issue.
            to convert to / from base-2**8 with BCMath you have to call bcmul() and bcdiv() a lot.
            to convert to / from base-2**8 with PHP64 you have to call base256_rshift() a lot.

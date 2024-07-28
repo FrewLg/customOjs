@@ -10,11 +10,11 @@
  *}
 <?xml version="1.0" encoding="{$defaultCharset|escape}"?>
 <rdf:RDF
-	xmlns:rdf="https://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns="https://purl.org/rss/1.0/"
-	xmlns:dc="https://purl.org/dc/elements/1.1/"
-	xmlns:prism="https://prismstandard.org/namespaces/1.2/basic/"
-	xmlns:cc="https://web.resource.org/cc/">
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns="http://purl.org/rss/1.0/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+	xmlns:cc="http://web.resource.org/cc/">
 
 	<channel rdf:about="{url journal=$journal->getPath()}">
 		{* required elements *}

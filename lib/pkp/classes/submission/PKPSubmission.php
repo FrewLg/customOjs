@@ -295,7 +295,7 @@ abstract class PKPSubmission extends \PKP\core\DataObject
      *
      * @param string $pubIdType @literal One of the NLM pub-id-type values or
      * 'other::something' if not part of the official NLM list
-     * (see <http://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>). @endliteral
+     * (see <https://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>). @endliteral
      *
      * @return string
      *
@@ -315,7 +315,7 @@ abstract class PKPSubmission extends \PKP\core\DataObject
      *
      * @param string $pubIdType One of the NLM pub-id-type values or
      * 'other::something' if not part of the official NLM list
-     * (see <http://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
+     * (see <https://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
      * @param string $pubId
      *
      * @deprecated 3.2.0.0

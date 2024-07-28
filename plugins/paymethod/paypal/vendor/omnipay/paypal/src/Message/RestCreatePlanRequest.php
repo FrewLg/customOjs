@@ -114,8 +114,8 @@ namespace Omnipay\PayPal\Message;
  *             "value": "1",
  *             "currency": "USD"
  *         },
- *         "return_url": "https://www.return.com",
- *         "cancel_url": "https://www.cancel.com",
+ *         "return_url": "http://www.return.com",
+ *         "cancel_url": "http://www.cancel.com",
  *         "auto_bill_amount": "YES",
  *         "initial_fail_amount_action": "CONTINUE",
  *         "max_fail_attempts": "0"
@@ -172,8 +172,8 @@ namespace Omnipay\PayPal\Message;
  *             "value": "1"
  *         },
  *         "max_fail_attempts": "0",
- *         "return_url": "https://www.return.com",
- *         "cancel_url": "https://www.cancel.com",
+ *         "return_url": "http://www.return.com",
+ *         "cancel_url": "http://www.cancel.com",
  *         "auto_bill_amount": "YES",
  *         "initial_fail_amount_action": "CONTINUE"
  *     },

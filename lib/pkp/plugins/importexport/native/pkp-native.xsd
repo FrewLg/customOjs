@@ -10,7 +10,7 @@
   * Schema describing native XML import/export elements shared across PKP applications
   -->
 
-<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://pkp.sfu.ca" xmlns:pkp="http://pkp.sfu.ca" elementFormDefault="qualified">
+<schema xmlns="https://www.w3.org/2001/XMLSchema" targetNamespace="https://pkp.sfu.ca" xmlns:pkp="https://pkp.sfu.ca" elementFormDefault="qualified">
 
 	<!-- Bring in the common PKP import/export content -->
 	<include schemaLocation="../../../xml/importexport.xsd" />

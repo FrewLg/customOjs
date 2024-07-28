@@ -7,7 +7,7 @@
 
 > Note: this is the documentation of the new 5.x version. Go to [4.x branch](https://github.com/php-gettext/Gettext/tree/4.x) if you're looking for the old 4.x version
 
-Created by Oscar Otero <http://oscarotero.com> <oom@oscarotero.com> (MIT License)
+Created by Oscar Otero <https://oscarotero.com> <oom@oscarotero.com> (MIT License)
 
 Gettext is a PHP (^7.2) library to import/export/edit gettext from PO, MO, PHP, JS files, etc.
 

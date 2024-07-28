@@ -73,7 +73,7 @@ final class Core
 
         /*
          * We start at the rightmost byte (big-endian)
-         * So, too, does OpenSSL: http://stackoverflow.com/a/3146214/2224584
+         * So, too, does OpenSSL: https://stackoverflow.com/a/3146214/2224584
          */
         for ($i = Core::BLOCK_BYTE_SIZE - 1; $i >= 0; --$i) {
             $sum = \ord($ctr[$i]) + $inc;
@@ -110,7 +110,7 @@ final class Core
 
     /**
      * Computes the HKDF key derivation function specified in
-     * http://tools.ietf.org/html/rfc5869.
+     * https://tools.ietf.org/html/rfc5869.
      *
      * @param string $hash   Hash Function
      * @param string $ikm    Initial Keying Material
@@ -368,7 +368,7 @@ final class Core
      *
      * The PBKDF2 function is defined in RFC 2898. Test vectors can be found in
      * RFC 6070. This implementation of PBKDF2 was originally created by Taylor
-     * Hornby, with improvements from http://www.variations-of-shadow.com/.
+     * Hornby, with improvements from https://www.variations-of-shadow.com/.
      *
      * @param string $algorithm  The hash algorithm to use. Recommended: SHA256
      * @param string $password   The password.

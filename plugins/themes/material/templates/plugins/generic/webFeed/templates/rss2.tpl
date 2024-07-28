@@ -9,7 +9,7 @@
  *
  *}
 <?xml version="1.0" encoding="{$defaultCharset|escape}"?>
-<rss version="2.0" xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:cc="https://web.resource.org/cc/" xmlns:rdf="https://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<channel>
 		{* required elements *}
 		<title>{$journal->getLocalizedName()|strip|escape:"html"}</title>
@@ -50,7 +50,7 @@
 		{* <creativeCommons:license/> *}
 
 		<generator>OJS {$ojsVersion|escape}</generator>
-		<docs>https://blogs.law.harvard.edu/tech/rss</docs>
+		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
 		<ttl>60</ttl>
 
 		{foreach name=sections from=$publishedSubmissions item=section key=sectionId}

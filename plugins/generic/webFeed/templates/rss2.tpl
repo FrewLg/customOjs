@@ -9,7 +9,7 @@
  *
  *}
 <?xml version="1.0" encoding="{$defaultCharset|escape}"?>
-<rss version="2.0" xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:cc="https://web.resource.org/cc/" xmlns:rdf="https://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:atom="https://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<atom:link href="{$feedUrl}" rel="self" type="application/rss+xml" />
 		{* required elements *}
@@ -48,7 +48,7 @@
 		{* <creativeCommons:license/> *}
 
 		<generator>{$applicationName} {$applicationVersion|escape}</generator>
-		<docs>https://blogs.law.harvard.edu/tech/rss</docs>
+		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
 		<ttl>60</ttl>
 
 		{foreach from=$submissions item=item}

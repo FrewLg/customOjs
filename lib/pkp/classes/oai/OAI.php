@@ -3,7 +3,7 @@
 /**
  * @defgroup oai OAI
  * Implements an OAI (Open Archives Initiative) OAI-PMH interface. See
- * http://www.openarchives.org for information on OAI-PMH.
+ * https://www.openarchives.org for information on OAI-PMH.
  */
 
 /**
@@ -315,10 +315,10 @@ abstract class OAI
         }
         $response .= "\t\t<description>\n" .
             "\t\t\t<oai-identifier\n" .
-            "\t\t\t\txmlns=\"http://www.openarchives.org/OAI/2.0/oai-identifier\"\n" .
-            "\t\t\t\txmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n" .
-            "\t\t\t\txsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai-identifier\n" .
-            "\t\t\t\t\thttp://www.openarchives.org/OAI/2.0/oai-identifier.xsd\">\n" .
+            "\t\t\t\txmlns=\"https://www.openarchives.org/OAI/2.0/oai-identifier\"\n" .
+            "\t\t\t\txmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\"\n" .
+            "\t\t\t\txsi:schemaLocation=\"https://www.openarchives.org/OAI/2.0/oai-identifier\n" .
+            "\t\t\t\t\thttps://www.openarchives.org/OAI/2.0/oai-identifier.xsd\">\n" .
             "\t\t\t\t<scheme>oai</scheme>\n" .
             "\t\t\t\t<repositoryIdentifier>" . $this->config->repositoryId . "</repositoryIdentifier>\n" .
             "\t\t\t\t<delimiter>" . $info->delimiter . "</delimiter>\n" .
@@ -327,9 +327,9 @@ abstract class OAI
             "\t\t</description>\n";
         $response .= "\t\t<description>\n" .
             "\t\t\t<toolkit\n" .
-            "\t\t\t\txmlns=\"http://oai.dlib.vt.edu/OAI/metadata/toolkit\"\n" .
-            "\t\t\t\txsi:schemaLocation=\"http://oai.dlib.vt.edu/OAI/metadata/toolkit\n" .
-            "\t\t\t\t\thttp://oai.dlib.vt.edu/OAI/metadata/toolkit.xsd\">\n" .
+            "\t\t\t\txmlns=\"https://oai.dlib.vt.edu/OAI/metadata/toolkit\"\n" .
+            "\t\t\t\txsi:schemaLocation=\"https://oai.dlib.vt.edu/OAI/metadata/toolkit\n" .
+            "\t\t\t\t\thttps://oai.dlib.vt.edu/OAI/metadata/toolkit.xsd\">\n" .
             "\t\t\t\t<title>" . $info->toolkitTitle . "</title>\n" .
             "\t\t\t\t<author>\n" .
             "\t\t\t\t\t<name>Public Knowledge Project</name>\n" .
@@ -641,11 +641,11 @@ abstract class OAI
             if (isset($set->description)) {
                 $response .= "\t\t\t<setDescription>\n" .
                         "\t\t\t\t<oai_dc:dc\n" .
-                        "\t\t\t\t\txmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\"\n" .
-                        "\t\t\t\t\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n" .
-                        "\t\t\t\t\txmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n" .
-                        "\t\t\t\t\txsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/\n" .
-                        "\t\t\t\t\t\thttp://www.openarchives.org/OAI/2.0/oai_dc.xsd\">\n" .
+                        "\t\t\t\t\txmlns:oai_dc=\"https://www.openarchives.org/OAI/2.0/oai_dc/\"\n" .
+                        "\t\t\t\t\txmlns:dc=\"https://purl.org/dc/elements/1.1/\"\n" .
+                        "\t\t\t\t\txmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\"\n" .
+                        "\t\t\t\t\txsi:schemaLocation=\"https://www.openarchives.org/OAI/2.0/oai_dc/\n" .
+                        "\t\t\t\t\t\thttps://www.openarchives.org/OAI/2.0/oai_dc.xsd\">\n" .
                         "\t\t\t\t\t<dc:description>" . OAIUtils::prepOutput($set->description) . "</dc:description>\n" .
                         "\t\t\t\t</oai_dc:dc>\n" .
                         "\t\t\t</setDescription>\n";
@@ -703,10 +703,10 @@ abstract class OAI
 
         echo	"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" .
             '<?xml-stylesheet type="text/xsl" href="' . $request->getBaseUrl() . "/lib/pkp/xml/oai2.xsl\" ?>\n" .
-            "<OAI-PMH xmlns=\"http://www.openarchives.org/OAI/2.0/\"\n" .
-            "\txmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n" .
-            "\txsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/\n" .
-            "\t\thttp://www.openarchives.org/OAI/2.0/OAI-PMH.xsd\">\n" .
+            "<OAI-PMH xmlns=\"https://www.openarchives.org/OAI/2.0/\"\n" .
+            "\txmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\"\n" .
+            "\txsi:schemaLocation=\"https://www.openarchives.org/OAI/2.0/\n" .
+            "\t\thttps://www.openarchives.org/OAI/2.0/OAI-PMH.xsd\">\n" .
             "\t<responseDate>" . OAIUtils::UTCDate() . "</responseDate>\n" .
             "\t<request";
 

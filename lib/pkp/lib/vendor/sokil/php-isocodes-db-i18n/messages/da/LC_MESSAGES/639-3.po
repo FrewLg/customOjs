@@ -6,7 +6,7 @@
 # .
 # Notes:
 # Many of these iso--639 translations were adopted from the state library department:
-# http://www.kat-format.dk/danMARC2/Danmarc2.a8.htm
+# https://www.kat-format.dk/danMARC2/Danmarc2.a8.htm
 # .
 # Kontakt dansk@klid.dk før du ændrer i denne fil.
 # .

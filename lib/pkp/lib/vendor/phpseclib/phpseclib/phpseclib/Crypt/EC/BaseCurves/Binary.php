@@ -3,7 +3,7 @@
 /**
  * Curves over y^2 + x*y = x^3 + a*x^2 + b
  *
- * These are curves used in SEC 2 over prime fields: http://www.secg.org/SEC2-Ver-1.0.pdf
+ * These are curves used in SEC 2 over prime fields: https://www.secg.org/SEC2-Ver-1.0.pdf
  * The curve is a weierstrass curve with a[3] and a[2] set to 0.
  *
  * Uses Jacobian Coordinates for speed if able:
@@ -15,8 +15,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://pear.php.net/package/Math_BigInteger
  */
 
 namespace phpseclib3\Crypt\EC\BaseCurves;
@@ -177,7 +177,7 @@ class Binary extends Base
             return !$p[1]->equals($q[1]) ? [] : $this->doublePoint($p);
         }
 
-        // formulas from http://hyperelliptic.org/EFD/g12o/auto-shortw-jacobian.html
+        // formulas from https://hyperelliptic.org/EFD/g12o/auto-shortw-jacobian.html
 
         list($x1, $y1, $z1) = $p;
         list($x2, $y2, $z2) = $q;
@@ -240,7 +240,7 @@ class Binary extends Base
             throw new \RuntimeException('Affine coordinates need to be manually converted to "Jacobi" coordinates or vice versa');
         }
 
-        // formulas from http://hyperelliptic.org/EFD/g12o/auto-shortw-jacobian.html
+        // formulas from https://hyperelliptic.org/EFD/g12o/auto-shortw-jacobian.html
 
         list($x1, $y1, $z1) = $p;
 

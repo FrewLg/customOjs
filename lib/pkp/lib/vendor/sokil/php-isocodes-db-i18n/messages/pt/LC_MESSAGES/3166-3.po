@@ -6,8 +6,8 @@
 # .
 # Notes:
 # Please follow this official pointer when translating to Portuguese
-# http://www.min-nestrangeiros.pt/mne/estrangeiro/indice.html
-# http://publications.europa.eu/code/pt/pt-5000500.htm
+# https://www.min-nestrangeiros.pt/mne/estrangeiro/indice.html
+# https://publications.europa.eu/code/pt/pt-5000500.htm
 # .
 # Copyright ©
 # Miguel Figueiredo <elmig@debianpt.org>, 2005-2013.

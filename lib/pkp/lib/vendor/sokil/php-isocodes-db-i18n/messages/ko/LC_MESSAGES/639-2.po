@@ -6,7 +6,7 @@
 # .
 # Notes:
 # 위키백과 페이지 참고
-# http://ko.wikipedia.org/wiki/ISO_639
+# https://ko.wikipedia.org/wiki/ISO_639
 # .
 # Copyright ©
 # JeongHee Kang <Keizi@mail.co.kr>, 2000.

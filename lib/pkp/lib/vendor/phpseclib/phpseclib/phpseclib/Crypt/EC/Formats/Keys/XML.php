@@ -6,14 +6,14 @@
  * More info:
  *
  * https://www.w3.org/TR/xmldsig-core/#sec-ECKeyValue
- * http://en.wikipedia.org/wiki/XML_Signature
+ * https://en.wikipedia.org/wiki/XML_Signature
  *
  * PHP version 5
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib3\Crypt\EC\Formats\Keys;
@@ -71,12 +71,12 @@ abstract class XML
 
         $use_errors = libxml_use_internal_errors(true);
 
-        $temp = self::isolateNamespace($key, 'http://www.w3.org/2009/xmldsig11#');
+        $temp = self::isolateNamespace($key, 'https://www.w3.org/2009/xmldsig11#');
         if ($temp) {
             $key = $temp;
         }
 
-        $temp = self::isolateNamespace($key, 'http://www.w3.org/2001/04/xmldsig-more#');
+        $temp = self::isolateNamespace($key, 'https://www.w3.org/2001/04/xmldsig-more#');
         if ($temp) {
             $key = $temp;
         }
@@ -387,7 +387,7 @@ abstract class XML
         }
 
         if (self::$rfc4050) {
-            return '<' . $pre . 'ECDSAKeyValue xmlns' . $post . '="http://www.w3.org/2001/04/xmldsig-more#">' . "\r\n" .
+            return '<' . $pre . 'ECDSAKeyValue xmlns' . $post . '="https://www.w3.org/2001/04/xmldsig-more#">' . "\r\n" .
                    self::encodeXMLParameters($curve, $pre, $options) . "\r\n" .
                    '<' . $pre . 'PublicKey>' . "\r\n" .
                    '<' . $pre . 'X Value="' . $publicKey[0] . '" />' . "\r\n" .
@@ -398,7 +398,7 @@ abstract class XML
 
         $publicKey = "\4" . $publicKey[0]->toBytes() . $publicKey[1]->toBytes();
 
-        return '<' . $pre . 'ECDSAKeyValue xmlns' . $post . '="http://www.w3.org/2009/xmldsig11#">' . "\r\n" .
+        return '<' . $pre . 'ECDSAKeyValue xmlns' . $post . '="https://www.w3.org/2009/xmldsig11#">' . "\r\n" .
                self::encodeXMLParameters($curve, $pre, $options) . "\r\n" .
                '<' . $pre . 'PublicKey>' . Strings::base64_encode($publicKey) . '</' . $pre . 'PublicKey>' . "\r\n" .
                '</' . $pre . 'ECDSAKeyValue>';

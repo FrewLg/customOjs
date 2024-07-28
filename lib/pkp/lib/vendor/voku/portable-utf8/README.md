@@ -25,7 +25,7 @@ so you will have the best possible performance.
 As a fallback we will use Symfony Polyfills, if needed. (https://github.com/symfony/polyfill)
 
 The project based on ...
-+ Hamid Sarfraz's work - [portable-utf8](http://pageconfig.com/attachments/portable-utf8.php) 
++ Hamid Sarfraz's work - [portable-utf8](https://pageconfig.com/attachments/portable-utf8.php) 
 + Nicolas Grekas's work - [tchwork/utf8](https://github.com/tchwork/utf8) 
 + Behat's work - [Behat/Transliterator](https://github.com/Behat/Transliterator) 
 + Sebastián Grignoli's work - [neitanod/forceutf8](https://github.com/neitanod/forceutf8) 
@@ -1296,7 +1296,7 @@ EXAMPLE: <code>UTF8::fix_simple_utf8('DÃ¼sseldorf'); // 'Düsseldorf'</code>
 
 If you received an UTF-8 string that was converted from Windows-1252 as it was ISO-8859-1
 (ignoring Windows-1252 chars from 80 to 9F) use this function to fix it.
-See: http://en.wikipedia.org/wiki/Windows-1252
+See: https://en.wikipedia.org/wiki/Windows-1252
 
 **Parameters:**
 - `string $str <p>The input string</p>`
@@ -5410,8 +5410,8 @@ For professional support please contact [me](https://about.me/voku).
 
 "Portable UTF8" is free software; you can redistribute it and/or modify it under
 the terms of the (at your option):
-- [Apache License v2.0](http://apache.org/licenses/LICENSE-2.0.txt), or
-- [GNU General Public License v2.0](http://gnu.org/licenses/gpl-2.0.txt).
+- [Apache License v2.0](https://apache.org/licenses/LICENSE-2.0.txt), or
+- [GNU General Public License v2.0](https://gnu.org/licenses/gpl-2.0.txt).
 
 Unicode handling requires tedious work to be implemented and maintained on the
 long run. As such, contributions such as unit tests, bug reports, comments or

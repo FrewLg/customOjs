@@ -3,7 +3,7 @@
 /**
  * Curves over y^2 = x^3 + a*x + b
  *
- * These are curves used in SEC 2 over prime fields: http://www.secg.org/SEC2-Ver-1.0.pdf
+ * These are curves used in SEC 2 over prime fields: https://www.secg.org/SEC2-Ver-1.0.pdf
  * The curve is a weierstrass curve with a[1], a[3] and a[2] set to 0.
  *
  * Uses Jacobian Coordinates for speed if able:
@@ -15,8 +15,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://pear.php.net/package/Math_BigInteger
  */
 
 namespace phpseclib3\Crypt\EC\BaseCurves;

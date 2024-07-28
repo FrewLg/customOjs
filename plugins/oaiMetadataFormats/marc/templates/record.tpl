@@ -8,8 +8,8 @@
  * MARC-formatted metadata record for an article
  *}
 <oai_marc status="c" type="a" level="m" encLvl="3" catForm="u"
-	xmlns="https://www.openarchives.org/OAI/1.1/oai_marc" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="https://www.openarchives.org/OAI/1.1/oai_marc https://www.openarchives.org/OAI/1.1/oai_marc.xsd">
+	xmlns="http://www.openarchives.org/OAI/1.1/oai_marc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.openarchives.org/OAI/1.1/oai_marc http://www.openarchives.org/OAI/1.1/oai_marc.xsd">
 	{if $article->getDatePublished()}
 		<fixfield id="008">"{$article->getDatePublished()|strtotime|date_format:"%y%m%d %Y"}                        eng  "</fixfield>
 	{/if}

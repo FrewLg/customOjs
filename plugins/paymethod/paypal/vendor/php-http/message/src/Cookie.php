@@ -7,7 +7,7 @@ namespace Http\Message;
  *
  * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
  *
- * @see https://tools.ietf.org/search/rfc6265
+ * @see http://tools.ietf.org/search/rfc6265
  */
 final class Cookie
 {
@@ -284,7 +284,7 @@ final class Cookie
     /**
      * Checks whether this cookie is meant for this domain.
      *
-     * @see https://tools.ietf.org/html/rfc6265#section-5.1.3
+     * @see http://tools.ietf.org/html/rfc6265#section-5.1.3
      *
      * @param string $domain
      *
@@ -333,7 +333,7 @@ final class Cookie
     /**
      * Checks whether this cookie is meant for this path.
      *
-     * @see https://tools.ietf.org/html/rfc6265#section-5.1.4
+     * @see http://tools.ietf.org/html/rfc6265#section-5.1.4
      *
      * @param string $path
      *
@@ -427,7 +427,7 @@ final class Cookie
     /**
      * Validates the name attribute.
      *
-     * @see https://tools.ietf.org/search/rfc2616#section-2.2
+     * @see http://tools.ietf.org/search/rfc2616#section-2.2
      *
      * @param string $name
      *
@@ -448,7 +448,7 @@ final class Cookie
     /**
      * Validates a value.
      *
-     * @see https://tools.ietf.org/html/rfc6265#section-4.1.1
+     * @see http://tools.ietf.org/html/rfc6265#section-4.1.1
      *
      * @param string|null $value
      *
@@ -482,9 +482,9 @@ final class Cookie
     /**
      * Remove the leading '.' and lowercase the domain as per spec in RFC 6265.
      *
-     * @see https://tools.ietf.org/html/rfc6265#section-4.1.2.3
-     * @see https://tools.ietf.org/html/rfc6265#section-5.1.3
-     * @see https://tools.ietf.org/html/rfc6265#section-5.2.3
+     * @see http://tools.ietf.org/html/rfc6265#section-4.1.2.3
+     * @see http://tools.ietf.org/html/rfc6265#section-5.1.3
+     * @see http://tools.ietf.org/html/rfc6265#section-5.2.3
      *
      * @param string|null $domain
      *
@@ -502,8 +502,8 @@ final class Cookie
     /**
      * Processes path as per spec in RFC 6265.
      *
-     * @see https://tools.ietf.org/html/rfc6265#section-5.1.4
-     * @see https://tools.ietf.org/html/rfc6265#section-5.2.4
+     * @see http://tools.ietf.org/html/rfc6265#section-5.1.4
+     * @see http://tools.ietf.org/html/rfc6265#section-5.2.4
      *
      * @param string|null $path
      *

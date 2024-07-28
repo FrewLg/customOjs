@@ -2,7 +2,7 @@
 /*
 ADOdb Date Library, part of the ADOdb abstraction library
 
-Latest version is available at http://adodb.org/
+Latest version is available at https://adodb.org/
 
 @version   v5.20.18  28-Jun-2020
 @copyright (c) 2000-2013 John Lim (jlim#natsoft.com). All rights reserved.
@@ -64,7 +64,7 @@ COPYRIGHT
 
 (c) 2003-2014 John Lim and released under BSD-style license except for code by
 jackbbs, which includes adodb_mktime, adodb_get_gmt_diff, adodb_is_leap_year
-and originally found at http://www.php.net/manual/en/function.mktime.php
+and originally found at https://www.php.net/manual/en/function.mktime.php
 
 =============================================================================
 
@@ -72,7 +72,7 @@ BUG REPORTS
 
 These should be posted to the ADOdb forums at
 
-	http://phplens.com/lens/lensforum/topics.php?id=4
+	https://phplens.com/lens/lensforum/topics.php?id=4
 
 =============================================================================
 
@@ -236,7 +236,7 @@ adodb_date syntax, and 2nd element is the time format, also in adodb_date syntax
 NOTES
 
 Useful url for generating test timestamps:
-	http://www.4webhelp.net/us/timestamp.php
+	https://www.4webhelp.net/us/timestamp.php
 
 Possible future optimizations include
 
@@ -245,7 +245,7 @@ a. Using an algorithm similar to Plauger's in "The Standard C Library"
 work outside 32-bit signed range, so i decided not to implement it.
 
 b. Implement daylight savings, which looks awfully complicated, see
-	http://webexhibits.org/daylightsaving/
+	https://webexhibits.org/daylightsaving/
 
 
 CHANGELOG
@@ -348,7 +348,7 @@ January!!!), changed adodb_get_gmt_diff() to ignore daylight savings.
 
 - 9 Aug 2003 0.10
 Fixed bug with dates after 2038.
-See http://phplens.com/lens/lensforum/msgs.php?id=6980
+See https://phplens.com/lens/lensforum/msgs.php?id=6980
 
 - 1 July 2003 0.09
 Added support for Q (Quarter).
@@ -360,7 +360,7 @@ if you want PHP to handle negative timestamps between 1901 to 1969.
 
 - 27 Feb 2003 0.07
 All negative numbers handled by adodb now because of RH 7.3+ problems.
-See http://bugs.php.net/bug.php?id=20048&edit=2
+See https://bugs.php.net/bug.php?id=20048&edit=2
 
 - 4 Feb 2003 0.06
 Fixed a typo, 1852 changed to 1582! This means that pre-1852 dates
@@ -415,8 +415,8 @@ $ADODB_DATETIME_CLASS = (PHP_VERSION >= 5.2);
 	echo (mktime(0, 0, 0, 1, 1, 1960));  // prints -1
 
 	References:
-	 http://bugs.php.net/bug.php?id=20048&edit=2
-	 http://lists.debian.org/debian-glibc/2002/debian-glibc-200205/msg00010.html
+	 https://bugs.php.net/bug.php?id=20048&edit=2
+	 https://lists.debian.org/debian-glibc/2002/debian-glibc-200205/msg00010.html
 */
 
 if (!defined('ADODB_ALLOW_NEGATIVE_TS')) define('ADODB_NO_NEGATIVE_TS',1);
@@ -491,7 +491,7 @@ function adodb_date_test()
 
 	print "<p>Testing gregorian <=> julian conversion<p>";
 	$t = adodb_mktime(0,0,0,10,11,1492);
-	//http://www.holidayorigins.com/html/columbus_day.html - Friday check
+	//https://www.holidayorigins.com/html/columbus_day.html - Friday check
 	if (!(adodb_date('D Y-m-d',$t) == 'Fri 1492-10-11')) print 'Error in Columbus landing<br>';
 
 	$t = adodb_mktime(0,0,0,2,29,1500);
@@ -1389,7 +1389,7 @@ global $ADODB_DATE_LOCALE;
 		$sep = substr($tstr,2,1);
 		$hasAM = strrpos($tstr,'M') !== false;
 	*/
-		# see http://phplens.com/lens/lensforum/msgs.php?id=14865 for reasoning, and changelog for version 0.24
+		# see https://phplens.com/lens/lensforum/msgs.php?id=14865 for reasoning, and changelog for version 0.24
 		$dstr = gmstrftime('%x',31366800); // 30 Dec 1970, 1 am
 		$sep = substr($dstr,2,1);
 		$tstr = strtoupper(gmstrftime('%X',31366800)); // 30 Dec 1970, 1 am

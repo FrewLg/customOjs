@@ -141,7 +141,7 @@ use Omnipay\PayPal\Message\RefundRequest;
  *
  * @link https://developer.paypal.com/docs/api/
  * @link https://devtools-paypal.com/integrationwizard/
- * @link https://paypal.github.io/sdk/
+ * @link http://paypal.github.io/sdk/
  * @link https://developer.paypal.com/docs/integration/direct/rest_api_payment_country_currency_support/
  * @link https://developer.paypal.com/docs/faq/
  * @link https://developer.paypal.com/docs/integration/direct/make-your-first-call/
@@ -551,7 +551,7 @@ class RestGateway extends AbstractGateway
      * Delete a credit card from the vault.
      *
      * Updating a card in the vault is no longer supported -- see
-     * https://stackoverflow.com/questions/20858910/paypal-rest-api-update-a-stored-credit-card
+     * http://stackoverflow.com/questions/20858910/paypal-rest-api-update-a-stored-credit-card
      * Therefore the only way to update a card is to remove it using deleteCard and
      * then re-add it using createCard.
      *

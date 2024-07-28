@@ -58,7 +58,7 @@ Then your `composer.patches.json` should look like this:
 {
   "patches": {
     "vendor/project": {
-      "Patch title": "http://example.com/url/to/patch.patch"
+      "Patch title": "https://example.com/url/to/patch.patch"
     }
   }
 }

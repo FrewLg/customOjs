@@ -81,7 +81,7 @@ class PrimitiveTypeDescription extends TypeDescription
         assert(!(is_object($variable) || is_array($variable) || is_null($variable)));
 
         // FIXME: When gettype's implementation changes as mentioned
-        // in <http://www.php.net/manual/en/function.gettype.php> then
+        // in <https://www.php.net/manual/en/function.gettype.php> then
         // we have to manually re-implement this method.
         return str_replace('double', 'float', gettype($variable));
     }

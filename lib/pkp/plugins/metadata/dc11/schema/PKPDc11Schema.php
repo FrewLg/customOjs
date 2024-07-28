@@ -19,7 +19,7 @@
  * @brief Class that provides meta-data properties compliant with
  *  the Dublin Core specification, version 1.1.
  *
- *  For details see <http://dublincore.org/documents/dces/>,
+ *  For details see <https://dublincore.org/documents/dces/>,
  */
 
 namespace PKP\plugins\metadata\dc11\schema;

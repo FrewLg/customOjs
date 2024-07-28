@@ -31,7 +31,7 @@ msgstr ""
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 
 # 通貨に関するURL
-# 外務省: http://www.mofa.go.jp/mofaj/area/index.html
+# 外務省: https://www.mofa.go.jp/mofaj/area/index.html
 #. Name for AED
 msgid "UAE Dirham"
 msgstr "アラブ首長国連邦ディルハム"

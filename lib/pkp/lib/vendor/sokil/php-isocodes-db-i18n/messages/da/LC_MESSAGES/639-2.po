@@ -6,7 +6,7 @@
 # .
 # Notes:
 # Many of these iso--639 translations were adopted from the state library department:
-# http://www.kat-format.dk/danMARC2/Danmarc2.a8.htm
+# https://www.kat-format.dk/danMARC2/Danmarc2.a8.htm
 # .
 # Sprognavne er på dansk med lille begyndelsesbogstav
 # .
@@ -132,7 +132,7 @@ msgstr "araukansk"
 msgid "Arapaho"
 msgstr "arapaho"
 
-# http://da.wikipedia.org/wiki/Kunstsprog
+# https://da.wikipedia.org/wiki/Kunstsprog
 #. Name for art
 msgid "Artificial languages"
 msgstr "kunstsprog"
@@ -145,10 +145,10 @@ msgstr "arawak"
 msgid "Assamese"
 msgstr "assamesisk"
 
-# http://da.wikipedia.org/wiki/Asturiansk_%28sprog%29
+# https://da.wikipedia.org/wiki/Asturiansk_%28sprog%29
 # bable fører kun til asturiansk
-# http://da.wikipedia.org/wiki/Llionsk_%28sprog%29
-# http://en.wikipedia.org/wiki/Asturleonese_language
+# https://da.wikipedia.org/wiki/Llionsk_%28sprog%29
+# https://en.wikipedia.org/wiki/Asturleonese_language
 #. Name for ast
 msgid "Asturian; Bable; Leonese; Asturleonese"
 msgstr "asturiansk; llionsk"
@@ -435,8 +435,8 @@ msgstr "kreolsk og pidgin"
 msgid "Kashubian"
 msgstr "kashubisk"
 
-# http://en.wikipedia.org/wiki/Cushitic
-# http://www.denstoredanske.dk/Sprog,_religion_og_filosofi/Sprog/Alle_lande_-_sprogoversigt/Semitiske_og_hamitiske_sprog_generelt/kushitiske_sprog
+# https://en.wikipedia.org/wiki/Cushitic
+# https://www.denstoredanske.dk/Sprog,_religion_og_filosofi/Sprog/Alle_lande_-_sprogoversigt/Semitiske_og_hamitiske_sprog_generelt/kushitiske_sprog
 #. Name for cus
 msgid "Cushitic languages"
 msgstr "kushitiske sprog"
@@ -489,7 +489,7 @@ msgstr "divehi"
 msgid "Dogri"
 msgstr "dogri"
 
-# http://da.wikipedia.org/wiki/Dravidiske_sprog
+# https://da.wikipedia.org/wiki/Dravidiske_sprog
 #. Name for dra
 msgid "Dravidian languages"
 msgstr "dravidiske sprog"
@@ -590,7 +590,7 @@ msgstr "filipino; pilipino"
 msgid "Finnish"
 msgstr "finsk"
 
-# http://da.wikipedia.org/wiki/Finsk-ugriske_sprog
+# https://da.wikipedia.org/wiki/Finsk-ugriske_sprog
 #. Name for fiu
 msgid "Finno-Ugrian languages"
 msgstr "finsk-ugriske sprog"
@@ -643,7 +643,7 @@ msgstr "gayo"
 msgid "Gbaya"
 msgstr "gbaya"
 
-# http://da.wikipedia.org/wiki/Germanske_sprog
+# https://da.wikipedia.org/wiki/Germanske_sprog
 #. Name for gem
 msgid "Germanic languages"
 msgstr "germanske sprog"
@@ -744,7 +744,7 @@ msgstr "herero"
 msgid "Hiligaynon"
 msgstr "hiligaynon"
 
-# http://en.wikipedia.org/wiki/Pahari_languages
+# https://en.wikipedia.org/wiki/Pahari_languages
 #. Name for him
 msgid "Himachali languages; Western Pahari languages"
 msgstr "himachali sprog; vestpahari sprog"
@@ -797,7 +797,7 @@ msgstr "igbo"
 msgid "Ido"
 msgstr "ido"
 
-# http://en.wikipedia.org/wiki/Sichuan_Yi
+# https://en.wikipedia.org/wiki/Sichuan_Yi
 #. Name for iii
 msgid "Sichuan Yi; Nuosu"
 msgstr "sichuan yi; nuosu"
@@ -1127,7 +1127,7 @@ msgstr "malayalam"
 msgid "Mandingo"
 msgstr "mandingo"
 
-# http://da.wikipedia.org/wiki/Austronesiske_sprog
+# https://da.wikipedia.org/wiki/Austronesiske_sprog
 #. Name for map
 msgid "Austronesian languages"
 msgstr "austronesiske sprog"
@@ -1297,7 +1297,7 @@ msgstr "nepalesisk bhasa"
 msgid "Nias"
 msgstr "nias"
 
-# http://da.wikipedia.org/wiki/Niger-kordofanske_sprog
+# https://da.wikipedia.org/wiki/Niger-kordofanske_sprog
 #. Name for nic
 msgid "Niger-Kordofanian languages"
 msgstr "niger-kordofanske sprog"
@@ -1486,7 +1486,7 @@ msgstr "rapanui"
 msgid "Rarotongan; Cook Islands Maori"
 msgstr "rarotongask; Cook Islands maori"
 
-# http://da.wikipedia.org/wiki/Romanske_sprog
+# https://da.wikipedia.org/wiki/Romanske_sprog
 #. Name for roa
 msgid "Romance languages"
 msgstr "romanske sprog"
@@ -1507,7 +1507,7 @@ msgstr "rumænsk; moldavisk; moldovisk"
 msgid "Rundi"
 msgstr "rundi"
 
-# http://da.wikipedia.org/wiki/Aromunsk_%28sprog%29
+# https://da.wikipedia.org/wiki/Aromunsk_%28sprog%29
 #. Name for rup
 msgid "Aromanian; Arumanian; Macedo-Romanian"
 msgstr "aromunsk; vlakkisk"
@@ -1589,10 +1589,10 @@ msgstr "sidamo"
 # Her giver Google-søgning på »site:dk "sinala"« returnerer 9 resultater (401 inkl. udeladte resultater).
 # Jeg finder ikke officielle kilder som anvender sinhala, men ser det hyppigt anvendt i praksis.
 # Vedr." singalesisk":
-# I Biblioteksstyrelsens sprogkoder* (http://www.kat-format.dk/danMARC2/Danmarc2.a8.htm) anvendes der
+# I Biblioteksstyrelsens sprogkoder* (https://www.kat-format.dk/danMARC2/Danmarc2.a8.htm) anvendes der
 # singalesisk.
 # Gyldendals Den Store Danske bruger "singalesisk" i artikel om sprog:
-# http://www.denstoredanske.dk/Sprog,_religion_og_filosofi/Sprog/Alle_lande_-_sprogoversigt/Sri_Lanka_(Sprog)?highlight=singalesisk
+# https://www.denstoredanske.dk/Sprog,_religion_og_filosofi/Sprog/Alle_lande_-_sprogoversigt/Sri_Lanka_(Sprog)?highlight=singalesisk
 # ... og "sinhalesisk-buddhistiske" i anden sammenhæng.
 #. Name for sin
 msgid "Sinhala; Sinhalese"
@@ -1850,7 +1850,7 @@ msgstr "tupi-sprog"
 msgid "Turkish"
 msgstr "tyrkisk"
 
-# http://da.wikipedia.org/wiki/Altaiske_sprog
+# https://da.wikipedia.org/wiki/Altaiske_sprog
 # (omfatter tyrkisk, mongolsk, tungusisk)
 #. Name for tut
 msgid "Altaic languages"

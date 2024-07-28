@@ -6,8 +6,8 @@
 # .
 # Notes:
 # source:
-# http://www.geodesy.gov.sk
-# http://www.fao.org/ (historic names)
+# https://www.geodesy.gov.sk
+# https://www.fao.org/ (historic names)
 # .
 # Copyright ©
 # Alastair McKinstry <mckinstry@debian.org>, 2001.

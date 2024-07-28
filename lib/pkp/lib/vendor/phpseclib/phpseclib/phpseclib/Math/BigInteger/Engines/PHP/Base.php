@@ -7,8 +7,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://pear.php.net/package/Math_BigInteger
  */
 
 namespace phpseclib3\Math\BigInteger\Engines\PHP;
@@ -66,7 +66,7 @@ abstract class Base extends PHP
      * modulo is even and Montgomery reductions when the modulo is odd.  BigInteger.java's modPow method, however,
      * uses a trick involving the Chinese Remainder Theorem to factor the even modulo into two numbers - one odd and
      * the other, a power of two - and recombine them, later.  This is the method that this modPow function uses.
-     * {@link http://islab.oregonstate.edu/papers/j34monex.pdf Montgomery Reduction with Even Modulus} elaborates.
+     * {@link https://islab.oregonstate.edu/papers/j34monex.pdf Montgomery Reduction with Even Modulus} elaborates.
      *
      * @param PHP $x
      * @param PHP $e

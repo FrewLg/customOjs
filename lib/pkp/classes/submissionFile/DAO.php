@@ -241,7 +241,7 @@ class DAO extends EntityDAO implements PKPPubIdPluginDAO
      *
      * $pubIdType it is one of the NLM pub-id-type values or
      * 'other::something' if not part of the official NLM list
-     * (see <http://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
+     * (see <https://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
      *
      * @param null|mixed $submissionId
      * @param null|mixed $contextId
@@ -343,7 +343,7 @@ class DAO extends EntityDAO implements PKPPubIdPluginDAO
      *
      * $pubIdType it is one of the NLM pub-id-type values or
      * 'other::something' if not part of the official NLM list
-     * (see <http://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
+     * (see <https://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
      */
     public function pubIdExists(
         $pubIdType,

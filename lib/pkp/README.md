@@ -1,7 +1,7 @@
 PKP Web Application Library
 =======
 
-The PKP Web Application Library (PKP-WAL) is a library shared by [Open Journal Systems (OJS)](https://github.com/pkp/ojs), [Open Conference Systems (OCS)](https://github.com/pkp/ocs), [Open Monograph Press (OMP)](http://github.com/pkp/omp), [Open Preprint Systems (OPS)](https://github.com/pkp/ops) and [Open Harvester Systems (OHS)](https://github.com/pkp/harvester). It is distributed with those applications in the `lib/pkp` subdirectory.
+The PKP Web Application Library (PKP-WAL) is a library shared by [Open Journal Systems (OJS)](https://github.com/pkp/ojs), [Open Conference Systems (OCS)](https://github.com/pkp/ocs), [Open Monograph Press (OMP)](https://github.com/pkp/omp), [Open Preprint Systems (OPS)](https://github.com/pkp/ops) and [Open Harvester Systems (OHS)](https://github.com/pkp/harvester). It is distributed with those applications in the `lib/pkp` subdirectory.
 
 Issues (bugs) for all of those applications should be [created against this repository](https://github.com/pkp/pkp-lib/issues).
 

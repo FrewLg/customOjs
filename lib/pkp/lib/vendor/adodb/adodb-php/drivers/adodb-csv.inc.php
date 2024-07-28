@@ -14,7 +14,7 @@
 
   Limitation of url length. For IIS, see MaxClientRequestBuffer registry value.
 
-	  http://support.microsoft.com/default.aspx?scid=kb;en-us;260694
+	  https://support.microsoft.com/default.aspx?scid=kb;en-us;260694
 */
 
 // security - hide paths
@@ -61,7 +61,7 @@ class ADODB_csv extends ADOConnection {
 	// returns true or false
 	function _connect($argHostname, $argUsername, $argPassword, $argDatabasename)
 	{
-		if (strtolower(substr($argHostname,0,7)) !== 'http://') return false;
+		if (strtolower(substr($argHostname,0,7)) !== 'https://') return false;
 		$this->_url = $argHostname;
 		return true;
 	}
@@ -69,7 +69,7 @@ class ADODB_csv extends ADOConnection {
 	// returns true or false
 	function _pconnect($argHostname, $argUsername, $argPassword, $argDatabasename)
 	{
-		if (strtolower(substr($argHostname,0,7)) !== 'http://') return false;
+		if (strtolower(substr($argHostname,0,7)) !== 'https://') return false;
 		$this->_url = $argHostname;
 		return true;
 	}

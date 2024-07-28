@@ -88,7 +88,7 @@ class FileManager
     /**
      * Get the error code of a file upload
      *
-     * @see http://php.net/manual/en/features.file-upload.errors.php
+     * @see https://php.net/manual/en/features.file-upload.errors.php
      *
      * @param string $fileName the name of the file used in the POST form
      *
@@ -241,7 +241,7 @@ class FileManager
 
     /**
      * Copy a directory.
-     * Adapted from code by gimmicklessgpt at gmail dot com, at http://php.net/manual/en/function.copy.php
+     * Adapted from code by gimmicklessgpt at gmail dot com, at https://php.net/manual/en/function.copy.php
      *
      * @param string $source the path to the source directory
      * @param string $dest the path where the directory is to be saved

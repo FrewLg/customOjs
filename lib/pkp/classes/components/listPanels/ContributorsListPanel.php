@@ -90,7 +90,7 @@ class ContributorsListPanel extends ListPanel
      * Get an example of the url to a publication's API endpoint,
      * with a placeholder instead of the publication id, eg:
      *
-     * http://example.org/api/v1/submissions/1/publications/__publicationId__
+     * https://example.org/api/v1/submissions/1/publications/__publicationId__
      */
     protected function getPublicationUrlFormat(): string
     {

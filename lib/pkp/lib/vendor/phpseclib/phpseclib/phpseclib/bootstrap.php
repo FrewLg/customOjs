@@ -7,7 +7,7 @@
  * either. it's a bonus for those using composer but if you're not phpseclib will
  * still work
  *
- * @license http://www.opensource.org/licenses/mit-license.html MIT License
+ * @license https://www.opensource.org/licenses/mit-license.html MIT License
  */
 
 if (extension_loaded('mbstring')) {

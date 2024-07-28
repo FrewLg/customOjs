@@ -31,7 +31,7 @@ is built with the future of HTML5 in mind.
   * [Create a Fiddle](https://github.com/moxiecode/plupload/wiki/Create-a-Fiddle)
 * [Contributing](#contributing)
 * [License](#license)
-* [Contact Us](http://www.moxiecode.com/contact.php)
+* [Contact Us](https://www.moxiecode.com/contact.php)
 
 ### Backstory
 
@@ -43,14 +43,14 @@ And then there was no progress indication for the upload process... Sounds prett
 It was very logical for developers to look for alternatives and writing their own implementations, using
 Flash and Java, in order to somehow extend limited browser capabilities. And so did we, in our search for
 a reliable and flexible file uploader for
-our [TinyMCE](http://www.tinymce.com/index.php)'s
-[MCImageManager](http://www.tinymce.com/enterprise/mcimagemanager.php).
+our [TinyMCE](https://www.tinymce.com/index.php)'s
+[MCImageManager](https://www.tinymce.com/enterprise/mcimagemanager.php).
 
 Quickly enough though, Plupload grew big.  It easily split into a standalone project.
 With major *version 2.0* it underwent another huge reconstruction, basically
-[from the ground up](http://blog.moxiecode.com/2012/11/28/first-public-beta-plupload-2/),
-as all the low-level runtime logic has been extracted into separate [File API](http://www.w3.org/TR/FileAPI/)
-and [XHR L2](http://www.w3.org/TR/XMLHttpRequest/) pollyfills (currently known under combined name of [mOxie](https://github.com/moxiecode/moxie)),
+[from the ground up](https://blog.moxiecode.com/2012/11/28/first-public-beta-plupload-2/),
+as all the low-level runtime logic has been extracted into separate [File API](https://www.w3.org/TR/FileAPI/)
+and [XHR L2](https://www.w3.org/TR/XMLHttpRequest/) pollyfills (currently known under combined name of [mOxie](https://github.com/moxiecode/moxie)),
 giving Plupload a chance to evolve further.
 
 ### Structure
@@ -80,13 +80,13 @@ that require special tools on your workstation in order to compile.
 Consider [build instructions for mOxie](https://github.com/moxiecode/moxie#build-instructions) -
 everything applies to Plupload as well.
 
-First of all, if you want to build custom Plupload packages you will require [Node.js](http://nodejs.org/),
+First of all, if you want to build custom Plupload packages you will require [Node.js](https://nodejs.org/),
 as this is our build environment of choice. Node.js binaries (as well as Source)
-[are available](http://nodejs.org/download/) for all major operating systems.
+[are available](https://nodejs.org/download/) for all major operating systems.
 
 Plupload includes _mOxie_ as a submodule, it also depends on some other repositories for building up it's dev
 environment - to avoid necessity of downloading them one by one, we recommended you to simply clone Plupload
-with [git](http://git-scm.com/) recursively (you will require git installed on your system for this operation
+with [git](https://git-scm.com/) recursively (you will require git installed on your system for this operation
 to succeed):
 
 ```
@@ -110,7 +110,7 @@ all the suggestions and feature requests. We ask you to file bug reports if you 
 react to them instantly, but we constantly bear them in my mind as we extend the code base.
 
 In addition to dedicated support for those who dare to buy our OEM licenses, we got
-[discussion boards](http://www.plupload.com/punbb/index.php), which is like an enormous FAQ,
+[discussion boards](https://www.plupload.com/punbb/index.php), which is like an enormous FAQ,
 covering every possible application case. Of course, you are welcome to file a bug report or feature request,
 here on [GitHub](https://github.com/moxiecode/plupload/issues).
 
@@ -123,18 +123,18 @@ We are open to suggestions and code revisions, however there are some rules and 
 want to consider first.
 
 * Code that you contribute will automatically be licensed under the AGPL, but will not be limited to AGPL.
-* Although all contributors will get the credit for their work, copyright notices will be changed to [Moxiecode Systems AB](http://www.moxiecode.com/).
+* Although all contributors will get the credit for their work, copyright notices will be changed to [Moxiecode Systems AB](https://www.moxiecode.com/).
 * Third party code will be reviewed, tested and possibly modified before being released.
 
 These basic rules help us earn a living and ensure that code remains Open Source and compatible with AGPL license. All contributions will be added to the changelog and appear in every release and on the site.
 
 An easy place to start is to [translate Plupload to your language](https://github.com/moxiecode/plupload/wiki/Plupload-in-Your-Language#contribute).
 
-You can read more about how to contribute at: [http://www.plupload.com/contributing](http://www.plupload.com/contributing)
+You can read more about how to contribute at: [https://www.plupload.com/contributing](https://www.plupload.com/contributing)
 
 ### License
 
-Copyright 2016, [Ephox](http://www.ephox.com/).  
+Copyright 2016, [Ephox](https://www.ephox.com/).  
 Released under [AGPL-3.0 License](https://github.com/moxiecode/plupload/blob/master/license.txt).
 
-We also provide [commercial license](http://www.plupload.com/commercial.php).
+We also provide [commercial license](https://www.plupload.com/commercial.php).

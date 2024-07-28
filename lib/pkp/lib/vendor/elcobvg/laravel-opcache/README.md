@@ -61,5 +61,5 @@ Depending on how you've configured caching in your project, you may want to cach
 
 - [500X Faster Caching than Redis/Memcache/APC in PHP & HHVM](https://blog.graphiq.com/500x-faster-caching-than-redis-memcache-apc-in-php-hhvm-dcd26e8447ad)
 - [Make your Laravel App Fly with PHP OPcache](https://medium.com/appstract/make-your-laravel-app-fly-with-php-opcache-9948db2a5f93)
-- [PHP OPcache Documentation](http://php.net/manual/en/book.opcache.php)
-- [Pecl::Package::ZendOpcache](http://pecl.php.net/package/ZendOpcache)
+- [PHP OPcache Documentation](https://php.net/manual/en/book.opcache.php)
+- [Pecl::Package::ZendOpcache](https://pecl.php.net/package/ZendOpcache)

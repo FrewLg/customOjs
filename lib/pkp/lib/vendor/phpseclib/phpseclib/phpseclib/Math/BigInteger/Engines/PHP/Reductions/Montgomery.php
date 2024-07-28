@@ -7,8 +7,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://pear.php.net/package/Math_BigInteger
  */
 
 namespace phpseclib3\Math\BigInteger\Engines\PHP\Reductions;
@@ -45,7 +45,7 @@ abstract class Montgomery extends Progenitor
      * Montgomery Multiply
      *
      * Interleaves the montgomery reduction and long multiplication algorithms together as described in
-     * {@link http://www.cacr.math.uwaterloo.ca/hac/about/chap14.pdf#page=13 HAC 14.36}
+     * {@link https://www.cacr.math.uwaterloo.ca/hac/about/chap14.pdf#page=13 HAC 14.36}
      *
      * @param array $x
      * @param array $n
@@ -91,11 +91,11 @@ abstract class Montgomery extends Progenitor
      *
      * Based off of the bnpInvDigit function implemented and justified in the following URL:
      *
-     * {@link http://www-cs-students.stanford.edu/~tjw/jsbn/jsbn.js}
+     * {@link https://www-cs-students.stanford.edu/~tjw/jsbn/jsbn.js}
      *
      * The following URL provides more info:
      *
-     * {@link http://groups.google.com/group/sci.crypt/msg/7a137205c1be7d85}
+     * {@link https://groups.google.com/group/sci.crypt/msg/7a137205c1be7d85}
      *
      * As for why we do all the bitmasking...  strange things can happen when converting from floats to ints. For
      * instance, on some computers, var_dump((int) -4294967297) yields int(-1) and on others, it yields

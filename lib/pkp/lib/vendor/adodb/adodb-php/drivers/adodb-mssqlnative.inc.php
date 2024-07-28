@@ -8,12 +8,12 @@
   the BSD license will take precedence.
 Set tabs to 4 for best viewing.
 
-  Latest version is available at http://adodb.org/
+  Latest version is available at https://adodb.org/
 
   Native mssql driver. Requires mssql client. Works on Windows.
-    http://www.microsoft.com/sql/technologies/php/default.mspx
+    https://www.microsoft.com/sql/technologies/php/default.mspx
   To configure for Unix, see
-   	http://phpbuilder.com/columns/alberto20000919.php3
+   	https://phpbuilder.com/columns/alberto20000919.php3
 
     $stream = sqlsrv_get_field($stmt, $index, SQLSRV_SQLTYPE_STREAM(SQLSRV_ENC_BINARY));
     stream_filter_append($stream, "convert.iconv.ucs-2/utf-8"); // Voila, UTF-8 can be read directly from $stream
@@ -57,13 +57,13 @@ if (!function_exists('sqlsrv_log_set_subsystems')) {
 // To configure datetime, look for and modify sqlcommn.loc,
 //  	typically found in c:\mssql\install
 // Also read :
-//	 http://support.microsoft.com/default.aspx?scid=kb;EN-US;q220918
+//	 https://support.microsoft.com/default.aspx?scid=kb;EN-US;q220918
 // Alternatively use:
 // 	   CONVERT(char(12),datecol,120)
 //
 // Also if your month is showing as month-1,
 //   e.g. Jan 13, 2002 is showing as 13/0/2002, then see
-//     http://phplens.com/lens/lensforum/msgs.php?id=7048&x=1
+//     https://phplens.com/lens/lensforum/msgs.php?id=7048&x=1
 //   it's a localisation problem.
 //----------------------------------------------------------------
 
@@ -427,7 +427,7 @@ class ADODB_mssqlnative extends ADOConnection {
 
 		$this->CommitTrans();
 
-		See http://www.swynk.com/friends/achigrik/SQL70Locks.asp
+		See https://www.swynk.com/friends/achigrik/SQL70Locks.asp
 	*/
 	function RowLock($tables,$where,$col='1 as adodbignore')
 	{
@@ -1208,5 +1208,5 @@ where constraint_catalog = db_name()
 and table_name = x
 order by constraint_name, ordinal_position
 
-http://www.databasejournal.com/scripts/article.php/1440551
+https://www.databasejournal.com/scripts/article.php/1440551
 */

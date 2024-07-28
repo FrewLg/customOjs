@@ -9,7 +9,7 @@
  *
  *}
 <?xml version="1.0" encoding="{$defaultCharset|escape}"?>
-<feed xmlns="https://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom">
 	{* required elements *}
 	<id>{$feedUrl}</id>
 	<title>{$context->getLocalizedName()|escape:"html"|strip}</title>

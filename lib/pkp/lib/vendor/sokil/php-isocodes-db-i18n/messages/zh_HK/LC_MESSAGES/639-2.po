@@ -97,7 +97,7 @@ msgstr "阿姆哈拉語"
 msgid "English, Old (ca. 450-1100)"
 msgstr "古英語"
 
-# (Abel) from http://zh.wikipedia.org/w/index.php?title=比哈尔语
+# (Abel) from https://zh.wikipedia.org/w/index.php?title=比哈尔语
 #. Name for anp
 msgid "Angika"
 msgstr "昂加語"

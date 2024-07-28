@@ -31,7 +31,7 @@ msgstr ""
 
 msgid "plugins.importexport.datacite.intro"
 msgstr ""
-"اگر می خواهید DOI ها را با DataCite ثبت کنید، لطفا از طریق <a href=\"https://"
+"اگر می خواهید DOI ها را با DataCite ثبت کنید، لطفا از طریق <a href=\"http://"
 "datacite.org/contact\" target=\"_blank\">وبسایت DataCite</a> با نماینده "
 "مدیریت تماس بگیرید، که شما را به یک نماینده محلی ارجاع می دهد. پس از  ارتباط "
 "با سازمان عضو، شما به سرویس DataCite برای دریافت شناسه DOI و ثبت فراداده های "

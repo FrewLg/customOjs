@@ -6,7 +6,7 @@
 # .
 # Notes:
 # This European Union Resource page was very helpful:
-# http://eur-op.eu.int/code/da/da-5000500.htm
+# https://eur-op.eu.int/code/da/da-5000500.htm
 # .
 # Copyright ©
 # Alastair McKinstry <mckinstry@debian.org>, 2001.
@@ -31,7 +31,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.5-dev\n"
 
-# http://en.wikipedia.org/wiki/French_Afars_and_Issas
+# https://en.wikipedia.org/wiki/French_Afars_and_Issas
 #. Name for AIDJ
 msgid "French Afars and Issas"
 msgstr "Fransk Afars og Issas"
@@ -40,7 +40,7 @@ msgstr "Fransk Afars og Issas"
 msgid "Netherlands Antilles"
 msgstr "Hollandske Antiller"
 
-# http://da.wikipedia.org/wiki/Britisk_Antarktis
+# https://da.wikipedia.org/wiki/Britisk_Antarktis
 #. Name for BQAQ
 msgid "British Antarctic Territory"
 msgstr "Britisk Antarktis"
@@ -61,7 +61,7 @@ msgstr "Tjekkoslovakiet, Den Tjekkoslovakiske Socialistiske Republik"
 msgid "Serbia and Montenegro"
 msgstr "Serbien og Montenegro"
 
-# http://en.wikipedia.org/wiki/Canton_and_Enderbury_Islands
+# https://en.wikipedia.org/wiki/Canton_and_Enderbury_Islands
 #. Name for CTKI
 msgid "Canton and Enderbury Islands"
 msgstr "Canton- og Enderburyøerne"
@@ -70,7 +70,7 @@ msgstr "Canton- og Enderburyøerne"
 msgid "German Democratic Republic"
 msgstr "Den Tyske Demokratiske Republik"
 
-# http://en.wikipedia.org/wiki/Dahomey
+# https://en.wikipedia.org/wiki/Dahomey
 #. Name for DYBJ
 msgid "Dahomey"
 msgstr "Dahomey"
@@ -104,8 +104,8 @@ msgstr "Johnstonøen"
 msgid "Midway Islands"
 msgstr "Midwayøerne"
 
-# http://en.wikipedia.org/wiki/New_Hebrides
-# http://www.denstoredanske.dk/Rejser,_geografi_og_historie
+# https://en.wikipedia.org/wiki/New_Hebrides
+# https://www.denstoredanske.dk/Rejser,_geografi_og_historie
 # /Oceanien/Stillehavs%C3%B8erne/Ny_Hebriderne
 #. Name for NHVU
 msgid "New Hebrides"
@@ -120,7 +120,7 @@ msgid "Neutral Zone"
 msgstr "Neutral Zone"
 
 # ser ikke ud til der er en dansk betegnelse
-# http://www.denstoredanske.dk/Rejser,_geografi_og_historie/
+# https://www.denstoredanske.dk/Rejser,_geografi_og_historie/
 # Australien_og_New_Zealand/Australiens,_New_Zealands_og_Tasmaniens
 # _historie/Trust_Territory_of_the_Pacific_Islands?highlight=
 # Pacific%20Islands
@@ -132,7 +132,7 @@ msgstr "Trust Territory of the Pacific Islands"
 msgid "US Miscellaneous Pacific Islands"
 msgstr "Forskellige Amerikanske Stillehavsøer"
 
-# http://www.denstoredanske.dk/Rejser%2c_geografi_og_historie/
+# https://www.denstoredanske.dk/Rejser%2c_geografi_og_historie/
 # Syd-_og_Mellemamerika/Mellemamerikanske_stater/Panamakanalzonen
 #. Name for PZPA
 msgid "Panama Canal Zone"

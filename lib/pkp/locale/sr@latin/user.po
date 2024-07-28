@@ -274,7 +274,7 @@ msgstr "Obaveštenja o novim brojevima"
 msgid "user.profile.form.urlInvalid"
 msgstr ""
 "Specificirani URL je neispravan. Dvokliknite na URL i pokušajte ponovo. "
-"( Napomena: pokušajte da dodate http://  URL.)"
+"( Napomena: pokušajte da dodate https://  URL.)"
 
 msgid "user.profile.form.usergroupRequired"
 msgstr "Grupa korisnika je neophodna."

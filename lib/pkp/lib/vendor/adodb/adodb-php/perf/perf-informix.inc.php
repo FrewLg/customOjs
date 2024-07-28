@@ -8,7 +8,7 @@
   the BSD license will take precedence. See License.txt.
   Set tabs to 4 for best viewing.
 
-  Latest version is available at http://adodb.org/
+  Latest version is available at https://adodb.org/
 
   Library for basic performance monitoring and tuning
 
@@ -19,7 +19,7 @@ if (!defined('ADODB_DIR')) die();
 
 //
 // Thx to  Fernando Ortiz, mailto:fortiz#lacorona.com.mx
-// With info taken from http://www.oninit.com/oninit/sysmaster/index.html
+// With info taken from https://www.oninit.com/oninit/sysmaster/index.html
 //
 class perf_informix extends adodb_perf{
 

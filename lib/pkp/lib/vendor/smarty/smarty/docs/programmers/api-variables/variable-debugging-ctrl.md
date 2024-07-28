@@ -10,7 +10,7 @@ TRUE, this value is ignored.
 
     <?php
     // shows debug console only on localhost ie
-    // http://localhost/script.php?foo=bar&SMARTY_DEBUG
+    // https://localhost/script.php?foo=bar&SMARTY_DEBUG
     $smarty->debugging = false; // the default
     $smarty->debugging_ctrl = ($_SERVER['SERVER_NAME'] == 'localhost') ? 'URL' : 'NONE';
     ?>

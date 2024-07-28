@@ -271,7 +271,7 @@ class ADODB_mysqli extends ADOConnection {
 		return $result;
 	}
 
-	// See http://www.mysql.com/doc/M/i/Miscellaneous_functions.html
+	// See https://www.mysql.com/doc/M/i/Miscellaneous_functions.html
 	// Reference on Last_Insert_ID on the recommended way to simulate sequences
 	var $_genIDSQL = "update %s set id=LAST_INSERT_ID(id+1);";
 	var $_genSeqSQL = "create table if not exists %s (id int not null)";

@@ -5,8 +5,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib3\Crypt\RSA;
@@ -58,7 +58,7 @@ final class PrivateKey extends RSA implements Common\PrivateKey
     /**
      * RSADP
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-5.1.2 RFC3447#section-5.1.2}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-5.1.2 RFC3447#section-5.1.2}.
      *
      * @return bool|\phpseclib3\Math\BigInteger
      */
@@ -73,7 +73,7 @@ final class PrivateKey extends RSA implements Common\PrivateKey
     /**
      * RSASP1
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-5.2.1 RFC3447#section-5.2.1}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-5.2.1 RFC3447#section-5.2.1}.
      *
      * @return bool|\phpseclib3\Math\BigInteger
      */
@@ -189,7 +189,7 @@ final class PrivateKey extends RSA implements Common\PrivateKey
     /**
      * EMSA-PSS-ENCODE
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-9.1.1 RFC3447#section-9.1.1}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-9.1.1 RFC3447#section-9.1.1}.
      *
      * @return string
      * @param string $m
@@ -225,7 +225,7 @@ final class PrivateKey extends RSA implements Common\PrivateKey
     /**
      * RSASSA-PSS-SIGN
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-8.1.1 RFC3447#section-8.1.1}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-8.1.1 RFC3447#section-8.1.1}.
      *
      * @param string $m
      * @return bool|string
@@ -250,7 +250,7 @@ final class PrivateKey extends RSA implements Common\PrivateKey
     /**
      * RSASSA-PKCS1-V1_5-SIGN
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-8.2.1 RFC3447#section-8.2.1}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-8.2.1 RFC3447#section-8.2.1}.
      *
      * @param string $m
      * @throws \LengthException if the RSA modulus is too short
@@ -301,7 +301,7 @@ final class PrivateKey extends RSA implements Common\PrivateKey
     /**
      * RSAES-PKCS1-V1_5-DECRYPT
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-7.2.2 RFC3447#section-7.2.2}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-7.2.2 RFC3447#section-7.2.2}.
      *
      * @param string $c
      * @return bool|string
@@ -341,7 +341,7 @@ final class PrivateKey extends RSA implements Common\PrivateKey
     /**
      * RSAES-OAEP-DECRYPT
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-7.1.2 RFC3447#section-7.1.2}.  The fact that the error
+     * See {@link https://tools.ietf.org/html/rfc3447#section-7.1.2 RFC3447#section-7.1.2}.  The fact that the error
      * messages aren't distinguishable from one another hinders debugging, but, to quote from RFC3447#section-7.1.2:
      *
      *    Note.  Care must be taken to ensure that an opponent cannot

@@ -6,7 +6,7 @@
         "http",
         "psr-7"
     ],
-    "homepage": "https://php-http.org",
+    "homepage": "http://php-http.org",
     "license": "MIT",
     "authors": [
         {

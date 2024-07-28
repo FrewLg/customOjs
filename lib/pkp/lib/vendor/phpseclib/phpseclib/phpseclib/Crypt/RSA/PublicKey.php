@@ -5,8 +5,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib3\Crypt\RSA;
@@ -46,7 +46,7 @@ final class PublicKey extends RSA implements Common\PublicKey
     /**
      * RSAVP1
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-5.2.2 RFC3447#section-5.2.2}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-5.2.2 RFC3447#section-5.2.2}.
      *
      * @param \phpseclib3\Math\BigInteger $s
      * @return bool|\phpseclib3\Math\BigInteger
@@ -62,7 +62,7 @@ final class PublicKey extends RSA implements Common\PublicKey
     /**
      * RSASSA-PKCS1-V1_5-VERIFY
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-8.2.2 RFC3447#section-8.2.2}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-8.2.2 RFC3447#section-8.2.2}.
      *
      * @param string $m
      * @param string $s
@@ -122,7 +122,7 @@ final class PublicKey extends RSA implements Common\PublicKey
     /**
      * RSASSA-PKCS1-V1_5-VERIFY (relaxed matching)
      *
-     * Per {@link http://tools.ietf.org/html/rfc3447#page-43 RFC3447#page-43} PKCS1 v1.5
+     * Per {@link https://tools.ietf.org/html/rfc3447#page-43 RFC3447#page-43} PKCS1 v1.5
      * specified the use BER encoding rather than DER encoding that PKCS1 v2.0 specified.
      * This means that under rare conditions you can have a perfectly valid v1.5 signature
      * that fails to validate with _rsassa_pkcs1_v1_5_verify(). PKCS1 v2.1 also recommends
@@ -215,7 +215,7 @@ final class PublicKey extends RSA implements Common\PublicKey
     /**
      * EMSA-PSS-VERIFY
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-9.1.2 RFC3447#section-9.1.2}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-9.1.2 RFC3447#section-9.1.2}.
      *
      * @param string $m
      * @param string $em
@@ -261,7 +261,7 @@ final class PublicKey extends RSA implements Common\PublicKey
     /**
      * RSASSA-PSS-VERIFY
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-8.1.2 RFC3447#section-8.1.2}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-8.1.2 RFC3447#section-8.1.2}.
      *
      * @param string $m
      * @param string $s
@@ -315,7 +315,7 @@ final class PublicKey extends RSA implements Common\PublicKey
     /**
      * RSAES-PKCS1-V1_5-ENCRYPT
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-7.2.1 RFC3447#section-7.2.1}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-7.2.1 RFC3447#section-7.2.1}.
      *
      * @param string $m
      * @param bool $pkcs15_compat optional
@@ -357,8 +357,8 @@ final class PublicKey extends RSA implements Common\PublicKey
     /**
      * RSAES-OAEP-ENCRYPT
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-7.1.1 RFC3447#section-7.1.1} and
-     * {http://en.wikipedia.org/wiki/Optimal_Asymmetric_Encryption_Padding OAES}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-7.1.1 RFC3447#section-7.1.1} and
+     * {https://en.wikipedia.org/wiki/Optimal_Asymmetric_Encryption_Padding OAES}.
      *
      * @param string $m
      * @throws \LengthException if strlen($m) > $this->k - 2 * $this->hLen - 2
@@ -403,7 +403,7 @@ final class PublicKey extends RSA implements Common\PublicKey
     /**
      * RSAEP
      *
-     * See {@link http://tools.ietf.org/html/rfc3447#section-5.1.1 RFC3447#section-5.1.1}.
+     * See {@link https://tools.ietf.org/html/rfc3447#section-5.1.1 RFC3447#section-5.1.1}.
      *
      * @param \phpseclib3\Math\BigInteger $m
      * @return bool|\phpseclib3\Math\BigInteger

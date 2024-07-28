@@ -7,8 +7,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib3\File\ASN1\Maps;
@@ -18,7 +18,7 @@ use phpseclib3\File\ASN1;
 /**
  * netscape_cert_type
  *
- * mapping is from <http://www.mozilla.org/projects/security/pki/nss/tech-notes/tn3.html>
+ * mapping is from <https://www.mozilla.org/projects/security/pki/nss/tech-notes/tn3.html>
  *
  * @author  Jim Wigginton <terrafrost@php.net>
  */

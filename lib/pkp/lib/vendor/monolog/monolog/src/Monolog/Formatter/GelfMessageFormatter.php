@@ -17,7 +17,7 @@ use Monolog\Utils;
 
 /**
  * Serializes a log message to GELF
- * @see http://docs.graylog.org/en/latest/pages/gelf.html
+ * @see https://docs.graylog.org/en/latest/pages/gelf.html
  *
  * @author Matt Lehner <mlehner@gmail.com>
  *

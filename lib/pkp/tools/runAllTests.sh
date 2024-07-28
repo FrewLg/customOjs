@@ -14,7 +14,7 @@
 #
 # Some tests will certain require environment variables in order to cnfigure
 # the environment. In particular...
-#  BASEURL="http://localhost/omp": Full URL to base URL, excluding index.php
+#  BASEURL="https://localhost/omp": Full URL to base URL, excluding index.php
 #  DBHOST=localhost: Hostname of database server
 #  DBNAME=yyy: Database name
 #  DBUSERNAME=xxx: Username for database connections

@@ -15,4 +15,4 @@ msgid "plugins.generic.pdfJsViewer.name"
 msgstr "PDF.JS PDF prikazivač"
 
 msgid "plugins.generic.pdfJsViewer.description"
-msgstr "Ovaj dodatak koristi <a href=\"https://mozilla.github.io/pdf.js\">pdf.js PDF viewer</a> za prikazivanje PDF dokumenata na stranicama časopisa."
+msgstr "Ovaj dodatak koristi <a href=\"http://mozilla.github.io/pdf.js\">pdf.js PDF viewer</a> za prikazivanje PDF dokumenata na stranicama časopisa."

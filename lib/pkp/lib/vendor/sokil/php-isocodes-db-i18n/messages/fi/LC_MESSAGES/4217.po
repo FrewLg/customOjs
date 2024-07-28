@@ -5,7 +5,7 @@
 # .
 # Notes:
 # Lähde:
-# http://kotoistus.fi/avoimet/tied_valuuttojen-nimet.htm
+# https://kotoistus.fi/avoimet/tied_valuuttojen-nimet.htm
 # .
 # Copyright ©
 # Tommi Vainikainen <Tommi.Vainikainen@iki.fi>, 2005-2009.

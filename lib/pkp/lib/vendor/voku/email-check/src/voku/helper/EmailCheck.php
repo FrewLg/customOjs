@@ -9,8 +9,8 @@ namespace voku\helper;
  *
  * -> use "EmailCheck::isValid()" to validate a email-address
  *
- * @copyright   Copyright (c) 2018, Lars Moelleken (http://moelleken.org/)
- * @license     http://opensource.org/licenses/MIT	MIT License
+ * @copyright   Copyright (c) 2018, Lars Moelleken (https://moelleken.org/)
+ * @license     https://opensource.org/licenses/MIT	MIT License
  */
 class EmailCheck
 {

@@ -165,7 +165,7 @@ class PKPRequest
     {
         // Note that we are intentionally skipping PKP processing of REQUEST_URI and QUERY_STRING for a protocol redirect
         // This processing is deferred to the redirected (target) URI
-        $url = 'http://' . $this->getServerHost() . $_SERVER['REQUEST_URI'];
+        $url = 'https://' . $this->getServerHost() . $_SERVER['REQUEST_URI'];
         $queryString = $_SERVER['QUERY_STRING'];
         if (!empty($queryString)) { 
             $url .= "?{$queryString}";

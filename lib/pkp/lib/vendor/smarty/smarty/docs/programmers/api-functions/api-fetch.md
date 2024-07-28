@@ -78,7 +78,7 @@ function
     // get $contact_info from db or other resource here
 
     $smarty->assign('contact_info',$contact_info);
-    $smarty->assign('login_url',"http://{$_SERVER['SERVER_NAME']}/login");
+    $smarty->assign('login_url',"https://{$_SERVER['SERVER_NAME']}/login");
 
     mail($contact_info['email'], 'Thank You', $smarty->fetch('email_body.tpl'));
 

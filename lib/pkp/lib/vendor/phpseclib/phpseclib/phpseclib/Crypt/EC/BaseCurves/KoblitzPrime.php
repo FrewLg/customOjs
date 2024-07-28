@@ -3,7 +3,7 @@
 /**
  * Generalized Koblitz Curves over y^2 = x^3 + b.
  *
- * According to http://www.secg.org/SEC2-Ver-1.0.pdf Koblitz curves are over the GF(2**m)
+ * According to https://www.secg.org/SEC2-Ver-1.0.pdf Koblitz curves are over the GF(2**m)
  * finite field. Both the $a$ and $b$ coefficients are either 0 or 1. However, SEC2
  * generalizes the definition to include curves over GF(P) "which possess an efficiently
  * computable endomorphism".
@@ -22,8 +22,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://pear.php.net/package/Math_BigInteger
  */
 
 namespace phpseclib3\Crypt\EC\BaseCurves;
@@ -197,7 +197,7 @@ class KoblitzPrime extends Prime
     /**
      * Doubles a jacobian coordinate on the curve
      *
-     * See http://hyperelliptic.org/EFD/g1p/auto-shortw-jacobian-0.html#doubling-dbl-2009-l
+     * See https://hyperelliptic.org/EFD/g1p/auto-shortw-jacobian-0.html#doubling-dbl-2009-l
      *
      * @return FiniteField[]
      */
@@ -222,7 +222,7 @@ class KoblitzPrime extends Prime
     /**
      * Doubles a "fresh" jacobian coordinate on the curve
      *
-     * See http://hyperelliptic.org/EFD/g1p/auto-shortw-jacobian-0.html#doubling-mdbl-2007-bl
+     * See https://hyperelliptic.org/EFD/g1p/auto-shortw-jacobian-0.html#doubling-mdbl-2007-bl
      *
      * @return FiniteField[]
      */
@@ -260,7 +260,7 @@ class KoblitzPrime extends Prime
 
     /**
      * Calculates the parameters needed from the Euclidean algorithm as discussed at
-     * http://diamond.boisestate.edu/~liljanab/MATH308/GuideToECC.pdf#page=148
+     * https://diamond.boisestate.edu/~liljanab/MATH308/GuideToECC.pdf#page=148
      *
      * @param BigInteger $u
      * @param BigInteger $v

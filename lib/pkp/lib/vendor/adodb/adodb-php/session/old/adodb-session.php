@@ -8,7 +8,7 @@
   the BSD license will take precedence.
 	  Set tabs to 4 for best viewing.
 
-  Latest version is available at http://adodb.org/
+  Latest version is available at https://adodb.org/
   ======================================================================
 
  This file provides PHP4 session management using the ADODB database
@@ -110,7 +110,7 @@ if (!defined('ADODB_SESSION')) {
  define('ADODB_SESSION_SYNCH_SECS',60);
 
  /*
-	Thanks Joe Li. See http://phplens.com/lens/lensforum/msgs.php?id=11487&x=1
+	Thanks Joe Li. See https://phplens.com/lens/lensforum/msgs.php?id=11487&x=1
 */
 function adodb_session_regenerate_id()
 {

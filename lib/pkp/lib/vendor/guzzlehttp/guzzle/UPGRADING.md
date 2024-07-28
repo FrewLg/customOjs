@@ -189,11 +189,11 @@ $client = new GuzzleHttp\Client(['handler' => $handler]);
 
 ## POST Requests
 
-This version added the [`form_params`](http://guzzle.readthedocs.org/en/latest/request-options.html#form_params)
+This version added the [`form_params`](https://guzzle.readthedocs.org/en/latest/request-options.html#form_params)
 and `multipart` request options. `form_params` is an associative array of
 strings or array of strings and is used to serialize an
 `application/x-www-form-urlencoded` POST request. The
-[`multipart`](http://guzzle.readthedocs.org/en/latest/request-options.html#multipart)
+[`multipart`](https://guzzle.readthedocs.org/en/latest/request-options.html#multipart)
 option is now used to send a multipart/form-data POST request.
 
 `GuzzleHttp\Post\PostFile` has been removed. Use the `multipart` option to add
@@ -209,7 +209,7 @@ The `base_url` option has been renamed to `base_uri`.
 
 ## Rewritten Adapter Layer
 
-Guzzle now uses [RingPHP](http://ringphp.readthedocs.org/en/latest) to send
+Guzzle now uses [RingPHP](https://ringphp.readthedocs.org/en/latest) to send
 HTTP requests. The `adapter` option in a `GuzzleHttp\Client` constructor
 is still supported, but it has now been renamed to `handler`. Instead of
 passing a `GuzzleHttp\Adapter\AdapterInterface`, you must now pass a PHP
@@ -575,7 +575,7 @@ You can intercept a request and inject a response using the `intercept()` event
 of a `GuzzleHttp\Event\BeforeEvent`, `GuzzleHttp\Event\CompleteEvent`, and
 `GuzzleHttp\Event\ErrorEvent` event.
 
-See: http://docs.guzzlephp.org/en/latest/events.html
+See: https://docs.guzzlephp.org/en/latest/events.html
 
 ## Inflection
 
@@ -668,9 +668,9 @@ in separate repositories:
 
 The service description layer of Guzzle has moved into two separate packages:
 
-- http://github.com/guzzle/command Provides a high level abstraction over web
+- https://github.com/guzzle/command Provides a high level abstraction over web
   services by representing web service operations using commands.
-- http://github.com/guzzle/guzzle-services Provides an implementation of
+- https://github.com/guzzle/guzzle-services Provides an implementation of
   guzzle/command that provides request serialization and response parsing using
   Guzzle service descriptions.
 
@@ -920,17 +920,17 @@ URLs no longer have a default path value of '/' if no path was specified.
 Before:
 
 ```php
-$request = $client->get('http://www.foo.com');
+$request = $client->get('https://www.foo.com');
 echo $request->getUrl();
-// >> http://www.foo.com/
+// >> https://www.foo.com/
 ```
 
 After:
 
 ```php
-$request = $client->get('http://www.foo.com');
+$request = $client->get('https://www.foo.com');
 echo $request->getUrl();
-// >> http://www.foo.com
+// >> https://www.foo.com
 ```
 
 ### Less verbose BadResponseException

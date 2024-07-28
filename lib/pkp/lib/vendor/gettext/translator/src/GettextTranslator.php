@@ -17,7 +17,7 @@ class GettextTranslator implements TranslatorInterface
         }
 
         //detects the language environment respecting the priority order
-        //http://php.net/manual/en/function.gettext.php#114062
+        //https://php.net/manual/en/function.gettext.php#114062
         if (empty($language)) {
             $language = getenv('LANGUAGE') ?: getenv('LC_ALL') ?: getenv('LC_MESSAGES') ?: getenv('LANG');
         }

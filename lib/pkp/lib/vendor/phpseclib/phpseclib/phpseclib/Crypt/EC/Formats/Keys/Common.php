@@ -7,8 +7,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib3\Crypt\EC\Formats\Keys;
@@ -103,7 +103,7 @@ trait Common
                 'secp521r1' => '1.3.132.0.35',
                 'sect571k1' => '1.3.132.0.38',
                 'sect571r1' => '1.3.132.0.39',
-                // from http://www.secg.org/SEC2-Ver-1.0.pdf
+                // from https://www.secg.org/SEC2-Ver-1.0.pdf
                 'secp112r1' => '1.3.132.0.6',
                 'secp112r2' => '1.3.132.0.7',
                 'secp128r1' => '1.3.132.0.28',
@@ -124,7 +124,7 @@ trait Common
                 'sect193r2' => '1.3.132.0.25',
                 'sect239k1' => '1.3.132.0.3',
 
-                // from http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.202.2977&rep=rep1&type=pdf#page=36
+                // from https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.202.2977&rep=rep1&type=pdf#page=36
                 /*
                 'c2pnb163v1' => '1.2.840.10045.3.0.1', // J.4.1, example 1
                 'c2pnb163v2' => '1.2.840.10045.3.0.2', // J.4.1, example 2
@@ -148,7 +148,7 @@ trait Common
                 'c2tnb431r1' => '1.2.840.10045.3.0.20', // J.4.10, example 1
                 */
 
-                // http://www.ecc-brainpool.org/download/Domain-parameters.pdf
+                // https://www.ecc-brainpool.org/download/Domain-parameters.pdf
                 // https://tools.ietf.org/html/rfc5639
                 'brainpoolP160r1' => '1.3.36.3.3.2.8.1.1.1',
                 'brainpoolP160t1' => '1.3.36.3.3.2.8.1.1.2',
@@ -169,7 +169,7 @@ trait Common
                 'prime-field' => '1.2.840.10045.1.1',
                 'characteristic-two-field' => '1.2.840.10045.1.2',
                 'characteristic-two-basis' => '1.2.840.10045.1.2.3',
-                // per http://www.secg.org/SEC1-Ver-1.0.pdf#page=84, gnBasis "not used here"
+                // per https://www.secg.org/SEC1-Ver-1.0.pdf#page=84, gnBasis "not used here"
                 'gnBasis' => '1.2.840.10045.1.2.3.1', // NULL
                 'tpBasis' => '1.2.840.10045.1.2.3.2', // Trinomial
                 'ppBasis' => '1.2.840.10045.1.2.3.3'  // Pentanomial

@@ -36,7 +36,7 @@ namespace Symfony\Component\HttpFoundation\Session\Storage\Handler;
  *
  * @author Fabien Potencier <fabien@symfony.com>
  * @author Michael Williams <michael.williams@funsational.com>
- * @author Tobias Schultze <https://tobion.de>
+ * @author Tobias Schultze <http://tobion.de>
  */
 class PdoSessionHandler extends AbstractSessionHandler
 {

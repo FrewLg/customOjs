@@ -29,7 +29,7 @@ class Stream implements StreamInterface
      * Resource modes
      *
      * @var  array
-     * @link http://php.net/manual/function.fopen.php
+     * @link https://php.net/manual/function.fopen.php
      */
     protected static $modes = [
         'readable' => ['r', 'r+', 'w+', 'a+', 'x+', 'c+'],
@@ -100,7 +100,7 @@ class Stream implements StreamInterface
      *
      * The keys returned are identical to the keys returned from PHP's stream_get_meta_data() function.
      *
-     * @link http://php.net/manual/en/function.stream-get-meta-data.php
+     * @link https://php.net/manual/en/function.stream-get-meta-data.php
      *
      * @param string $key Specific metadata to retrieve.
      *
@@ -184,7 +184,7 @@ class Stream implements StreamInterface
      * This method MUST NOT raise an exception in order to conform with PHP's
      * string casting operations.
      *
-     * @see http://php.net/manual/en/language.oop5.magic.php#object.tostring
+     * @see https://php.net/manual/en/language.oop5.magic.php#object.tostring
      *
      * @return string
      */
@@ -330,7 +330,7 @@ class Stream implements StreamInterface
     /**
      * Seek to a position in the stream.
      *
-     * @link http://www.php.net/manual/en/function.fseek.php
+     * @link https://www.php.net/manual/en/function.fseek.php
      *
      * @param int $offset Stream offset
      * @param int $whence Specifies how the cursor position will be calculated
@@ -357,7 +357,7 @@ class Stream implements StreamInterface
      *
      * @see seek()
      *
-     * @link http://www.php.net/manual/en/function.fseek.php
+     * @link https://www.php.net/manual/en/function.fseek.php
      *
      * @throws RuntimeException on failure.
      */

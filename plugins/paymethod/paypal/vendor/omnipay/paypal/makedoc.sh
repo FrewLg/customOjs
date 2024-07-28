@@ -3,7 +3,7 @@
 #
 # Smart little documentation generator.
 # GPL/LGPL
-# (c) Del 2015 https://www.babel.com.au/
+# (c) Del 2015 http://www.babel.com.au/
 #
 
 APPNAME='Omnipay PayPal Gateway Module'
@@ -28,7 +28,7 @@ else
             PHPDOC=`which phpdoc`
             if [ ! -f "$PHPDOC" ]; then
                 echo "Neither apigen nor phpdoc is installed in the path or locally, please install one of them"
-                echo "see https://www.apigen.org/ or https://www.phpdoc.org/"
+                echo "see http://www.apigen.org/ or http://www.phpdoc.org/"
                 exit 1
             fi
         fi

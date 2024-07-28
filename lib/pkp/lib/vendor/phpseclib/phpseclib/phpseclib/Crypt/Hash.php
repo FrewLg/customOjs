@@ -25,8 +25,8 @@
  * @copyright 2015 Jim Wigginton
  * @author    Andreas Fischer <bantu@phpbb.com>
  * @copyright 2015 Andreas Fischer
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib3\Crypt;
@@ -241,7 +241,7 @@ class Hash
     /**
      * Pre-compute the key used by the HMAC
      *
-     * Quoting http://tools.ietf.org/html/rfc2104#section-2, "Applications that use keys longer than B bytes
+     * Quoting https://tools.ietf.org/html/rfc2104#section-2, "Applications that use keys longer than B bytes
      * will first hash the key using H and then use the resultant L byte string as the actual key to HMAC."
      *
      * As documented in https://www.reddit.com/r/PHP/comments/9nct2l/symfonypolyfill_hash_pbkdf2_correct_fix_for/
@@ -385,7 +385,7 @@ class Hash
 
         if (in_array(substr($hash, 0, 5), ['sha3-', 'shake', 'kecca'])) {
             // PHP 7.1.0 introduced support for "SHA3 fixed mode algorithms":
-            // http://php.net/ChangeLog-7.php#7.1.0
+            // https://php.net/ChangeLog-7.php#7.1.0
             if (version_compare(PHP_VERSION, '7.1.0') < 0 || substr($hash, 0, 5) != 'sha3-') {
                 //preg_match('#(\d+)$#', $hash, $matches);
                 //$this->parameters['capacity'] = 2 * $matches[1]; // 1600 - $this->blockSize
@@ -405,9 +405,9 @@ class Hash
 
         if ($hash == 'sha512/224' || $hash == 'sha512/256') {
             // PHP 7.1.0 introduced sha512/224 and sha512/256 support:
-            // http://php.net/ChangeLog-7.php#7.1.0
+            // https://php.net/ChangeLog-7.php#7.1.0
             if (version_compare(PHP_VERSION, '7.1.0') < 0) {
-                // from http://csrc.nist.gov/publications/fips/fips180-4/fips-180-4.pdf#page=24
+                // from https://csrc.nist.gov/publications/fips/fips180-4/fips-180-4.pdf#page=24
                 $initial = $hash == 'sha512/256' ?
                     [
                         '22312194FC2BF72C', '9F555FA3C84C64C2', '2393B86B6F53B151', '963877195940EABD',

@@ -8,7 +8,7 @@
   the BSD license will take precedence.
 Set tabs to 4 for best viewing.
 
-  Latest version is available at http://adodb.org/
+  Latest version is available at https://adodb.org/
 
 	Microsoft ADO data driver. Requires ADO. Works only on MS Windows.
 */
@@ -223,8 +223,8 @@ class ADODB_ado extends ADOConnection {
 			$oCmd->CommandText = $sql;
 			$oCmd->CommandType = 1;
 
-      // Map by http://msdn.microsoft.com/library/default.asp?url=/library/en-us/ado270/htm/mdmthcreateparam.asp
-      // Check issue http://bugs.php.net/bug.php?id=40664 !!!
+      // Map by https://msdn.microsoft.com/library/default.asp?url=/library/en-us/ado270/htm/mdmthcreateparam.asp
+      // Check issue https://bugs.php.net/bug.php?id=40664 !!!
 			foreach ($inputarr as $val) {
 				$type = gettype($val);
 				$len=strlen($val);

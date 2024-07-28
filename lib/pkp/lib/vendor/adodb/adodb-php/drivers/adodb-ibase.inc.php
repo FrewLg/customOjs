@@ -7,7 +7,7 @@
   Whenever there is any discrepancy between the two licenses,
   the BSD license will take precedence.
 
-  Latest version is available at http://adodb.org/
+  Latest version is available at https://adodb.org/
 
   Interbase data driver. Requires interbase client. Works on Windows and Unix.
 
@@ -15,10 +15,10 @@
   	changed transaction handling and added experimental blob stuff
 
   Docs to interbase at the website
-   http://www.synectics.co.za/php3/tutorial/IB_PHP3_API.html
+   https://www.synectics.co.za/php3/tutorial/IB_PHP3_API.html
 
   To use gen_id(), see
-   http://www.volny.cz/iprenosil/interbase/ip_ib_code.htm#_code_creategen
+   https://www.volny.cz/iprenosil/interbase/ip_ib_code.htm#_code_creategen
 
    $rs = $conn->Execute('select gen_id(adodb,1) from rdb$database');
    $id = $rs->fields[0];
@@ -75,7 +75,7 @@ class ADODB_ibase extends ADOConnection {
 			$this->_connectionID = $fn($argHostname,$argUsername,$argPassword,
 					$this->charSet,$this->buffers,$this->dialect);
 
-		if ($this->dialect != 1) { // http://www.ibphoenix.com/ibp_60_del_id_ds.html
+		if ($this->dialect != 1) { // https://www.ibphoenix.com/ibp_60_del_id_ds.html
 			$this->replaceQuote = "''";
 		}
 		if ($this->_connectionID === false) {
@@ -259,7 +259,7 @@ class ADODB_ibase extends ADOConnection {
 	}
 
 
-	// See http://community.borland.com/article/0,1410,25844,00.html
+	// See https://community.borland.com/article/0,1410,25844,00.html
 	function RowLock($tables,$where,$col=false)
 	{
 		if ($this->autoCommit) {

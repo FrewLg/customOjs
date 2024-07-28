@@ -15,7 +15,7 @@ msgid "plugins.generic.googleAnalytics.displayName"
 msgstr "Plugin Google Analytics"
 
 msgid "plugins.generic.googleAnalytics.description"
-msgstr "Mengintegrasikan OJS dengan Google Analytics, aplikasi analisis lalu lintas web site dari Google. Mewajibkan Anda telah men-setup akun Google Analytics. Silahkan lihat <a href=\"https://www.google.com/analytics/\" title=\"Google Analytics site\">Situs Google Analytics</a> untuk informasi lebih lanjut."
+msgstr "Mengintegrasikan OJS dengan Google Analytics, aplikasi analisis lalu lintas web site dari Google. Mewajibkan Anda telah men-setup akun Google Analytics. Silahkan lihat <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">Situs Google Analytics</a> untuk informasi lebih lanjut."
 
 msgid "plugins.generic.googleAnalytics.manager.settings"
 msgstr "Pengaturan"
@@ -24,7 +24,7 @@ msgid "plugins.generic.googleAnalytics.manager.googleAnalyticsSettings"
 msgstr "Pengaturan Google Analytics"
 
 msgid "plugins.generic.googleAnalytics.manager.settings.description"
-msgstr "<p>Dengan plugin ini memungkinkan Google Analytics untuk dapat digunakan untuk mengumpulkan dan menganalisa penggunaan situs web dan lalu lintas untuk jurnal ini. Harap perhatikan bahwa plugin ini mewajibkan Anda telah men-setup sebuah akun Google Analytics. Silahkan lihat <a href=\"https://www.google.com/analytics/\" title=\"Google Analytics site\">Situs Google Analytics</a> untuk informasi lebih lanjut.</p><p>Perlu diketahui bahwa Google Analytics mungkin memerlukan hingga 24 jam sebelum statistik dikumpulkan dan dilaporkan. Selama periode ini, fungsi 'Periksa Status' mungkin tidak secara akurat melaporkan apakah telah mendeteksi kode pelacakan yang diperlukan untuk jurnal.</p>"
+msgstr "<p>Dengan plugin ini memungkinkan Google Analytics untuk dapat digunakan untuk mengumpulkan dan menganalisa penggunaan situs web dan lalu lintas untuk jurnal ini. Harap perhatikan bahwa plugin ini mewajibkan Anda telah men-setup sebuah akun Google Analytics. Silahkan lihat <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">Situs Google Analytics</a> untuk informasi lebih lanjut.</p><p>Perlu diketahui bahwa Google Analytics mungkin memerlukan hingga 24 jam sebelum statistik dikumpulkan dan dilaporkan. Selama periode ini, fungsi 'Periksa Status' mungkin tidak secara akurat melaporkan apakah telah mendeteksi kode pelacakan yang diperlukan untuk jurnal.</p>"
 
 msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
 msgstr "Nomor Akun"

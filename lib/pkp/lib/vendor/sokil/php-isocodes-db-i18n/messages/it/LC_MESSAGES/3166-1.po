@@ -384,7 +384,7 @@ msgstr "Repubblica di Cuba"
 msgid "Curaçao"
 msgstr "Curaçao"
 
-# vedi http://it.wikipedia.org/wiki/Isola_di_Natale
+# vedi https://it.wikipedia.org/wiki/Isola_di_Natale
 #. Name for CXR
 msgid "Christmas Island"
 msgstr "Isola di Natale"

@@ -24,6 +24,6 @@ The endpoint *journal_path*/about/editorialTeamBio/*user_id* will respond to dis
 
 ## Author / License
 
-Written by Clinton Graham and Tazio Polanco for the [University of Pittsburgh](https://www.pitt.edu).  Copyright (c) University of Pittsburgh.
+Written by Clinton Graham and Tazio Polanco for the [University of Pittsburgh](http://www.pitt.edu).  Copyright (c) University of Pittsburgh.
 
 Released under a license of GPL v2 or later.

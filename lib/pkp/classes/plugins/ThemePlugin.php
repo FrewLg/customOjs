@@ -876,7 +876,7 @@ abstract class ThemePlugin extends LazyLoadPlugin
      * specify the brightness threshold by passing in a $limit value. Higher
      * values are brighter.
      *
-     * Based on: http://stackoverflow.com/a/8468448/1723499
+     * Based on: https://stackoverflow.com/a/8468448/1723499
      *
      * @since 0.1
      */

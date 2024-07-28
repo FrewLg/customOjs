@@ -7,8 +7,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib3\Common\Functions;
@@ -347,11 +347,11 @@ abstract class Strings
             $b = ord($x[$i]);
             if (PHP_INT_SIZE === 8) {
                 // 3 operations
-                // from http://graphics.stanford.edu/~seander/bithacks.html#ReverseByteWith64BitsDiv
+                // from https://graphics.stanford.edu/~seander/bithacks.html#ReverseByteWith64BitsDiv
                 $r .= chr((($b * 0x0202020202) & 0x010884422010) % 1023);
             } else {
                 // 7 operations
-                // from http://graphics.stanford.edu/~seander/bithacks.html#ReverseByteWith32Bits
+                // from https://graphics.stanford.edu/~seander/bithacks.html#ReverseByteWith32Bits
                 $p1 = ($b * 0x0802) & 0x22110;
                 $p2 = ($b * 0x8020) & 0x88440;
                 $r .= chr(

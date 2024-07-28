@@ -19,8 +19,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib3\Crypt\Common\Formats\Keys;
@@ -284,7 +284,7 @@ abstract class PKCS8 extends PKCS
                'id-PBMAC1' => '1.2.840.113549.1.5.14',
 
                // from PKCS#5 v2.1:
-               // http://www.rsa.com/rsalabs/pkcs/files/h11302-wp-pkcs5v2-1-password-based-cryptography-standard.pdf
+               // https://www.rsa.com/rsalabs/pkcs/files/h11302-wp-pkcs5v2-1-password-based-cryptography-standard.pdf
                'id-hmacWithSHA1' => '1.2.840.113549.2.7',
                'id-hmacWithSHA224' => '1.2.840.113549.2.8',
                'id-hmacWithSHA256' => '1.2.840.113549.2.9',

@@ -145,7 +145,7 @@ interface ArrayListInterface extends CollectionInterface, Traversable, IteratorA
 
     /**
      * Shuffles this list (randomizes the order of the elements in). It uses the PHP function shuffle
-     * @see https://php.net/manual/en/function.shuffle.php
+     * @see http://php.net/manual/en/function.shuffle.php
      * @return ArrayListInterface
      */
     public function shuffle(): ArrayListInterface;

@@ -13,7 +13,7 @@
  * @brief Class to represent an authorization policy.
  *
  * We use some of the terminology specified in the draft XACML V3.0 standard,
- * please see <http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=xacml>
+ * please see <https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=xacml>
  * for details.
  *
  * We try to stick closely enough to XACML concepts to make sure that

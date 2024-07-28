@@ -54,7 +54,7 @@
                 }
             ],
             "description": "ADOdb is a PHP database abstraction layer library",
-            "homepage": "http://adodb.org/",
+            "homepage": "https://adodb.org/",
             "keywords": [
                 "abstraction",
                 "database",
@@ -169,13 +169,13 @@
                 }
             ],
             "description": "jQuery JavaScript Library",
-            "homepage": "http://jquery.com",
+            "homepage": "https://jquery.com",
             "support": {
-                "forum": "http://forum.jquery.com",
+                "forum": "https://forum.jquery.com",
                 "irc": "irc://irc.freenode.org/jquery",
                 "issues": "https://github.com/jquery/jquery/issues",
                 "source": "https://github.com/jquery/jquery",
-                "wiki": "http://docs.jquery.com/"
+                "wiki": "https://docs.jquery.com/"
             },
             "install-path": "../components/jquery"
         },
@@ -226,42 +226,42 @@
             "authors": [
                 {
                     "name": "jQuery UI Team",
-                    "homepage": "http://jqueryui.com/about"
+                    "homepage": "https://jqueryui.com/about"
                 },
                 {
                     "name": "Joern Zaefferer",
                     "email": "joern.zaefferer@gmail.com",
-                    "homepage": "http://bassistance.de"
+                    "homepage": "https://bassistance.de"
                 },
                 {
                     "name": "Scott Gonzalez",
                     "email": "scott.gonzalez@gmail.com",
-                    "homepage": "http://scottgonzalez.com"
+                    "homepage": "https://scottgonzalez.com"
                 },
                 {
                     "name": "Kris Borchers",
                     "email": "kris.borchers@gmail.com",
-                    "homepage": "http://krisborchers.com"
+                    "homepage": "https://krisborchers.com"
                 },
                 {
                     "name": "Mike Sherov",
                     "email": "mike.sherov@gmail.com",
-                    "homepage": "http://mike.sherov.com"
+                    "homepage": "https://mike.sherov.com"
                 },
                 {
                     "name": "TJ VanToll",
                     "email": "tj.vantoll@gmail.com",
-                    "homepage": "http://tjvantoll.com"
+                    "homepage": "https://tjvantoll.com"
                 },
                 {
                     "name": "Corey Frang",
                     "email": "gnarf37@gmail.com",
-                    "homepage": "http://gnarf.net"
+                    "homepage": "https://gnarf.net"
                 },
                 {
                     "name": "Felix Nagel",
                     "email": "info@felixnagel.com",
-                    "homepage": "http://www.felixnagel.com"
+                    "homepage": "https://www.felixnagel.com"
                 }
             ],
             "description": "jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library. Whether you're building highly interactive web applications or you just need to add a date picker to a form control, jQuery UI is the perfect choice.",
@@ -318,7 +318,7 @@
                 {
                     "name": "Jordi Boggiano",
                     "email": "j.boggiano@seld.be",
-                    "homepage": "http://seld.be"
+                    "homepage": "https://seld.be"
                 }
             ],
             "description": "Lets you find a path to the system CA bundle, and includes a fallback to the Mozilla CA bundle.",
@@ -393,17 +393,17 @@
                 {
                     "name": "Nils Adermann",
                     "email": "naderman@naderman.de",
-                    "homepage": "http://www.naderman.de"
+                    "homepage": "https://www.naderman.de"
                 },
                 {
                     "name": "Jordi Boggiano",
                     "email": "j.boggiano@seld.be",
-                    "homepage": "http://seld.be"
+                    "homepage": "https://seld.be"
                 },
                 {
                     "name": "Rob Bast",
                     "email": "rob.bast@gmail.com",
-                    "homepage": "http://robbast.nl"
+                    "homepage": "https://robbast.nl"
                 }
             ],
             "description": "Semver library that offers utilities, version constraint parsing and validation.",
@@ -593,12 +593,12 @@
                 {
                     "name": "Dragonfly Development Inc.",
                     "email": "info@dflydev.com",
-                    "homepage": "http://dflydev.com"
+                    "homepage": "https://dflydev.com"
                 },
                 {
                     "name": "Beau Simensen",
                     "email": "beau@dflydev.com",
-                    "homepage": "http://beausimensen.com"
+                    "homepage": "https://beausimensen.com"
                 }
             ],
             "description": "Encode/decode numbers using Douglas Crockford's Base32 Encoding",
@@ -663,12 +663,12 @@
                 {
                     "name": "Dragonfly Development Inc.",
                     "email": "info@dflydev.com",
-                    "homepage": "http://dflydev.com"
+                    "homepage": "https://dflydev.com"
                 },
                 {
                     "name": "Beau Simensen",
                     "email": "beau@dflydev.com",
-                    "homepage": "http://beausimensen.com"
+                    "homepage": "https://beausimensen.com"
                 },
                 {
                     "name": "Carlos Frutos",
@@ -1470,11 +1470,11 @@
                 {
                     "name": "Edward Z. Yang",
                     "email": "admin@htmlpurifier.org",
-                    "homepage": "http://ezyang.com"
+                    "homepage": "https://ezyang.com"
                 }
             ],
             "description": "Standards compliant HTML filter written in PHP",
-            "homepage": "http://htmlpurifier.org/",
+            "homepage": "https://htmlpurifier.org/",
             "keywords": [
                 "html"
             ],
@@ -1717,7 +1717,7 @@
                 {
                     "name": "Oscar Otero",
                     "email": "oom@oscarotero.com",
-                    "homepage": "http://oscarotero.com",
+                    "homepage": "https://oscarotero.com",
                     "role": "Developer"
                 }
             ],
@@ -1873,7 +1873,7 @@
                 {
                     "name": "Oscar Otero",
                     "email": "oom@oscarotero.com",
-                    "homepage": "http://oscarotero.com",
+                    "homepage": "https://oscarotero.com",
                     "role": "Developer"
                 }
             ],
@@ -2434,7 +2434,7 @@
                 {
                     "name": "Kevin Le Brun",
                     "email": "lebrun.k@gmail.com",
-                    "homepage": "http://kevinlebrun.fr",
+                    "homepage": "https://kevinlebrun.fr",
                     "role": "developer"
                 }
             ],
@@ -3507,7 +3507,7 @@
                 }
             ],
             "description": "Plupload is a JavaScript API for dealing with file uploads it supports features like multiple file selection, file type filtering, request chunking, client side image scaling and it uses different runtimes to achieve this such as HTML 5, Silverlight and Flash.",
-            "homepage": "http://plupload.com",
+            "homepage": "https://plupload.com",
             "keywords": [
                 "file upload",
                 "legacy browser support",
@@ -4087,7 +4087,7 @@
                 }
             ],
             "description": "Common reflection classes used by phpdocumentor to reflect the code structure",
-            "homepage": "http://www.phpdoc.org",
+            "homepage": "https://www.phpdoc.org",
             "keywords": [
                 "FQSEN",
                 "phpDocumentor",
@@ -4456,7 +4456,7 @@
                 }
             ],
             "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc.",
-            "homepage": "http://phpseclib.sourceforge.net",
+            "homepage": "https://phpseclib.sourceforge.net",
             "keywords": [
                 "BigInteger",
                 "aes",
@@ -4741,7 +4741,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Standard interfaces for event handling.",
@@ -4795,7 +4795,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common interface for HTTP clients",
@@ -4907,7 +4907,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common interface for HTTP messages",
@@ -5325,17 +5325,17 @@
                 {
                     "name": "Andrew Smith",
                     "email": "a.smith@silentworks.co.uk",
-                    "homepage": "http://silentworks.co.uk"
+                    "homepage": "https://silentworks.co.uk"
                 },
                 {
                     "name": "Rob Allen",
                     "email": "rob@akrabat.com",
-                    "homepage": "http://akrabat.com"
+                    "homepage": "https://akrabat.com"
                 },
                 {
                     "name": "Gabriel Manricks",
                     "email": "gmanricks@me.com",
-                    "homepage": "http://gabrielmanricks.com"
+                    "homepage": "https://gabrielmanricks.com"
                 }
             ],
             "description": "Slim is a PHP micro framework that helps you quickly write simple yet powerful web applications and APIs",
@@ -8203,7 +8203,7 @@
             "authors": [
                 {
                     "name": "EllisLab Dev Team",
-                    "homepage": "http://ellislab.com/"
+                    "homepage": "https://ellislab.com/"
                 },
                 {
                     "name": "Lars Moelleken",
@@ -8374,7 +8374,7 @@
             "authors": [
                 {
                     "name": "Lars Moelleken",
-                    "homepage": "http://www.moelleken.org/"
+                    "homepage": "https://www.moelleken.org/"
                 }
             ],
             "description": "email-check (syntax, dns, trash, ...) library",
@@ -8451,7 +8451,7 @@
             "authors": [
                 {
                     "name": "Lars Moelleken",
-                    "homepage": "http://www.moelleken.org/"
+                    "homepage": "https://www.moelleken.org/"
                 }
             ],
             "description": "Portable ASCII library - performance optimized (ascii) string functions for php.",
@@ -8550,11 +8550,11 @@
                 },
                 {
                     "name": "Hamid Sarfraz",
-                    "homepage": "http://pageconfig.com/"
+                    "homepage": "https://pageconfig.com/"
                 },
                 {
                     "name": "Lars Moelleken",
-                    "homepage": "http://www.moelleken.org/"
+                    "homepage": "https://www.moelleken.org/"
                 }
             ],
             "description": "Portable UTF-8 library - performance optimized (unicode) string functions for php.",
@@ -8631,7 +8631,7 @@
             "authors": [
                 {
                     "name": "Lars Moelleken",
-                    "homepage": "http://www.moelleken.org/"
+                    "homepage": "https://www.moelleken.org/"
                 }
             ],
             "description": "Stop-Words via PHP",
@@ -8696,7 +8696,7 @@
                 {
                     "name": "Daniel St. Jules",
                     "email": "danielst.jules@gmail.com",
-                    "homepage": "http://www.danielstjules.com",
+                    "homepage": "https://www.danielstjules.com",
                     "role": "Maintainer"
                 },
                 {
@@ -8783,7 +8783,7 @@
                 {
                     "name": "Johnny Broadway",
                     "email": "johnny@johnnybroadway.com",
-                    "homepage": "http://www.johnnybroadway.com/"
+                    "homepage": "https://www.johnnybroadway.com/"
                 },
                 {
                     "name": "Lars Moelleken",

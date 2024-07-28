@@ -7,8 +7,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib3\Crypt\Common;
@@ -428,7 +428,7 @@ abstract class AsymmetricKey
             'PHP' => true,
             'OpenSSL' => extension_loaded('openssl'),
             // this test can be satisfied by either of the following:
-            // http://php.net/manual/en/book.sodium.php
+            // https://php.net/manual/en/book.sodium.php
             // https://github.com/paragonie/sodium_compat
             'libsodium' => function_exists('sodium_crypto_sign_keypair')
         ];

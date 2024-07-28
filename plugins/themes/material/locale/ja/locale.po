@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2023-02-03 11:25+0000\n"
-"Language-Team: Japanese <https://translate.pkp.sfu.ca/projects/ojs/themes-"
+"Language-Team: Japanese <http://translate.pkp.sfu.ca/projects/ojs/themes-"
 "material/ja_JP/>\n"
 "Language: ja_JP\n"
 "MIME-Version: 1.0\n"

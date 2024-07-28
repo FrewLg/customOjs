@@ -3,7 +3,7 @@
     "description": "Factory interfaces for PSR-7 HTTP Message",
     "license": "MIT",
     "keywords": ["http", "factory", "message", "stream", "uri"],
-    "homepage": "https://php-http.org",
+    "homepage": "http://php-http.org",
     "authors": [
         {
             "name": "Márk Sági-Kazár",

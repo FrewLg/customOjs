@@ -6,8 +6,8 @@
 # .
 # Notes:
 # Lähteet:
-# http://europa.eu.int/comm/translation/currencies/fitable1.htm
-# http://kotoistus.fi/avoimet/kop_alueiden-nimet.html
+# https://europa.eu.int/comm/translation/currencies/fitable1.htm
+# https://kotoistus.fi/avoimet/kop_alueiden-nimet.html
 # .
 # Copyright ©
 # Tommi Vainikainen <Tommi.Vainikainen@iki.fi>, 2005-2006, 2008-2011.

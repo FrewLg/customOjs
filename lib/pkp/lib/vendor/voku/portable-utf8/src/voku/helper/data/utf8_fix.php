@@ -1,7 +1,7 @@
 <?php
 
 // code source:  https://github.com/devgeniem/wp-sanitize-accented-uploads/blob/master/plugin.php#L152
-// table source: http://www.i18nqa.com/debug/utf8-debug.html
+// table source: https://www.i18nqa.com/debug/utf8-debug.html
 
 return [
     // 3 char errors

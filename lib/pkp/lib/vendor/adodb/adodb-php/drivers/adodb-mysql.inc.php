@@ -279,7 +279,7 @@ class ADODB_mysql extends ADOConnection {
 			return mysql_affected_rows($this->_connectionID);
 	}
 
-	 // See http://www.mysql.com/doc/M/i/Miscellaneous_functions.html
+	 // See https://www.mysql.com/doc/M/i/Miscellaneous_functions.html
 	// Reference on Last_Insert_ID on the recommended way to simulate sequences
 	var $_genIDSQL = "update %s set id=LAST_INSERT_ID(id+1);";
 	var $_genSeqSQL = "create table if not exists %s (id int not null)";
@@ -588,7 +588,7 @@ class ADODB_mysql extends ADOConnection {
 		$nrows = (int) $nrows;
 		$offset = (int) $offset;
 		$offsetStr =($offset>=0) ? ((integer)$offset)."," : '';
-		// jason judge, see http://phplens.com/lens/lensforum/msgs.php?id=9220
+		// jason judge, see https://phplens.com/lens/lensforum/msgs.php?id=9220
 		if ($nrows < 0) $nrows = '18446744073709551615';
 
 		if ($secs)

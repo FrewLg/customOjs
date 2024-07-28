@@ -53,11 +53,11 @@ class OAIMetadataFormatPlugin_RFC1807 extends OAIMetadataFormatPlugin
 
     public static function getSchema()
     {
-        return 'https://www.openarchives.org/OAI/1.1/rfc1807.xsd';
+        return 'http://www.openarchives.org/OAI/1.1/rfc1807.xsd';
     }
 
     public static function getNamespace()
     {
-        return 'https://info.internet.isi.edu:80/in-notes/rfc/files/rfc1807.txt';
+        return 'http://info.internet.isi.edu:80/in-notes/rfc/files/rfc1807.txt';
     }
 }

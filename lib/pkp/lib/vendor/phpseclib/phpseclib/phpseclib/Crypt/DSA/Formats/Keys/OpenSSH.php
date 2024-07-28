@@ -9,8 +9,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib3\Crypt\DSA\Formats\Keys;
@@ -78,7 +78,7 @@ abstract class OpenSSH extends Progenitor
             throw new \InvalidArgumentException('SSH only supports keys with an N (length of Group Order q) of 160');
         }
 
-        // from <http://tools.ietf.org/html/rfc4253#page-15>:
+        // from <https://tools.ietf.org/html/rfc4253#page-15>:
         // string    "ssh-dss"
         // mpint     p
         // mpint     q

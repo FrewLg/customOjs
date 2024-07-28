@@ -11,7 +11,7 @@
  *
  * @ingroup session
  *
- * @brief Implements PHP methods for a custom session storage handler (see http://php.net/session).
+ * @brief Implements PHP methods for a custom session storage handler (see https://php.net/session).
  */
 
 namespace PKP\session;

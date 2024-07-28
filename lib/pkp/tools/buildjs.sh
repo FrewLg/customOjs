@@ -10,11 +10,11 @@
 #
 # Requirements:
 # - Requires Python/Closure Linter and Java/Closure Compiler, see
-#   <http://code.google.com/closure>. Install this using npm.
+#   <https://code.google.com/closure>. Install this using npm.
 #   Please see the Closure Linter documentation for installation instructions
 #   of that tool.
 #
-# - Requires jslint4java, see <http://code.google.com/p/jslint4java/>. Expects the
+# - Requires jslint4java, see <https://code.google.com/p/jslint4java/>. Expects the
 #   jslint4java.jar (must be renamed!) in the same path as the Closure compiler,
 #   i.e. in TOOL_PATH as configured below.
 #
@@ -85,7 +85,7 @@ if [ ! -e "$TOOL_PATH/jslint4java.jar" ]; then
 	echo >&2
 	echo "JSLint4Java must be installed in the '$TOOL_PATH'" >&2
 	echo "directory. Please download the tool from" >&2
-	echo "<http://code.google.com/p/jslint4java/>," >&2
+	echo "<https://code.google.com/p/jslint4java/>," >&2
 	echo "rename it to jslint4java.jar and try again." >&2
 	MISSING_REQUIREMENT='jslint4java'
 fi
@@ -125,7 +125,7 @@ for JS_FILE in $LINT_FILES; do
 	# Prepare file for gjslint and compiler check:
 	# - transforms whitespace to comply with Google style guide
 	# - wraps @extends type in curly braces to comply with Google style guide.
-	# - works around http://code.google.com/p/closure-compiler/issues/detail?id=61 by removing the jQuery closure.
+	# - works around https://code.google.com/p/closure-compiler/issues/detail?id=61 by removing the jQuery closure.
 	mkdir -p `dirname "$WORKDIR/$JS_FILE"`
 	sed \
 		-e "s/^${TAB}//" \

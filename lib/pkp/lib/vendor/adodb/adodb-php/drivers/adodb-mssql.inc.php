@@ -8,11 +8,11 @@
   the BSD license will take precedence.
 Set tabs to 4 for best viewing.
 
-  Latest version is available at http://adodb.org/
+  Latest version is available at https://adodb.org/
 
   Native mssql driver. Requires mssql client. Works on Windows.
   To configure for Unix, see
-   	http://phpbuilder.com/columns/alberto20000919.php3
+   	https://phpbuilder.com/columns/alberto20000919.php3
 
 */
 
@@ -33,7 +33,7 @@ if (!defined('ADODB_DIR')) die();
 // To configure datetime, look for and modify sqlcommn.loc,
 //  	typically found in c:\mssql\install
 // Also read :
-//	 http://support.microsoft.com/default.aspx?scid=kb;EN-US;q220918
+//	 https://support.microsoft.com/default.aspx?scid=kb;EN-US;q220918
 // Alternatively use:
 // 	   CONVERT(char(12),datecol,120)
 //----------------------------------------------------------------
@@ -368,7 +368,7 @@ class ADODB_mssql extends ADOConnection {
 
 		$this->CommitTrans();
 
-		See http://www.swynk.com/friends/achigrik/SQL70Locks.asp
+		See https://www.swynk.com/friends/achigrik/SQL70Locks.asp
 	*/
 	function RowLock($tables,$where,$col='1 as adodbignore')
 	{
@@ -413,7 +413,7 @@ class ADODB_mssql extends ADOConnection {
 			$fld->type = $rs->fields[1];
 
 			$fld->not_null = (!$rs->fields[3]);
-			$fld->auto_increment = ($rs->fields[4] == 128);		// sys.syscolumns status field. 0x80 = 128 ref: http://msdn.microsoft.com/en-us/library/ms186816.aspx
+			$fld->auto_increment = ($rs->fields[4] == 128);		// sys.syscolumns status field. 0x80 = 128 ref: https://msdn.microsoft.com/en-us/library/ms186816.aspx
 
 			if (isset($rs->fields[5]) && $rs->fields[5]) {
 				if ($rs->fields[5]>0) $fld->max_length = $rs->fields[5];
@@ -736,7 +736,7 @@ order by constraint_name, referenced_table_name, keyno";
 			ADOConnection::outp( "{$prefix}Parameter(\$stmt, \$php_var='$var', \$name='$name', \$maxLen=$maxLen, \$type=$ztype);");
 		}
 		/*
-			See http://phplens.com/lens/lensforum/msgs.php?id=7231
+			See https://phplens.com/lens/lensforum/msgs.php?id=7231
 
 			RETVAL is HARD CODED into php_mssql extension:
 			The return value (a long integer value) is treated like a special OUTPUT parameter,
@@ -778,7 +778,7 @@ order by constraint_name, referenced_table_name, keyno";
 		if (is_array($inputarr)) {
 
 			# bind input params with sp_executesql:
-			# see http://www.quest-pipelines.com/newsletter-v3/0402_F.htm
+			# see https://www.quest-pipelines.com/newsletter-v3/0402_F.htm
 			# works only with sql server 7 and newer
             $getIdentity = false;
             if (!is_array($sql) && preg_match('/^\\s*insert/i', $sql)) {
@@ -880,7 +880,7 @@ class ADORecordset_mssql extends ADORecordSet {
 
 	var $databaseType = "mssql";
 	var $canSeek = true;
-	var $hasFetchAssoc; // see http://phplens.com/lens/lensforum/msgs.php?id=6083
+	var $hasFetchAssoc; // see https://phplens.com/lens/lensforum/msgs.php?id=6083
 	// _mths works only in non-localised system
 
 	function __construct($id,$mode=false)
@@ -1190,5 +1190,5 @@ where constraint_catalog = db_name()
 and table_name = x
 order by constraint_name, ordinal_position
 
-http://www.databasejournal.com/scripts/article.php/1440551
+https://www.databasejournal.com/scripts/article.php/1440551
 */

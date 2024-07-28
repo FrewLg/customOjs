@@ -875,7 +875,7 @@ class SQLServerPlatform extends AbstractPlatform
      *
      * @internal The method should be only used from within the SQLServerPlatform class hierarchy.
      *
-     * @link http://msdn.microsoft.com/en-us/library/ms180047%28v=sql.90%29.aspx
+     * @link https://msdn.microsoft.com/en-us/library/ms180047%28v=sql.90%29.aspx
      *
      * @param string      $name       The name of the property to add.
      * @param string|null $value      The value of the property to add.
@@ -910,7 +910,7 @@ class SQLServerPlatform extends AbstractPlatform
      *
      * @internal The method should be only used from within the SQLServerPlatform class hierarchy.
      *
-     * @link http://technet.microsoft.com/en-gb/library/ms178595%28v=sql.90%29.aspx
+     * @link https://technet.microsoft.com/en-gb/library/ms178595%28v=sql.90%29.aspx
      *
      * @param string      $name       The name of the property to drop.
      * @param string|null $level0Type The type of the object at level 0 the property belongs to.
@@ -943,7 +943,7 @@ class SQLServerPlatform extends AbstractPlatform
      *
      * @internal The method should be only used from within the SQLServerPlatform class hierarchy.
      *
-     * @link http://msdn.microsoft.com/en-us/library/ms186885%28v=sql.90%29.aspx
+     * @link https://msdn.microsoft.com/en-us/library/ms186885%28v=sql.90%29.aspx
      *
      * @param string      $name       The name of the property to update.
      * @param string|null $value      The value of the property to update.
@@ -1371,7 +1371,7 @@ class SQLServerPlatform extends AbstractPlatform
     public function getDateTimeTypeDeclarationSQL(array $column)
     {
         // 3 - microseconds precision length
-        // http://msdn.microsoft.com/en-us/library/ms187819.aspx
+        // https://msdn.microsoft.com/en-us/library/ms187819.aspx
         return 'DATETIME2(6)';
     }
 

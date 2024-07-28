@@ -7,8 +7,8 @@
  *
  * @author    Jim Wigginton <terrafrost@php.net>
  * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
+ * @license   https://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      https://phpseclib.sourceforge.net
  */
 
 namespace phpseclib3\Crypt\Common\Formats\Keys;
@@ -125,8 +125,8 @@ abstract class PKCS1 extends PKCS
            protect private keys, however, that's not what OpenSSL* does.  OpenSSL protects private keys by adding
            two new "fields" to the key - DEK-Info and Proc-Type.  These fields are discussed here:
 
-           http://tools.ietf.org/html/rfc1421#section-4.6.1.1
-           http://tools.ietf.org/html/rfc1421#section-4.6.1.3
+           https://tools.ietf.org/html/rfc1421#section-4.6.1.1
+           https://tools.ietf.org/html/rfc1421#section-4.6.1.3
 
            DES-EDE3-CBC as an algorithm, however, is not discussed anywhere, near as I can tell.
            DES-CBC and DES-EDE are discussed in RFC1423, however, DES-EDE3-CBC isn't, nor is its key derivation

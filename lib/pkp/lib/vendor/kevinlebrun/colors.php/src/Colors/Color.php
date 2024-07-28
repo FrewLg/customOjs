@@ -5,7 +5,7 @@ namespace Colors;
 class Color
 {
     const FORMAT_PATTERN = '#<([a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*)>(.*?)</\\1?>#s';
-    /** @link http://www.php.net/manual/en/functions.user-defined.php */
+    /** @link https://www.php.net/manual/en/functions.user-defined.php */
     const STYLE_NAME_PATTERN = '/^[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*$/';
 
     const ESC = "\033[";

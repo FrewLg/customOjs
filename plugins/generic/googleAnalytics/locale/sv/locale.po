@@ -15,10 +15,10 @@ msgid "plugins.generic.googleAnalytics.displayName"
 msgstr "Google Analytics-plugin"
 
 msgid "plugins.generic.googleAnalytics.description"
-msgstr "Koppla ihop OJS med Google Analytics, Googles tjänst för analys av trafik på webbsidor. Kräver att du redan har konfigurerat ett Google Analytics-konto. Se <a href=\"https://www.google.com/analytics/\" title=\"Google Analytics webbsida\">Google Analytics webbsida</a> för mer information."
+msgstr "Koppla ihop OJS med Google Analytics, Googles tjänst för analys av trafik på webbsidor. Kräver att du redan har konfigurerat ett Google Analytics-konto. Se <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics webbsida\">Google Analytics webbsida</a> för mer information."
 
 msgid "plugins.generic.googleAnalytics.manager.settings.description"
-msgstr "<p>När detta plugin är aktivt kan Google Analytics användas för att samla in och analysera webbplatsens trafik. Notera att detta plugin kräver att du redan har konfigurerat ett Google Analytics-konto. Se <a href=\"https://www.google.com/analytics/\" title=\"Google Analytics webbplats\">Google Analytics webbplats</a> för mer information.</p><p>Observera att det kan ta upp till 24 timmar innan Google Analytics har samlat in och rapporterat tillbaka statistik. Under denna period kan det hända att funktionen 'Kontrollera status' rapporterar felaktigt om den hittat den nödvändiga koden för spårning.</p>"
+msgstr "<p>När detta plugin är aktivt kan Google Analytics användas för att samla in och analysera webbplatsens trafik. Notera att detta plugin kräver att du redan har konfigurerat ett Google Analytics-konto. Se <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics webbplats\">Google Analytics webbplats</a> för mer information.</p><p>Observera att det kan ta upp till 24 timmar innan Google Analytics har samlat in och rapporterat tillbaka statistik. Under denna period kan det hända att funktionen 'Kontrollera status' rapporterar felaktigt om den hittat den nödvändiga koden för spårning.</p>"
 
 msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
 msgstr "Egendomsnummer"

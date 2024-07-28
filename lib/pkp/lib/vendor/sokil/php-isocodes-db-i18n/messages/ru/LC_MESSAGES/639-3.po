@@ -6,7 +6,7 @@
 # .
 # Notes:
 # GOST 7.75-97
-# http://www.bibliography.ru/method/gosts/7-75/7_75.htm
+# https://www.bibliography.ru/method/gosts/7-75/7_75.htm
 # .
 # Copyright ©
 # Nikolai Prokoschenko <nikolai@prokoschenko.de>, 2004.

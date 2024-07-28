@@ -15,4 +15,4 @@ msgid "plugins.generic.pdfJsViewer.name"
 msgstr "PDF.JS PDF Viewer"
 
 msgid "plugins.generic.pdfJsViewer.description"
-msgstr "Deze plugin gebruikt de <a href=\"https://mozilla.github.io/pdf.js\">pdf.js PDF viewer</a> om PDFs te tonen op de artikel en nummer-proef pagina's."
+msgstr "Deze plugin gebruikt de <a href=\"http://mozilla.github.io/pdf.js\">pdf.js PDF viewer</a> om PDFs te tonen op de artikel en nummer-proef pagina's."

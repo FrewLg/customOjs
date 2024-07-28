@@ -30,7 +30,7 @@ class ArrayyRewindableExtendedGenerator extends ArrayyRewindableGenerator
      *
      * @return mixed
      *
-     * @see  http://php.net/manual/en/iterator.current.php
+     * @see  https://php.net/manual/en/iterator.current.php
      * @see  Iterator::current
      *
      * @phpstan-return X

@@ -47,7 +47,7 @@ class LogmaticFormatter extends JsonFormatter
     /**
      * Appends the 'hostname' and 'appname' parameter for indexing by Logmatic.
      *
-     * @see http://doc.logmatic.io/docs/basics-to-send-data
+     * @see https://doc.logmatic.io/docs/basics-to-send-data
      * @see \Monolog\Formatter\JsonFormatter::format()
      */
     public function format(array $record): string
