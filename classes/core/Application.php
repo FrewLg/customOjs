@@ -107,7 +107,7 @@ class Application extends PKPApplication
      */
     public function getVersionDescriptorUrl()
     {
-        return 'https://pkp.sfu.ca/ojs/xml/ojs-version.xml';
+        return 'https://scholarsin.com/xml/ojs-version.xml';
     }
 
     /**
