@@ -1,9 +1,0 @@
-<?php $exp = 1753433207; $val = array (
-  'application' => 'customLocale',
-  'class' => 'CustomLocalePlugin',
-  'type' => 'plugins.generic',
-  'release' => '1.2.0.1',
-  'date' => '2023-10-03',
-  'lazy-load' => 1,
-  'sitewide' => 0,
-);

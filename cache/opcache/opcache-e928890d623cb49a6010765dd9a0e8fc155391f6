@@ -1,9 +1,0 @@
-<?php $exp = 1753383885; $val = array (
-  'application' => 'material',
-  'class' => 'MaterialThemePlugin',
-  'type' => 'plugins.themes',
-  'release' => '3.0.1.0',
-  'date' => '2024-07-01',
-  'lazy-load' => 1,
-  'sitewide' => 0,
-);

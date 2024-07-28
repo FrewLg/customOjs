@@ -1,9 +1,0 @@
-<?php $exp = 1753383834; $val = array (
-  'application' => 'docxConverter',
-  'class' => 'docxToJatsPlugin',
-  'type' => 'plugins.generic',
-  'release' => '1.1.1.0',
-  'date' => '2021-05-22',
-  'lazy-load' => 1,
-  'sitewide' => 0,
-);

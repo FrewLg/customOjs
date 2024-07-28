@@ -84,6 +84,6 @@
 		{/if}
 		
 	</div>
-<div class="d" style="background-color: red; border: solid 3px #0077b6;"></div>
+<div class="d" style=" border: solid 3px #ffb842;"></div>
 
 </header>

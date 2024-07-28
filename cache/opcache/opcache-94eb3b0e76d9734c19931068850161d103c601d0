@@ -1,9 +1,0 @@
-<?php $exp = 1753433484; $val = array (
-  'application' => 'doiInSummary',
-  'class' => 'DoiInSummaryPlugin',
-  'type' => 'plugins.generic',
-  'release' => '2.0.0.0',
-  'date' => '2023-07-18',
-  'lazy-load' => 1,
-  'sitewide' => 0,
-);

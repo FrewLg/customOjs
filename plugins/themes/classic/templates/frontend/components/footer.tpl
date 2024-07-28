@@ -32,7 +32,7 @@
 		<section class="">
 			<div class="row">
 				<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-					<h6 class="text-uppercase mb-4 font-weight-bold">About Scholars In</h6>
+					<h6 class="text-uppercase mb-4 font-weight-bold" style="color: #ffb842;">About Scholars In</h6>
 					<p>
 					Welcome to Scholars In, where we are dedicated to advancing scientific knowledge and fostering innovation through high-quality publications and collaborations.
 					
@@ -40,7 +40,7 @@
 				</div>
 				<hr class="w-100 clearfix d-md-none" />
 				<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-					<h6 class="text-uppercase mb-4 font-weight-bold">Main contents</h6>
+					<h6 class="text-uppercase mb-4 font-weight-bold" style="color: #ffb842;">Main contents</h6>
 					<p><a href="https://scholarsin.com/index.php/index/obligations-for-authors">Obligatory for Authors</a></p>
 					<p><a href="https://scholarsin.com/index.php/index/Double-blind-Peer-Review-Process">Review Process</a></p>
 					<p><a href="https://scholarsin.com/index.php/index/ScholarsIn-press">ScholarsIn-Press</a></p>
@@ -48,7 +48,7 @@
 				</div>
 				<hr class="w-100 clearfix d-md-none" />
 				<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-					<h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+					<h6 class="text-uppercase mb-4 font-weight-bold" style="color: #ffb842;">Useful links</h6>
 					<p><a href="https://scholarsin.com/index.php/index/Ethical-Principles">Ethical Principle</a></p>
 					<p><a href="https://scholarsin.com/index.php/index/login">Become an Member</a></p>
 					<p><a href="https://ScholarsIn.com">Official Website</a></p>
@@ -56,7 +56,7 @@
 				</div>
 				<hr class="w-100 clearfix d-md-none" />
 				<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-					<h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+					<h6 class="text-uppercase mb-4 font-weight-bold" style="color: #ffb842;">Contact</h6>
 				 
 					<p>Malaysia Office: Mercu Summer, Jalan Cendana, Kuala Lumpur</p>
 					<p>London office: 124 City Road, London, England, EC1V 2NX</p>
@@ -73,7 +73,7 @@
 					<div class="p-8 m-2">Copyright © <script>
 												document.write(new Date().getFullYear())
 											</script>
-						<strong> <a href="https://scholarsin.com/index.php/">ScholarsIn</a>,</strong>
+						<strong> <a href="https://scholarsin.com/index.php/" style="color: #ffb842;">ScholarsIn</a>,</strong>
 						All rights reserved.
 					</div>
 				</div>

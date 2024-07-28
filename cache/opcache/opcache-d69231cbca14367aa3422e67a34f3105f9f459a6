@@ -1,9 +1,0 @@
-<?php $exp = 1753433451; $val = array (
-  'application' => 'browseBySection',
-  'class' => 'BrowseBySectionPlugin',
-  'type' => 'plugins.generic',
-  'release' => '1.2.1.0',
-  'date' => '2023-04-06',
-  'lazy-load' => 1,
-  'sitewide' => 0,
-);
