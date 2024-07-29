@@ -4,7 +4,7 @@
     "type": "composer-plugin",
     "license": "MIT",
     "keywords": ["http", "discovery", "client", "adapter", "message", "factory", "psr7", "psr17"],
-    "homepage": "http://php-http.org",
+    "homepage": "https://php-http.org",
     "authors": [
         {
             "name": "Márk Sági-Kazár",

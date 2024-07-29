@@ -127,7 +127,7 @@ msgid "plugins.pubIds.urn.manager.settings.urnResolver"
 msgstr "Resolver URL"
 
 msgid "plugins.pubIds.urn.manager.settings.urnResolver.description"
-msgstr "(npr. http://nbn-resolving.de/)"
+msgstr "(npr. https://nbn-resolving.de/)"
 
 msgid "plugins.pubIds.urn.manager.settings.form.urnResolverRequired"
 msgstr "Unesite resolver URL."

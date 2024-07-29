@@ -14,7 +14,7 @@ msgstr ""
 msgid "plugins.reports.counter.description"
 msgstr ""
 "افزونه COUNTER امکان گزارش‌گیری از فعالیت‌های مجله  را بر اساس   <a href="
-"\"http://www.projectcounter.org\"> استاندارد COUNTER </a>  فراهم می‌سازد. این "
+"\"https://www.projectcounter.org\"> استاندارد COUNTER </a>  فراهم می‌سازد. این "
 "گزارش باعث نمی‌شود که مجله با استانداردهای COUNTER سازگار گردد. برای ایجاد "
 "این سازگاری نیازمندی‌های آن را در سایت این استاندارد مطالعه نمایید."
 

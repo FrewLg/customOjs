@@ -7,7 +7,7 @@ msgstr ""
 "POT-Creation-Date: 2019-11-19T10:49:16+00:00\n"
 "PO-Revision-Date: 2023-03-31 18:43+0000\n"
 "Last-Translator: M. Ali <vorteem@gmail.com>\n"
-"Language-Team: Arabic <http://translate.pkp.sfu.ca/projects/ojs/manager/ar/>"
+"Language-Team: Arabic <https://translate.pkp.sfu.ca/projects/ojs/manager/ar/>"
 "\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -803,7 +803,7 @@ msgstr ""
 
 msgid "manager.setup.lockssLicenseDescription"
 msgstr ""
-"رخصة LOCKSS ستظهر في (عن المجلة) تحت باب الحفظ: <a href=\"http://www.lockss."
+"رخصة LOCKSS ستظهر في (عن المجلة) تحت باب الحفظ: <a href=\"https://www.lockss."
 "org/community/publishers-titles-gln/\" target=\"_blank\">رخصة LOCKSS</a>"
 
 msgid "manager.setup.lockssLicenseLabel"
@@ -872,7 +872,7 @@ msgstr "إضف أو إحذف الفقرات الإضافية في شريط ال�
 
 msgid "manager.setup.navItemIsAbsolute"
 msgstr ""
-"URL هو عنوان مطلق (أي مثل: \"http://www.example.com\") وليس المسار النسبي "
+"URL هو عنوان مطلق (أي مثل: \"https://www.example.com\") وليس المسار النسبي "
 "ضمن الموقع (مثل: \"/manager/setup\")"
 
 msgid "manager.setup.navItemIsLiteral"
@@ -2520,7 +2520,7 @@ msgstr ""
 
 #~ msgid "doi.manager.settings.doiPrefix.Description"
 #~ msgstr ""
-#~ "إن بادئة DOI يتم تعيينها من قبل وكالات التسجيل (مثل: <a href=\"http://www."
+#~ "إن بادئة DOI يتم تعيينها من قبل وكالات التسجيل (مثل: <a href=\"https://www."
 #~ "crossref.org\" target=\"_new\">Crossref</a>) وهي بصيغة 10.xxxx (مثل: "
 #~ "10.1234):"
 

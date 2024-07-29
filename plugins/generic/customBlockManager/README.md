@@ -39,4 +39,4 @@ Management > Website Settings > Appearance > Layout > Sidebar Management.
 ## Contact/Support
 
 Documentation, bug listings, and updates can be found on this plugin's homepage
-at [http://github.com/pkp/customBlockManager](http://github.com/pkp/customBlockManager).
+at [https://github.com/pkp/customBlockManager](https://github.com/pkp/customBlockManager).

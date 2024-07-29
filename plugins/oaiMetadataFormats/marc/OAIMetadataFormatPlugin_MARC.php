@@ -55,11 +55,11 @@ class OAIMetadataFormatPlugin_MARC extends OAIMetadataFormatPlugin
 
     public static function getSchema()
     {
-        return 'http://www.openarchives.org/OAI/1.1/oai_marc.xsd';
+        return 'https://www.openarchives.org/OAI/1.1/oai_marc.xsd';
     }
 
     public static function getNamespace()
     {
-        return 'http://www.openarchives.org/OAI/1.1/oai_marc';
+        return 'https://www.openarchives.org/OAI/1.1/oai_marc';
     }
 }

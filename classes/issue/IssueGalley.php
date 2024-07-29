@@ -176,7 +176,7 @@ class IssueGalley extends IssueFile
      *
      * @param string $pubIdType One of the NLM pub-id-type values or
      * 'other::something' if not part of the official NLM list
-     * (see <http://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
+     * (see <https://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
      *
      * @return string
      */
@@ -190,7 +190,7 @@ class IssueGalley extends IssueFile
      *
      * @param string $pubIdType One of the NLM pub-id-type values or
      * 'other::something' if not part of the official NLM list
-     * (see <http://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
+     * (see <https://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
      * @param string $pubId
      */
     public function setStoredPubId($pubIdType, $pubId)

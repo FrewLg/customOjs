@@ -15,4 +15,4 @@ msgid "plugins.generic.pdfJsViewer.name"
 msgstr "PDF.JS PDF Megtekintő"
 
 msgid "plugins.generic.pdfJsViewer.description"
-msgstr "Ez a plugin használja a <a href=\"http://mozilla.github.io/pdf.js\"> pdf.js PDF-megjelenítőt </a>, hogy beágyazza a PDF-dokumentumokat a cikk- és kefelenyomat-megtekintő oldalakon."
+msgstr "Ez a plugin használja a <a href=\"https://mozilla.github.io/pdf.js\"> pdf.js PDF-megjelenítőt </a>, hogy beágyazza a PDF-dokumentumokat a cikk- és kefelenyomat-megtekintő oldalakon."

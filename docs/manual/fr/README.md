@@ -10,6 +10,6 @@ Une description plus détaillée de ce logiciel est disponible sur [Apprendre OJ
 
 --
 
-Droits d’auteur : L'université Simon Fraser, qui détient les droits d’auteur pour ce logiciel produit par le Public Knowledge Project, a placé sa documentation sous la licence [Creative Commons Attribution 4.0](http://creativecommons.org/licenses/by/4.0/).
+Droits d’auteur : L'université Simon Fraser, qui détient les droits d’auteur pour ce logiciel produit par le Public Knowledge Project, a placé sa documentation sous la licence [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-[![](https://i.creativecommons.org/l/by/4.0/88x31.png "Creative Commons Attribution 4.0 International")](http://creativecommons.org/licenses/by/4.0/)
+[![](https://i.creativecommons.org/l/by/4.0/88x31.png "Creative Commons Attribution 4.0 International")](https://creativecommons.org/licenses/by/4.0/)

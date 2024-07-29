@@ -835,7 +835,7 @@ msgstr "URL de la distanță"
 
 msgid "submission.layout.galleyRemoteURLValid"
 msgstr ""
-"Vă rugăm să furnizați o adresă URL de la distanță validă (include http: //)."
+"Vă rugăm să furnizați o adresă URL de la distanță validă (include https: //)."
 
 msgid "submission.layout.galleyNoImages"
 msgstr "Nicio imagine"
@@ -2045,7 +2045,7 @@ msgstr "Copyright (c) {$copyrightYear} {$copyrightHolder}"
 
 msgid "submission.licenseURLValid"
 msgstr ""
-"Vă rugăm să furnizați o adresă URL de la distanță validă (include http: //)."
+"Vă rugăm să furnizați o adresă URL de la distanță validă (include https: //)."
 
 msgid "submission.licenseURL"
 msgstr "Licență URL"

@@ -8,20 +8,16 @@
   * Distributed under The MIT License. For full terms see the file LICENSE.
   *
   * Schema describing crossref test XML export elements
-  -->
-
-<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="https://pkp.sfu.ca" xmlns:pkp="https://pkp.sfu.ca" elementFormDefault="qualified">
+-->
+<schema xmlns="https://www.w3.org/2001/XMLSchema" targetNamespace="https://pkp.sfu.ca" xmlns:pkp="https://pkp.sfu.ca" elementFormDefault="qualified">
 
 	<!-- Bring in the common PKP import/export content -->
 	<include schemaLocation="../../../lib/pkp/xml/importexport.xsd" />
 
 	<element name="article" substitutionGroup="pkp:submission" />
-
 	<element name="articles" substitutionGroup="pkp:submissions" />
-
 	<complexType name="submission">
 		<sequence>
-
 			<!-- Metadata -->
 			<element ref="pkp:title" minOccurs="1" maxOccurs="unbounded" />
 

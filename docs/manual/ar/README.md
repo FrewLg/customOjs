@@ -10,6 +10,6 @@
 
 -
 
-الحقوق الفكرية: جامعة سيمون فريزر تمتلك الحقوق الفكرية للأعمال الناتجة من مشروع المعرفة العامة وقد وضعت أدبياته ضمن رخصة [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+الحقوق الفكرية: جامعة سيمون فريزر تمتلك الحقوق الفكرية للأعمال الناتجة من مشروع المعرفة العامة وقد وضعت أدبياته ضمن رخصة [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
-[![](https://i.creativecommons.org/l/by/4.0/88x31.png "Creative Commons Attribution 4.0 International")](http://creativecommons.org/licenses/by/4.0/)
+[![](https://i.creativecommons.org/l/by/4.0/88x31.png "Creative Commons Attribution 4.0 International")](https://creativecommons.org/licenses/by/4.0/)

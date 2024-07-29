@@ -2015,7 +2015,7 @@ msgid "submission.copyrightStatement"
 msgstr "Bản quyền (c) {$copyrightYear} {$copyrightHolder}"
 
 msgid "submission.licenseURLValid"
-msgstr "Vui lòng cung cấp một URL từ xa hợp lệ (bao gồm http: //)."
+msgstr "Vui lòng cung cấp một URL từ xa hợp lệ (bao gồm https: //)."
 
 msgid "submission.licenseURL"
 msgstr "URL của giấy phép"

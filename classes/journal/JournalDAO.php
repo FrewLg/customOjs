@@ -82,7 +82,7 @@ class JournalDAO extends ContextDAO
      * @param int $journalId
      * @param string $pubIdType One of the NLM pub-id-type values or
      * 'other::something' if not part of the official NLM list
-     * (see <http://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
+     * (see <https://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
      */
     public function deleteAllPubIds($journalId, $pubIdType)
     {
@@ -99,7 +99,7 @@ class JournalDAO extends ContextDAO
      * @param int $journalId
      * @param string $pubIdType One of the NLM pub-id-type values or
      * 'other::something' if not part of the official NLM list
-     * (see <http://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
+     * (see <https://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
      * @param string $pubId
      * @param int $assocType The object type of an object to be excluded from
      *  the search. Identified by one of the Application::ASSOC_TYPE_* constants.

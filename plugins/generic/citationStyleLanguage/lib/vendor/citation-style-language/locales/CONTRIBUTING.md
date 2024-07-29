@@ -22,7 +22,7 @@ In addition, if you're interested in being credited, please add yourself to the 
     <email>john.doe@citationstyles.org</email>
     <uri>https://citationstyles.org/</uri>
   </translator>
-  <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+  <rights license="https://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   <updated>2019-01-01T12:00:00+00:00</updated>
 </info>
 ```

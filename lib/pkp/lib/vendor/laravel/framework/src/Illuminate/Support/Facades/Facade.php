@@ -273,7 +273,7 @@ abstract class Facade
             'File' => File::class,
             'Gate' => Gate::class,
             'Hash' => Hash::class,
-            'Http' => Http::class,
+            'Http' => https::class,
             'Js' => Js::class,
             'Lang' => Lang::class,
             'Log' => Log::class,

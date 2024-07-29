@@ -231,11 +231,11 @@ function prepend($stream, $callback, $read_write = STREAM_FILTER_ALL)
  * [Our test suite](tests/) contains several test cases that exhibit these issues.
  * If you feel some test case is missing or outdated, we're happy to accept PRs! :)
  *
- * @param string $filter     built-in filter name. See stream_get_filters() or http://php.net/manual/en/filters.php
+ * @param string $filter     built-in filter name. See stream_get_filters() or https://php.net/manual/en/filters.php
  * @param mixed  $parameters (optional) parameters to pass to the built-in filter as-is
  * @return callable a filter callback which can be append()'ed or prepend()'ed
  * @throws \RuntimeException on error
- * @link http://php.net/manual/en/filters.php
+ * @link https://php.net/manual/en/filters.php
  * @see stream_get_filters()
  * @see append()
  */

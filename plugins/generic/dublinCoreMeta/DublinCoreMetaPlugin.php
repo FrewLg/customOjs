@@ -77,7 +77,7 @@ class DublinCoreMetaPlugin extends GenericPlugin
         $section = $templateMgr->getTemplateVars('section');
 
         $templateMgr = TemplateManager::getManager($request);
-        $templateMgr->addHeader('dublinCoreSchema', '<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />');
+        $templateMgr->addHeader('dublinCoreSchema', '<link rel="schema.DC" href="https://purl.org/dc/elements/1.1/" />');
 
         if ($supportingAgencies = $publication->getData('supportingAgencies')) {
             foreach ($supportingAgencies as $locale => $localeSupportingAgencies) {

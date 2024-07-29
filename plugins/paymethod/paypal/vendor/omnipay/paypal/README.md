@@ -11,7 +11,7 @@ processing library for PHP. This package implements PayPal support for Omnipay.
 
 ## Installation
 
-Omnipay is installed via [Composer](http://getcomposer.org/). To install, simply require `league/omnipay` and `omnipay/paypal` with Composer:
+Omnipay is installed via [Composer](https://getcomposer.org/). To install, simply require `league/omnipay` and `omnipay/paypal` with Composer:
 
 ```
 composer require league/omnipay omnipay/paypal
@@ -41,8 +41,8 @@ Omnipay does not cover recurring payments or billing agreements, and so those fe
 ## Support
 
 If you are having general issues with Omnipay, we suggest posting on
-[Stack Overflow](http://stackoverflow.com/). Be sure to add the
-[omnipay tag](http://stackoverflow.com/questions/tagged/omnipay) so it can be easily found.
+[Stack Overflow](https://stackoverflow.com/). Be sure to add the
+[omnipay tag](https://stackoverflow.com/questions/tagged/omnipay) so it can be easily found.
 
 If you want to keep up to date with release anouncements, discuss ideas for the project,
 or ask more detailed questions, there is also a [mailing list](https://groups.google.com/forum/#!forum/omnipay) which

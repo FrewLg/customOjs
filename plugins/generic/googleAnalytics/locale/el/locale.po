@@ -15,10 +15,10 @@ msgid "plugins.generic.googleAnalytics.displayName"
 msgstr "Google Analytics"
 
 msgid "plugins.generic.googleAnalytics.description"
-msgstr "Διασυνδέει το OJS με το Google Analytics, την εφαρμογή για την ανάλυση της επισκεψιμότητας του ιστοτόπου της Google. Προϋποθέτει την ύπαρξη λογαριασμού στο Google Analytics. Δείτε τον ιστότοπο του <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">Google Analytics </a> για περισσότερες πληροφορίες."
+msgstr "Διασυνδέει το OJS με το Google Analytics, την εφαρμογή για την ανάλυση της επισκεψιμότητας του ιστοτόπου της Google. Προϋποθέτει την ύπαρξη λογαριασμού στο Google Analytics. Δείτε τον ιστότοπο του <a href=\"https://www.google.com/analytics/\" title=\"Google Analytics site\">Google Analytics </a> για περισσότερες πληροφορίες."
 
 msgid "plugins.generic.googleAnalytics.manager.settings.description"
-msgstr "<p>Με αυτό το Πρόσθετο ενεργοποιημένο το Google Analytics μπορεί να συλλέξει και να αναλύσει τα στοιχεία χρήσης και κίνησης του ιστοτόπου αυτού του περιοδικού. Σημειώστε ότι πρέπει να υπάρχει ενεργός λογαριασμός στο Google Analytics. Δείτε τον ιστότοπο του <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">Google Analytics </a> για περισσότερες πληροφορίες.</p>"
+msgstr "<p>Με αυτό το Πρόσθετο ενεργοποιημένο το Google Analytics μπορεί να συλλέξει και να αναλύσει τα στοιχεία χρήσης και κίνησης του ιστοτόπου αυτού του περιοδικού. Σημειώστε ότι πρέπει να υπάρχει ενεργός λογαριασμός στο Google Analytics. Δείτε τον ιστότοπο του <a href=\"https://www.google.com/analytics/\" title=\"Google Analytics site\">Google Analytics </a> για περισσότερες πληροφορίες.</p>"
 
 msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
 msgstr "Κωδικός λογαριασμού"

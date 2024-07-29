@@ -5,7 +5,7 @@ msgstr ""
 "POT-Creation-Date: 2020-04-15 09:20-0700\n"
 "PO-Revision-Date: 2020-05-08 04:08+0000\n"
 "Last-Translator: Dr. Tina Porwal <editor@granthaalayah.com>\n"
-"Language-Team: Hindi <http://translate.pkp.sfu.ca/projects/ojs/manager/hi/>\n"
+"Language-Team: Hindi <https://translate.pkp.sfu.ca/projects/ojs/manager/hi/>\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -733,7 +733,7 @@ msgstr "लेखकों के लिए उनके कार्य को 
 # (pofilter) xmltags: Added XML tags
 msgid "manager.setup.forAuthorsToIndexTheirWorkDescription"
 msgstr ""
-"OJS का पालन करता है <a href=\"http://www.openarchives.org/\" target=\"_blank"
+"OJS का पालन करता है <a href=\"https://www.openarchives.org/\" target=\"_blank"
 "\">Open अभिलेखीय पहल </a> मेटाडेटा कटाई के लिए प्रोटोकॉल, जो वैश्विक स्तर पर "
 "इलेक्ट्रॉनिक अनुसंधान संसाधनों तक अच्छी तरह से अनुक्रमित पहुंच प्रदान करने के लिए उभरता हुआ "
 "मानक है। लेखक अपनी प्रस्तुति के लिए मेटाडेटा प्रदान करने के लिए एक समान टेम्पलेट का उपयोग "
@@ -1056,7 +1056,7 @@ msgstr ""
 # (pofilter) xmltags: Added XML tags
 msgid "manager.setup.lockssLicenseDescription"
 msgstr ""
-"एक LOCKSS लाइसेंस जर्नल के बारे में अभिलेखागार में दिखाई देगा:<a href=\"http://www."
+"एक LOCKSS लाइसेंस जर्नल के बारे में अभिलेखागार में दिखाई देगा:<a href=\"https://www."
 "lockss.org/community/publishers-titles-gln/\" target=\"_blank\">LOCKSS "
 "License</a>"
 
@@ -1075,7 +1075,7 @@ msgid "manager.setup.lockssRegister"
 msgstr ""
 "6-10 पुस्तकालयों की पहचान करें जो जर्नल को पंजीकृत और कैश करेंगे। उदाहरण के लिए, उन "
 "संस्थानों की ओर रुख करें जहां संपादक या बोर्ड के सदस्य काम करते हैं और / या संस्थान पहले से ही "
-"LOCKSS में भाग ले रहे हैं। देखे <a href=\"http://www.lockss.org/community/\" target="
+"LOCKSS में भाग ले रहे हैं। देखे <a href=\"https://www.lockss.org/community/\" target="
 "\"_blank\">LOCKSS समुदाय</a>."
 
 # (pofilter) simplecaps: Different capitalization
@@ -1099,7 +1099,7 @@ msgstr ""
 # (pofilter) xmltags: Added XML tags
 msgid "manager.setup.clockssLicenseDescription"
 msgstr ""
-"एक CLOCKSS जर्नल लाइसेंस के तहत जर्नल के बारे में दिखाई देगा: <a href=\"http://clockss."
+"एक CLOCKSS जर्नल लाइसेंस के तहत जर्नल के बारे में दिखाई देगा: <a href=\"https://clockss."
 "org/\" target=\"_blank\">CLOCKSS License</a>"
 
 # (pofilter) simplecaps: Different capitalization
@@ -1113,7 +1113,7 @@ msgstr "CLOCKSS लाइसेंस का विवरण"
 # (pofilter) xmltags: Added XML tags
 msgid "manager.setup.clockssRegister"
 msgstr ""
-"पर जाकर CLOCKSS सेवा के लिए साइन अप करें<a href=\"http://clockss.org/\" target="
+"पर जाकर CLOCKSS सेवा के लिए साइन अप करें<a href=\"https://clockss.org/\" target="
 "\"_blank\">the CLOCKSS website</a>."
 
 # (pofilter) simplecaps: Different capitalization
@@ -1162,7 +1162,7 @@ msgstr "अतिरिक्त नेविगेशन बार आइटम
 # (pofilter) urls: Different URLs
 msgid "manager.setup.navItemIsAbsolute"
 msgstr ""
-"URL साइट के सापेक्ष पथ के बजाय एक पूर्ण URL (उदा।, \"http://www.example.com\") है "
+"URL साइट के सापेक्ष पथ के बजाय एक पूर्ण URL (उदा।, \"https://www.example.com\") है "
 "(जैसे,\"/manager/setup\")"
 
 # (pofilter) brackets: Added '(', ')'

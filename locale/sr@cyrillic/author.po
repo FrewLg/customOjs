@@ -159,7 +159,7 @@ msgstr ""
 
 msgid "author.submit.languageInstructions"
 msgstr ""
-"српски=sr; енглески=en; француски=fr; шпански=es. <a href=\"http://www.loc."
+"српски=sr; енглески=en; француски=fr; шпански=es. <a href=\"https://www.loc."
 "gov/standards/iso639-2/php/code_list.php\" target=\"_blank\">Додатни кодови</"
 "a>."
 

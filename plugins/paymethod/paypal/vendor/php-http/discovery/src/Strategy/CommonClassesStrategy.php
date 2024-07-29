@@ -99,7 +99,7 @@ final class CommonClassesStrategy implements DiscoveryStrategy
                 'condition' => [SymfonyPsr18::class, Psr17RequestFactory::class],
             ],
             [
-                'class' => GuzzleHttp::class,
+                'class' => Guzzlehttps::class,
                 'condition' => [self::class, 'isGuzzleImplementingPsr18'],
             ],
             [

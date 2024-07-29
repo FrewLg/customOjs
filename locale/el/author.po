@@ -7,7 +7,7 @@ msgstr ""
 "POT-Creation-Date: 2019-11-19T10:49:20+00:00\n"
 "PO-Revision-Date: 2022-05-25 08:44+0000\n"
 "Last-Translator: Manolis Saldaris <omanos@gmail.com>\n"
-"Language-Team: Greek <http://translate.pkp.sfu.ca/projects/ojs/author/el_GR/>"
+"Language-Team: Greek <https://translate.pkp.sfu.ca/projects/ojs/author/el_GR/>"
 "\n"
 "Language: el_GR\n"
 "MIME-Version: 1.0\n"
@@ -156,7 +156,7 @@ msgstr "Αναφέρεται στη γεω-χωρική τοποθεσία, τη
 
 msgid "author.submit.languageInstructions"
 msgstr ""
-"English=en; French=fr; Spanish=es. <a href=\"http://www.loc.gov/standards/"
+"English=en; French=fr; Spanish=es. <a href=\"https://www.loc.gov/standards/"
 "iso639-2/php/code_list.php\" target=\"_blank\">Επιπρόσθετοι κωδικοί "
 "γλώσσας</a>."
 

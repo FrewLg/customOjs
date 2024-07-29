@@ -60,6 +60,6 @@ class OAIMetadataFormatPlugin_MARC21 extends OAIMetadataFormatPlugin
 
     public static function getNamespace()
     {
-        return 'http://www.loc.gov/MARC21/slim';
+        return 'https://www.loc.gov/MARC21/slim';
     }
 }

@@ -12,7 +12,7 @@
  * @ingroup template
  *
  * @brief Class for accessing the underlying template engine.
- * Currently integrated with Smarty (from http://smarty.php.net/).
+ * Currently integrated with Smarty (from https://smarty.php.net/).
  *
  */
 

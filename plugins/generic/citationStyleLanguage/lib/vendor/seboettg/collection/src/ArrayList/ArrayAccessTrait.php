@@ -31,7 +31,7 @@ trait ArrayAccessTrait
 
     /**
      * Offset to retrieve
-     * @link http://php.net/manual/en/arrayaccess.offsetget.php
+     * @link https://php.net/manual/en/arrayaccess.offsetget.php
      * @param mixed $offset The offset to retrieve.
      *
      * @return mixed Can return all value types.
@@ -44,7 +44,7 @@ trait ArrayAccessTrait
 
     /**
      * Offset to set
-     * @link http://php.net/manual/en/arrayaccess.offsetset.php
+     * @link https://php.net/manual/en/arrayaccess.offsetset.php
      * @param mixed $offset The offset to assign the value to.
      * @param mixed $value The value to set.
      */
@@ -56,7 +56,7 @@ trait ArrayAccessTrait
 
     /**
      * Whether a offset exists
-     * @link http://php.net/manual/en/arrayaccess.offsetexists.php
+     * @link https://php.net/manual/en/arrayaccess.offsetexists.php
      *
      * @param mixed $offset
      * @return bool
@@ -69,7 +69,7 @@ trait ArrayAccessTrait
 
     /**
      * Offset to unset
-     * @link http://php.net/manual/en/arrayaccess.offsetunset.php
+     * @link https://php.net/manual/en/arrayaccess.offsetunset.php
      * @param mixed $offset The offset to unset.
      */
     #[\ReturnTypeWillChange]

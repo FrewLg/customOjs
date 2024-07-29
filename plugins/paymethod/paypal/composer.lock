@@ -459,7 +459,7 @@
                 {
                     "name": "Mathias Verraes",
                     "email": "mathias@verraes.net",
-                    "homepage": "http://verraes.net"
+                    "homepage": "https://verraes.net"
                 },
                 {
                     "name": "Márk Sági-Kazár",
@@ -471,7 +471,7 @@
                 }
             ],
             "description": "PHP implementation of Fowler's Money pattern",
-            "homepage": "http://moneyphp.org",
+            "homepage": "https://moneyphp.org",
             "keywords": [
                 "Value Object",
                 "money",
@@ -701,7 +701,7 @@
                 }
             ],
             "description": "Finds and installs PSR-7, PSR-17, PSR-18 and HTTPlug implementations",
-            "homepage": "http://php-http.org",
+            "homepage": "https://php-http.org",
             "keywords": [
                 "adapter",
                 "client",
@@ -769,7 +769,7 @@
                 }
             ],
             "description": "Guzzle 7 HTTP Adapter",
-            "homepage": "http://httplug.io",
+            "homepage": "https://httplug.io",
             "keywords": [
                 "Guzzle",
                 "http"
@@ -826,7 +826,7 @@
                 }
             ],
             "description": "HTTPlug, the HTTP client abstraction for PHP",
-            "homepage": "http://httplug.io",
+            "homepage": "https://httplug.io",
             "keywords": [
                 "client",
                 "http"
@@ -894,7 +894,7 @@
                 }
             ],
             "description": "HTTP Message related tools",
-            "homepage": "http://php-http.org",
+            "homepage": "https://php-http.org",
             "keywords": [
                 "http",
                 "message",
@@ -946,7 +946,7 @@
                 }
             ],
             "description": "Factory interfaces for PSR-7 HTTP Message",
-            "homepage": "http://php-http.org",
+            "homepage": "https://php-http.org",
             "keywords": [
                 "factory",
                 "http",
@@ -1003,7 +1003,7 @@
                 }
             ],
             "description": "Promise used for asynchronous HTTP requests",
-            "homepage": "http://httplug.io",
+            "homepage": "https://httplug.io",
             "keywords": [
                 "promise"
             ],

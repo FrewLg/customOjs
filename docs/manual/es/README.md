@@ -10,9 +10,9 @@ Si desea información más detallada acerca de este software puede consultar el 
 
 --
 
-Copyright: La Simon Fraser University tiene el copyright del trabajo producido por Public Knowledge Project y ha depositado su documentación bajo [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+Copyright: La Simon Fraser University tiene el copyright del trabajo producido por Public Knowledge Project y ha depositado su documentación bajo [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
-[![](https://i.creativecommons.org/l/by/4.0/88x31.png "Creative Commons Attribution 4.0 International")](http://creativecommons.org/licenses/by/4.0/)
+[![](https://i.creativecommons.org/l/by/4.0/88x31.png "Creative Commons Attribution 4.0 International")](https://creativecommons.org/licenses/by/4.0/)
 
 
 

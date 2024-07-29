@@ -7,7 +7,7 @@ msgstr ""
 "POT-Creation-Date: 2019-11-04T08:59:12-08:00\n"
 "PO-Revision-Date: 2022-11-02 22:02+0000\n"
 "Last-Translator: Thierry Liu <tra@kreega.com>\n"
-"Language-Team: Chinese (Simplified) <http://translate.pkp.sfu.ca/projects/"
+"Language-Team: Chinese (Simplified) <https://translate.pkp.sfu.ca/projects/"
 "ojs/author/zh_CN/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -157,7 +157,7 @@ msgstr "指出研究样本的地理空间位置、年代或历史涵盖范围和
 
 msgid "author.submit.languageInstructions"
 msgstr ""
-"English=en；French=fr；中文=zh <a href=\"http://www.loc.gov/standards/"
+"English=en；French=fr；中文=zh <a href=\"https://www.loc.gov/standards/"
 "iso639-2/langcodes.html\" target=\"_blank\">其他代码</a>。"
 
 msgid "author.submit.form.authorRequired"

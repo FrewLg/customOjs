@@ -16,8 +16,8 @@
 namespace APP\plugins\importexport\doaj;
 
 // XML attributes
-define('DOAJ_XMLNS_XSI', 'http://www.w3.org/2001/XMLSchema-instance');
-define('DOAJ_XSI_SCHEMALOCATION', 'http://doaj.org/static/doaj/doajArticles.xsd');
+define('DOAJ_XMLNS_XSI', 'https://www.w3.org/2001/XMLSchema-instance');
+define('DOAJ_XSI_SCHEMALOCATION', 'https://doaj.org/static/doaj/doajArticles.xsd');
 
 class DOAJExportDeployment
 {

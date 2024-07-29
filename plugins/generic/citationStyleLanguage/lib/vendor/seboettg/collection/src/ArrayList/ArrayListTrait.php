@@ -164,7 +164,7 @@ trait ArrayListTrait
 
     /**
      * Shuffles this list (randomizes the order of the elements in). It uses the PHP function shuffle
-     * @see http://php.net/manual/en/function.shuffle.php
+     * @see https://php.net/manual/en/function.shuffle.php
      * @return ArrayListInterface|ArrayListTrait
      */
     public function shuffle(): ArrayListInterface

@@ -572,7 +572,7 @@ class HTMLPurifier_Config
             // is prone to cache slamming, but I think
             // guaranteeing that either /all/ of the raw
             // setup code or /none/ of it is run is more important.)
-            if ($optimized) {
+            if ($optimized) { 
                 // This code path only gets run once; once we put
                 // something in $definitions (which is guaranteed by the
                 // trailing code), we always short-circuit above.

@@ -78,14 +78,14 @@ allow_url_fopen = Off
 ; Base URL override settings: Entries like the following examples can
 ; be used to override the base URLs used by OJS. If you want to use a
 ; proxy to rewrite URLs to OJS, configure your proxy's URL with this format.
-; Syntax: base_url[journal_path] = http://www.example.com
+; Syntax: base_url[journal_path] = https://www.example.com
 ;
 ; Example1: URLs that aren't part of a particular journal.
-;    Example1: base_url[index] = http://www.example.com
+;    Example1: base_url[index] = https://www.example.com
 ; Example2: URLs that map to a subdirectory.
-;    Example2: base_url[myJournal] = http://www.example.com/myJournal
+;    Example2: base_url[myJournal] = https://www.example.com/myJournal
 ; Example3: URLs that map to a subdomain.
-;    Example3: base_url[myOtherJournal] = http://myOtherJournal.example.com
+;    Example3: base_url[myOtherJournal] = https://myOtherJournal.example.com
 
 ; Generate RESTful URLs using mod_rewrite.  This requires the
 ; rewrite directive to be enabled in your .htaccess or httpd.conf.
@@ -432,10 +432,10 @@ page_links = 10
 ; Whether or not to enable ReCaptcha
 recaptcha = off
 
-; Public key for reCaptcha (see http://www.google.com/recaptcha)
+; Public key for reCaptcha (see https://www.google.com/recaptcha)
 recaptcha_public_key = your_public_key
 
-; Private key for reCaptcha (see http://www.google.com/recaptcha)
+; Private key for reCaptcha (see https://www.google.com/recaptcha)
 recaptcha_private_key = your_private_key
 
 ; Whether or not to use Captcha on user registration
@@ -476,7 +476,7 @@ xslt_command = ""
 [proxy]
 
 ; The HTTP proxy configuration to use
-; http_proxy = "http://username:password@192.168.1.1:8080"
+; http_proxy = "https://username:password@192.168.1.1:8080"
 ; https_proxy = "https://username:password@192.168.1.1:8080"
 
 

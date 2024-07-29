@@ -29,7 +29,7 @@
 installed = On
 
 ; The canonical URL to the OJS installation (excluding the trailing slash)
-base_url = "http://127.0.0.1:8005"
+base_url = "https://127.0.0.1:8005"
 
 ; Enable strict mode. This will more aggressively cause errors/warnings when
 ; deprecated behaviour exists in the codebase.
@@ -78,14 +78,14 @@ allow_url_fopen = Off
 ; Base URL override settings: Entries like the following examples can
 ; be used to override the base URLs used by OJS. If you want to use a
 ; proxy to rewrite URLs to OJS, configure your proxy's URL with this format.
-; Syntax: base_url[journal_path] = http://www.example.com
+; Syntax: base_url[journal_path] = https://www.example.com
 ;
 ; Example1: URLs that aren't part of a particular journal.
-;    Example1: base_url[index] = http://www.example.com
+;    Example1: base_url[index] = https://www.example.com
 ; Example2: URLs that map to a subdirectory.
-;    Example2: base_url[myJournal] = http://www.example.com/myJournal
+;    Example2: base_url[myJournal] = https://www.example.com/myJournal
 ; Example3: URLs that map to a subdomain.
-;    Example3: base_url[myOtherJournal] = http://myOtherJournal.example.com
+;    Example3: base_url[myOtherJournal] = https://myOtherJournal.example.com
 
 ; Generate RESTful URLs using mod_rewrite.  This requires the
 ; rewrite directive to be enabled in your .htaccess or httpd.conf.
@@ -312,14 +312,11 @@ default = smtp
 ; smtp = On
 
 smtp = On
-smtp_server = mail.ephi.gov.et
+smtp_server = mail.scholarsin.com
 smtp_port = 587
-smtp_auth = tls
-smtp_username = sero@ephi.gov.et
-smtp_password = seron3wp4ssw0r6
-
-#smtp://sero@ephi.gov.et:seron3wp4ssw0r6@mail.ephi.gov.et:587?encryption=tls&auth_mode=oauth
-
+smtp_auth = ssl
+smtp_username = editorial@scholarsin.com
+smtp_password = YlVmPuxjl-KK
 
 ; SMTP server settings
 ; smtp_server = mail.example.com
@@ -443,10 +440,10 @@ page_links = 10
 ; Whether or not to enable ReCaptcha
 recaptcha = off
 
-; Public key for reCaptcha (see http://www.google.com/recaptcha)
+; Public key for reCaptcha (see https://www.google.com/recaptcha)
 recaptcha_public_key = your_public_key
 
-; Private key for reCaptcha (see http://www.google.com/recaptcha)
+; Private key for reCaptcha (see https://www.google.com/recaptcha)
 recaptcha_private_key = your_private_key
 
 ; Whether or not to use Captcha on user registration
@@ -487,7 +484,7 @@ xslt_command = ""
 [proxy]
 
 ; The HTTP proxy configuration to use
-; http_proxy = "http://username:password@192.168.1.1:8080"
+; http_proxy = "https://username:password@192.168.1.1:8080"
 ; https_proxy = "https://username:password@192.168.1.1:8080"
 
 

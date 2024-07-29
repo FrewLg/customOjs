@@ -290,7 +290,7 @@ msgstr "Notificacións por correo electrónico dun novo número publicado"
 msgid "user.profile.form.urlInvalid"
 msgstr ""
 "O URL especificado non é válido. Comprobe o URL e tenteo de novo. (Consello: "
-"tente engadir http: // ao comezo do URL.)"
+"tente engadir https: // ao comezo do URL.)"
 
 msgid "user.profile.form.usergroupRequired"
 msgstr "É necesario un grupo de usuarios/as."

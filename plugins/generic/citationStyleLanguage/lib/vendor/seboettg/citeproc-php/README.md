@@ -11,7 +11,7 @@
 ![PHP](https://img.shields.io/badge/PHP-8.0-green.svg?style=flat)
 ![PHP](https://img.shields.io/badge/PHP-8.1-green.svg?style=flat)
 
-citeproc-php is a full-featured CSL 1.0.1 processor that renders bibliographic metadata into html formatted citations or bibliographies using CSL stylesheets. citeproc-php renders bibliographies as well as citations (except of [Citation-specific Options](http://docs.citationstyles.org/en/stable/specification.html#citation-specific-options)).
+citeproc-php is a full-featured CSL 1.0.1 processor that renders bibliographic metadata into html formatted citations or bibliographies using CSL stylesheets. citeproc-php renders bibliographies as well as citations (except of [Citation-specific Options](https://docs.citationstyles.org/en/stable/specification.html#citation-specific-options)).
 
 ## Citation Style Language CSL ##
 
@@ -24,7 +24,7 @@ The Citation Style Language (CSL) is an XML-based format to describe the formatt
 * Infrastructure for style distribution and updating
 * Thousands of freely available styles (Creative Commons BY-SA licensed)
 
-For additional documentation of CSL visit [http://citationstyles.org](http://citationstyles.org).
+For additional documentation of CSL visit [https://citationstyles.org](https://citationstyles.org).
 
 ## Installing citeproc-php ##
 
@@ -219,7 +219,7 @@ Now, you can watch and test the output using PHP's internal web server:
 $ php -S localhost:8080
 ```
 
-Start your Browser and open the URL `http://localhost:8080`.
+Start your Browser and open the URL `https://localhost:8080`.
 
 Under `examples` folder you will find another example script.
 
@@ -316,8 +316,8 @@ Further examples you will find in the example folder.
 ### Good to know ###
 * A custom Lambda Function must have two parameters (`function ($item, $renderedValue) { ... }`) in their signature and must return a string.
 * The 1st parameter of a custom Lambda Function is the item (either a citation item or a name item. Both of type `\stdClass`). The 2nd parameter is the rendered result of the associated item.
-* Custom Lambda Functions may be applied on all Standard Variables (according to the [CSL specification](http://docs.citationstyles.org/en/1.0.1/specification.html#standard-variables)).
-* Custom Lambda Functions may be applied on all Name Variables (according to the [CSL specification](http://docs.citationstyles.org/en/1.0.1/specification.html#name-variables)). Be aware, just one name item will passed as parameter instead of the full citation item.
+* Custom Lambda Functions may be applied on all Standard Variables (according to the [CSL specification](https://docs.citationstyles.org/en/1.0.1/specification.html#standard-variables)).
+* Custom Lambda Functions may be applied on all Name Variables (according to the [CSL specification](https://docs.citationstyles.org/en/1.0.1/specification.html#name-variables)). Be aware, just one name item will passed as parameter instead of the full citation item.
 * Custom Lambda Function for Number Variables or Date Variables will be ignored.
 * ```csl-entry``` is not a valid variable according to the CSL specifications. citeproc-php use ```csl-entry``` to hook in and apply a custom Lambda Function after a whole citation item or bibliography entry is rendered. 
 

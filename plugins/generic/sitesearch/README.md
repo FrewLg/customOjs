@@ -25,6 +25,6 @@ The display of templates for the search handler and for the simple searchbar wil
 
 ## Author / License
 
-Written by Clinton Graham and Tazio Polanco for the [University of Pittsburgh](http://www.pitt.edu).  Copyright (c) University of Pittsburgh.
+Written by Clinton Graham and Tazio Polanco for the [University of Pittsburgh](https://www.pitt.edu).  Copyright (c) University of Pittsburgh.
 
 Released under a license of GPL v2 or later.

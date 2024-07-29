@@ -200,7 +200,6 @@ class CrossrefExportDeployment
     {
         $this->_issue = $issue;
     }
-
     /**
      * Get the import/export issue.
      *

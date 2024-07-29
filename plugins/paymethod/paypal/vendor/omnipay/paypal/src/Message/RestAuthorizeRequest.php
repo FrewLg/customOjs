@@ -111,8 +111,8 @@ namespace Omnipay\PayPal\Message;
  *           'amount'        => '10.00',
  *           'currency'      => 'AUD',
  *           'description'   => 'This is a test authorize transaction.',
- *           'returnUrl'     => 'http://mysite.com/paypal/return/?txn_id=' . $txn_id,
- *           'cancelUrl'     => 'http://mysite.com/paypal/return/?txn_id=' . $txn_id,
+ *           'returnUrl'     => 'https://mysite.com/paypal/return/?txn_id=' . $txn_id,
+ *           'cancelUrl'     => 'https://mysite.com/paypal/return/?txn_id=' . $txn_id,
  *       ));
  *       $response = $transaction->send();
  *       $data = $response->getData();
@@ -209,7 +209,7 @@ namespace Omnipay\PayPal\Message;
  *
  * @link https://developer.paypal.com/docs/integration/direct/capture-payment/#authorize-the-payment
  * @link https://developer.paypal.com/docs/api/#authorizations
- * @link http://bit.ly/1wUQ33R
+ * @link https://bit.ly/1wUQ33R
  * @see RestCaptureRequest
  * @see RestPurchaseRequest
  */

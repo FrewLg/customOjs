@@ -31,7 +31,7 @@ This package contains various PSR-7 tools which might be useful in an HTTP workf
 
 ## Documentation
 
-Please see the [official documentation](http://docs.php-http.org/en/latest/message.html).
+Please see the [official documentation](https://docs.php-http.org/en/latest/message.html).
 
 
 ## Testing

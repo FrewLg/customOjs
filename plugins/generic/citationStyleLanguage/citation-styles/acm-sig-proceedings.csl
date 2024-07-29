@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-US">
+<style xmlns="https://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-US">
   <info>
     <title>ACM SIG Proceedings ("et al." for 3+ authors)</title>
-    <id>http://www.zotero.org/styles/acm-sig-proceedings</id>
-    <link href="http://www.zotero.org/styles/acm-sig-proceedings" rel="self"/>
-    <link href="http://www.acm.org/sigs/publications/proceedings-templates" rel="documentation"/>
+    <id>https://www.zotero.org/styles/acm-sig-proceedings</id>
+    <link href="https://www.zotero.org/styles/acm-sig-proceedings" rel="self"/>
+    <link href="https://www.acm.org/sigs/publications/proceedings-templates" rel="documentation"/>
     <author>
       <name>Naeem Esfahani</name>
       <email>nesfaha2@gmu.edu</email>
-      <uri>http://mason.gmu.edu/~nesfaha2/</uri>
+      <uri>https://mason.gmu.edu/~nesfaha2/</uri>
     </author>
     <contributor>
       <name>Chris Horn</name>
@@ -21,7 +21,7 @@
     <category field="science"/>
     <category field="engineering"/>
     <updated>2017-07-15T11:28:14+00:00</updated>
-    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+    <rights license="https://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
     <choose>

@@ -21,7 +21,7 @@ composer require php-http/discovery
 
 ## Usage as a library author
 
-Please see the [official documentation](http://php-http.readthedocs.org/en/latest/discovery.html).
+Please see the [official documentation](https://php-http.readthedocs.org/en/latest/discovery.html).
 
 If your library/SDK needs a PSR-18 client, here is a quick example.
 
@@ -109,7 +109,7 @@ composer test
 
 ## Contributing
 
-Please see our [contributing guide](http://docs.php-http.org/en/latest/development/contributing.html).
+Please see our [contributing guide](https://docs.php-http.org/en/latest/development/contributing.html).
 
 
 ## Security

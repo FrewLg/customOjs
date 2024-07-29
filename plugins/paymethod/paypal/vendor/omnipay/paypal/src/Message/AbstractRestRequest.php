@@ -25,7 +25,7 @@ use Omnipay\Common\Exception\InvalidResponseException;
  *
  * @link https://developer.paypal.com/docs/api/
  * @link https://devtools-paypal.com/integrationwizard/
- * @link http://paypal.github.io/sdk/
+ * @link https://paypal.github.io/sdk/
  * @see Omnipay\PayPal\RestGateway
  */
 abstract class AbstractRestRequest extends \Omnipay\Common\Message\AbstractRequest
@@ -168,7 +168,7 @@ abstract class AbstractRestRequest extends \Omnipay\Common\Message\AbstractReque
      * Adapted from the official PayPal REST API PHP SDK.
      * (https://github.com/paypal/PayPal-PHP-SDK/blob/master/lib/PayPal/Common/PayPalModel.php)
      *
-     * @param int $options http://php.net/manual/en/json.constants.php
+     * @param int $options https://php.net/manual/en/json.constants.php
      * @return string
      */
     public function toJSON($data, $options = 0)

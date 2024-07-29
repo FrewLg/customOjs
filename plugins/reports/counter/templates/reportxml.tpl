@@ -9,11 +9,11 @@
  *}
 {if $omitWrapper neq 'true'}
 <?xml version="1.0" encoding="UTF-8"?>
-<Reports xmlns="http://www.niso.org/schemas/counter"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.niso.org/schemas/counter http://www.niso.org/schemas/sushi/counter3_0.xsd">
+<Reports xmlns="https://www.niso.org/schemas/counter"
+  xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.niso.org/schemas/counter https://www.niso.org/schemas/sushi/counter3_0.xsd">
 {/if}
-  <Report xmlns="http://www.niso.org/schemas/counter" ID="JR1" Version="3" Title="Journal Report 1" Created="{$smarty.now|date_format:"%Y-%m-%dT%H:%M:%SZ"}">
+  <Report xmlns="https://www.niso.org/schemas/counter" ID="JR1" Version="3" Title="Journal Report 1" Created="{$smarty.now|date_format:"%Y-%m-%dT%H:%M:%SZ"}">
     <Vendor>
       <Name>{$vendorName|escape:"html"}</Name>
       <ID>ID0</ID>

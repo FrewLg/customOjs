@@ -177,7 +177,7 @@ class HTMLPurifier_URI
                 }
             } elseif (!is_null($this->scheme)) {
                 // path-rootless (hier)
-                // http:my/path
+                // https:my/path
                 // Short circuit evaluation means we don't need to check nz
                 $this->path = $segments_encoder->encode($this->path);
             } else {
@@ -221,7 +221,7 @@ class HTMLPurifier_URI
         // reconstruct authority
         $authority = null;
         // there is a rendering difference between a null authority
-        // (http:foo-bar) and an empty string authority
+        // (https:foo-bar) and an empty string authority
         // (https:///foo-bar).
         if (!is_null($this->host)) {
             $authority = '';

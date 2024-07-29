@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" page-range-format="minimal-two">
+<style xmlns="https://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" page-range-format="minimal-two">
   <info>
     <title>Modern Language Association 9th edition</title>
     <title-short>MLA</title-short>
-    <id>http://www.zotero.org/styles/modern-language-association</id>
-    <link href="http://www.zotero.org/styles/modern-language-association" rel="self"/>
-    <link href="http://style.mla.org" rel="documentation"/>
+    <id>https://www.zotero.org/styles/modern-language-association</id>
+    <link href="https://www.zotero.org/styles/modern-language-association" rel="self"/>
+    <link href="https://style.mla.org" rel="documentation"/>
     <author>
       <name>Sebastian Karcher</name>
     </author>
@@ -13,7 +13,7 @@
     <category field="generic-base"/>
     <summary>This style adheres to the MLA 9th edition handbook. Follows the structure of references as outlined in the MLA Manual closely</summary>
     <updated>2022-01-23T06:46:03-05:00</updated>
-    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+    <rights license="https://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
     <date form="text">

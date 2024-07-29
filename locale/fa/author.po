@@ -159,7 +159,7 @@ msgstr ""
 
 msgid "author.submit.languageInstructions"
 msgstr ""
-"English=en; Persian=fa; Arabic=ar. <a href=\"http://www.loc.gov/standards/"
+"English=en; Persian=fa; Arabic=ar. <a href=\"https://www.loc.gov/standards/"
 "iso639-2/langcodes.html\" target=\"_blank\">کدهای دیگر</a>."
 
 msgid "author.submit.form.authorRequired"

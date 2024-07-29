@@ -14,7 +14,7 @@ msgstr ""
 msgid "plugins.reports.counter.description"
 msgstr ""
 "COUNTER je dodatak koji omogućava bilježenje aktivnosti na stranicama "
-"časopisa i izvještavanje o njima u skladu s <a href=\"http://www."
+"časopisa i izvještavanje o njima u skladu s <a href=\"https://www."
 "projectcounter.org/about.html\" target=\"_new\">COUNTER</a> inicijativom."
 
 msgid "plugins.reports.counter"

@@ -52,7 +52,7 @@ msgstr "لطفا ایمیل سپرده گذار را وارد کنید"
 
 #,fuzzy
 msgid "plugins.importexport.crossref.registrationIntro"
-msgstr "اگر می خواهید از این افزونه برای ثبت مستقیم DOI با Crossref استفاده کنید، به نام کاربری و رمز عبور (از <a href=\"http://www.crossref.org\" target=\"_blank\">Crossref</a>) نیاز خواهید داشت. اگر شما نام کاربری و رمز عبور خود را ندارید، همچنان می توانید اطلاعات مجله را به فرمت XML Crossref برون دهی کنید، اما نمی توانیدشناسه DOI خود از طریق Crossref ثبت کنید."
+msgstr "اگر می خواهید از این افزونه برای ثبت مستقیم DOI با Crossref استفاده کنید، به نام کاربری و رمز عبور (از <a href=\"https://www.crossref.org\" target=\"_blank\">Crossref</a>) نیاز خواهید داشت. اگر شما نام کاربری و رمز عبور خود را ندارید، همچنان می توانید اطلاعات مجله را به فرمت XML Crossref برون دهی کنید، اما نمی توانیدشناسه DOI خود از طریق Crossref ثبت کنید."
 
 msgid "plugins.importexport.crossref.settings.form.username"
 msgstr "نام کاربری"

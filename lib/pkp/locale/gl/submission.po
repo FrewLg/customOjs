@@ -823,7 +823,7 @@ msgid "submission.layout.galleyRemoteURL"
 msgstr "URL remota"
 
 msgid "submission.layout.galleyRemoteURLValid"
-msgstr "Indique un URL remoto válido (inclúa http: //)."
+msgstr "Indique un URL remoto válido (inclúa https: //)."
 
 msgid "submission.layout.galleyNoImages"
 msgstr "Non hai imaxes"
@@ -2024,7 +2024,7 @@ msgid "submission.copyrightStatement"
 msgstr "Dereitos de autor/a {$copyrightYear} {$copyrightHolder}"
 
 msgid "submission.licenseURLValid"
-msgstr "Indique un URL remoto válido (inclúa http: //)."
+msgstr "Indique un URL remoto válido (inclúa https: //)."
 
 msgid "submission.licenseURL"
 msgstr "Licenza URL"

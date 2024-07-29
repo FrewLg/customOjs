@@ -10,9 +10,9 @@ Uma visão mais detalhada deste software está disponível em [Learning OJS 3.0]
 
 --
 
-Direitos de autor: Simon Fraser University detem os direitos de autor para o trabalho produzido pelo Public Knowledge Project e tem a sua documentação sobre a  [Lincença Creative Commons Atribuição 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+Direitos de autor: Simon Fraser University detem os direitos de autor para o trabalho produzido pelo Public Knowledge Project e tem a sua documentação sobre a  [Lincença Creative Commons Atribuição 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
-[![](https://i.creativecommons.org/l/by/4.0/88x31.png "Creative Commons Attribution 4.0 International")](http://creativecommons.org/licenses/by/4.0/)
+[![](https://i.creativecommons.org/l/by/4.0/88x31.png "Creative Commons Attribution 4.0 International")](https://creativecommons.org/licenses/by/4.0/)
 
 
 

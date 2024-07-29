@@ -69,7 +69,7 @@ class IssueGalleyDAO extends \PKP\db\DAO
      *
      * @param string $pubIdType One of the NLM pub-id-type values or
      * 'other::something' if not part of the official NLM list
-     * (see <http://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
+     * (see <https://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
      * @param string $pubId
      * @param int $galleyId An ID to be excluded from the search.
      * @param int $journalId
@@ -100,7 +100,7 @@ class IssueGalleyDAO extends \PKP\db\DAO
      *
      * @param string $pubIdType One of the NLM pub-id-type values or
      * 'other::something' if not part of the official NLM list
-     * (see <http://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
+     * (see <https://dtd.nlm.nih.gov/publishing/tag-library/n-4zh0.html>).
      * @param string $pubId
      * @param int $issueId
      *
