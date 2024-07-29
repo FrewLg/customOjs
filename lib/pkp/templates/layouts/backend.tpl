@@ -11,6 +11,8 @@
 <html lang="{$currentLocale|replace:"_":"-"}" xml:lang="{$currentLocale|replace:"_":"-"}">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset={$defaultCharset|escape}" />
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{title|strip_tags value=$pageTitle}</title>
 	{load_header context="backend"}

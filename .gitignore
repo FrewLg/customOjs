@@ -1,3 +1,4 @@
 cache
 cache/
 public
+config.inc.php
